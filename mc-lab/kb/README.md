@@ -48,6 +48,21 @@
 - [3. Status effects](hazards/status-effects.md) · 17 บรรทัด
 - [14. กับดักโครงสร้าง](hazards/structure-traps.md) · 11 บรรทัด
 
+## health (`health/`)
+
+- [Absorption](health/absorption.md) · 9 บรรทัด
+- [เกราะและ Toughness](health/armor.md) · 11 บรรทัด
+- [ชนิดความเสียหายและสิ่งที่ลดได้](health/damage-types.md) · 13 บรรทัด
+- [ความตายและเกิดใหม่](health/death.md) · 16 บรรทัด
+- [ระดับความยาก](health/difficulty.md) · 14 บรรทัด
+- [มนตร์ลดดาเมจ](health/enchant.md) · 14 บรรทัด
+- [ไอเท็มฟื้นเลือด](health/healing.md) · 16 บรรทัด
+- [เลือดและการฟื้นเลือดธรรมชาติ](health/health.md) · 15 บรรทัด
+- [ช่วงอมตะหลังโดนดาเมจ](health/invuln.md) · 8 บรรทัด
+- [เอฟเฟกต์ Resistance](health/resistance.md) · 7 บรรทัด
+- [โทเท็มแห่งความเป็นอมตะ](health/totem.md) · 14 บรรทัด
+- [ยังไม่ยืนยัน](health/unverified.md) · 6 บรรทัด
+
 ## ม็อบ overworld (1 ตัว/ไฟล์) (`mobs/`)
 
 - [0. กฎแล็บ (บังคับ)](mobs/_rules.md) · 5 บรรทัด

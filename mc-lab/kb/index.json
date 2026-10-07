@@ -1406,6 +1406,139 @@
   "lines": 4
  },
  {
+  "path": "health/health.md",
+  "title": "เลือดและการฟื้นเลือดธรรมชาติ",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "health/healing.md",
+  "title": "ไอเท็มฟื้นเลือด",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "healing"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "health/absorption.md",
+  "title": "Absorption",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "absorption",
+   "health"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "health/totem.md",
+  "title": "โทเท็มแห่งความเป็นอมตะ",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "totem"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "health/damage-types.md",
+  "title": "ชนิดความเสียหายและสิ่งที่ลดได้",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "damage",
+   "types"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "health/armor.md",
+  "title": "เกราะและ Toughness",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "toughness",
+   "health",
+   "armor"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "health/enchant.md",
+  "title": "มนตร์ลดดาเมจ",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "enchant"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "health/resistance.md",
+  "title": "เอฟเฟกต์ Resistance",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "resistance",
+   "health"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "health/difficulty.md",
+  "title": "ระดับความยาก",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "difficulty"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "health/invuln.md",
+  "title": "ช่วงอมตะหลังโดนดาเมจ",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "invuln"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "health/death.md",
+  "title": "ความตายและเกิดใหม่",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "death"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "health/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
   "path": "mobs/_rules.md",
   "title": "0. กฎแล็บ (บังคับ)",
   "group": "mobs",
