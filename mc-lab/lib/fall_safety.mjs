@@ -5,7 +5,7 @@ export const SAFE_FALL = 3;          // บล็อก ไม่เสียเ
 export const GRAVITY = 0.08;         // บล็อก/tick²
 export const DRAG = 0.98;            // คูณความเร็วแนวตั้งทุก tick
 export const EYE_HEIGHT = 1.62;      // บล็อก (ยืนปกติ)
-export const DEFAULT_REACH = 4.5;    // [ไม่แน่ใจ] ระยะวางบล็อกโหมด survival ใน 26.x
+export const DEFAULT_REACH = 4.5;    // block_interaction_range ค่าเริ่ม 4.5 (survival) · creative 5 (Interaction range wiki)
 
 // ตัวคูณ "ดาเมจ" หรือ "ระยะ" ตามพื้นที่ตกใส่ (VANILLA_MOVEMENT §2.1)
 const LANDING = {
@@ -52,7 +52,9 @@ export function clutchWindow(height, { reach = DEFAULT_REACH, vy0 = 0 } = {}) {
 }
 
 // เลือก clutch ตามของในกระเป๋า/มิติ/มีผนังข้างตัว · inventory = Set หรือ array ของชื่อไอเทม
-export function chooseClutch({ inventory = [], dimension = 'overworld', wallAdjacent = false } = {}) {
+// fallDistance/hp (ถ้าให้มา): ข้ามของที่ลดดาเมจไม่หมด (ฟาง/น้ำผึ้ง เหลือ 20%) ถ้ายังตายได้
+const PARTIAL = { hay_block: 'hay_block', honey_block: 'honey_block' };
+export function chooseClutch({ inventory = [], dimension = 'overworld', wallAdjacent = false, fallDistance = null, hp = 20 } = {}) {
   const inv = new Set(inventory);
   const nether = dimension === 'the_nether' || dimension === 'nether';
   const order = nether
@@ -65,7 +67,10 @@ export function chooseClutch({ inventory = [], dimension = 'overworld', wallAdja
       if (boat) return boat;
       continue;
     }
-    if (inv.has(item)) return item;
+    if (inv.has(item)) {
+      if (PARTIAL[item] && fallDistance != null && fallDamage(fallDistance, { landing: item }) >= hp) continue;
+      return item;
+    }
   }
   return null;
 }

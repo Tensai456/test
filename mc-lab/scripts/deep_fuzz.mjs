@@ -151,16 +151,19 @@ Object.assign(EVENTS, {
       ['Wither → ต้องจัดการด้วย prio ≥80', (s, d) => !s.effects.includes('wither') || (d.mode === 'reflex' && d.rule.prio >= 80)]] },
   mlg: { gen: (s, r) => { s.fallDistance = 4 + Math.round(r() * 120); s.inv = {}; for (const c of CLUTCH_ITEMS) if (r() < 0.2) s.inv[c] = 1; s.wallAdjacent = r() < 0.3;
       s.inLava = false; s.air = 15;
-      const c = chooseClutch({ inventory: Object.keys(s.inv), dimension: s.dim, wallAdjacent: s.wallAdjacent });
+      const c = chooseClutch({ inventory: Object.keys(s.inv), dimension: s.dim, wallAdjacent: s.wallAdjacent, fallDistance: s.fallDistance, hp: s.hp });
+      s.clutchPick = c;
       const win = clutchWindow(s.fallDistance).count; const dmg = fallDamage(s.fallDistance);
+      const residual = c && ['hay_block', 'honey_block'].includes(c) ? fallDamage(s.fallDistance, { landing: c }) : 0;
       // ผลลัพธ์: ของกันตกส่วนใหญ่ต้องมี tick ให้วาง (ไข่มุก/บันไดชิดผนังไม่ต้อง) · ASSUME ความแม่นวาง 90%
       const needsWindow = c && !['ender_pearl', 'ladder'].includes(c);
-      const saved = c && (!needsWindow || win > 0) && r() < 0.9;
+      const saved = c && (!needsWindow || win > 0) && r() < 0.9 && residual < s.hp;
       const survive = saved || dmg < s.hp;
       const bucket = s.fallDistance < 24 ? '4–23' : s.fallDistance < 50 ? '24–49' : s.fallDistance < 100 ? '50–99' : '100+';
       const k = `${bucket} | ${c ? (needsWindow && win === 0 ? `${c} (0 tick ให้วาง)` : c) : 'ไม่มีของ'}`;
       const st = (mlgStats[k] ??= { n: 0, ok: 0 }); st.n++; if (survive) st.ok++; },
-    inv: [['ตก + มีของกันตกที่ใช้ได้ในมิตินี้ → ต้องเลือก falling (clutch)', (s, d) => !chooseClutch({ inventory: Object.keys(s.inv), dimension: s.dim, wallAdjacent: s.wallAdjacent }) || ['falling', 'in-lava'].includes(top(d))]] },
+    inv: [['ตก + มีของกันตกที่รอดได้ → ต้องเลือก falling (clutch)', (s, d) => !s.clutchPick || ['falling', 'in-lava'].includes(top(d))],
+      ['ของที่เลือกต้องไม่ใช่ฟาง/น้ำผึ้งที่ยังตาย', (s) => !(s.clutchPick && ['hay_block', 'honey_block'].includes(s.clutchPick) && fallDamage(s.fallDistance, { landing: s.clutchPick }) >= s.hp)]] },
   biomes: { gen: (s, r) => { const ks = Object.keys(BIOMES); const k = ks[Math.floor(r() * ks.length)]; s.biome = k; BIOMES[k](s, r); }, inv: [] },
   weapons: { gen: (s, r) => { s.inv = {}; for (const w of WEAPON_ITEMS) if (r() < 0.25) s.inv[w] = 1; if (r() < 0.5) s.inv.arrow = 16;
       s.wctx = { dist: Math.round(r() * 20), targetShield: r() < 0.3, fallHeight: r() < 0.3 ? Math.round(r() * 10) : 0 }; s.weapon = bestWeapon(s.inv, s.wctx).item; },

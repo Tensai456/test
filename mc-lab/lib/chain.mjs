@@ -68,7 +68,7 @@ export function test(c, s) {
       lacksAll: () => v.every((it) => count(s, it) === 0),
       flag: () => !!s.flags?.[v],
       notFlag: () => !s.flags?.[v],
-      clutch: () => !!chooseClutch({ inventory: Object.keys(s.inv ?? {}).filter((k) => s.inv[k] > 0), dimension: s.dim, wallAdjacent: !!s.wallAdjacent }) === v,
+      clutch: () => !!chooseClutch({ inventory: Object.keys(s.inv ?? {}).filter((k) => s.inv[k] > 0), dimension: s.dim, wallAdjacent: !!s.wallAdjacent, fallDistance: s.fallDistance ?? null, hp: s.hp ?? 20 }) === v,
       teammateNeeds: () => (s.team ?? []).some((m) => m.hp < v.hpBelow && m.dist <= v.within),
       selfHpAtLeast: () => s.hp >= v,
       countNear: () => (s.nearby ?? []).filter((e) => e.dist <= v.within && (!v.hostile || e.hostile) && (!v.provoked || e.provoked)).length >= v.atLeast,
