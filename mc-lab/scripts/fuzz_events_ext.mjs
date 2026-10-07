@@ -93,5 +93,14 @@ export const EXT_EVENTS = {
     inv: [['ทางขึ้นบ้าน/ประตูถูกขวาง + ไม่มีศัตรู ≤8 → ห้ามแผน (ต้องเคลียร์)', (s, d) => !(s.flags.entranceBlocked && !near(s, (e) => e.hostile && e.dist <= 8).length) || d.mode === 'reflex'],
       ['วางบล็อกบนทางเดินขึ้นบ้าน → veto', (s, d) => !(s.action === 'place_block' && s.flags.targetInPassage) || hasVeto(d, 'no-block-in-passage')],
       ['เพิ่งเกิดใหม่ + วางบล็อก/ทำที่หลบ → veto respawn-grace', (s, d) => !(s.flags.respawnGrace && ['place_block', 'build_shelter', 'wall_in'].includes(s.action)) || hasVeto(d, 'respawn-grace')]] },
+  // กำลังสร้างบ้าน/ทำงานบ้าน/ทำฟาร์ม แล้วม็อบมา (jing ถาม 7 ต.ค.) → ต้องหยุดงานแล้วตอบสนอง
+  buildHome: { gen: (s, r) => { const f = flags(s); f.inBase = true; s.dim = 'overworld'; s.sheltered = r() < 0.4;
+      s.action = pick(r, ['build_house', 'place_block', 'sort_chests', 'tidy', 'farm_build', 'place_torch']);
+      for (let i = 0, k = Math.floor(r() * 5); i < k; i++) s.nearby.push(mob(r, pick(r, ['zombie', 'skeleton', 'creeper', 'spider', 'witch', 'zombie_villager', 'phantom', 'husk', 'stray']), 20));
+      if (r() < 0.3) s.nearby.push({ type: 'enderman', dist: dist(r, 40), hostile: false, provoked: r() < 0.2 }); },
+    inv: [['สร้างบ้าน + ม็อบศัตรู ≤10 → หยุดงาน (ห้ามแผน)', (s, d) => !near(s, (e) => e.hostile && e.dist <= 10).length || d.mode === 'reflex'],
+      ['สร้างบ้าน + ครีปเปอร์ ≤3 → prio ≥88', (s, d) => !near(s, (e) => e.type === 'creeper' && e.dist <= 3).length || prioAtLeast(d, 88)],
+      ['enderman ใกล้ (ไม่โกรธ) → ห้ามแผน (อย่ามองตา/ระวังหยิบบล็อกบ้าน)', (s, d) => !near(s, (e) => e.type === 'enderman' && e.dist <= 64).length || d.mode === 'reflex'],
+      ['สร้างบ้าน + ม็อบยิงไกล ≤16 → ห้ามยืนรอ', (s, d) => !near(s, (e) => ['skeleton', 'stray', 'witch'].includes(e.type) && e.dist <= 16).length || (isAction(d) && top(d) !== 'hostile-approach')]] },
 };
 
