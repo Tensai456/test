@@ -2147,6 +2147,139 @@
   "lines": 5
  },
  {
+  "path": "bot-api/brewing-slots.md",
+  "title": "ช่องแท่นปรุงยา (Gemini ผิด)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "gemini",
+   "bot",
+   "api",
+   "brewing",
+   "slots"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "bot-api/brewing-gemini-check.md",
+  "title": "ข้อความปรุงยาอื่นของ Gemini",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "gemini",
+   "bot",
+   "api",
+   "brewing",
+   "check"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "bot-api/furnace-api.md",
+  "title": "เตา (API มีจริง)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "api",
+   "bot",
+   "furnace"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "bot-api/craft-api.md",
+  "title": "คราฟต์",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "bot",
+   "api",
+   "craft"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "bot-api/food-values.md",
+  "title": "ค่าอาหาร (ตรวจกับ minecraft-data)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "minecraft",
+   "data",
+   "bot",
+   "api",
+   "food",
+   "values"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "bot-api/support-health.md",
+  "title": "อ่านเลือดเพื่อน (Gemini โค้ดใช้ไม่ได้)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "gemini",
+   "bot",
+   "api",
+   "support",
+   "health"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "bot-api/gemini-code-bugs.md",
+  "title": "จุดผิดอื่นในโค้ดตัวอย่าง Gemini",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "gemini",
+   "bot",
+   "api",
+   "code",
+   "bugs"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "bot-api/plugins.md",
+  "title": "ปลั๊กอินเสริม (เวอร์ชันล่าสุดบน npm 7 ต.ค. 2026)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "npm",
+   "bot",
+   "api",
+   "plugins"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "bot-api/support-role.md",
+  "title": "บทบาทซัพพอร์ตในทีม 4 ตัว",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "bot",
+   "api",
+   "support",
+   "role"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "bot-api/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "bot",
+   "api",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
   "path": "breeding/core-rules.md",
   "title": "กฎกลางการผสมพันธุ์",
   "group": "breeding",

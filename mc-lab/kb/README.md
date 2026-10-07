@@ -96,6 +96,19 @@
 - [บล็อกขุดด้วยพลั่ว — 36 ชนิด](blocks/shovel.md) · 45 บรรทัด
 - [บล็อกขุดด้วยดาบ — 3 ชนิด](blocks/sword.md) · 12 บรรทัด
 
+## bot-api (`bot-api/`)
+
+- [ข้อความปรุงยาอื่นของ Gemini](bot-api/brewing-gemini-check.md) · 4 บรรทัด
+- [ช่องแท่นปรุงยา (Gemini ผิด)](bot-api/brewing-slots.md) · 13 บรรทัด
+- [คราฟต์](bot-api/craft-api.md) · 2 บรรทัด
+- [ค่าอาหาร (ตรวจกับ minecraft-data)](bot-api/food-values.md) · 7 บรรทัด
+- [เตา (API มีจริง)](bot-api/furnace-api.md) · 5 บรรทัด
+- [จุดผิดอื่นในโค้ดตัวอย่าง Gemini](bot-api/gemini-code-bugs.md) · 5 บรรทัด
+- [ปลั๊กอินเสริม (เวอร์ชันล่าสุดบน npm 7 ต.ค. 2026)](bot-api/plugins.md) · 10 บรรทัด
+- [อ่านเลือดเพื่อน (Gemini โค้ดใช้ไม่ได้)](bot-api/support-health.md) · 5 บรรทัด
+- [บทบาทซัพพอร์ตในทีม 4 ตัว](bot-api/support-role.md) · 2 บรรทัด
+- [ยังไม่ยืนยัน](bot-api/unverified.md) · 1 บรรทัด
+
 ## breeding (`breeding/`)
 
 - [จัดอันดับฟาร์มอาหารช่วงต้น [คิดเอง]](breeding/best-farm-ranking.md) · 12 บรรทัด
