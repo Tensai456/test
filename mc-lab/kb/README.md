@@ -26,6 +26,22 @@
 
 - [ตัวเลขกลางที่ใช้บ่อย](core/numbers.md) · 24 บรรทัด
 
+## crafting (`crafting/`)
+
+- [เกราะ](crafting/armor.md) · 11 บรรทัด
+- [พื้นฐาน](crafting/basics.md) · 17 บรรทัด
+- [อาวุธระยะไกล](crafting/combat.md) · 8 บรรทัด
+- [อาหาร](crafting/food.md) · 8 บรรทัด
+- [กฎช่อง 2x2 vs 3x3](crafting/grid-rule.md) · 5 บรรทัด
+- [เวทมนตร์/Brewing](crafting/magic.md) · 9 บรรทัด
+- [นำทาง](crafting/navigation.md) · 8 บรรทัด
+- [วัตถุดิบรวม](crafting/planning.md) · 28 บรรทัด
+- [Smithing Table + Netherite](crafting/smithing.md) · 9 บรรทัด
+- [เครื่องมือ](crafting/tools.md) · 17 บรรทัด
+- [ขนส่ง](crafting/transport.md) · 3 บรรทัด
+- [ยังไม่ยืนยัน](crafting/unverified.md) · 6 บรรทัด
+- [บล็อกใช้งาน](crafting/utility.md) · 19 บรรทัด
+
 ## อันตรายนอกการต่อสู้ (`hazards/`)
 
 - [15. เรือ / น้ำแข็ง](hazards/boat-ice.md) · 9 บรรทัด

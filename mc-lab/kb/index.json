@@ -1406,6 +1406,153 @@
   "lines": 4
  },
  {
+  "path": "crafting/grid-rule.md",
+  "title": "กฎช่อง 2x2 vs 3x3",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "grid",
+   "rule"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "crafting/basics.md",
+  "title": "พื้นฐาน",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "basics"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "crafting/tools.md",
+  "title": "เครื่องมือ",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "tools"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "crafting/armor.md",
+  "title": "เกราะ",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "armor"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "crafting/smithing.md",
+  "title": "Smithing Table + Netherite",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "smithing",
+   "table",
+   "netherite",
+   "crafting"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "crafting/utility.md",
+  "title": "บล็อกใช้งาน",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "utility"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "crafting/combat.md",
+  "title": "อาวุธระยะไกล",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "combat"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "crafting/food.md",
+  "title": "อาหาร",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "food"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "crafting/magic.md",
+  "title": "เวทมนตร์/Brewing",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "brewing",
+   "crafting",
+   "magic"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "crafting/navigation.md",
+  "title": "นำทาง",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "navigation"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "crafting/transport.md",
+  "title": "ขนส่ง",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "transport"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "crafting/planning.md",
+  "title": "วัตถุดิบรวม",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "planning"
+  ],
+  "lines": 28
+ },
+ {
+  "path": "crafting/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
   "path": "health/health.md",
   "title": "เลือดและการฟื้นเลือดธรรมชาติ",
   "group": "health",
