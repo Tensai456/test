@@ -1,0 +1,202 @@
+[
+ {
+  "name": "Speed",
+  "display": "Speed",
+  "type": "good"
+ },
+ {
+  "name": "Slowness",
+  "display": "Slowness",
+  "type": "bad"
+ },
+ {
+  "name": "Haste",
+  "display": "Haste",
+  "type": "good"
+ },
+ {
+  "name": "MiningFatigue",
+  "display": "Mining Fatigue",
+  "type": "bad"
+ },
+ {
+  "name": "Strength",
+  "display": "Strength",
+  "type": "good"
+ },
+ {
+  "name": "InstantHealth",
+  "display": "Instant Health",
+  "type": "good"
+ },
+ {
+  "name": "InstantDamage",
+  "display": "Instant Damage",
+  "type": "bad"
+ },
+ {
+  "name": "JumpBoost",
+  "display": "Jump Boost",
+  "type": "good"
+ },
+ {
+  "name": "Nausea",
+  "display": "Nausea",
+  "type": "bad"
+ },
+ {
+  "name": "Regeneration",
+  "display": "Regeneration",
+  "type": "good"
+ },
+ {
+  "name": "Resistance",
+  "display": "Resistance",
+  "type": "good"
+ },
+ {
+  "name": "FireResistance",
+  "display": "Fire Resistance",
+  "type": "good"
+ },
+ {
+  "name": "WaterBreathing",
+  "display": "Water Breathing",
+  "type": "good"
+ },
+ {
+  "name": "Invisibility",
+  "display": "Invisibility",
+  "type": "good"
+ },
+ {
+  "name": "Blindness",
+  "display": "Blindness",
+  "type": "bad"
+ },
+ {
+  "name": "NightVision",
+  "display": "Night Vision",
+  "type": "good"
+ },
+ {
+  "name": "Hunger",
+  "display": "Hunger",
+  "type": "bad"
+ },
+ {
+  "name": "Weakness",
+  "display": "Weakness",
+  "type": "bad"
+ },
+ {
+  "name": "Poison",
+  "display": "Poison",
+  "type": "bad"
+ },
+ {
+  "name": "Wither",
+  "display": "Wither",
+  "type": "bad"
+ },
+ {
+  "name": "HealthBoost",
+  "display": "Health Boost",
+  "type": "good"
+ },
+ {
+  "name": "Absorption",
+  "display": "Absorption",
+  "type": "good"
+ },
+ {
+  "name": "Saturation",
+  "display": "Saturation",
+  "type": "good"
+ },
+ {
+  "name": "Glowing",
+  "display": "Glowing",
+  "type": "bad"
+ },
+ {
+  "name": "Levitation",
+  "display": "Levitation",
+  "type": "bad"
+ },
+ {
+  "name": "Luck",
+  "display": "Luck",
+  "type": "good"
+ },
+ {
+  "name": "BadLuck",
+  "display": "Bad Luck",
+  "type": "bad"
+ },
+ {
+  "name": "SlowFalling",
+  "display": "Slow Falling",
+  "type": "good"
+ },
+ {
+  "name": "ConduitPower",
+  "display": "Conduit Power",
+  "type": "good"
+ },
+ {
+  "name": "DolphinsGrace",
+  "display": "Dolphin's Grace",
+  "type": "good"
+ },
+ {
+  "name": "BadOmen",
+  "display": "Bad Omen",
+  "type": "bad"
+ },
+ {
+  "name": "HeroOfTheVillage",
+  "display": "Hero of the Village",
+  "type": "good"
+ },
+ {
+  "name": "Darkness",
+  "display": "Darkness",
+  "type": "bad"
+ },
+ {
+  "name": "TrialOmen",
+  "display": "Trial Omen",
+  "type": "bad"
+ },
+ {
+  "name": "RaidOmen",
+  "display": "Raid Omen",
+  "type": "bad"
+ },
+ {
+  "name": "WindCharged",
+  "display": "Wind Charged",
+  "type": "bad"
+ },
+ {
+  "name": "Weaving",
+  "display": "Weaving",
+  "type": "bad"
+ },
+ {
+  "name": "Oozing",
+  "display": "Oozing",
+  "type": "bad"
+ },
+ {
+  "name": "Infested",
+  "display": "Infested",
+  "type": "bad"
+ },
+ {
+  "name": "BreathOfTheNautilus",
+  "display": "Breath of the Nautilus",
+  "type": "good"
+ }
+]

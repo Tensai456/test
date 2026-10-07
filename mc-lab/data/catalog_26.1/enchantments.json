@@ -1,0 +1,464 @@
+[
+ {
+  "name": "aqua_affinity",
+  "display": "Aqua Affinity",
+  "maxLevel": 1,
+  "category": "head_armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "bane_of_arthropods",
+  "display": "Bane of Arthropods",
+  "maxLevel": 5,
+  "category": "weapon",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "breach",
+   "density",
+   "impaling",
+   "sharpness",
+   "smite"
+  ]
+ },
+ {
+  "name": "binding_curse",
+  "display": "Curse of Binding",
+  "maxLevel": 1,
+  "category": "equippable",
+  "treasure": true,
+  "curse": true,
+  "exclude": []
+ },
+ {
+  "name": "blast_protection",
+  "display": "Blast Protection",
+  "maxLevel": 4,
+  "category": "armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "fire_protection",
+   "projectile_protection",
+   "protection"
+  ]
+ },
+ {
+  "name": "breach",
+  "display": "Breach",
+  "maxLevel": 4,
+  "category": "mace",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "bane_of_arthropods",
+   "density",
+   "impaling",
+   "sharpness",
+   "smite"
+  ]
+ },
+ {
+  "name": "channeling",
+  "display": "Channeling",
+  "maxLevel": 1,
+  "category": "trident",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "riptide"
+  ]
+ },
+ {
+  "name": "density",
+  "display": "Density",
+  "maxLevel": 5,
+  "category": "mace",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "bane_of_arthropods",
+   "breach",
+   "impaling",
+   "sharpness",
+   "smite"
+  ]
+ },
+ {
+  "name": "depth_strider",
+  "display": "Depth Strider",
+  "maxLevel": 3,
+  "category": "foot_armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "frost_walker"
+  ]
+ },
+ {
+  "name": "efficiency",
+  "display": "Efficiency",
+  "maxLevel": 5,
+  "category": "mining",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "feather_falling",
+  "display": "Feather Falling",
+  "maxLevel": 4,
+  "category": "foot_armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "fire_aspect",
+  "display": "Fire Aspect",
+  "maxLevel": 2,
+  "category": "fire_aspect",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "fire_protection",
+  "display": "Fire Protection",
+  "maxLevel": 4,
+  "category": "armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "blast_protection",
+   "projectile_protection",
+   "protection"
+  ]
+ },
+ {
+  "name": "flame",
+  "display": "Flame",
+  "maxLevel": 1,
+  "category": "bow",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "fortune",
+  "display": "Fortune",
+  "maxLevel": 3,
+  "category": "mining_loot",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "silk_touch"
+  ]
+ },
+ {
+  "name": "frost_walker",
+  "display": "Frost Walker",
+  "maxLevel": 2,
+  "category": "foot_armor",
+  "treasure": true,
+  "curse": false,
+  "exclude": [
+   "depth_strider"
+  ]
+ },
+ {
+  "name": "impaling",
+  "display": "Impaling",
+  "maxLevel": 5,
+  "category": "trident",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "bane_of_arthropods",
+   "breach",
+   "density",
+   "sharpness",
+   "smite"
+  ]
+ },
+ {
+  "name": "infinity",
+  "display": "Infinity",
+  "maxLevel": 1,
+  "category": "bow",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "mending"
+  ]
+ },
+ {
+  "name": "knockback",
+  "display": "Knockback",
+  "maxLevel": 2,
+  "category": "melee_weapon",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "looting",
+  "display": "Looting",
+  "maxLevel": 3,
+  "category": "melee_weapon",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "loyalty",
+  "display": "Loyalty",
+  "maxLevel": 3,
+  "category": "trident",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "riptide"
+  ]
+ },
+ {
+  "name": "luck_of_the_sea",
+  "display": "Luck of the Sea",
+  "maxLevel": 3,
+  "category": "fishing",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "lunge",
+  "display": "Lunge",
+  "maxLevel": 3,
+  "category": "lunge",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "lure",
+  "display": "Lure",
+  "maxLevel": 3,
+  "category": "fishing",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "mending",
+  "display": "Mending",
+  "maxLevel": 1,
+  "category": "durability",
+  "treasure": true,
+  "curse": false,
+  "exclude": [
+   "infinity"
+  ]
+ },
+ {
+  "name": "multishot",
+  "display": "Multishot",
+  "maxLevel": 1,
+  "category": "crossbow",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "piercing"
+  ]
+ },
+ {
+  "name": "piercing",
+  "display": "Piercing",
+  "maxLevel": 4,
+  "category": "crossbow",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "multishot"
+  ]
+ },
+ {
+  "name": "power",
+  "display": "Power",
+  "maxLevel": 5,
+  "category": "bow",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "projectile_protection",
+  "display": "Projectile Protection",
+  "maxLevel": 4,
+  "category": "armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "blast_protection",
+   "fire_protection",
+   "protection"
+  ]
+ },
+ {
+  "name": "protection",
+  "display": "Protection",
+  "maxLevel": 4,
+  "category": "armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "blast_protection",
+   "fire_protection",
+   "projectile_protection"
+  ]
+ },
+ {
+  "name": "punch",
+  "display": "Punch",
+  "maxLevel": 2,
+  "category": "bow",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "quick_charge",
+  "display": "Quick Charge",
+  "maxLevel": 3,
+  "category": "crossbow",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "respiration",
+  "display": "Respiration",
+  "maxLevel": 3,
+  "category": "head_armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "riptide",
+  "display": "Riptide",
+  "maxLevel": 3,
+  "category": "trident",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "channeling",
+   "loyalty"
+  ]
+ },
+ {
+  "name": "sharpness",
+  "display": "Sharpness",
+  "maxLevel": 5,
+  "category": "sharp_weapon",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "bane_of_arthropods",
+   "breach",
+   "density",
+   "impaling",
+   "smite"
+  ]
+ },
+ {
+  "name": "silk_touch",
+  "display": "Silk Touch",
+  "maxLevel": 1,
+  "category": "mining_loot",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "fortune"
+  ]
+ },
+ {
+  "name": "smite",
+  "display": "Smite",
+  "maxLevel": 5,
+  "category": "weapon",
+  "treasure": false,
+  "curse": false,
+  "exclude": [
+   "bane_of_arthropods",
+   "breach",
+   "density",
+   "impaling",
+   "sharpness"
+  ]
+ },
+ {
+  "name": "soul_speed",
+  "display": "Soul Speed",
+  "maxLevel": 3,
+  "category": "foot_armor",
+  "treasure": true,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "sweeping_edge",
+  "display": "Sweeping Edge",
+  "maxLevel": 3,
+  "category": "sweeping",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "swift_sneak",
+  "display": "Swift Sneak",
+  "maxLevel": 3,
+  "category": "leg_armor",
+  "treasure": true,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "thorns",
+  "display": "Thorns",
+  "maxLevel": 3,
+  "category": "armor",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "unbreaking",
+  "display": "Unbreaking",
+  "maxLevel": 3,
+  "category": "durability",
+  "treasure": false,
+  "curse": false,
+  "exclude": []
+ },
+ {
+  "name": "vanishing_curse",
+  "display": "Curse of Vanishing",
+  "maxLevel": 1,
+  "category": "vanishing",
+  "treasure": true,
+  "curse": true,
+  "exclude": []
+ },
+ {
+  "name": "wind_burst",
+  "display": "Wind Burst",
+  "maxLevel": 3,
+  "category": "mace",
+  "treasure": true,
+  "curse": false,
+  "exclude": []
+ }
+]

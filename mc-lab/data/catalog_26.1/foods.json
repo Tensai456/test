@@ -1,0 +1,266 @@
+[
+ {
+  "name": "rabbit_stew",
+  "display": "Rabbit Stew",
+  "food": 10,
+  "saturation": 12
+ },
+ {
+  "name": "cooked_porkchop",
+  "display": "Cooked Porkchop",
+  "food": 8,
+  "saturation": 12.8
+ },
+ {
+  "name": "cooked_beef",
+  "display": "Steak",
+  "food": 8,
+  "saturation": 12.8
+ },
+ {
+  "name": "golden_carrot",
+  "display": "Golden Carrot",
+  "food": 6,
+  "saturation": 14.400001
+ },
+ {
+  "name": "cooked_salmon",
+  "display": "Cooked Salmon",
+  "food": 6,
+  "saturation": 9.6
+ },
+ {
+  "name": "cooked_mutton",
+  "display": "Cooked Mutton",
+  "food": 6,
+  "saturation": 9.6
+ },
+ {
+  "name": "golden_apple",
+  "display": "Golden Apple",
+  "food": 4,
+  "saturation": 9.6
+ },
+ {
+  "name": "enchanted_golden_apple",
+  "display": "Enchanted Golden Apple",
+  "food": 4,
+  "saturation": 9.6
+ },
+ {
+  "name": "mushroom_stew",
+  "display": "Mushroom Stew",
+  "food": 6,
+  "saturation": 7.2000003
+ },
+ {
+  "name": "cooked_chicken",
+  "display": "Cooked Chicken",
+  "food": 6,
+  "saturation": 7.2000003
+ },
+ {
+  "name": "beetroot_soup",
+  "display": "Beetroot Soup",
+  "food": 6,
+  "saturation": 7.2000003
+ },
+ {
+  "name": "suspicious_stew",
+  "display": "Suspicious Stew",
+  "food": 6,
+  "saturation": 7.2000003
+ },
+ {
+  "name": "pumpkin_pie",
+  "display": "Pumpkin Pie",
+  "food": 8,
+  "saturation": 4.8
+ },
+ {
+  "name": "bread",
+  "display": "Bread",
+  "food": 5,
+  "saturation": 6
+ },
+ {
+  "name": "cooked_cod",
+  "display": "Cooked Cod",
+  "food": 5,
+  "saturation": 6
+ },
+ {
+  "name": "baked_potato",
+  "display": "Baked Potato",
+  "food": 5,
+  "saturation": 6
+ },
+ {
+  "name": "cooked_rabbit",
+  "display": "Cooked Rabbit",
+  "food": 5,
+  "saturation": 6
+ },
+ {
+  "name": "honey_bottle",
+  "display": "Honey Bottle",
+  "food": 6,
+  "saturation": 1.2
+ },
+ {
+  "name": "carrot",
+  "display": "Carrot",
+  "food": 3,
+  "saturation": 3.6000001
+ },
+ {
+  "name": "apple",
+  "display": "Apple",
+  "food": 4,
+  "saturation": 2.4
+ },
+ {
+  "name": "chorus_fruit",
+  "display": "Chorus Fruit",
+  "food": 4,
+  "saturation": 2.4
+ },
+ {
+  "name": "spider_eye",
+  "display": "Spider Eye",
+  "food": 2,
+  "saturation": 3.2
+ },
+ {
+  "name": "porkchop",
+  "display": "Raw Porkchop",
+  "food": 3,
+  "saturation": 1.8000001
+ },
+ {
+  "name": "beef",
+  "display": "Raw Beef",
+  "food": 3,
+  "saturation": 1.8000001
+ },
+ {
+  "name": "rabbit",
+  "display": "Raw Rabbit",
+  "food": 3,
+  "saturation": 1.8000001
+ },
+ {
+  "name": "rotten_flesh",
+  "display": "Rotten Flesh",
+  "food": 4,
+  "saturation": 0.8
+ },
+ {
+  "name": "melon_slice",
+  "display": "Melon Slice",
+  "food": 2,
+  "saturation": 1.2
+ },
+ {
+  "name": "chicken",
+  "display": "Raw Chicken",
+  "food": 2,
+  "saturation": 1.2
+ },
+ {
+  "name": "poisonous_potato",
+  "display": "Poisonous Potato",
+  "food": 2,
+  "saturation": 1.2
+ },
+ {
+  "name": "mutton",
+  "display": "Raw Mutton",
+  "food": 2,
+  "saturation": 1.2
+ },
+ {
+  "name": "salmon_bucket",
+  "display": "Bucket of Salmon",
+  "food": 2,
+  "saturation": 0.4
+ },
+ {
+  "name": "cod_bucket",
+  "display": "Bucket of Cod",
+  "food": 2,
+  "saturation": 0.4
+ },
+ {
+  "name": "cod",
+  "display": "Raw Cod",
+  "food": 2,
+  "saturation": 0.4
+ },
+ {
+  "name": "salmon",
+  "display": "Raw Salmon",
+  "food": 2,
+  "saturation": 0.4
+ },
+ {
+  "name": "cookie",
+  "display": "Cookie",
+  "food": 2,
+  "saturation": 0.4
+ },
+ {
+  "name": "sweet_berries",
+  "display": "Sweet Berries",
+  "food": 2,
+  "saturation": 0.4
+ },
+ {
+  "name": "glow_berries",
+  "display": "Glow Berries",
+  "food": 2,
+  "saturation": 0.4
+ },
+ {
+  "name": "beetroot",
+  "display": "Beetroot",
+  "food": 1,
+  "saturation": 1.2
+ },
+ {
+  "name": "dried_kelp",
+  "display": "Dried Kelp",
+  "food": 1,
+  "saturation": 0.6
+ },
+ {
+  "name": "potato",
+  "display": "Potato",
+  "food": 1,
+  "saturation": 0.6
+ },
+ {
+  "name": "pufferfish_bucket",
+  "display": "Bucket of Pufferfish",
+  "food": 1,
+  "saturation": 0.2
+ },
+ {
+  "name": "tropical_fish_bucket",
+  "display": "Bucket of Tropical Fish",
+  "food": 1,
+  "saturation": 0.2
+ },
+ {
+  "name": "tropical_fish",
+  "display": "Tropical Fish",
+  "food": 1,
+  "saturation": 0.2
+ },
+ {
+  "name": "pufferfish",
+  "display": "Pufferfish",
+  "food": 1,
+  "saturation": 0.2
+ }
+]
