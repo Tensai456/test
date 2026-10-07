@@ -416,12 +416,12 @@
 - [ทำดาเมจ](test-commands/damage.md) · 4 บรรทัด
 - [ความยาก / kill / clear](test-commands/difficulty-kill-clear.md) · 4 บรรทัด
 - [เอฟเฟกต์](test-commands/effect.md) · 6 บรรทัด
-- [กฎเกม (เปลี่ยนชื่อแล้ว!)](test-commands/gamerule.md) · 6 บรรทัด
+- [กฎเกม (เปลี่ยนชื่อแล้ว!)](test-commands/gamerule.md) · 9 บรรทัด
 - [ให้ไอเทม (item components)](test-commands/give.md) · 6 บรรทัด
 - [หาโครงสร้าง/ไบโอม](test-commands/locate.md) · 3 บรรทัด
 - [เรียกม็อบ (+NBT)](test-commands/summon.md) · 6 บรรทัด
-- [เวลา](test-commands/time.md) · 4 บรรทัด
-- [เทเลพอร์ต (/tp = /teleport)](test-commands/tp.md) · 8 บรรทัด
+- [เวลา](test-commands/time.md) · 7 บรรทัด
+- [เทเลพอร์ต (/tp = /teleport)](test-commands/tp.md) · 10 บรรทัด
 - [ยังไม่ยืนยัน](test-commands/unverified.md) · 12 บรรทัด
 - [อากาศ](test-commands/weather.md) · 2 บรรทัด
 
@@ -430,12 +430,12 @@
 - [วัฏจักรกลางวัน-กลางคืน](time-weather/daylight-cycle.md) · 10 บรรทัด
 - [ระดับแสง](time-weather/light-levels.md) · 12 บรรทัด
 - [ฟ้าผ่าและกับดัก](time-weather/lightning.md) · 10 บรรทัด
-- [ข้างขึ้นข้างแรมและสไลม์](time-weather/moon-slime.md) · 8 บรรทัด
+- [ข้างขึ้นข้างแรมและสไลม์](time-weather/moon-slime.md) · 10 บรรทัด
 - [อาการนอนไม่หลับ](time-weather/phantom.md) · 9 บรรทัด
 - [การนอนและข้ามคืน](time-weather/sleeping.md) · 12 บรรทัด
 - [จุดเกิดใหม่ (เตียง/anchor)](time-weather/spawn-point.md) · 10 บรรทัด
 - [ไหม้แดด](time-weather/sun-burn.md) · 9 บรรทัด
-- [ยังไม่ยืนยัน](time-weather/unverified.md) · 5 บรรทัด
+- [ยังไม่ยืนยัน](time-weather/unverified.md) · 4 บรรทัด
 - [ฝน/พายุ](time-weather/weather.md) · 12 บรรทัด
 
 ## travel (`travel/`)
@@ -458,8 +458,8 @@
 - [แผนบอตเคลียร์](trial-chambers/bot-plan.md) · 9 บรรทัด
 - [Breeze และกลยุทธ์](trial-chambers/breeze.md) · 11 บรรทัด
 - [การเกิดโครงสร้าง](trial-chambers/generation.md) · 9 บรรทัด
-- [กุญแจและ Vault](trial-chambers/keys-vault.md) · 11 บรรทัด
-- [ชุดมอบ](trial-chambers/mobs.md) · 7 บรรทัด
+- [กุญแจและ Vault](trial-chambers/keys-vault.md) · 15 บรรทัด
+- [ชุดมอบ](trial-chambers/mobs.md) · 12 บรรทัด
 - [Trial Omen / Ominous Trial](trial-chambers/ominous.md) · 11 บรรทัด
 - [กลไก Trial Spawner](trial-chambers/trial-spawner.md) · 9 บรรทัด
 - [ยังไม่ยืนยัน](trial-chambers/unverified.md) · 4 บรรทัด

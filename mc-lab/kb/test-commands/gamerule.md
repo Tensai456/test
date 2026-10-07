@@ -8,4 +8,7 @@
 - ยืนยันว่ามีชื่อ snake_case: `keep_inventory`, `natural_health_regeneration`, `mob_griefing`, `advance_weather`, `tnt_explodes` (W/Commands/gamerule)
 - ไวยากรณ์ตั้งค่า: `/gamerule <rule> <value>` (รูปแบบทั่วไป; ต้องใช้ชื่อใหม่ถ้าเซิร์ฟเวอร์ ≥ 1.21.11)
 - ตัวอย่างล็อบทดสอบ: `/gamerule advance_time false`, `/gamerule spawn_mobs false`, `/gamerule keep_inventory true`, `/gamerule advance_weather false`
-- `playersSleepingPercentage` และ `fallDamage` ชื่อใหม่ = [ไม่แน่ใจ] (ตรวจ W/Game_rule)
+- ยืนยันเพิ่ม (W/Game_rule, ผลค้นหา): `players_sleeping_percentage` (ค่าเริ่มต้น 100; ≤0 = คนเดียวข้ามคืนได้; ตั้งแต่ 25w44a ขั้นต่ำ 0), `fall_damage` (boolean, ค่าเริ่มต้น true), `natural_health_regeneration` (ค่าเริ่มต้น true)
+- prefix `minecraft:`: ทั่วไปของ resource location ถ้าไม่ใส่ namespace จะเป็น `minecraft:` (W/Argument_types); ว่าต้องใส่กับ /gamerule หรือไม่ ไม่ยืนยันตรง = [ไม่แน่ใจ] แต่ตัวอย่างข้างบนไม่ใส่ก็ใช้ได้ตามหลักนี้
+- ไวยากรณ์เต็ม `/gamerule <rule> [<value>]` (ไม่ใส่ value = ดูค่า) (W/Commands/gamerule)
+- 26.1: `advance_time` ยังเป็นชื่อกฎ Java ของ daylight cycle (W/Game_rule, W/Daylight_cycle)

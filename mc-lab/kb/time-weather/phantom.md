@@ -8,7 +8,7 @@
 | เงื่อนไข | Time Since Last Rest ≥ 72000 tick (3 วันเกม) | W/Insomnia |
 | รีเซ็ต | ตาย หรือเข้านอน | W/Insomnia |
 | สปอว์น | ลองทุก 1–2 นาที; ต้องกลางคืนหรือพายุ, เหนือระดับน้ำทะเล, เห็นฟ้า, local difficulty > สุ่ม 1–3 | W/Insomnia |
-| ปิดระบบ | `/gamerule spawn_phantoms false` | W/Insomnia |
+| ปิดระบบ | `/gamerule spawn_phantoms false` (1.21.11+; เดิม `doInsomnia`) | W/Insomnia |
 
 บอตควร: นอนก่อนครบ 3 วันเกม หรือหลบใต้หลังคา/ใต้ดินตอนกลางคืน
 ตัดสินผล (เกณฑ์แล็บ): เตือนเมื่อ time since rest > 60000 tick (เกณฑ์แล็บ ~83% ของ 72000)

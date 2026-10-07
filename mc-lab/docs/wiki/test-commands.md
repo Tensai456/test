@@ -17,7 +17,9 @@
   - `/tp Bot1 ~ ~60 ~`
   - `/tp Bot1 ~ ~100 ~`
   - `/tp Bot1 ~ ~150 ~`
-- ควรยืนบนพื้นราบที่รู้ตำแหน่งแน่ ๆ ก่อน; ค่าความเสียหายตามระยะตก = [ไม่แน่ใจ] (ไม่ได้ยืนยันในรอบนี้)
+- ควรยืนบนพื้นราบที่รู้ตำแหน่งแน่ ๆ ก่อน
+- ดาเมจตก: ม็อบส่วนใหญ่โดน ≈1 HP ต่อบล็อกที่ตกเกิน `safe_fall_distance` (ค่าเริ่มต้น 3 บล็อก) (W/Attribute, W/Damage); สูตรปัดเศษ/ตัวคูณละเอียด = [ไม่แน่ใจ]
+- ตกสูง 30+ บล็อกน่าจะตายถ้าไม่มีเกราะ/เอฟเฟกต์ (อนุมานจากสูตรข้างบน ไม่ใช่ค่าที่วิกิยืนยัน)
 
 ## give · ให้ไอเทม (item components)
 - ไวยากรณ์: `give <targets> <item> [<count>]`; `<item>` = `item_id[component=value,...]` ค่าเขียนแบบ SNBT; ลบ component ด้วย `!` เช่น `item_id[!component]` (W/Commands/give, W/Data_component_format)
@@ -41,13 +43,19 @@
 - ยืนยันว่ามีชื่อ snake_case: `keep_inventory`, `natural_health_regeneration`, `mob_griefing`, `advance_weather`, `tnt_explodes` (W/Commands/gamerule)
 - ไวยากรณ์ตั้งค่า: `/gamerule <rule> <value>` (รูปแบบทั่วไป; ต้องใช้ชื่อใหม่ถ้าเซิร์ฟเวอร์ ≥ 1.21.11)
 - ตัวอย่างล็อบทดสอบ: `/gamerule advance_time false`, `/gamerule spawn_mobs false`, `/gamerule keep_inventory true`, `/gamerule advance_weather false`
-- `playersSleepingPercentage` และ `fallDamage` ชื่อใหม่ = [ไม่แน่ใจ] (ตรวจ W/Game_rule)
+- ยืนยันเพิ่ม (W/Game_rule, ผลค้นหา): `players_sleeping_percentage` (ค่าเริ่มต้น 100; ≤0 = คนเดียวข้ามคืนได้; ตั้งแต่ 25w44a ขั้นต่ำ 0), `fall_damage` (boolean, ค่าเริ่มต้น true), `natural_health_regeneration` (ค่าเริ่มต้น true)
+- prefix `minecraft:`: ทั่วไปของ resource location ถ้าไม่ใส่ namespace จะเป็น `minecraft:` (W/Argument_types); ว่าต้องใส่กับ /gamerule หรือไม่ ไม่ยืนยันตรง = [ไม่แน่ใจ] แต่ตัวอย่างข้างบนไม่ใส่ก็ใช้ได้ตามหลักนี้
+- ไวยากรณ์เต็ม `/gamerule <rule> [<value>]` (ไม่ใส่ value = ดูค่า) (W/Commands/gamerule)
+- 26.1: `advance_time` ยังเป็นชื่อกฎ Java ของ daylight cycle (W/Game_rule, W/Daylight_cycle)
 
 ## time · เวลา
 - `time set <number|minecraft:day|minecraft:noon|minecraft:night|minecraft:midnight>`, `time add`, `time query` (daytime / gametime / day) (W/Commands/time)
 - หน่วย: `d` = 24000 tick, `s` = 20 tick, `t` = tick (ค่าเริ่มต้น); `set day` = 1000
 - ตัวอย่าง: `/time set noon`, `/time set 6000`
-- หมายเหตุ: หน้า wiki รุ่น 26.1 พูดถึง "world clock" — รูปแบบอาจเปลี่ยน [ไม่แน่ใจ] ให้ทดลองบนเซิร์ฟเวอร์จริง
+- 26.1 (W/Commands/time, W/World_clock, W/Java_Edition_26.1_Snapshot_3): /time อิง world clock; ซับคำสั่ง `time set|add|pause|resume|rate <...>` และรูป `time of <clock> <...>` (clock: `minecraft:overworld`, `minecraft:the_end`; ไม่ระบุ = clock ของมิติที่รัน)
+- `set <value|timemarker>`: time marker ของ overworld = day, noon, night, midnight (แทนชื่อตายตัวเดิม)
+- `time query` ยังมี daytime / gametime / day (daytime = เวลาสะสม mod 24000, day = floor(เวลา/24000))
+- ตัวอย่างบน 26.1 ที่ปลอดภัย: `/time set noon` ; `/time pause` / `/time resume` ใช้แทนการหยุดเวลาได้ แต่ความสัมพันธ์กับ gamerule advance_time = [ไม่แน่ใจ]
 
 ## weather · อากาศ
 - `weather (clear|rain|thunder) [<duration>]`; หน่วย d / s / t (ค่าเริ่มต้น t); ไม่ใส่ = สุ่ม (W/Commands/weather)

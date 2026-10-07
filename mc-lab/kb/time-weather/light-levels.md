@@ -9,7 +9,7 @@
 | ไฟฉาย (torch) | 14 | W/Light |
 | Glowstone / Sea Lantern / Lantern / Beacon | 15 | W/Light |
 | การกระจาย | ลดลง 1 ต่อบล็อก (taxicab), torch ข้างล่าง=13, เฉียง=12 | W/Light |
-| สปอว์นมอนสเตอร์ Overworld | sky light ภายใน ≤7 และ block light = 0 | W/Mob_spawning |
+| สปอว์นมอนสเตอร์ Overworld (1.18+) | sky light ภายใน ≤7 และ block light = 0 (ยืนยันแล้ว) | W/Mob_spawning |
 | sky light บล็อกเห็นฟ้า | 15; "แสงแดด" = internal ≥12 และ sky 15 | W/Light |
 | ระยะวางคบไฟ | ประมาณ 14 บล็อกถึงอันถัดไป (ค่าคุ้มสุดตามวิกิ) | W/Tutorial:Spawn-proofing |
 
