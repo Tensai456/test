@@ -463,5 +463,49 @@
     "home-keeping/tidy-area.md"
    ]
   }
+ ],
+ "farm": [
+  {
+   "id": "farm-gather",
+   "title": "หาของทำฟาร์มให้ครบ (เมล็ด/ถังน้ำ/ไม้ทำรั้ว/ถ่าน/จอบ/ขนแกะ 2)",
+   "done": {
+    "flag": "farmMaterials"
+   },
+   "kb": [
+    "farm-build/order.md",
+    "farm-build/layout.md"
+   ]
+  },
+  {
+   "id": "farm-site",
+   "title": "เลือกที่ตั้งฟาร์ม (เรียบ ใกล้บ้าน ไม่ทับทางขึ้นบ้าน)",
+   "done": {
+    "flag": "farmSite"
+   },
+   "kb": [
+    "farm-build/order.md"
+   ]
+  },
+  {
+   "id": "farm-clear",
+   "title": "เคลียร์พื้นฟาร์มให้เรียบ",
+   "done": {
+    "flag": "farmCleared"
+   },
+   "kb": [
+    "home-keeping/tidy-area.md"
+   ]
+  },
+  {
+   "id": "farm-build",
+   "title": "วางน้ำ → ไถ → ปลูก → คบเพลิง → รั้ว + พรมทางเข้า",
+   "done": {
+    "flag": "farmBuilt"
+   },
+   "kb": [
+    "farm-build/layout.md",
+    "farm-build/fence.md"
+   ]
+  }
  ]
 }

@@ -3490,6 +3490,55 @@
   "lines": 5
  },
  {
+  "path": "farm-build/order.md",
+  "title": "ลำดับ (กติกา jing: ไม่ทำทันที)",
+  "group": "farm-build",
+  "source": "wiki/farm-build.md",
+  "keywords": [
+   "jing",
+   "farm",
+   "build",
+   "order"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "farm-build/layout.md",
+  "title": "ผังแปลง",
+  "group": "farm-build",
+  "source": "wiki/farm-build.md",
+  "keywords": [
+   "farm",
+   "build",
+   "layout"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "farm-build/fence.md",
+  "title": "รั้ว",
+  "group": "farm-build",
+  "source": "wiki/farm-build.md",
+  "keywords": [
+   "farm",
+   "build",
+   "fence"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "farm-build/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "farm-build",
+  "source": "wiki/farm-build.md",
+  "keywords": [
+   "farm",
+   "build",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
   "path": "farming/crops-wheat.md",
   "title": "พืชหลัก (ข้าวสาลี/แครอท/มันฝรั่ง)",
   "group": "farming",

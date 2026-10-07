@@ -242,6 +242,13 @@
 - [ฟาร์ม XP เบื้องต้น](experience/xp-farms.md) · 9 บรรทัด
 - [ออร์บ XP](experience/xp-orbs.md) · 8 บรรทัด
 
+## farm-build (`farm-build/`)
+
+- [รั้ว](farm-build/fence.md) · 7 บรรทัด
+- [ผังแปลง](farm-build/layout.md) · 9 บรรทัด
+- [ลำดับ (กติกา jing: ไม่ทำทันที)](farm-build/order.md) · 7 บรรทัด
+- [ยังไม่ยืนยัน](farm-build/unverified.md) · 1 บรรทัด
+
 ## farming (`farming/`)
 
 - [ไอเดียฟาร์มอัตโนมัติ (บอตทำได้)](farming/auto-farm-ideas.md) · 10 บรรทัด
