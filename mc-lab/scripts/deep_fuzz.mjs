@@ -192,6 +192,12 @@ Object.assign(EVENTS, EXT_EVENTS);   // ชุด 2: 12 หมวด (scripts/fu
     inv: ALL_INV,
   };
 }
+// คู่ "a+b" (จาก fuzz_pairs.mjs): ซ้อน 2 เหตุการณ์แบบกำหนดตายตัว · invariant ของทั้งสองต้องผ่าน
+for (const name of ONLY.filter((n) => n.includes('+'))) {
+  const evs = name.split('+');
+  if (!evs.every((e) => EVENTS[e])) throw new Error(`ไม่รู้จักคู่ ${name}`);
+  EVENTS[name] = { gen: (s, r) => { for (const e of evs) EVENTS[e].gen(s, r); }, inv: evs.flatMap((e) => EVENTS[e].inv.map(([n, f]) => [`[${e}] ${n}`, f])) };
+}
 if (process.argv.includes('--list')) { console.log(Object.keys(EVENTS).join(' ')); process.exit(0); }
 
 const GLOBAL = [
@@ -204,7 +210,9 @@ const report = [];
 const t0 = Date.now();
 for (const [ev, E] of Object.entries(EVENTS)) {
   if (ONLY.length && !ONLY.includes(ev)) continue;
-  const r = rng32((0xC0FFEE ^ (ev.length * 7919)) + ROUND * 1_000_003);
+  // seed จากชื่อเต็ม (FNV-1a) — เดิมใช้ความยาวชื่อ ทำให้เหตุการณ์ชื่อยาวเท่ากันได้ลำดับสุ่มเดียวกัน
+  let hsh = 0x811c9dc5; for (const ch of ev) hsh = Math.imul(hsh ^ ch.charCodeAt(0), 0x01000193) >>> 0;
+  const r = rng32(((0xC0FFEE ^ hsh) >>> 0) + ROUND * 1_000_003);
   const groups = new Map();
   const tops = {};
   for (let i = 0; i < N; i++) {
