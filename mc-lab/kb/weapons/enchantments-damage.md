@@ -15,3 +15,12 @@
 | Wind Burst (กระบอง) | ทุบโดนแล้วเด้งขึ้น 8 บล็อก/เลเวล → ทุบซ้ำได้ | [Mace](https://minecraft.wiki/w/Mace) |
 | Impaling (ตรีศูล) | +2.5/เลเวล | [Impaling](https://minecraft.wiki/w/Impaling) |
 | Lunge (หอก) | jab แล้วพุ่งไปข้างหน้า · ต้องมองระนาบพอดีจึงไปได้ไกลสุด | [Spear](https://minecraft.wiki/w/Spear) |
+
+**บอตควร:**
+- ก่อนสู้ ตรวจเอนชานต์ของดาบ/ของเป้าที่เห็นในมือ แล้วประเมินดาเมจ: Sharpness = +0.5×เลเวล+0.5 ([Enchantment](https://minecraft.wiki/w/Enchantment))
+- Fire Aspect: ตีครั้งเดียวแล้วถอยให้ไฟทำงานได้ (I=3, II=7 ดาเมจรวม, [Fire Aspect](https://minecraft.wiki/w/Fire_Aspect)); ไม่ใช้ตอนยืนบนของไหม้ได้/ในป่าไม้ [คิดเอง]
+- ถูกเป้า Knockback → ยืนห่างขอบหน้าผา/ลาวา >3 บล็อก (Knockback ≈ 2.586 บล็อก/เลเวล, [Knockback](https://minecraft.wiki/w/Knockback))
+- เป้าใช้ Breach (กระบอง) → เกราะลดผลน้อยลง 15%/เลเวล → HP ต่ำให้เลี่ยงประชิด ([Breach](https://minecraft.wiki/w/Breach))
+- เป้าใช้ Wind Burst/Density → หลบจากใต้เป้าที่อยู่สูง (ถอยแนวนอน ≥3 บล็อก) [คิดเอง]
+
+**ตัดสินผล:** ภายใน 15 วิแรกของการปะทะ เทียบดาเมจที่ได้/โดนจริงกับที่ประเมิน; คลาดเกิน 30% → ปรับการประเมินเอนชานต์ของเป้าใหม่ (เกณฑ์แล็บ)

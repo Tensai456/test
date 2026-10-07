@@ -17,3 +17,13 @@
 | ทราย/กรวดร่วงทับหัว | หายใจไม่ออก (suffocation) · วางคบเพลิงใต้ช่องที่ทรายจะตก → ทรายแตกเป็นไอเทม | [Falling Block](https://minecraft.wiki/w/Falling_Block) · [Sand](https://minecraft.wiki/w/Sand) |
 | ช่องสูง 1 บล็อก | คลานหรือว่ายลอดได้ | [Swimming](https://minecraft.wiki/w/Swimming) |
 | Slime block | sneak ตอนลง = ไม่เด้ง | [Jumping](https://minecraft.wiki/w/Jumping) |
+
+**บอตควร:**
+- ยืนขอบสูง >3 บล็อก ที่ต้องอยู่นาน → sneak ค้าง ([Sneaking](https://minecraft.wiki/w/Sneaking))
+- ต่อสะพาน: sneak + ถอยหลัง + มองลง วางที่หน้าข้างของบล็อกขอบ ([Glossary](https://minecraft.wiki/w/Tutorial:Glossary)) ช่องว่าง ≥5 บล็อกเท่านั้นที่ใช้วิธีนี้ (ตาม §1)
+- ขุดลงต้องเป็นขั้นบันได; ขุดตรงได้เฉพาะลงเสาที่ตัวเองสร้าง ([Things not to do](https://minecraft.wiki/w/Tutorial:Things_not_to_do))
+- ขุดใต้ทราย/กรวดเหนือหัว → ถอยหรือวางคบเพลิงก่อน ([Falling Block](https://minecraft.wiki/w/Falling_Block))
+- ก่อนขุดทะลุพื้น/ผนังที่ไม่รู้ว่าข้างหลังมีอะไร: เจาะช่องมอง 1 บล็อก แล้วเช็กลาวา/น้ำ/ช่องว่าง [คิดเอง]
+- ติดบล็อก (pathfinder ไม่ขยับ): ถ้าตำแหน่งขยับ <0.5 บล็อกใน 5 วิ → กระโดด 1 ครั้ง ถ้ายังติดให้ขุดบล็อกหน้า/บน หรือวางบล็อกขึ้นเสา [คิดเอง]
+
+**ตัดสินผล:** ภายใน 10 วิ ตำแหน่งต้องเคลื่อน ≥2 บล็อกไปทางเป้า และไม่ตก/ไม่เสีย HP; ไม่ผ่าน 2 รอบ → วางแผนเส้นทางใหม่ (เกณฑ์แล็บ)

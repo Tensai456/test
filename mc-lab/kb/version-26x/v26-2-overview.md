@@ -13,3 +13,11 @@
 | tags | sulfur_caves อยู่ใน #is_overworld, mineshaft/ruined portal/trial chambers; sulfur/cinnabar/potent_sulfur อยู่ใน #overworld_carver_replaceables | W/Java_Edition_26.2-snapshot-1 |
 
 - ผลต่อบอต: ต้องมี block id ใหม่ในตารางบล็อก/ขุดเหมือง; ถ้ายังใช้ registry เก่า บล็อกใต้ดินจะเป็น unknown. hitbox ที่เปลี่ยนมีผลต่อ pathfinding/raycast เล็กน้อย.
+
+**บอตควร:**
+- ตรวจ protocol 776 และ JDK 25 ก่อนเชื่อมต่อ (W/Java_Edition_26.2).
+- อัปเดต block registry: sulfur, potent sulfur, cinnabar และชุด stairs/slab/wall; ถือเป็นบล็อกแข็งขุดได้ ไม่ใช่ unknown.
+- ในไบโอม sulfur caves: ระวัง cave spider แทน spider (W/Sulfur_Caves); เตรียมต้านพิษ/นม [คิดเอง].
+- ใช้ eye height/hitbox จาก registry ปัจจุบัน ไม่ hard-code สำหรับ baby hoglin/strider/zoglin.
+
+**ตัดสินผล:** เกณฑ์แล็บ: login + เดิน 5 นาทีในโลก 26.2 โดยไม่มี unknown block/packet error = ผ่าน; มี error ใดๆ = fail [คิดเอง].

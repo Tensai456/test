@@ -21,3 +21,12 @@
 - หลัง 1.17.1: ชั้น deepslate (Y<8) โดยเฉพาะ Y -40 ลงไปให้ diamond ดีสุด
 - Raw iron ด้วย Fortune I/II/III = 1–2 / 1–3 / 1–4 (W+Fortune)
 - Copper ore vein: Y 0–50 (filler granite); iron vein Y -60 ถึง -8 (filler tuff) — W+Ore_vein / W+Tutorial:Mining/Ore_veins
+
+**บอตควร:**
+- ขุด iron ที่ Y≈16 (strip: อุโมงค์ 2 สูง 1 กว้าง เว้นกิ่ง 6 บล็อก) หรือภูเขา Y≈232 ([Tutorial:Mining](https://minecraft.wiki/w/Tutorial:Mining))
+- เพชรที่ Y -59 ด้วย iron pickaxe ขึ้นไปเท่านั้น; ทอง/redstone ต้อง iron pickaxe
+- ขุดแร่ที่มองเห็นเฉพาะที่ไม่ติดลาวา: ก่อนขุดบล็อกข้างลาวา ให้เช็กบล็อกรอบ ๆ (ใต้/ข้าง) ว่าไม่ใช่ลาวา/น้ำ [คิดเอง]
+- ancient debris: Y 13–17 ในนรก ([Tutorial:Mining/Ancient_debris](https://minecraft.wiki/w/Tutorial:Mining/Ancient_debris)); ขุดแล้วเอาบล็อกวางกั้นทะเลลาวา
+- pickaxe เหลือ durability <10% → ซ่อม/เปลี่ยนก่อนลงลึก [คิดเอง]
+
+**ตัดสินผล:** แร่เป้าหมายไม่เพิ่มใน 10 นาที → ย้ายกิ่งห่างเดิม 16 บล็อก (เกณฑ์แล็บ); เพชร ≥5 ใน 30 นาทีหลังถึง Y -59 (ตาม P6)

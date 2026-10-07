@@ -18,3 +18,11 @@
 | Cactus | 1 HP/tick (immunity → ทุก 0.5 วิ) เมื่อแตะ | อย่าเดินชิด | [Cactus](https://minecraft.wiki/w/Cactus) |
 | Wither Rose | Wither effect 1 HP ทุก 0.5 วิ ค้างอีก 1 วิ (ไม่ใช่ Peaceful) | อย่าเดินทับ | [Wither Rose](https://minecraft.wiki/w/Wither_Rose) |
 | Sculk Sensor/Shrieker | ตรวจสั่นสะเทือนรัศมี 8 บล็อก; **ผู้เล่นที่ sneak และขยับ/กระโดด/ตกไม่ถูกตรวจ**; shrieker ถูกกระตุ้นจาก sensor ใน 8 บล็อกเฉพาะที่เกิดจากผู้เล่น; สัญญาณเดินทาง 1 บล็อก/tick | ใน Deep Dark: **sneak ตลอด** เลี่ยง Warden | [Sculk Sensor](https://minecraft.wiki/w/Sculk_Sensor), [Sculk Shrieker](https://minecraft.wiki/w/Sculk_Shrieker) |
+
+บอตควร:
+- fence/wall/fence gate ปิด: ถือสูง 1.5 > กระโดด ~1.25 ห้ามวาง path ข้ามด้วยกระโดด; ต้องหาทางอ้อม/เปิด gate/ขุด (W/Fence)
+- slab/stairs/snow ชั้นต่ำ (<= 0.6 step height): เดินขึ้นได้ตรง; สูงกว่านั้นสั่ง jump ก่อนถึง 1 บล็อก (W/Attribute step 0.6)
+- ก่อนก้าวเช็คบล็อกเท้า+ปลายทาง: magma, campfire (1 HP / soul 2 HP ทุก 0.5 วิ), cactus, wither rose = cost สูงหรือห้ามผ่าน; ไม่เดินชิด cactus
+- farmland: ห้ามกระโดด/ตกใส่ (ความเสี่ยง = (fall−0.5)×100%); เดินผ่านด้วยการเดินราบ
+- Deep Dark/มี sculk ใน 8 บล็อก: sneak ตลอด (W/Sculk_Sensor); ชนิดที่ [ไม่แน่ใจ] (carpet, trapdoor, door, pane, bars) ให้ถือเป็น 1 บล็อกเต็มจนกว่าทดสอบ [คิดเอง]
+ตัดสินผล: ถ้า position ไม่ขยับ > 1 บล็อกใน 3 วินาที ขณะสั่งเดินหน้า (เกณฑ์แล็บ [คิดเอง]) = ติดสะดุด ให้ replan หรือเปิด/ขุด; ถ้า HP ลดจากบล็อกพื้นผิวภายใน 5 วินาที = ผิด ให้ใส่บล็อกนั้นเข้า blacklist

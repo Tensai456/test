@@ -233,7 +233,7 @@
    "damage",
    "movement"
   ],
-  "lines": 10
+  "lines": 19
  },
  {
   "path": "movement/fall-safe-blocks.md",
@@ -246,7 +246,7 @@
    "safe",
    "blocks"
   ],
-  "lines": 16
+  "lines": 25
  },
  {
   "path": "movement/clutch-mlg.md",
@@ -271,7 +271,7 @@
    "bridging",
    "stuck"
   ],
-  "lines": 10
+  "lines": 20
  },
  {
   "path": "movement/parkour-dropper-camera.md",
@@ -284,7 +284,7 @@
    "movement",
    "camera"
   ],
-  "lines": 11
+  "lines": 20
  },
  {
   "path": "movement/pvp-movement.md",
@@ -296,7 +296,7 @@
    "pvp_playbook",
    "movement"
   ],
-  "lines": 10
+  "lines": 19
  },
  {
   "path": "movement/bot-rules.md",
@@ -368,7 +368,7 @@
    "fire",
    "potion"
   ],
-  "lines": 11
+  "lines": 20
  },
  {
   "path": "weapons/enchantments-damage.md",
@@ -380,7 +380,7 @@
    "enchantments",
    "damage"
   ],
-  "lines": 11
+  "lines": 20
  },
  {
   "path": "weapons/bot-notes.md",
@@ -517,7 +517,7 @@
    "physics",
    "shapes"
   ],
-  "lines": 14
+  "lines": 22
  },
  {
   "path": "physics/fluids.md",
@@ -540,7 +540,7 @@
    "blocks",
    "physics"
   ],
-  "lines": 8
+  "lines": 16
  },
  {
   "path": "physics/bot-checklist.md",
@@ -895,7 +895,7 @@
    "nether",
    "end"
   ],
-  "lines": 4
+  "lines": 10
  },
  {
   "path": "nether-end/e1-portal-build.md",
@@ -967,7 +967,7 @@
    "ground",
    "fire"
   ],
-  "lines": 10
+  "lines": 17
  },
  {
   "path": "nether-end/e6-ghast-breaks-portal.md",
@@ -996,7 +996,7 @@
    "gold",
    "armor"
   ],
-  "lines": 1
+  "lines": 7
  },
  {
   "path": "nether-end/d1-reach-end.md",
@@ -1105,7 +1105,7 @@
    "nether",
    "end"
   ],
-  "lines": 6
+  "lines": 12
  },
  {
   "path": "nether-end/unverified.md",
@@ -1189,7 +1189,7 @@
    "ores",
    "levels"
   ],
-  "lines": 18
+  "lines": 27
  },
  {
   "path": "progression/smelting-fuel.md",
@@ -1201,7 +1201,7 @@
    "progression",
    "fuel"
   ],
-  "lines": 19
+  "lines": 28
  },
  {
   "path": "progression/food.md",
@@ -1212,7 +1212,7 @@
    "progression",
    "food"
   ],
-  "lines": 11
+  "lines": 20
  },
  {
   "path": "progression/iron-first-set.md",
@@ -1225,7 +1225,7 @@
    "first",
    "set"
   ],
-  "lines": 15
+  "lines": 24
  },
  {
   "path": "progression/enchant-anvil-villager.md",
@@ -1250,7 +1250,7 @@
    "end",
    "progression"
   ],
-  "lines": 16
+  "lines": 25
  },
  {
   "path": "progression/p00-playbook-intro.md",
@@ -3111,7 +3111,7 @@
    "basics",
    "doors"
   ],
-  "lines": 7
+  "lines": 13
  },
  {
   "path": "redstone-basics/switches.md",
@@ -3123,7 +3123,7 @@
    "basics",
    "switches"
   ],
-  "lines": 9
+  "lines": 14
  },
  {
   "path": "redstone-basics/plates.md",
@@ -3136,7 +3136,7 @@
    "basics",
    "plates"
   ],
-  "lines": 6
+  "lines": 11
  },
  {
   "path": "redstone-basics/tripwire.md",
@@ -3148,7 +3148,7 @@
    "basics",
    "tripwire"
   ],
-  "lines": 6
+  "lines": 11
  },
  {
   "path": "redstone-basics/observer-hopper.md",
@@ -3161,7 +3161,7 @@
    "redstone",
    "basics"
   ],
-  "lines": 7
+  "lines": 12
  },
  {
   "path": "redstone-basics/pistons.md",
@@ -3175,7 +3175,7 @@
    "basics",
    "pistons"
   ],
-  "lines": 7
+  "lines": 12
  },
  {
   "path": "redstone-basics/dispenser.md",
@@ -3188,7 +3188,7 @@
    "redstone",
    "basics"
   ],
-  "lines": 9
+  "lines": 15
  },
  {
   "path": "redstone-basics/tnt.md",
@@ -3200,7 +3200,7 @@
    "redstone",
    "basics"
   ],
-  "lines": 6
+  "lines": 11
  },
  {
   "path": "redstone-basics/builds.md",
@@ -3212,7 +3212,7 @@
    "basics",
    "builds"
   ],
-  "lines": 6
+  "lines": 11
  },
  {
   "path": "redstone-basics/unverified.md",
@@ -4017,7 +4017,7 @@
    "v26",
    "overview"
   ],
-  "lines": 11
+  "lines": 19
  },
  {
   "path": "version-26x/v26-2-overview.md",
@@ -4031,7 +4031,7 @@
    "v26",
    "overview"
   ],
-  "lines": 10
+  "lines": 18
  },
  {
   "path": "version-26x/spear.md",
@@ -4042,7 +4042,7 @@
    "version",
    "spear"
   ],
-  "lines": 15
+  "lines": 24
  },
  {
   "path": "version-26x/mobs-1-21-11.md",
@@ -4053,7 +4053,7 @@
    "version",
    "mobs"
   ],
-  "lines": 9
+  "lines": 18
  },
  {
   "path": "version-26x/items-armor.md",
@@ -4065,7 +4065,7 @@
    "items",
    "armor"
   ],
-  "lines": 8
+  "lines": 16
  },
  {
   "path": "version-26x/copper-age-1-21-9.md",
@@ -4077,7 +4077,7 @@
    "age",
    "version"
   ],
-  "lines": 8
+  "lines": 16
  },
  {
   "path": "version-26x/sulfur-cube.md",
@@ -4089,7 +4089,7 @@
    "cube",
    "version"
   ],
-  "lines": 9
+  "lines": 17
  },
  {
   "path": "version-26x/game-rules-tech.md",
@@ -4102,7 +4102,7 @@
    "rules",
    "tech"
   ],
-  "lines": 4
+  "lines": 12
  },
  {
   "path": "version-26x/unverified.md",

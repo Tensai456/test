@@ -23,3 +23,12 @@
 | ไข่มุก (ender pearl) | ตัดดาเมจตกทิ้ง เหลือดาเมจไข่มุก ~5 HP (2.5 หัวใจ) | ปาเร็วเกินไป = ยังตกตาย | [Breaking a fall](https://minecraft.wiki/w/Tutorial:Breaking_a_fall) |
 | โดนลูกลม (wind charge) | รีเซ็ตระยะตก | ปาลูกเดียวพุ่งได้สูงสุด ~11 บล็อก | [Wind Charge](https://minecraft.wiki/w/Wind_Charge) |
 | ทุบกระบอง (mace smash) โดนเป้า | รีเซ็ตระยะตกเป็นจุดที่ตี → ไม่เสียเลือดตก | ต้องตกมา ≥1.5 บล็อก | [Mace](https://minecraft.wiki/w/Mace) |
+
+**บอตควร:**
+- เลือกพื้นลดดาเมจตามมิติด้วย `chooseClutch()` (นรกห้ามน้ำ — ใช้ powder snow/เถาวัลย์นรก, [Breaking a fall](https://minecraft.wiki/w/Tutorial:Breaking_a_fall))
+- เตรียมของ clutch ไว้ในช่อง hotbar ล่วงหน้า (ถังน้ำ 1 ช่อง) เมื่อยืนที่สูง >3 บล็อก เพื่อไม่เสีย tick สลับ [คิดเอง]
+- ลงบน hay/honey ได้เหลือดาเมจ 20% → ใช้เมื่อสูงมาก และไม่มีน้ำ ([Hay Bale](https://minecraft.wiki/w/Hay_Bale))
+- วางน้ำใส่ใบไม้/บล็อกเต็มไม่ได้ผล → มองหาตำแหน่งพื้นว่างก่อนวางน้ำ ถ้าไม่ใช่ให้ใช้ของสำรอง ([Breaking a fall](https://minecraft.wiki/w/Tutorial:Breaking_a_fall))
+- เสร็จแล้วตักน้ำ/เก็บของคืนทุกครั้ง
+
+**ตัดสินผล:** หลังลงพื้นภายใน 1 วิ: HP ไม่ลด = สำเร็จ; ลด = ล้มเหลว นับ % สำเร็จต่อชนิดของ clutch ถ้า <70% ใน 10 ครั้ง ให้ปิดชนิดนั้น (เกณฑ์แล็บ)

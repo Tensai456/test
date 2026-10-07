@@ -97,6 +97,14 @@
 | Wither Rose | Wither effect 1 HP ทุก 0.5 วิ ค้างอีก 1 วิ (ไม่ใช่ Peaceful) | อย่าเดินทับ | [Wither Rose](https://minecraft.wiki/w/Wither_Rose) |
 | Sculk Sensor/Shrieker | ตรวจสั่นสะเทือนรัศมี 8 บล็อก; **ผู้เล่นที่ sneak และขยับ/กระโดด/ตกไม่ถูกตรวจ**; shrieker ถูกกระตุ้นจาก sensor ใน 8 บล็อกเฉพาะที่เกิดจากผู้เล่น; สัญญาณเดินทาง 1 บล็อก/tick | ใน Deep Dark: **sneak ตลอด** เลี่ยง Warden | [Sculk Sensor](https://minecraft.wiki/w/Sculk_Sensor), [Sculk Shrieker](https://minecraft.wiki/w/Sculk_Shrieker) |
 
+บอตควร:
+- fence/wall/fence gate ปิด: ถือสูง 1.5 > กระโดด ~1.25 ห้ามวาง path ข้ามด้วยกระโดด; ต้องหาทางอ้อม/เปิด gate/ขุด (W/Fence)
+- slab/stairs/snow ชั้นต่ำ (<= 0.6 step height): เดินขึ้นได้ตรง; สูงกว่านั้นสั่ง jump ก่อนถึง 1 บล็อก (W/Attribute step 0.6)
+- ก่อนก้าวเช็คบล็อกเท้า+ปลายทาง: magma, campfire (1 HP / soul 2 HP ทุก 0.5 วิ), cactus, wither rose = cost สูงหรือห้ามผ่าน; ไม่เดินชิด cactus
+- farmland: ห้ามกระโดด/ตกใส่ (ความเสี่ยง = (fall−0.5)×100%); เดินผ่านด้วยการเดินราบ
+- Deep Dark/มี sculk ใน 8 บล็อก: sneak ตลอด (W/Sculk_Sensor); ชนิดที่ [ไม่แน่ใจ] (carpet, trapdoor, door, pane, bars) ให้ถือเป็น 1 บล็อกเต็มจนกว่าทดสอบ [คิดเอง]
+ตัดสินผล: ถ้า position ไม่ขยับ > 1 บล็อกใน 3 วินาที ขณะสั่งเดินหน้า (เกณฑ์แล็บ [คิดเอง]) = ติดสะดุด ให้ replan หรือเปิด/ขุด; ถ้า HP ลดจากบล็อกพื้นผิวภายใน 5 วินาที = ผิด ให้ใส่บล็อกนั้นเข้า blacklist
+
 ## 6. ของเหลว
 
 | รายการ | ค่า | บอตควร/ห้าม | แหล่ง |
@@ -118,6 +126,14 @@
 | Scaffolding (distance 7) | กลายเป็น falling block | ตั้งไกลไป พังทั้งชุด | [Scaffolding](https://minecraft.wiki/w/Scaffolding) |
 | Dragon Egg | วาร์ปไปอากาศใกล้ (สูงสุด 7 แนวตั้ง, 15 แนวนอน) แล้วตกตามแรงโน้มถ่วง; **ไม่ทำให้หายใจไม่ออกและไม่ทับ** | เก็บไข่: ระวังเคลื่อนที่ | [Dragon Egg](https://minecraft.wiki/w/Dragon_Egg) |
 | Falling block / TNT | ดูตาราง §0 | — | [Entity](https://minecraft.wiki/w/Entity) |
+
+บอตควร:
+- ก่อนขุดแนวตั้ง: ตรวจบล็อกเหนือหัว 1-3 บล็อกว่าเป็น sand/red sand/gravel/concrete powder/anvil/pointed dripstone (stalactite) หรือไม่ ถ้าใช่ ห้ามขุดใต้ฐานขณะยืนใต้; วางคบ/บล็อกกั้นก่อน (W/Falling_Block)
+- ถูกทับ (suffocation): ขุด/ขยับออกทันที ภายใน 1 วินาที (เกณฑ์แล็บ [คิดเอง]) เพราะ HP ลดต่อเนื่อง
+- ห้ามยืนใต้ anvil (ดาเมจ 2 HP × (ตก−1) เพดาน 40) และใต้ stalactite ที่โตแล้ว (ตัวอย่างตก 4 บล็อก = 18 HP; W/Pointed_Dripstone)
+- scaffolding: ตั้งไม่เกิน 6 บล็อกจากฐาน ไม่ถึง distance 7 (W/Scaffolding)
+- dragon egg: ไม่ทับ/ไม่ suffocate แต่วาร์ปได้ (<=7 แนวตั้ง, 15 แนวนอน) ไล่เก็บตามตำแหน่งใหม่
+ตัดสินผล: ภายใน 10 วินาทีหลังขุดใต้ gravity block ถ้าไม่มี HP ลด/suffocation และตำแหน่งบอตไม่ถูกบล็อกทับ = ถูก (เกณฑ์แล็บ [คิดเอง]); เห็น falling_block entity เหนือหัว < 3 บล็อก ให้ถอยข้างทันที
 
 ## 8. สรุปกฎสำหรับบอต (checklist)
 

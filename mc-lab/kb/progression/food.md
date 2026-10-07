@@ -14,3 +14,12 @@
 | beetroot | 4 stage | W+Beetroot_Seeds |
 | ตกปลา | รอ 5–30 วิ (100–600 tick); Lure ลบ 5 วิ/ระดับ; ถ้าไม่โดนแสงเวลารอ ~2 เท่า; fish 85% / junk 10% / treasure 5% (ไม่มี Luck of the Sea) | W+Fishing, W+Lure |
 | composter | ต้นอาชีพ farmer = composter | W+Trading |
+
+**บอตควร:**
+- กินเมื่ออาหาร ≤14 (ก่อนถึง 6 ที่วิ่งไม่ได้, [Sprinting](https://minecraft.wiki/w/Sprinting)) และต้องกินเมื่อ ≤6 ทันที (เกณฑ์แล็บ)
+- ลำดับกินดีสุด: steak/porkchop (8) > mutton (6) > bread/baked potato (5) ([Food](https://minecraft.wiki/w/Food))
+- สำรองอาหารสุก ≥16 ชิ้นก่อนลงถ้ำ/นรก; สัตว์ใกล้ให้ฆ่าสะสม
+- ฟาร์ม wheat: เก็บเมื่อโตครบ 8 stage เท่านั้น (ถ้าไม่ครบได้ seed เดียว, [Wheat](https://minecraft.wiki/w/Wheat))
+- ห้ามกิน potato ดิบที่มีพิษ 2% และเนื้อดิบถ้าไม่จำเป็น [คิดเอง]
+
+**ตัดสินผล:** ภายใน 30 นาทีต้องมีอาหารสุก ≥16 ชิ้น หรือสัตว์เพาะ ≥4 ตัว; อาหาร <6 และไม่มีของกิน → หยุดงานอื่นทันที (ตาม P3)

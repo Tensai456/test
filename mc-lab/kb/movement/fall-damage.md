@@ -17,3 +17,12 @@
 | ตกใส่หินย้อย (pointed dripstone ปลายตั้ง) | ระยะตก ×2 → อันตรายมาก | [Pointed Dripstone](https://minecraft.wiki/w/Pointed_Dripstone) |
 
 ตัวอย่าง (เลือดเต็ม 20 HP, ไม่มีเอนชานต์): ตก 4 บล็อก = 1 HP · 10 = 7 · 13 = 10 (ครึ่งหลอด) · **23 บล็อก = 20 HP = ตาย** · ตกหินย้อย 12 บล็อก ≈ ตาย
+
+**บอตควร:**
+- ก่อนก้าวลง/กระโดด: คำนวณดาเมจ = ระยะตก − 3 HP ([Damage](https://minecraft.wiki/w/Damage#Fall_damage)) ถ้าดาเมจ ≥ HP−4 → ห้ามลง ให้หาทางอ้อม/ลงเป็นขั้น
+- ตกแล้วดาเมจคาด > 0 → เริ่ม clutch ตามลำดับ `chooseClutch()` (§2.2) ก่อนถึงพื้น
+- ใต้ตัวมี pointed dripstone ปลายตั้ง → ใช้ระยะตก ×2 ในการคำนวณ ([Pointed Dripstone](https://minecraft.wiki/w/Pointed_Dripstone))
+- มี Slow Falling → ข้ามการ clutch แต่ถ้ายาเหลือ <5 วิ ให้ถือว่าไม่มี (เกณฑ์แล็บ) [คิดเอง]
+- ไม่เชื่อ armor ลดดาเมจตก; ถ้าต้องลดจริงให้ใส่รองเท้า Feather Falling (12%/เลเวล, [Feather Falling](https://minecraft.wiki/w/Feather_Falling))
+
+**ตัดสินผล:** ภายใน 1 วิหลังแตะพื้น เทียบ HP ก่อน/หลัง — ถ้า HP ลด > ดาเมจที่คำนวณไว้ +1 → ถือว่าสูตร/เงื่อนไขผิด บันทึกระยะตกจริงแล้วเพิ่มส่วนเผื่อ (เกณฑ์แล็บ)

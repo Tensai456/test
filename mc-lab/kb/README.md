@@ -256,11 +256,11 @@
 
 - [6. ตารางกฎสำหรับบอต (พร้อมโค้ด)](movement/bot-rules.md) · 9 บรรทัด
 - [2.2 Clutch / MLG — วิธีทำ (แปลงเป็นขั้นตอนบอต)](movement/clutch-mlg.md) · 19 บรรทัด
-- [3. ขอบ/รอบตัว/ติดบล็อก](movement/edges-bridging-stuck.md) · 10 บรรทัด
-- [2. การตก (Fall damage)](movement/fall-damage.md) · 10 บรรทัด
-- [2.1 พื้นที่ลด/กันดาเมจตก](movement/fall-safe-blocks.md) · 16 บรรทัด
-- [4. Parkour / Dropper / มุมกล้อง](movement/parkour-dropper-camera.md) · 11 บรรทัด
-- [5. PvP — ส่วนที่เกี่ยวกับการเคลื่อนที่ (รายละเอียดเต็มอยู่ใน PVP_PLAYBOOK)](movement/pvp-movement.md) · 10 บรรทัด
+- [3. ขอบ/รอบตัว/ติดบล็อก](movement/edges-bridging-stuck.md) · 20 บรรทัด
+- [2. การตก (Fall damage)](movement/fall-damage.md) · 19 บรรทัด
+- [2.1 พื้นที่ลด/กันดาเมจตก](movement/fall-safe-blocks.md) · 25 บรรทัด
+- [4. Parkour / Dropper / มุมกล้อง](movement/parkour-dropper-camera.md) · 20 บรรทัด
+- [5. PvP — ส่วนที่เกี่ยวกับการเคลื่อนที่ (รายละเอียดเต็มอยู่ใน PVP_PLAYBOOK)](movement/pvp-movement.md) · 19 บรรทัด
 - [1. ความเร็ว/การกระโดด (ตัวเลขฐาน)](movement/speed-jump.md) · 19 บรรทัด
 - [8. ยังไม่ได้ verify](movement/unverified.md) · 2 บรรทัด
 - [7. เทคนิคจาก YouTube — **ยังว่าง (รอข้อมูล)**](movement/youtube-pending.md) · 2 บรรทัด
@@ -295,27 +295,27 @@
 - [Entry E2: พิกัดและจุดกลับ portal (หลงทาง)](nether-end/e2-portal-coords-lost.md) · 6 บรรทัด
 - [Entry E3: น้ำ / ลาวา / การตกลาวา](nether-end/e3-water-lava.md) · 6 บรรทัด
 - [Entry E4: นอนเตียง / respawn anchor ผิดมิติ](nether-end/e4-bed-anchor.md) · 6 บรรทัด
-- [Entry E5: ผิวพื้น/ไฟ/อันตรายอื่น](nether-end/e5-ground-fire.md) · 10 บรรทัด
+- [Entry E5: ผิวพื้น/ไฟ/อันตรายอื่น](nether-end/e5-ground-fire.md) · 17 บรรทัด
 - [Entry E6: Ghast ทำลายพอร์ทัล (ติดอยู่ใน Nether)](nether-end/e6-ghast-breaks-portal.md) · 6 บรรทัด
-- [Entry E7: กฎเกราะทอง](nether-end/e7-gold-armor.md) · 1 บรรทัด
+- [Entry E7: กฎเกราะทอง](nether-end/e7-gold-armor.md) · 7 บรรทัด
 - [Entry M1: ถูก Ghast ยิง (HP หายเป็นก้อน, มี projectile fireball เข้า)](nether-end/m1-ghast.md) · 6 บรรทัด
 - [Entry M2: Blaze ในป้อม](nether-end/m2-blaze.md) · 6 บรรทัด
 - [Entry M3: Zombified Piglin ทั้งฝูงเข้าตี](nether-end/m3-zombified-piglin.md) · 6 บรรทัด
 - [Entry M4: Piglin / Brute ใน bastion](nether-end/m4-piglin-brute.md) · 6 บรรทัด
 - [Entry M5: Hoglin / Zoglin](nether-end/m5-hoglin-zoglin.md) · 5 บรรทัด
-- [Entry M6: Magma Cube / Strider](nether-end/m6-magma-cube-strider.md) · 4 บรรทัด
+- [Entry M6: Magma Cube / Strider](nether-end/m6-magma-cube-strider.md) · 10 บรรทัด
 - [1. ตารางมอนสเตอร์ Nether (Normal)](nether-end/nether-mobs-table.md) · 12 บรรทัด
 - [สรุปจุดที่ไม่แน่ใจ](nether-end/unverified.md) · 1 บรรทัด
-- [4. Wither (boss)](nether-end/wither.md) · 6 บรรทัด
+- [4. Wither (boss)](nether-end/wither.md) · 12 บรรทัด
 
 ## ฟิสิกส์บล็อกพิเศษ (`physics/`)
 
 - [8. สรุปกฎสำหรับบอต (checklist)](physics/bot-checklist.md) · 8 บรรทัด
 - [3. การเด้ง / ดาเมจตก](physics/bounce-fall.md) · 10 บรรทัด
 - [4. ปีนได้ (Climbable)](physics/climbable.md) · 6 บรรทัด
-- [5. Collision shape ที่ดัก/สะดุด](physics/collision-shapes.md) · 14 บรรทัด
+- [5. Collision shape ที่ดัก/สะดุด](physics/collision-shapes.md) · 22 บรรทัด
 - [6. ของเหลว](physics/fluids.md) · 8 บรรทัด
-- [7. Gravity blocks](physics/gravity-blocks.md) · 8 บรรทัด
+- [7. Gravity blocks](physics/gravity-blocks.md) · 16 บรรทัด
 - [0. ค่าพื้นฐานผู้เล่น/เอนทิตี](physics/player-entity-constants.md) · 23 บรรทัด
 - [1. พื้นลื่น (Slipperiness)](physics/slippery.md) · 8 บรรทัด
 - [2. ตัวหน่วง/เปลี่ยนความเร็ว](physics/speed-modifiers.md) · 15 บรรทัด
@@ -343,11 +343,11 @@
 
 - [3. เกราะ (durability ต่อชิ้น / armor points ต่อชิ้น)](progression/armor.md) · 18 บรรทัด
 - [8. Enchant / Anvil / Villager](progression/enchant-anvil-villager.md) · 10 บรรทัด
-- [6. อาหาร](progression/food.md) · 11 บรรทัด
-- [7. ชุดเหล็กชุดแรก: iron รวม](progression/iron-first-set.md) · 15 บรรทัด
+- [6. อาหาร](progression/food.md) · 20 บรรทัด
+- [7. ชุดเหล็กชุดแรก: iron รวม](progression/iron-first-set.md) · 24 บรรทัด
 - [1. ตารางไมล์สโตน (สิ่งที่ต้องนับใน inventory)](progression/milestones.md) · 14 บรรทัด
-- [9. Nether → End](progression/nether-to-end.md) · 16 บรรทัด
-- [4. แร่: ระดับ Y, ตำแหน่งขุดที่ดี, pickaxe ที่ต้องใช้ (Java 1.18+)](progression/ores-y-levels.md) · 18 บรรทัด
+- [9. Nether → End](progression/nether-to-end.md) · 25 บรรทัด
+- [4. แร่: ระดับ Y, ตำแหน่งขุดที่ดี, pickaxe ที่ต้องใช้ (Java 1.18+)](progression/ores-y-levels.md) · 27 บรรทัด
 - [10. Playbook รายไมล์สโตน (อาการ → สาเหตุ → แก้ → ตัวเลข+แหล่ง → ตัดสินผล → เทสจริง)](progression/p00-playbook-intro.md) · 1 บรรทัด
 - [P1 ไม้ / table / เครื่องมือไม้](progression/p01-wood-table.md) · 6 บรรทัด
 - [P2 stone tools + furnace](progression/p02-stone-furnace.md) · 5 บรรทัด
@@ -359,23 +359,23 @@
 - [P8 Nether portal](progression/p08-nether-portal.md) · 5 บรรทัด
 - [P9 blaze rod + pearl](progression/p09-blaze-pearl.md) · 6 บรรทัด
 - [P10 stronghold + End](progression/p10-stronghold-end.md) · 6 บรรทัด
-- [5. Smelting และเชื้อเพลิง](progression/smelting-fuel.md) · 19 บรรทัด
+- [5. Smelting และเชื้อเพลิง](progression/smelting-fuel.md) · 28 บรรทัด
 - [Durability เครื่องมือ (ใช้ได้กี่ครั้ง; ทุกชนิด pickaxe/axe/shovel/sword/hoe ตาม snippet)](progression/tool-durability.md) · 12 บรรทัด
 - [11. ผลรวม [ไม่แน่ใจ] / ข้อสังเกตข้อมูล](progression/unverified.md) · 4 บรรทัด
 - [2. ไม้ → crafting table → เครื่องมือ (จำนวนสูตร)](progression/wood-tools-recipes.md) · 13 บรรทัด
 
 ## redstone-basics (`redstone-basics/`)
 
-- [วงจรง่าย ๆ ที่มีประโยชน์](redstone-basics/builds.md) · 6 บรรทัด
-- [dispenser / dropper](redstone-basics/dispenser.md) · 9 บรรทัด
-- [ประตูไม้ vs เหล็ก, trapdoor, fence gate](redstone-basics/doors.md) · 7 บรรทัด
-- [observer, hopper](redstone-basics/observer-hopper.md) · 7 บรรทัด
-- [piston / sticky piston](redstone-basics/pistons.md) · 7 บรรทัด
-- [แผ่นกด (mob ใดกดได้)](redstone-basics/plates.md) · 6 บรรทัด
+- [วงจรง่าย ๆ ที่มีประโยชน์](redstone-basics/builds.md) · 11 บรรทัด
+- [dispenser / dropper](redstone-basics/dispenser.md) · 15 บรรทัด
+- [ประตูไม้ vs เหล็ก, trapdoor, fence gate](redstone-basics/doors.md) · 13 บรรทัด
+- [observer, hopper](redstone-basics/observer-hopper.md) · 12 บรรทัด
+- [piston / sticky piston](redstone-basics/pistons.md) · 12 บรรทัด
+- [แผ่นกด (mob ใดกดได้)](redstone-basics/plates.md) · 11 บรรทัด
 - [ระยะสัญญาณ redstone](redstone-basics/signal-range.md) · 8 บรรทัด
-- [ปุ่ม คันโยก](redstone-basics/switches.md) · 9 บรรทัด
-- [TNT](redstone-basics/tnt.md) · 6 บรรทัด
-- [สายสะดุด](redstone-basics/tripwire.md) · 6 บรรทัด
+- [ปุ่ม คันโยก](redstone-basics/switches.md) · 14 บรรทัด
+- [TNT](redstone-basics/tnt.md) · 11 บรรทัด
+- [สายสะดุด](redstone-basics/tripwire.md) · 11 บรรทัด
 - [ยังไม่ยืนยัน](redstone-basics/unverified.md) · 5 บรรทัด
 
 ## ตัวจำลอง (`sim/`)
@@ -466,15 +466,15 @@
 
 ## version-26x (`version-26x/`)
 
-- [1.21.9 Copper Age](version-26x/copper-age-1-21-9.md) · 8 บรรทัด
-- [กฎเกม/เทคนิค](version-26x/game-rules-tech.md) · 4 บรรทัด
-- [ไอเทมและเกราะ](version-26x/items-armor.md) · 8 บรรทัด
-- [มอบใหม่ 1.21.11](version-26x/mobs-1-21-11.md) · 9 บรรทัด
-- [หอก (1.21.11)](version-26x/spear.md) · 15 บรรทัด
-- [sulfur cube (26.2)](version-26x/sulfur-cube.md) · 9 บรรทัด
+- [1.21.9 Copper Age](version-26x/copper-age-1-21-9.md) · 16 บรรทัด
+- [กฎเกม/เทคนิค](version-26x/game-rules-tech.md) · 12 บรรทัด
+- [ไอเทมและเกราะ](version-26x/items-armor.md) · 16 บรรทัด
+- [มอบใหม่ 1.21.11](version-26x/mobs-1-21-11.md) · 18 บรรทัด
+- [หอก (1.21.11)](version-26x/spear.md) · 24 บรรทัด
+- [sulfur cube (26.2)](version-26x/sulfur-cube.md) · 17 บรรทัด
 - [ยังไม่ยืนยัน](version-26x/unverified.md) · 8 บรรทัด
-- [ภาพรวม 26.1](version-26x/v26-1-overview.md) · 11 บรรทัด
-- [ภาพรวม 26.2 Chaos Cubed](version-26x/v26-2-overview.md) · 10 บรรทัด
+- [ภาพรวม 26.1](version-26x/v26-1-overview.md) · 19 บรรทัด
+- [ภาพรวม 26.2 Chaos Cubed](version-26x/v26-2-overview.md) · 18 บรรทัด
 - [ไทม์ไลน์และเลขเวอร์ชัน](version-26x/version-timeline.md) · 11 บรรทัด
 
 ## villagers (`villagers/`)
@@ -494,7 +494,7 @@
 ## อาวุธ (`weapons/`)
 
 - [5. ข้อสังเกตสำหรับบอต](weapons/bot-notes.md) · 5 บรรทัด
-- [4. เอนชานต์ที่มีผลต่อดาเมจ](weapons/enchantments-damage.md) · 11 บรรทัด
-- [3. ระเบิด/ไฟ/ยา/สิ่งแวดล้อม](weapons/explosive-fire-potion.md) · 11 บรรทัด
+- [4. เอนชานต์ที่มีผลต่อดาเมจ](weapons/enchantments-damage.md) · 20 บรรทัด
+- [3. ระเบิด/ไฟ/ยา/สิ่งแวดล้อม](weapons/explosive-fire-potion.md) · 20 บรรทัด
 - [1. อาวุธระยะประชิด](weapons/melee.md) · 9 บรรทัด
 - [2. ยิงไกล/ขว้าง](weapons/ranged-thrown.md) · 10 บรรทัด

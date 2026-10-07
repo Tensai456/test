@@ -98,6 +98,15 @@ Copper มีใน Java ปัจจุบัน (ทั้งเครื่�
 - Raw iron ด้วย Fortune I/II/III = 1–2 / 1–3 / 1–4 (W+Fortune)
 - Copper ore vein: Y 0–50 (filler granite); iron vein Y -60 ถึง -8 (filler tuff) — W+Ore_vein / W+Tutorial:Mining/Ore_veins
 
+**บอตควร:**
+- ขุด iron ที่ Y≈16 (strip: อุโมงค์ 2 สูง 1 กว้าง เว้นกิ่ง 6 บล็อก) หรือภูเขา Y≈232 ([Tutorial:Mining](https://minecraft.wiki/w/Tutorial:Mining))
+- เพชรที่ Y -59 ด้วย iron pickaxe ขึ้นไปเท่านั้น; ทอง/redstone ต้อง iron pickaxe
+- ขุดแร่ที่มองเห็นเฉพาะที่ไม่ติดลาวา: ก่อนขุดบล็อกข้างลาวา ให้เช็กบล็อกรอบ ๆ (ใต้/ข้าง) ว่าไม่ใช่ลาวา/น้ำ [คิดเอง]
+- ancient debris: Y 13–17 ในนรก ([Tutorial:Mining/Ancient_debris](https://minecraft.wiki/w/Tutorial:Mining/Ancient_debris)); ขุดแล้วเอาบล็อกวางกั้นทะเลลาวา
+- pickaxe เหลือ durability <10% → ซ่อม/เปลี่ยนก่อนลงลึก [คิดเอง]
+
+**ตัดสินผล:** แร่เป้าหมายไม่เพิ่มใน 10 นาที → ย้ายกิ่งห่างเดิม 16 บล็อก (เกณฑ์แล็บ); เพชร ≥5 ใน 30 นาทีหลังถึง Y -59 (ตาม P6)
+
 ---
 ## 5. Smelting และเชื้อเพลิง
 
@@ -121,6 +130,15 @@ Copper มีใน Java ปัจจุบัน (ทั้งเครื่�
 - iron 36 ชิ้น (§7): furnace 360 วิ ≈ 4.5 coal (คำนวณ) → เตรียม coal 5 หรือใช้ 2+ เตาขนาน
 - blast furnace สูตร: [ไม่แน่ใจ] (snippet ไม่ระบุ) ; hopper = chest + iron ingot 5 (W+Hopper)
 
+**บอตควร:**
+- ใส่ coal ≥5 ต่อการเผา iron 36 ชิ้น หรือใช้ 2+ เตาขนาน (§5 คำนวณ); ถ่านไม้/ไม้ใช้ได้ถ้า coal ไม่พอ
+- ใช้ blast furnace (5 วิ/ชิ้น) กับแร่ ([Blast Furnace](https://minecraft.wiki/w/Blast_Furnace)); smoker กับอาหารเท่านั้น
+- ใส่ของและเชื้อเพลิงครบก่อนทิ้งเตา; กลับมารับของหลังคำนวณเวลา = ชิ้น×10 วิ (furnace)
+- ห้ามยืนบนเตาที่เชื้อเพลิงเป็นถังลาวาในพื้นที่ไม้ [คิดเอง]
+- หลังเผาเสร็จเก็บถังเปล่า/ของคืน และตรวจ output ครบ
+
+**ตัดสินผล:** ingot เพิ่มตามเวลา: ชิ้น×10 วิ + 30 วิ เผื่อ (เกณฑ์แล็บ); ถ้าไม่ครบ → ตรวจเชื้อเพลิงหมดหรือเตาเต็ม
+
 ---
 ## 6. อาหาร
 
@@ -135,6 +153,15 @@ Copper มีใน Java ปัจจุบัน (ทั้งเครื่�
 | beetroot | 4 stage | W+Beetroot_Seeds |
 | ตกปลา | รอ 5–30 วิ (100–600 tick); Lure ลบ 5 วิ/ระดับ; ถ้าไม่โดนแสงเวลารอ ~2 เท่า; fish 85% / junk 10% / treasure 5% (ไม่มี Luck of the Sea) | W+Fishing, W+Lure |
 | composter | ต้นอาชีพ farmer = composter | W+Trading |
+
+**บอตควร:**
+- กินเมื่ออาหาร ≤14 (ก่อนถึง 6 ที่วิ่งไม่ได้, [Sprinting](https://minecraft.wiki/w/Sprinting)) และต้องกินเมื่อ ≤6 ทันที (เกณฑ์แล็บ)
+- ลำดับกินดีสุด: steak/porkchop (8) > mutton (6) > bread/baked potato (5) ([Food](https://minecraft.wiki/w/Food))
+- สำรองอาหารสุก ≥16 ชิ้นก่อนลงถ้ำ/นรก; สัตว์ใกล้ให้ฆ่าสะสม
+- ฟาร์ม wheat: เก็บเมื่อโตครบ 8 stage เท่านั้น (ถ้าไม่ครบได้ seed เดียว, [Wheat](https://minecraft.wiki/w/Wheat))
+- ห้ามกิน potato ดิบที่มีพิษ 2% และเนื้อดิบถ้าไม่จำเป็น [คิดเอง]
+
+**ตัดสินผล:** ภายใน 30 นาทีต้องมีอาหารสุก ≥16 ชิ้น หรือสัตว์เพาะ ≥4 ตัว; อาหาร <6 และไม่มีของกิน → หยุดงานอื่นทันที (ตาม P3)
 
 ---
 ## 7. ชุดเหล็กชุดแรก: iron รวม
@@ -154,6 +181,15 @@ Copper มีใน Java ปัจจุบัน (ทั้งเครื่�
 - ใช้ iron block 27 + 4 ingot = anvil 31 ingot (W+Anvil)
 - เตียง: wool 3 (สีเดียวกัน) + planks 3 (W+Bed) ; ได้ wool ผ่านโกนแกะ (W+Sheep)
 - ธนู: stick + string (durability 384) ; ลูกธนู: flint + stick + feather ได้ 4 ดอก ; crossbow: stick + iron ingot + string + tripwire hook (durability 465) — W+Bow, W+Arrow, W+Crossbow. จำนวนต่อชิ้นของ bow/crossbow ตาม snippet [ไม่แน่ใจ] (แบบ 3 stick+3 string ในใจของผู้ถาม ไม่ได้ถูกยืนยัน)
+
+**บอตควร:**
+- ลำดับทำตาม §7: pickaxe(3) → bucket(3) → shield(1) → sword(2) → เกราะทยอย รวม 36
+- เป้า raw iron ≥36; ขุดจนครบ แล้วเผาตามสูตร §5
+- สวมเกราะทันทีที่ได้ครบชิ้น (หมวก 5/เสื้อ 8/กางเกง 7/รองเท้า 4 ingot)
+- ก่อน craft เช็ก inventory ว่า sticks/planks พอ (shield ต้อง planks 6)
+- เกราะ durability <10% → ซ่อม/เปลี่ยนก่อนสู้ [คิดเอง]
+
+**ตัดสินผล:** iron_ingot สะสม ≥12 ภายใน 20 นาทีหลัง P2; <6 → เปลี่ยนพื้นที่ขุด (ตาม P5, เกณฑ์แล็บ)
 
 ---
 ## 8. Enchant / Anvil / Villager
@@ -188,6 +224,15 @@ Copper มีใน Java ปัจจุบัน (ทั้งเครื่�
 | stronghold | 128 ใน 8 วง: วง1 3 อัน 1,280–2,816 บล็อกจาก origin ; วง2 6 อัน 4,352–5,888 ; วง3 10 อัน 7,424–8,960 | W+Stronghold |
 
 คำนวณ (ไม่ใช่ตัวเลข wiki ตรง): ต้อง 12 eye → pearl 12 + blaze powder 12 = blaze rod 6; ที่ drop 50% → ต้องฆ่า blaze ~12 ตัว และ enderman ~24 ตัว เฉลี่ย; ขว้างหา +3–5 ตา (แตก 20%) → เป้า lab: blaze rod 8+, pearl 16+.
+
+**บอตควร:**
+- ก่อนเข้านรก: obsidian ≥10 + flint_and_steel + อาหารสุก ≥16 + ถังน้ำ (ใช้ใน Overworld เท่านั้น) + เกราะเหล็ก
+- ในนรก: ห้ามวางน้ำ; กันตกลาวา — ก้าวเดินด้วย sneak ที่ขอบ ถือบล็อกไว้วางกั้น [คิดเอง]
+- เก็บ blaze rod ≥8 และ pearl ≥16 (เป้า lab, ดูคำนวณด้านบน); ล่า enderman ใน warped forest
+- ขว้าง eye ขณะเดินตามทิศ; ขว้าง 2 จุดเพื่อสามเหลี่ยมหา stronghold; เตรียม eye สำรอง 3–5 ([Eye of Ender](https://minecraft.wiki/w/Eye_of_Ender))
+- เติมตา 12 กรอบ ลบที่มีอยู่แล้ว; เช็ก portal ติดก่อนกระโดดเข้า
+
+**ตัดสินผล:** rod ≥6 และ pearl ≥12 ใน 40 นาที; portal End ติดภายใน 30 นาทีหลังเจอ stronghold (ตาม P9–P10, เกณฑ์แล็บ)
 
 ---
 ## 10. Playbook รายไมล์สโตน (อาการ → สาเหตุ → แก้ → ตัวเลข+แหล่ง → ตัดสินผล → เทสจริง)

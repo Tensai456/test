@@ -12,3 +12,11 @@
 | Scaffolding (distance 7) | กลายเป็น falling block | ตั้งไกลไป พังทั้งชุด | [Scaffolding](https://minecraft.wiki/w/Scaffolding) |
 | Dragon Egg | วาร์ปไปอากาศใกล้ (สูงสุด 7 แนวตั้ง, 15 แนวนอน) แล้วตกตามแรงโน้มถ่วง; **ไม่ทำให้หายใจไม่ออกและไม่ทับ** | เก็บไข่: ระวังเคลื่อนที่ | [Dragon Egg](https://minecraft.wiki/w/Dragon_Egg) |
 | Falling block / TNT | ดูตาราง §0 | — | [Entity](https://minecraft.wiki/w/Entity) |
+
+บอตควร:
+- ก่อนขุดแนวตั้ง: ตรวจบล็อกเหนือหัว 1-3 บล็อกว่าเป็น sand/red sand/gravel/concrete powder/anvil/pointed dripstone (stalactite) หรือไม่ ถ้าใช่ ห้ามขุดใต้ฐานขณะยืนใต้; วางคบ/บล็อกกั้นก่อน (W/Falling_Block)
+- ถูกทับ (suffocation): ขุด/ขยับออกทันที ภายใน 1 วินาที (เกณฑ์แล็บ [คิดเอง]) เพราะ HP ลดต่อเนื่อง
+- ห้ามยืนใต้ anvil (ดาเมจ 2 HP × (ตก−1) เพดาน 40) และใต้ stalactite ที่โตแล้ว (ตัวอย่างตก 4 บล็อก = 18 HP; W/Pointed_Dripstone)
+- scaffolding: ตั้งไม่เกิน 6 บล็อกจากฐาน ไม่ถึง distance 7 (W/Scaffolding)
+- dragon egg: ไม่ทับ/ไม่ suffocate แต่วาร์ปได้ (<=7 แนวตั้ง, 15 แนวนอน) ไล่เก็บตามตำแหน่งใหม่
+ตัดสินผล: ภายใน 10 วินาทีหลังขุดใต้ gravity block ถ้าไม่มี HP ลด/suffocation และตำแหน่งบอตไม่ถูกบล็อกทับ = ถูก (เกณฑ์แล็บ [คิดเอง]); เห็น falling_block entity เหนือหัว < 3 บล็อก ให้ถอยข้างทันที
