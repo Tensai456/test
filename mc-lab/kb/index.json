@@ -3595,7 +3595,7 @@
    "commands",
    "damage"
   ],
-  "lines": 4
+  "lines": 5
  },
  {
   "path": "test-commands/attribute.md",
@@ -3619,7 +3619,7 @@
    "commands",
    "locate"
   ],
-  "lines": 3
+  "lines": 4
  },
  {
   "path": "test-commands/unverified.md",

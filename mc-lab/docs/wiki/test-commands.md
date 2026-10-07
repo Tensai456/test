@@ -71,7 +71,8 @@
 - `damage <target> <amount> [<damageType>] [at <location>]`
 - `damage <target> <amount> [<damageType>] [by <entity>] [from <cause>]` (W/Commands/damage)
 - amount ≥ 0.0; damageType มีผลกับข้อความตายและ difficulty scaling (W/Damage_type)
-- ตัวอย่าง: `/damage Bot1 5`; ชื่อ damage type เฉพาะ เช่น fall = [ไม่แน่ใจ] ตรวจ W/Damage_type
+- ตัวอย่าง: `/damage Bot1 5`; `/damage Bot1 5 fall` (damage type `fall` มีจริง ข้ามเกราะ/โล่) (W/Damage_type, W/Commands/damage)
+- ไม่ระบุ damageType = `minecraft:generic`
 
 ## attribute · แอตทริบิวต์
 - `attribute <target> <attribute> base set <value>` (W/Attribute; เพิ่มใน 1.16 / 20w17a)
@@ -82,7 +83,8 @@
 ## locate · หาโครงสร้าง/ไบโอม
 - ไบโอม: `locate biome <biome>` รองรับ tag; ความละเอียดแนวนอน 32, ระยะค้นหา 12801x12801 (W/Commands/locate)
 - ตัวอย่าง: `/locate biome warped_forest`
-- รูปแบบ `locate structure <structure>` = [ไม่แน่ใจ] (ไม่ได้ยืนยันรอบนี้ ดู W/Commands/locate)
+- `locate structure <structure>` (Java): รับ resource location หรือ tag ของ registry `worldgen/structure` (W/Commands/locate)
+- ตัวอย่าง: `/locate structure #village` (tag = หมู่บ้านทุกชนิด); ชื่อเดี่ยว เช่น `mansion` เป็นตัวอย่างฝั่งวิกิ ตรวจชื่อ id ที่แน่ชัดใน W/Structure [ไม่แน่ใจ]
 
 ## unverified · ยังไม่ยืนยัน
 งบ WebSearch หมดกลางทาง ยังไม่ได้ยืนยันกับ wiki และห้ามเดา; ต้องอ่านหน้าเหล่านี้ก่อนใช้:

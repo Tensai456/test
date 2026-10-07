@@ -23,5 +23,5 @@
 | 16 | `elytra` | เอลิทรา, พลุ, การร่อน, ความเสี่ยงชนกำแพง | ✅⚠ ค้นไม่ครบ (โควตาค้นหมด) |
 | 17 | `test-commands` | คำสั่งที่ใช้เทส (/summon /tp /gamerule /effect /give /locate /time) | ✅⚠ ค้นไม่ครบ (โควตาค้นหมด) |
 | 18 | `redstone-basics` | ประตู, แผ่นกด, คันโยก, ลูกสูบ — เท่าที่บอตต้องใช้/ระวัง | ✅⚠ ค้นไม่ครบ (โควตาค้นหมด) |
-| 19 | `trial-chambers` | trial chamber: spawner, กุญแจ, vault, ominous | ✅⚠ ค้นไม่ครบ (โควตาค้นหมด) |
+| 19 | `trial-chambers` | trial chamber: spawner, กุญแจ, vault, ominous | ✅ เติมแล้ว |
 | 20 | `beacon-conduit` | บีคอน, คอนดูอิท, ของปลายเกม | ✅⚠ ค้นไม่ครบ (โควตาค้นหมด) |

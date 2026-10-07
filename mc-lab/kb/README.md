@@ -413,12 +413,12 @@
 ## test-commands (`test-commands/`)
 
 - [แอตทริบิวต์](test-commands/attribute.md) · 4 บรรทัด
-- [ทำดาเมจ](test-commands/damage.md) · 4 บรรทัด
+- [ทำดาเมจ](test-commands/damage.md) · 5 บรรทัด
 - [ความยาก / kill / clear](test-commands/difficulty-kill-clear.md) · 4 บรรทัด
 - [เอฟเฟกต์](test-commands/effect.md) · 6 บรรทัด
 - [กฎเกม (เปลี่ยนชื่อแล้ว!)](test-commands/gamerule.md) · 9 บรรทัด
 - [ให้ไอเทม (item components)](test-commands/give.md) · 6 บรรทัด
-- [หาโครงสร้าง/ไบโอม](test-commands/locate.md) · 3 บรรทัด
+- [หาโครงสร้าง/ไบโอม](test-commands/locate.md) · 4 บรรทัด
 - [เรียกม็อบ (+NBT)](test-commands/summon.md) · 6 บรรทัด
 - [เวลา](test-commands/time.md) · 7 บรรทัด
 - [เทเลพอร์ต (/tp = /teleport)](test-commands/tp.md) · 10 บรรทัด

@@ -6,4 +6,5 @@
 - `damage <target> <amount> [<damageType>] [at <location>]`
 - `damage <target> <amount> [<damageType>] [by <entity>] [from <cause>]` (W/Commands/damage)
 - amount ≥ 0.0; damageType มีผลกับข้อความตายและ difficulty scaling (W/Damage_type)
-- ตัวอย่าง: `/damage Bot1 5`; ชื่อ damage type เฉพาะ เช่น fall = [ไม่แน่ใจ] ตรวจ W/Damage_type
+- ตัวอย่าง: `/damage Bot1 5`; `/damage Bot1 5 fall` (damage type `fall` มีจริง ข้ามเกราะ/โล่) (W/Damage_type, W/Commands/damage)
+- ไม่ระบุ damageType = `minecraft:generic`
