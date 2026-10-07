@@ -1531,6 +1531,79 @@
   "lines": 5
  },
  {
+  "path": "advanced/main-thread.md",
+  "title": "เธรดหลักและ tick skip",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "tick",
+   "skip",
+   "advanced",
+   "main",
+   "thread"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/update-suppression.md",
+  "title": "การกดการอัปเดตบล็อก (exploit — ห้ามใช้)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "exploit",
+   "advanced",
+   "update",
+   "suppression"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "advanced/vulkan.md",
+  "title": "Vulkan (ฝั่งจอ — ไม่เกี่ยวบอต)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "vulkan",
+   "advanced"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "advanced/version-26-3.md",
+  "title": "เวอร์ชันล่าสุด 26.3",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "version"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "advanced/seedcracking.md",
+  "title": "ย้อนหา seed (ไม่ใช้)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "seed",
+   "advanced",
+   "seedcracking"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "advanced/aabb-collision.md",
+  "title": "กล่องชนและการทะลุ",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "aabb",
+   "collision"
+  ],
+  "lines": 2
+ },
+ {
   "path": "advanced/unverified.md",
   "title": "ยังไม่ยืนยัน",
   "group": "advanced",
