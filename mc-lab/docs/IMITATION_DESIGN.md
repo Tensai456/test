@@ -276,3 +276,27 @@ test/replay.test.mjs // node:test: ป้อนแถวสังเคราะ
 1. **ทำอะไร:** ออกแบบ pipeline ข้อมูลศุกร์ (jsonl → ตาราง state → replay เทียบ `decide()` → ปรับกฎ/ตารางตัดสินใจ/โมเดลเล็กทางเลือก) พร้อมกัน bad habit ด้วย negative labels + veto เป็นข้อจำกัดแข็ง และแผน "ปรับครั้งเดียว" 21:00 แบบ time-box (≈3 ชม.)
 2. **ตัวเลขสำคัญ:** กฎใน triggers.json = 102 รายการ (brief ว่า 101) · fuzz ที่มีอยู่: ทุกเหตุการณ์ ≥2M, chain/chainDeep ≥8M, 0 ช่องโหว่ (จำลองเท่านั้น และเป็นของ `decide()` ไม่ใช่โมเดล) · ข้อมูลเพดานบน ≈4.15 ล้านแถว (4 แถว/วิ × 4 ตัว × 72 ชม. [คิดเอง]) · โมเดลตัวอย่าง ≈40,800 พารามิเตอร์ (คำนวณจากสมมติ 150→128→128→40) · เกณฑ์/เวลา/หน้าต่างทั้งหมดเป็น [คิดเอง]
 3. **ยังไม่ได้ verify:** ยังไม่มีโค้ด replay/ยังไม่ได้รันกับ jsonl จริง · ยังไม่รู้ว่า logger ฝั่งรุ่นพี่ใส่ inv/hp/food ได้ไหม · ยังไม่ยืนยันกับเซิร์ฟจริง (บิตติดไฟ, ระยะตก, การมองเห็นของผู้ฝึกงานผ่าน ViaVersion 26.1) · ยังไม่ได้อ่าน SURVIVAL_DAYBYDAY/DANGER_RULES
+
+---
+
+## 10. สถานะโค้ด (เขียนแล้ว 7 ต.ค. 2026 · ยืนยันระดับจำลองด้วย log สังเคราะห์)
+```
+node scripts/gen_synthetic_logs.mjs logs/synthetic 10      # log ปลอม 4 รุ่นพี่ × 10 นาที (ทดสอบท่อ)
+node tools/replay/replay.mjs logs/synthetic                # → docs/REPLAY_REPORT.md
+node tools/replay/replay.mjs logs/s39 --goal=iron_kit      # ศุกร์: โฟลเดอร์ log จริง
+```
+| ไฟล์ | หน้าที่ |
+|---|---|
+| `tools/replay/load_jsonl.mjs` | อ่านสตรีม + ตรวจบรรทัดเสีย / tick ถอยหลัง / ช่องว่าง >2 วิ |
+| `tools/replay/row_to_state.mjs` | ตาราง §3 + tracker (ระยะตก, idle, provoked, ตาย→เกิด) + `_missing` |
+| `tools/replay/action_class.mjs` | หน้าต่างแถว → eat/fight/flee/mine/place/sleep/swim-up/clutch/move/idle |
+| `tools/replay/rule_expect.mjs` | กฎ → ท่าที่คาด + หน้าต่างเวลา · veto → ท่าที่ฝ่าฝืน · กฎ → คีย์ที่ต้องมี ([คิดเอง] ปรับได้) |
+| `tools/replay/replay.mjs` | ป้อน `decide()` ตัวจริง · match/miss/extra/veto-breach/unknown/excluded · ผลลัพธ์ (ตาย 10 วิ / เลือด −4 ใน 5 วิ) · คะแนนคำแย้ง |
+| `tools/replay/metrics.mjs` | รายงาน: ภาพรวม · ต่อรุ่นพี่ · รายกฎ · veto ฝ่าฝืน · ผู้สมัคร "ขาดกฎ" · ผู้ฝึกงาน · ข้อเสนอ · คุณภาพไฟล์ |
+
+**ผลรันกับ log สังเคราะห์ (ไม่มีความหมายกับรุ่นพี่จริง — แค่พิสูจน์ว่าท่อทำงาน):** 9,605 แถว · 1 วิ · จับได้ถูกตามที่ฝังไว้: ไม่หนีครีปเปอร์แล้วโดนระเบิด → "กฎถูก รุ่นพี่ผิด" · ขุดลงตรง 72 ครั้ง → veto-breach · ผู้ฝึกงานที่แย้งขุดลงตรงได้ความแม่น 82% และตรงกับ decide 82% · คำแย้งมั่ว (night-exposed กลางวัน) ได้ 0%
+
+**ข้อจำกัดที่ต้องรู้ก่อนศุกร์:**
+- โหลดทั้งไฟล์เข้าหน่วยความจำ → log จริง ~4 ล้านแถวควรแบ่งไฟล์ตามวัน/ตัว แล้วรันทีละโฟลเดอร์ [ไม่แน่ใจ: หน่วยความจำเครื่อง jing]
+- logger ต้องมี: `pos vel onGround hp food inv armor offhand air dim pose act{dig,digBelowFeet,place,attack,use} events flagsRaw{lava,water,fire} standingOn edgeDepth sheltered nearby[{type,id,dist,pos}] timeOfDay tick` — ขาดอะไร กฎที่ใช้คีย์นั้นจะเป็น unknown (ไม่ถูกนับผิด)
+- ความหมายของ "ตรง" ขึ้นกับ `rule_expect.mjs` (ท่าที่คาด + เวลา) ซึ่งตั้งเอง — ดูรายกฎที่ miss เยอะแต่ "ไม่เป็นไร" ก่อนตัดสินว่ากฎผิด
