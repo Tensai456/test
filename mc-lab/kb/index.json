@@ -4039,6 +4039,80 @@
   "lines": 6
  },
  {
+  "path": "home-keeping/storage-facts.md",
+  "title": "ความจุ",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "storage",
+   "facts"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "home-keeping/categories.md",
+  "title": "13 หมวด (ป้ายไม้ 13 สีติดหน้าหีบ ไม่ต้องเขียน)",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "categories"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "home-keeping/stash.md",
+  "title": "ฝากของ: อะไรเว้นไว้ติดตัว",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "stash"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "home-keeping/tidy-area.md",
+  "title": "ปรับพื้นรอบบ้าน/ในบ้านให้เรียบ",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "tidy",
+   "area"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "home-keeping/measure.md",
+  "title": "วัดผลช่วงรอ",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "measure"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "home-keeping/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
   "path": "loot/village-weaponsmith.md",
   "title": "หมู่บ้าน: หีบช่างตีอาวุธ",
   "group": "loot",

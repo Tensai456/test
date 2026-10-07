@@ -325,6 +325,15 @@
 - [โทเท็มแห่งความเป็นอมตะ](health/totem.md) · 14 บรรทัด
 - [ยังไม่ยืนยัน](health/unverified.md) · 6 บรรทัด
 
+## home-keeping (`home-keeping/`)
+
+- [13 หมวด (ป้ายไม้ 13 สีติดหน้าหีบ ไม่ต้องเขียน)](home-keeping/categories.md) · 20 บรรทัด
+- [วัดผลช่วงรอ](home-keeping/measure.md) · 3 บรรทัด
+- [ฝากของ: อะไรเว้นไว้ติดตัว](home-keeping/stash.md) · 3 บรรทัด
+- [ความจุ](home-keeping/storage-facts.md) · 2 บรรทัด
+- [ปรับพื้นรอบบ้าน/ในบ้านให้เรียบ](home-keeping/tidy-area.md) · 6 บรรทัด
+- [ยังไม่ยืนยัน](home-keeping/unverified.md) · 1 บรรทัด
+
 ## loot (`loot/`)
 
 - [เมืองโบราณ](loot/ancient-city.md) · 15 บรรทัด

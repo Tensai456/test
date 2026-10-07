@@ -410,5 +410,38 @@
     "nether-end/d7-return-home.md"
    ]
   }
+ ],
+ "home_keep": [
+  {
+   "id": "stash",
+   "title": "ฝากของเข้าหีบ (เว้นของขุด/อาวุธ/อาหาร)",
+   "done": {
+    "flag": "stashed"
+   },
+   "kb": [
+    "home-keeping/stash.md"
+   ]
+  },
+  {
+   "id": "sort-chests",
+   "title": "จัดหีบตามหมวด ทีละกอง",
+   "done": {
+    "flag": "chestsSorted"
+   },
+   "kb": [
+    "home-keeping/categories.md",
+    "home-keeping/storage-facts.md"
+   ]
+  },
+  {
+   "id": "tidy-area",
+   "title": "ปรับพื้นรอบบ้าน/ในบ้านให้เรียบ (เว้นที่ขุด)",
+   "done": {
+    "flag": "areaTidy"
+   },
+   "kb": [
+    "home-keeping/tidy-area.md"
+   ]
+  }
  ]
 }
