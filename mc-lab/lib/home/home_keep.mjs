@@ -7,6 +7,7 @@ import path from 'node:path';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..');
 const ITEMS = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog_26.1', 'items.json'), 'utf8')).map((i) => [i.name, i]));
 export const CHEST_SLOTS = 27;
+export const HOME_RADIUS = 100;   // กติกา jing: เขตบ้าน ≈100 บล็อก (ปักคบเพลิง/ปรับพื้น) → ตาราง heights ขนาด 201×201 รอบจุดกลางบ้าน
 export const stackOf = (name) => ITEMS[name]?.stack ?? 64;
 
 // 13 หมวด (ลำดับ = ลำดับตรวจ ตัวแรกที่ตรงชนะ) · ป้ายสีไม้ตามหมวด (ใช้ติดหน้าหีบ ไม่ต้องเขียน)

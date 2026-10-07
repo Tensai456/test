@@ -332,7 +332,7 @@
 - [ฝากของ: อะไรเว้นไว้ติดตัว](home-keeping/stash.md) · 3 บรรทัด
 - [ความจุ](home-keeping/storage-facts.md) · 2 บรรทัด
 - [ปรับพื้นรอบบ้าน/ในบ้านให้เรียบ](home-keeping/tidy-area.md) · 7 บรรทัด
-- [ปักคบเพลิงเพื่อไม่ให้ม็อบเกิด (กติกา jing)](home-keeping/torches.md) · 7 บรรทัด
+- [ปักคบเพลิงเพื่อไม่ให้ม็อบเกิด (กติกา jing)](home-keeping/torches.md) · 9 บรรทัด
 - [ยังไม่ยืนยัน](home-keeping/unverified.md) · 1 บรรทัด
 
 ## loot (`loot/`)
