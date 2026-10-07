@@ -31,9 +31,10 @@ export function readKb(rel) {
 
 // ข้อมูลบล็อกเดียวจาก JSON ที่แยกกลุ่มไว้ (โหลดแค่กลุ่มเดียว)
 const _groups = {};
+const _bidx = {};
 export function blockInfo(name, ver = '26.1') {
-  const dir = path.join(ROOT, 'data', `catalog_${ver}`, 'blocks');
-  const idx = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'))[name];
+  _bidx[ver] ??= JSON.parse(fs.readFileSync(path.join(ROOT, 'data', `catalog_${ver}`, 'blocks', 'index.json'), 'utf8'));
+  const idx = _bidx[ver][name];
   if (!idx) return null;
   _groups[idx.group] ??= JSON.parse(fs.readFileSync(path.join(ROOT, 'data', `catalog_${ver}`, idx.json), 'utf8'));
   return _groups[idx.group].find((b) => b.name === name) ?? null;

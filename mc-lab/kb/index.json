@@ -3121,6 +3121,50 @@
   "lines": 6
  },
  {
+  "path": "piglin/calm.md",
+  "title": "ทำให้ไม่โกรธ",
+  "group": "piglin",
+  "source": "wiki/piglin.md",
+  "keywords": [
+   "piglin",
+   "calm"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "piglin/anger.md",
+  "title": "อะไรทำให้โกรธ",
+  "group": "piglin",
+  "source": "wiki/piglin.md",
+  "keywords": [
+   "piglin",
+   "anger"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "piglin/barter.md",
+  "title": "แลกของด้วยทอง",
+  "group": "piglin",
+  "source": "wiki/piglin.md",
+  "keywords": [
+   "piglin",
+   "barter"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "piglin/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "piglin",
+  "source": "wiki/piglin.md",
+  "keywords": [
+   "piglin",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
   "path": "redstone-basics/signal-range.md",
   "title": "ระยะสัญญาณ redstone",
   "group": "redstone-basics",

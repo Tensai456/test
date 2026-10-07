@@ -1,8 +1,0 @@
-[
- {"id": "creeper-bait", "prio": 89, "when": {"near": {"type": ["creeper"], "within": 5}, "countNear": {"hostile": true, "within": 8, "atLeast": 3}}, "do": "[คิดเอง + สูตรวิกิ] ล่อให้ครีปเปอร์อยู่กลางฝูงแล้วถอยออก ≥6 บล็อก (ดาเมจ 0) · ม็อบที่ห่างครีปเปอร์ ≤2 โดน ≥24 = ตาย · ถอยไม่ทัน: วางบล็อกบังระหว่างตัวกับครีปเปอร์ (ลดได้ ~ครึ่งถึงทั้งหมด [ไม่แน่ใจ]) · ห้ามอยู่ ≤3 (เกราะเหล็กยังโดน 11–21)", "kb": ["mobs/creeper.md", "sim/survival-results.md"]},
- {"id": "underwater-guardian", "prio": 79, "when": {"near": {"type": ["guardian", "elder_guardian"], "within": 16}}, "do": "เลเซอร์ 15 บล็อกหลบไม่ได้ → ตัดแนวสายตา (หลังเสา/บล็อก) หรือขึ้นผิวน้ำ · ยกโล่ · ห้ามตีตอนหนามออก (สะท้อน 2)", "kb": ["mobs/guardian.md", "structures/ocean-monument.md"]},
- {"id": "underwater-disengage", "prio": 71, "when": {"inWater": true, "airBelow": 10, "near": {"hostile": true, "within": 8}}, "do": "[คิดเอง] อากาศเหลือน้อย + มีศัตรู → ว่ายขึ้นหายใจก่อนสู้ · สู้ใกล้ผิวน้ำ/บนฝั่ง", "kb": ["hazards/drowning.md", "mobs/drowned.md"]},
- {"id": "drowned-trident", "prio": 70, "when": {"near": {"type": ["drowned"], "within": 12}}, "do": "drowned ขว้างตรีศูลได้ (9) → ขึ้นฝั่ง/หลบหลังบล็อก · สู้ใกล้ตัวบนบกได้เปรียบ", "kb": ["mobs/drowned.md"]},
- {"id": "mining-fatigue", "prio": 60, "when": {"hasEffect": "mining_fatigue"}, "do": "Mining Fatigue III จาก elder guardian (รัศมี 50) → อย่าขุด · ออกจาก monument หรือฆ่า elder ก่อน · นมล้างได้แต่จะโดนซ้ำทุก 60 วิ", "kb": ["mobs/elder_guardian.md", "structures/ocean-monument.md"]},
- {"id": "pufferfish-near", "prio": 58, "when": {"near": {"type": ["pufferfish"], "within": 3}}, "do": "ถอยห่าง (พองตัวแล้วพิษ) · ห้ามตีใกล้", "kb": ["mobs/pufferfish.md"]}
-]

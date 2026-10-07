@@ -27,6 +27,19 @@
   ]
  },
  {
+  "id": "dont-provoke",
+  "prio": 96,
+  "veto": true,
+  "when": {
+   "attackingNeutral": true
+  },
+  "do": "ห้ามตีม็อบเป็นกลางที่ยังไม่โกรธ (golem/zombified piglin ทั้งฝูง/หมาป่า/ผึ้ง/หมี/enderman) เว้นแต่เป็นเป้าหมายล่าที่วางแผนไว้",
+  "kb": [
+   "mobs/_rules.md",
+   "nether-end/m3-zombified-piglin.md"
+  ]
+ },
+ {
   "id": "falling",
   "prio": 95,
   "when": {
@@ -42,6 +55,28 @@
    "fall_safety.chooseClutch",
    "fall_safety.clutchWindow",
    "fall_safety.mustClutch"
+  ]
+ },
+ {
+  "id": "piglin-container",
+  "prio": 95,
+  "veto": true,
+  "when": {
+   "actionIn": [
+    "open_container",
+    "break_container",
+    "mine_gold"
+   ],
+   "near": {
+    "type": [
+     "piglin"
+    ],
+    "within": 16
+   }
+  },
+  "do": "ห้ามเปิด/ทุบหีบ-ถังไม้-shulker หรือขุดทองเมื่อ piglin อยู่ในระยะ 16 (โกรธทั้งกลุ่ม ไม่ต้องเห็นตัว) · ล่อให้ห่างหรือเคลียร์ก่อน",
+  "kb": [
+   "piglin/anger.md"
   ]
  },
  {
@@ -85,6 +120,28 @@
   ]
  },
  {
+  "id": "creeper-bait",
+  "prio": 89,
+  "when": {
+   "near": {
+    "type": [
+     "creeper"
+    ],
+    "within": 5
+   },
+   "countNear": {
+    "hostile": true,
+    "within": 8,
+    "atLeast": 3
+   }
+  },
+  "do": "[คิดเอง + สูตรวิกิ] ล่อให้ครีปเปอร์อยู่กลางฝูงแล้วถอยออก ≥6 บล็อก (ดาเมจ 0) · ม็อบที่ห่างครีปเปอร์ ≤2 โดน ≥24 = ตาย · ถอยไม่ทัน: วางบล็อกบังระหว่างตัวกับครีปเปอร์ (ลดได้ ~ครึ่งถึงทั้งหมด [ไม่แน่ใจ]) · ห้ามอยู่ ≤3 (เกราะเหล็กยังโดน 11–21)",
+  "kb": [
+   "mobs/creeper.md",
+   "sim/survival-results.md"
+  ]
+ },
+ {
   "id": "creeper-fusing",
   "prio": 88,
   "when": {
@@ -95,7 +152,7 @@
     "within": 3
    }
   },
-  "do": "ตีตอนวิ่งให้กระเด็นแล้วถอย หรือถอยออกเกิน 7 บล็อก",
+  "do": "ถอยออก ≥6 บล็อก (ดาเมจ 0 ตามสูตรวิกิ) หรือตีตอนวิ่งให้กระเด็นแล้วถอย · ถอยไม่ทัน: วางบล็อกบัง · ห้ามอยู่ ≤3 (เกราะเหล็กยังโดน 11–21)",
   "kb": [
    "mobs/creeper.md"
   ]
@@ -169,6 +226,18 @@
   ]
  },
  {
+  "id": "danger-block",
+  "prio": 82,
+  "when": {
+   "touchingTag": "danger"
+  },
+  "do": "ออกจากบล็อกอันตรายทันที (แมกมา/กระบองเพชร/พุ่มเบอร์รี่/แคมป์ไฟ/ไฟ/หินย้อย/กุหลาบเหี่ยว) · ห้ามยืนบน/ข้างนาน · TNT: ห้ามจุด/ห้ามใช้ไฟใกล้",
+  "kb": [
+   "hazards/damage-blocks.md",
+   "blocks/_special.md"
+  ]
+ },
+ {
   "id": "wither-effect",
   "prio": 81,
   "when": {
@@ -197,6 +266,31 @@
   "veto": true
  },
  {
+  "id": "provoked-flee",
+  "prio": 80,
+  "when": {
+   "near": {
+    "provoked": true,
+    "type": [
+     "iron_golem",
+     "zombified_piglin",
+     "bee",
+     "polar_bear",
+     "hoglin",
+     "piglin_brute"
+    ],
+    "within": 24
+   }
+  },
+  "do": "ม็อบแรงโกรธ → หนี: วิ่งออก (golem ช้ากว่าเราวิ่ง) · zombified piglin ทั้งฝูงไล่ → ออกจากพอร์ทัล/ช่องแคบ · ผึ้ง → ลงน้ำ · ห้ามสู้กลางที่โล่ง",
+  "kb": [
+   "mobs/iron_golem.md",
+   "nether-end/m3-zombified-piglin.md",
+   "mobs/bee.md"
+  ],
+  "kbByMob": "auto"
+ },
+ {
   "id": "brute-near",
   "prio": 79,
   "when": {
@@ -213,6 +307,41 @@
   ]
  },
  {
+  "id": "underwater-guardian",
+  "prio": 79,
+  "when": {
+   "near": {
+    "type": [
+     "guardian",
+     "elder_guardian"
+    ],
+    "within": 16
+   }
+  },
+  "do": "เลเซอร์ 15 บล็อกหลบไม่ได้ → ตัดแนวสายตา (หลังเสา/บล็อก) หรือขึ้นผิวน้ำ · ยกโล่ · ห้ามตีตอนหนามออก (สะท้อน 2)",
+  "kb": [
+   "mobs/guardian.md",
+   "structures/ocean-monument.md"
+  ]
+ },
+ {
+  "id": "provoked-pack",
+  "prio": 79,
+  "when": {
+   "countNear": {
+    "within": 12,
+    "atLeast": 3,
+    "provoked": true
+   }
+  },
+  "do": "ฝูงโกรธ ≥3 ตัว (หมาป่า ฯลฯ) → ถอยไปช่องแคบให้เข้ามาทีละตัว หรือหนี",
+  "kb": [
+   "mobs/wolf.md",
+   "mobs/_rules.md"
+  ],
+  "kbByMob": "auto"
+ },
+ {
   "id": "ghast-fireball",
   "prio": 78,
   "when": {
@@ -226,6 +355,29 @@
   "do": "ตีลูกไฟสะท้อนกลับ/ยิงธนู · ยืนหลังบล็อกกันระเบิดสูง (cobblestone) · อย่ายืนขอบลาวา",
   "kb": [
    "nether-end/m1-ghast.md"
+  ]
+ },
+ {
+  "id": "piglin-no-gold",
+  "prio": 78,
+  "when": {
+   "near": {
+    "type": [
+     "piglin"
+    ],
+    "within": 16
+   },
+   "notWearsAny": [
+    "golden_boots",
+    "golden_helmet",
+    "golden_chestplate",
+    "golden_leggings"
+   ]
+  },
+  "do": "ใส่รองเท้าทองทันที (ต้องสวม ไม่ใช่แค่มีในกระเป๋า) · ไม่มีทอง → ถอยห่าง piglin",
+  "kb": [
+   "piglin/calm.md",
+   "nether-end/e7-gold-armor.md"
   ]
  },
  {
@@ -300,6 +452,29 @@
   ]
  },
  {
+  "id": "provoked-fight",
+  "prio": 74,
+  "when": {
+   "near": {
+    "provoked": true,
+    "within": 16,
+    "notType": [
+     "iron_golem",
+     "zombified_piglin",
+     "bee",
+     "polar_bear",
+     "hoglin",
+     "piglin_brute"
+    ]
+   }
+  },
+  "do": "ม็อบอ่อนโกรธ (ลามะ/แพะ/แมงมุมกลางวัน/หมาป่าตัวเดียว/piglin/enderman) → ฆ่า: รอชาร์จ+คริ · enderman: ยืนใต้หลังคาสูง 2 บล็อก/ข้างน้ำ ตี-ถอย (กฎ jing) · ถ้าเลือด <12 → หนีแทน",
+  "kb": [
+   "mobs/_rules.md"
+  ],
+  "kbByMob": "auto"
+ },
+ {
   "id": "witch-ranged",
   "prio": 73,
   "when": {
@@ -369,6 +544,23 @@
   ]
  },
  {
+  "id": "underwater-disengage",
+  "prio": 71,
+  "when": {
+   "inWater": true,
+   "airBelow": 10,
+   "near": {
+    "hostile": true,
+    "within": 8
+   }
+  },
+  "do": "[คิดเอง] อากาศเหลือน้อย + มีศัตรู → ว่ายขึ้นหายใจก่อนสู้ · สู้ใกล้ผิวน้ำ/บนฝั่ง",
+  "kb": [
+   "hazards/drowning.md",
+   "mobs/drowned.md"
+  ]
+ },
+ {
   "id": "eat-to-regen",
   "prio": 70,
   "when": {
@@ -385,6 +577,36 @@
    "problems/p02-low-hp-not-eating.md",
    "health/health.md",
    "blocks/_foods.md"
+  ]
+ },
+ {
+  "id": "drowned-trident",
+  "prio": 70,
+  "when": {
+   "near": {
+    "type": [
+     "drowned"
+    ],
+    "within": 12
+   }
+  },
+  "do": "drowned ขว้างตรีศูลได้ (9) → ขึ้นฝั่ง/หลบหลังบล็อก · สู้ใกล้ตัวบนบกได้เปรียบ",
+  "kb": [
+   "mobs/drowned.md"
+  ]
+ },
+ {
+  "id": "gravity-above",
+  "prio": 69,
+  "when": {
+   "digging": {
+    "gravityAbove": true
+   }
+  },
+  "do": "บล็อกเหนือเป็นทราย/กรวด/ทั่ง → ถอยออกก่อนขุด หรือวางคบเพลิงใต้ช่องที่จะร่วง",
+  "kb": [
+   "hazards/falling-blocks.md",
+   "problems/p08-stuck-suffocation.md"
   ]
  },
  {
@@ -436,6 +658,21 @@
   ]
  },
  {
+  "id": "blinded",
+  "prio": 63,
+  "when": {
+   "hasAnyEffect": [
+    "blindness",
+    "darkness"
+   ]
+  },
+  "do": "มองไม่เห็น → หยุดวิ่ง/กระโดด · ย่อเดินใกล้ขอบ · ถอยไปที่สว่าง/ที่ปลอดภัย · Darkness = warden ใกล้ → ออกจาก deep dark",
+  "kb": [
+   "hazards/status-effects.md",
+   "hazards/deep-dark-warden.md"
+  ]
+ },
+ {
   "id": "wrong-tool",
   "prio": 62,
   "when": {
@@ -449,6 +686,17 @@
   ],
   "lib": [
    "kb.blockInfo"
+  ]
+ },
+ {
+  "id": "poisoned",
+  "prio": 62,
+  "when": {
+   "hasEffect": "poison"
+  },
+  "do": "พิษทำให้เหลือ 1 HP ได้แต่ไม่ฆ่า → ดื่มนมถ้าเลือด <6 · ไม่งั้นหลบจนหมดฤทธิ์ ห้ามสู้ต่อ",
+  "kb": [
+   "hazards/status-effects.md"
   ]
  },
  {
@@ -468,20 +716,49 @@
   ]
  },
  {
+  "id": "mining-fatigue",
+  "prio": 60,
+  "when": {
+   "hasEffect": "mining_fatigue"
+  },
+  "do": "Mining Fatigue III จาก elder guardian (รัศมี 50) → อย่าขุด · ออกจาก monument หรือฆ่า elder ก่อน · นมล้างได้แต่จะโดนซ้ำทุก 60 วิ",
+  "kb": [
+   "mobs/elder_guardian.md",
+   "structures/ocean-monument.md"
+  ]
+ },
+ {
   "id": "nether-no-gold",
   "prio": 58,
   "when": {
    "dim": "the_nether",
-   "lacksAll": [
+   "notWearsAny": [
     "golden_boots",
     "golden_helmet",
     "golden_chestplate",
     "golden_leggings"
    ]
   },
-  "do": "ใส่รองเท้าทอง (กฎ jing: ทองทำรองเท้าเท่านั้น) หรือกลับ overworld",
+  "do": "สวมรองเท้าทอง (กฎ jing: ทองทำรองเท้าเท่านั้น) — ต้องสวม ไม่ใช่แค่มีในกระเป๋า · ไม่มี → กลับ overworld",
   "kb": [
+   "piglin/calm.md",
    "nether-end/e7-gold-armor.md"
+  ]
+ },
+ {
+  "id": "pufferfish-near",
+  "prio": 58,
+  "when": {
+   "near": {
+    "type": [
+     "pufferfish"
+    ],
+    "within": 3
+   }
+  },
+  "do": "ถอยห่าง (พองตัวแล้วพิษ) · ห้ามตีใกล้",
+  "kb": [
+   "mobs/pufferfish.md"
   ]
  },
  {
@@ -524,6 +801,22 @@
   ]
  },
  {
+  "id": "bad-omen",
+  "prio": 54,
+  "when": {
+   "hasAnyEffect": [
+    "bad_omen",
+    "raid_omen",
+    "trial_omen"
+   ]
+  },
+  "do": "Bad/Raid Omen → อย่าเข้าหมู่บ้านถ้ายังไม่พร้อมรับ raid · Trial Omen → ไป trial chamber แบบ ominous เมื่อพร้อม · ดื่มนมล้างได้",
+  "kb": [
+   "hazards/raid.md",
+   "trial-chambers/ominous.md"
+  ]
+ },
+ {
   "id": "hostile-approach",
   "prio": 53,
   "when": {
@@ -563,6 +856,38 @@
   "kb": [
    "problems/p04-desert-no-wood.md",
    "biomes/desert-badlands.md"
+  ]
+ },
+ {
+  "id": "bad-effect",
+  "prio": 52,
+  "when": {
+   "hasAnyEffect": [
+    "slowness",
+    "mining_fatigue",
+    "instant_damage",
+    "nausea",
+    "blindness",
+    "hunger",
+    "weakness",
+    "poison",
+    "wither",
+    "glowing",
+    "levitation",
+    "bad_luck",
+    "bad_omen",
+    "darkness",
+    "trial_omen",
+    "raid_omen",
+    "wind_charged",
+    "weaving",
+    "oozing",
+    "infested"
+   ]
+  },
+  "do": "มีเอฟเฟกต์ร้าย (อ่อนแรง/ช้า/คลื่นไส้/infested/oozing/weaving/wind charged ฯลฯ) → เลี่ยงการต่อสู้/ที่สูงจนหมดฤทธิ์ · นมล้างได้ทุกชนิด",
+  "kb": [
+   "hazards/status-effects.md"
   ]
  },
  {

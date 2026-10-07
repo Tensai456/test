@@ -324,6 +324,13 @@
 - [2. ตัวหน่วง/เปลี่ยนความเร็ว](physics/speed-modifiers.md) · 15 บรรทัด
 - [9. ยังไม่ยืนยัน [ไม่แน่ใจ]](physics/unverified.md) · 6 บรรทัด
 
+## piglin (`piglin/`)
+
+- [อะไรทำให้โกรธ](piglin/anger.md) · 9 บรรทัด
+- [แลกของด้วยทอง](piglin/barter.md) · 9 บรรทัด
+- [ทำให้ไม่โกรธ](piglin/calm.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](piglin/unverified.md) · 1 บรรทัด
+
 ## ปัญหา → วิธีแก้ (สมองเดิม) (`problems/`)
 
 - [D. ม็อบ (สรุป — รายละเอียดเต็มรอ MOB_TACTICS)](problems/mobs-summary.md) · 8 บรรทัด

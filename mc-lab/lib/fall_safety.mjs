@@ -13,6 +13,7 @@ const LANDING = {
   bed: { dist: 0.5, dmg: 1 },
   hay_block: { dist: 1, dmg: 0.2 },
   honey_block: { dist: 1, dmg: 0.2 },
+  scaffolding: { dist: 0, dmg: 0 },   // ต้องย่อ (sneak) ตอนลง
   pointed_dripstone: { dist: 2, dmg: 1 },
   water: { dist: 0, dmg: 0 },
   powder_snow: { dist: 0, dmg: 0 },
@@ -55,8 +56,8 @@ export function chooseClutch({ inventory = [], dimension = 'overworld', wallAdja
   const inv = new Set(inventory);
   const nether = dimension === 'the_nether' || dimension === 'nether';
   const order = nether
-    ? ['powder_snow_bucket', 'twisting_vines', 'weeping_vines', 'hay_block', 'slime_block', 'ender_pearl']
-    : ['water_bucket', 'hay_block', 'slime_block', 'oak_boat', 'ladder', 'cobweb', 'powder_snow_bucket', 'ender_pearl'];
+    ? ['powder_snow_bucket', 'twisting_vines', 'weeping_vines', 'slime_block', 'hay_block', 'honey_block', 'scaffolding', 'ender_pearl']
+    : ['water_bucket', 'slime_block', 'hay_block', 'honey_block', 'oak_boat', 'ladder', 'scaffolding', 'cobweb', 'powder_snow_bucket', 'ender_pearl'];
   for (const item of order) {
     if (item === 'ladder' && !wallAdjacent) continue;
     if (item === 'oak_boat') {

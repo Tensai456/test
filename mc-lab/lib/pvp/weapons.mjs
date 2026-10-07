@@ -14,6 +14,7 @@ export const WEAPONS = {
   // หอก: ค่า jab · charge = ตัวคูณ · ระยะ charge 2–4.5 บล็อก · jab reach [ไม่แน่ใจ] ใช้ 3
   iron_spear: { dmg: 3, speed: 1.05, reach: 3, charge: 0.95, chargeReach: [2, 4.5] },
   diamond_spear: { dmg: 4, speed: 0.95, reach: 3, charge: 1.075, chargeReach: [2, 4.5] },
+  trident: { dmg: 9, speed: 1.1, reach: 3 },      // ตีประชิด (Trident wiki) · ขว้าง 8
   fist: { dmg: 1, speed: 4, reach: 3 },
 };
 

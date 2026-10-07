@@ -4,10 +4,27 @@
 //  decide(state, goal) — ถ้ามี reflex prio ≥ REFLEX_MIN ทำ reflex ก่อน ไม่งั้นทำตามแผน
 // state (สร้างจาก mineflayer ได้): { hp, food, dim, inLava, onFire, air, fallDistance, suffocating,
 //   nearby:[{type, dist, hostile}], inv:{item:n}, worn:[item], flags:{}, time, sheltered, edgeDepth,
-//   digging:{block, canHarvest, belowFeet}, idleSeconds, action, effects:[name], freezing }
+//   digging:{block, canHarvest, belowFeet, gravityAbove}, touching:[block], standingOn, inWater, idleSeconds, action, effects:[name], freezing }
 import fs from 'node:fs';
 import path from 'node:path';
 import { chooseClutch } from './fall_safety.mjs';
+import { blockInfo } from './kb.mjs';
+
+// ม็อบ → ไฟล์ kb ที่มีจริง (ม็อบนรก/End อยู่คนละโฟลเดอร์) · ไม่เจอ = กฎรวม
+const MOB_KB = {
+  blaze: 'nether-end/m2-blaze.md', ghast: 'nether-end/m1-ghast.md', zombified_piglin: 'nether-end/m3-zombified-piglin.md',
+  piglin: 'nether-end/m4-piglin-brute.md', piglin_brute: 'nether-end/m4-piglin-brute.md', hoglin: 'nether-end/m5-hoglin-zoglin.md',
+  zoglin: 'nether-end/m5-hoglin-zoglin.md', magma_cube: 'nether-end/m6-magma-cube-strider.md', strider: 'nether-end/m6-magma-cube-strider.md',
+  wither_skeleton: 'nether-end/nether-mobs-table.md', ender_dragon: 'nether-end/d3-ender-dragon.md', end_crystal: 'nether-end/d3-ender-dragon.md',
+  shulker: 'nether-end/d5-shulker-levitation.md', wither: 'nether-end/wither.md', giant: 'mobs/_rules.md',
+};
+const KB_DIR = path.join(path.resolve(path.dirname(new URL(import.meta.url).pathname), '..'), 'kb');
+export function mobKb(type) {
+  if (MOB_KB[type]) return MOB_KB[type];
+  const p = `mobs/${type}.md`;
+  return fs.existsSync(path.join(KB_DIR, p)) ? p : 'mobs/_rules.md';
+}
+const tagsOf = (name) => blockInfo(name)?.tags ?? [];
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const load = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', f), 'utf8'));
@@ -20,7 +37,7 @@ const count = (s, item) => (s.inv?.[item] ?? 0) + ((s.worn ?? []).includes(item)
 const sumAny = (s, alts) => alts.split('|').reduce((n, it) => n + count(s, it), 0);
 
 function nearMatch(s, q) {
-  return (s.nearby ?? []).some((e) => e.dist <= q.within && (!q.type || q.type.includes(e.type)) && (!q.hostile || e.hostile));
+  return (s.nearby ?? []).some((e) => e.dist <= q.within && (!q.type || q.type.includes(e.type)) && (!q.hostile || e.hostile) && (!q.provoked || e.provoked) && (!q.notType || !q.notType.includes(e.type)));
 }
 
 // เงื่อนไขทุก key ต้องจริง (AND) · anyOf = OR
@@ -54,9 +71,16 @@ export function test(c, s) {
       clutch: () => !!chooseClutch({ inventory: Object.keys(s.inv ?? {}).filter((k) => s.inv[k] > 0), dimension: s.dim, wallAdjacent: !!s.wallAdjacent }) === v,
       teammateNeeds: () => (s.team ?? []).some((m) => m.hp < v.hpBelow && m.dist <= v.within),
       selfHpAtLeast: () => s.hp >= v,
-      countNear: () => (s.nearby ?? []).filter((e) => e.dist <= v.within && (!v.hostile || e.hostile)).length >= v.atLeast,
+      countNear: () => (s.nearby ?? []).filter((e) => e.dist <= v.within && (!v.hostile || e.hostile) && (!v.provoked || e.provoked)).length >= v.atLeast,
       nearBlock: () => (s.nearBlocks ?? []).some((b) => v.type.includes(b.type) && b.dist <= v.within),
       woodNearby: () => (s.woodNearby ?? true) === v,
+      inWater: () => !!s.inWater === v,
+      actionIn: () => v.includes(s.action),
+      wearsAny: () => v.some((it) => (s.worn ?? []).includes(it)),
+      hasAnyEffect: () => v.some((x) => (s.effects ?? []).includes(x)),
+      notWearsAny: () => !v.some((it) => (s.worn ?? []).includes(it)),
+      attackingNeutral: () => !!(s.action === 'attack' && s.target && !s.target.hostile && !s.target.provoked) === v,
+      touchingTag: () => [...(s.touching ?? []), ...(s.standingOn ? [s.standingOn] : [])].some((b) => tagsOf(b).includes(v)),
       hasEffect: () => (s.effects ?? []).includes(v),
       freezing: () => !!s.freezing === v,
       digging: () => !!s.digging && Object.entries(v).every(([kk, vv]) => s.digging[kk] === vv),
@@ -74,8 +98,8 @@ export function matchTriggers(state) {
     .map((t) => {
       const kb = [...t.kb];
       if (t.kbByMob) {
-        const m = (state.nearby ?? []).filter((e) => e.hostile).sort((a, b) => a.dist - b.dist)[0];
-        if (m) kb.unshift(t.kbByMob.replace('{type}', m.type));
+        const m = (state.nearby ?? []).filter((e) => e.hostile || e.provoked).sort((a, b) => a.dist - b.dist)[0];
+        if (m) kb.unshift(mobKb(m.type));
       }
       return { ...t, kb };
     })
