@@ -181,16 +181,18 @@ Object.assign(EVENTS, EXT_EVENTS);   // ชุด 2: 12 หมวด (scripts/fu
   const PURE = ['weapons', 'weaponTactics', 'mlg'];
   const POOL = Object.keys(EVENTS).filter((k) => !PURE.includes(k));
   const ALL_INV = Object.entries(EVENTS).flatMap(([ev, E]) => E.inv.map(([name, f]) => [`[${ev}] ${name}`, (s, d) => !s._chain.includes(ev) || f(s, d)]));
-  EVENTS.chain = {
+  const stack = (lo, hi, pPure) => ({
     gen: (s, r) => {
-      const k = 2 + Math.floor(r() * 3), pick = new Set();
+      const k = lo + Math.floor(r() * (hi - lo + 1)), pick = new Set();
       while (pick.size < k) pick.add(POOL[Math.floor(r() * POOL.length)]);
       s._chain = [...pick];
-      if (r() < 0.25) s._chain.push(PURE[Math.floor(r() * PURE.length)]);
+      if (r() < pPure) s._chain.push(PURE[Math.floor(r() * PURE.length)]);
       for (const ev of s._chain) EVENTS[ev].gen(s, r);
     },
     inv: ALL_INV,
-  };
+  });
+  EVENTS.chain = stack(2, 4, 0.25);
+  EVENTS.chainDeep = stack(4, 7, 0.4);   // โหมดยากมาก: ซ้อน 4–7 (+ของรีเซ็ตกระเป๋า 40%)
 }
 // คู่ "a+b" (จาก fuzz_pairs.mjs): ซ้อน 2 เหตุการณ์แบบกำหนดตายตัว · invariant ของทั้งสองต้องผ่าน
 for (const name of ONLY.filter((n) => n.includes('+'))) {
