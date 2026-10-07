@@ -6,7 +6,8 @@
 
 | ข้อเท็จจริง | แหล่ง |
 |---|---|
-| สูตร: damage = 10 × (การเปลี่ยนความเร็วแนวนอน) − 3 | W/Elytra (snippet) [ไม่แน่ใจ หน่วยความเร็ว = blocks/tick?] |
+| สูตร: damage = 10 × (การเปลี่ยนความเร็วแนวนอน) − 3 (หน่วย HP = ครึ่งหัวใจ) | W/Elytra (snippet) |
+| หน่วยความเร็วในสูตร = blocks/tick (ตัวอย่าง 1 block/tick → 7 HP) | W/Elytra (snippet สรุป; ไม่ใช่ข้อความ wiki ตรง ๆ) [ไม่แน่ใจ ระดับความมั่นใจปานกลาง] |
 | ชนพื้นผิวแนวนอน (เช่น เพดาน) ไม่เกิด damage แบบนี้ | W/Elytra |
 | damage type = fly_into_wall; ข้อความตาย "experienced kinetic energy" | W/Elytra, W/Damage |
 | Feather Falling ลดเมื่อชนพื้น แต่ไม่ลดเมื่อชนผนัง | W/Feather_Falling (snippet) |

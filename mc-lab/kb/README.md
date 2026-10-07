@@ -110,15 +110,15 @@
 
 ## elytra (`elytra/`)
 
-- [การเปิดใช้งาน](elytra/activate.md) · 6 บรรทัด
-- [ต่อสู้ (mace)](elytra/combat.md) · 11 บรรทัด
+- [การเปิดใช้งาน](elytra/activate.md) · 11 บรรทัด
+- [ต่อสู้ (mace)](elytra/combat.md) · 12 บรรทัด
 - [ความทนทานและซ่อม](elytra/durability.md) · 10 บรรทัด
 - [ความเร็ว/พิทช์](elytra/glide.md) · 8 บรรทัด
-- [ความเสียหายชนผนัง](elytra/kinetic.md) · 9 บรรทัด
+- [ความเสียหายชนผนัง](elytra/kinetic.md) · 10 บรรทัด
 - [การลงจอดและ fall damage](elytra/landing.md) · 7 บรรทัด
 - [การได้มา](elytra/obtain.md) · 7 บรรทัด
-- [ความเสี่ยงของบอต](elytra/risks.md) · 9 บรรทัด
-- [จรวดดอกไม้ไฟ](elytra/rocket.md) · 9 บรรทัด
+- [ความเสี่ยงของบอต](elytra/risks.md) · 10 บรรทัด
+- [จรวดดอกไม้ไฟ](elytra/rocket.md) · 10 บรรทัด
 - [ยังไม่ยืนยัน](elytra/unverified.md) · 5 บรรทัด
 
 ## enchanting (`enchanting/`)
@@ -370,10 +370,10 @@
 ## redstone-basics (`redstone-basics/`)
 
 - [วงจรง่าย ๆ ที่มีประโยชน์](redstone-basics/builds.md) · 11 บรรทัด
-- [dispenser / dropper](redstone-basics/dispenser.md) · 15 บรรทัด
-- [ประตูไม้ vs เหล็ก, trapdoor, fence gate](redstone-basics/doors.md) · 13 บรรทัด
+- [dispenser / dropper](redstone-basics/dispenser.md) · 16 บรรทัด
+- [ประตูไม้ vs เหล็ก, trapdoor, fence gate](redstone-basics/doors.md) · 18 บรรทัด
 - [observer, hopper](redstone-basics/observer-hopper.md) · 12 บรรทัด
-- [piston / sticky piston](redstone-basics/pistons.md) · 12 บรรทัด
+- [piston / sticky piston](redstone-basics/pistons.md) · 14 บรรทัด
 - [แผ่นกด (mob ใดกดได้)](redstone-basics/plates.md) · 11 บรรทัด
 - [ระยะสัญญาณ redstone](redstone-basics/signal-range.md) · 8 บรรทัด
 - [ปุ่ม คันโยก](redstone-basics/switches.md) · 14 บรรทัด

@@ -2227,7 +2227,7 @@
    "elytra",
    "activate"
   ],
-  "lines": 6
+  "lines": 11
  },
  {
   "path": "elytra/glide.md",
@@ -2249,7 +2249,7 @@
    "elytra",
    "rocket"
   ],
-  "lines": 9
+  "lines": 10
  },
  {
   "path": "elytra/kinetic.md",
@@ -2260,7 +2260,7 @@
    "elytra",
    "kinetic"
   ],
-  "lines": 9
+  "lines": 10
  },
  {
   "path": "elytra/landing.md",
@@ -2285,7 +2285,7 @@
    "elytra",
    "combat"
   ],
-  "lines": 11
+  "lines": 12
  },
  {
   "path": "elytra/risks.md",
@@ -2296,7 +2296,7 @@
    "elytra",
    "risks"
   ],
-  "lines": 9
+  "lines": 10
  },
  {
   "path": "elytra/unverified.md",
@@ -3146,7 +3146,7 @@
    "basics",
    "doors"
   ],
-  "lines": 13
+  "lines": 18
  },
  {
   "path": "redstone-basics/switches.md",
@@ -3210,7 +3210,7 @@
    "basics",
    "pistons"
   ],
-  "lines": 12
+  "lines": 14
  },
  {
   "path": "redstone-basics/dispenser.md",
@@ -3223,7 +3223,7 @@
    "redstone",
    "basics"
   ],
-  "lines": 15
+  "lines": 16
  },
  {
   "path": "redstone-basics/tnt.md",
