@@ -13,7 +13,8 @@ import { EXT_EVENTS } from './fuzz_events_ext.mjs';
 const KB = path.join(ROOT0(), 'kb');
 function ROOT0() { return path.resolve(path.dirname(new URL(import.meta.url).pathname), '..'); }
 const KB_OK = new Map();
-const kbExists = (p) => { if (!KB_OK.has(p)) KB_OK.set(p, fs.existsSync(path.join(KB, p))); return KB_OK.get(p); };
+// จำเฉพาะผล "มีไฟล์" — ผล "ไม่มี" เช็กใหม่ทุกครั้ง (split_kb ลบ/เขียนโฟลเดอร์ใหม่ระหว่างรันได้ → เคยทำให้รายงานผิด รอบ 521)
+const kbExists = (p) => { if (KB_OK.get(p)) return true; const ok = fs.existsSync(path.join(KB, p)); if (ok) KB_OK.set(p, true); return ok; };
 const CAT = (f) => JSON.parse(fs.readFileSync(path.join(ROOT0(), 'data', 'catalog_26.1', f), 'utf8'));
 const ALL_HOSTILE = CAT('entities.json').filter((e) => e.category === 'Hostile mobs').map((e) => e.name);
 const ALL_BLOCKS = CAT('blocks.json');
