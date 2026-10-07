@@ -108,6 +108,15 @@
 - [Splash / Lingering / Tipped Arrow](brewing/splash-lingering-arrow.md) · 10 บรรทัด
 - [ยังไม่ยืนยัน](brewing/unverified.md) · 3 บรรทัด
 
+## combat-events (`combat-events/`)
+
+- [ครีปเปอร์ชาร์จ](combat-events/charged-creeper.md) · 3 บรรทัด
+- [ลมหายใจมังกร](combat-events/dragon-breath.md) · 3 บรรทัด
+- [evoker และ vex](combat-events/evoker-vex.md) · 3 บรรทัด
+- [ระฆังหมู่บ้าน](combat-events/raid-bell.md) · 4 บรรทัด
+- [ravager](combat-events/ravager-door.md) · 3 บรรทัด
+- [กับดักโครงสร้าง](combat-events/traps.md) · 3 บรรทัด
+
 ## ตัวเลขกลาง (`core/`)
 
 - [ตัวเลขกลางที่ใช้บ่อย](core/numbers.md) · 24 บรรทัด
@@ -196,6 +205,12 @@
 - [เงื่อนไขน้ำเปิดสำหรับสมบัติ](fishing/open-water.md) · 8 บรรทัด
 - [ยังไม่ยืนยัน](fishing/unverified.md) · 6 บรรทัด
 - [เวลารอและการกัดเบ็ด](fishing/wait-and-bite.md) · 10 บรรทัด
+
+## gear-inventory (`gear-inventory/`)
+
+- [เกราะใกล้พัง](gear-inventory/armor-breaking.md) · 2 บรรทัด
+- [กระเป๋าเต็ม](gear-inventory/inventory-full.md) · 9 บรรทัด
+- [เครื่องมือใกล้พัง](gear-inventory/tool-breaking.md) · 6 บรรทัด
 
 ## อันตรายนอกการต่อสู้ (`hazards/`)
 
@@ -408,6 +423,14 @@
 - [สายสะดุด](redstone-basics/tripwire.md) · 11 บรรทัด
 - [ยังไม่ยืนยัน](redstone-basics/unverified.md) · 6 บรรทัด
 
+## server-tech (`server-tech/`)
+
+- [ชังก์ยังไม่โหลด](server-tech/chunk-unloaded.md) · 4 บรรทัด
+- [ping สูง](server-tech/high-ping.md) · 4 บรรทัด
+- [โดนดึงกลับ/เตะ "moved too quickly"](server-tech/moved-too-quickly.md) · 10 บรรทัด
+- [เซิร์ฟแล็ก (TPS ตก)](server-tech/tps-low.md) · 4 บรรทัด
+- [ล็อกเวอร์ชัน](server-tech/version-lock.md) · 1 บรรทัด
+
 ## ตัวจำลอง (`sim/`)
 
 - [4. ข้อจำกัด (ต้องรู้ก่อนใช้ตัดสินใจ)](sim/limitations.md) · 4 บรรทัด
@@ -439,6 +462,14 @@
 - [หมู่บ้าน](structures/village.md) · 7 บรรทัด
 - [กระท่อมแม่มด](structures/witch-hut.md) · 7 บรรทัด
 - [คฤหาสน์ป่า](structures/woodland-mansion.md) · 7 บรรทัด
+
+## team (`team/`)
+
+- [แบ่งอาหาร](team/food-share.md) · 6 บรรทัด
+- [แย่งแร่สายเดียวกัน](team/ore-claim.md) · 4 บรรทัด
+- [PvP ระหว่างบอต (กฎแล็บ jing)](team/pvp-bots.md) · 4 บรรทัด
+- [เพื่อนตาย → รับบทแทน](team/role-swap.md) · 6 บรรทัด
+- [นอนพร้อมกัน](team/team-sleep.md) · 4 บรรทัด
 
 ## test-commands (`test-commands/`)
 

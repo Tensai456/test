@@ -15,7 +15,8 @@ export function findKb(query, { group, limit = 5 } = {}) {
     .filter((i) => !group || i.group === group)
     .map((i) => {
       const hay = `${i.path} ${i.title} ${i.keywords.join(' ')}`.toLowerCase();
-      const score = terms.reduce((s, t) => s + (i.path.toLowerCase().includes(t) ? 3 : 0) + (hay.includes(t) ? 1 : 0), 0);
+      const base = i.path.toLowerCase().split('/').pop().replace(/\.md$/, '');
+      const score = terms.reduce((s, t) => s + (base === t ? 2 : 0) + (i.path.toLowerCase().includes(t) ? 3 : 0) + (hay.includes(t) ? 1 : 0), 0);   // ชื่อไฟล์ตรงเป๊ะ = ไฟล์หลักของหัวข้อ
       return { ...i, score };
     })
     .filter((i) => i.score > 0)

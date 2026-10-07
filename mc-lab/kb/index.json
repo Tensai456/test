@@ -2259,6 +2259,83 @@
   "lines": 3
  },
  {
+  "path": "combat-events/raid-bell.md",
+  "title": "ระฆังหมู่บ้าน",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "combat",
+   "events",
+   "raid",
+   "bell"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "combat-events/evoker-vex.md",
+  "title": "evoker และ vex",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "evoker",
+   "vex",
+   "combat",
+   "events"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-events/ravager-door.md",
+  "title": "ravager",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "ravager",
+   "combat",
+   "events",
+   "door"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-events/charged-creeper.md",
+  "title": "ครีปเปอร์ชาร์จ",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "combat",
+   "events",
+   "charged",
+   "creeper"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-events/dragon-breath.md",
+  "title": "ลมหายใจมังกร",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "combat",
+   "events",
+   "dragon",
+   "breath"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-events/traps.md",
+  "title": "กับดักโครงสร้าง",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "combat",
+   "events",
+   "traps"
+  ],
+  "lines": 3
+ },
+ {
   "path": "crafting/grid-rule.md",
   "title": "กฎช่อง 2x2 vs 3x3",
   "group": "crafting",
@@ -3034,6 +3111,44 @@
   "lines": 6
  },
  {
+  "path": "gear-inventory/tool-breaking.md",
+  "title": "เครื่องมือใกล้พัง",
+  "group": "gear-inventory",
+  "source": "wiki/gear-inventory.md",
+  "keywords": [
+   "gear",
+   "inventory",
+   "tool",
+   "breaking"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "gear-inventory/armor-breaking.md",
+  "title": "เกราะใกล้พัง",
+  "group": "gear-inventory",
+  "source": "wiki/gear-inventory.md",
+  "keywords": [
+   "gear",
+   "inventory",
+   "armor",
+   "breaking"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "gear-inventory/inventory-full.md",
+  "title": "กระเป๋าเต็ม",
+  "group": "gear-inventory",
+  "source": "wiki/gear-inventory.md",
+  "keywords": [
+   "gear",
+   "inventory",
+   "full"
+  ],
+  "lines": 9
+ },
+ {
   "path": "health/health.md",
   "title": "เลือดและการฟื้นเลือดธรรมชาติ",
   "group": "health",
@@ -3515,6 +3630,72 @@
   "lines": 6
  },
  {
+  "path": "server-tech/moved-too-quickly.md",
+  "title": "โดนดึงกลับ/เตะ \"moved too quickly\"",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "moved",
+   "too",
+   "quickly",
+   "server",
+   "tech"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "server-tech/chunk-unloaded.md",
+  "title": "ชังก์ยังไม่โหลด",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "server",
+   "tech",
+   "chunk",
+   "unloaded"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "server-tech/tps-low.md",
+  "title": "เซิร์ฟแล็ก (TPS ตก)",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "tps",
+   "server",
+   "tech",
+   "low"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "server-tech/high-ping.md",
+  "title": "ping สูง",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "ping",
+   "server",
+   "tech",
+   "high"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "server-tech/version-lock.md",
+  "title": "ล็อกเวอร์ชัน",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "server",
+   "tech",
+   "version",
+   "lock"
+  ],
+  "lines": 1
+ },
+ {
   "path": "structures/village.md",
   "title": "หมู่บ้าน",
   "group": "structures",
@@ -3771,6 +3952,66 @@
    "unverified"
   ],
   "lines": 6
+ },
+ {
+  "path": "team/food-share.md",
+  "title": "แบ่งอาหาร",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "team",
+   "food",
+   "share"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "team/role-swap.md",
+  "title": "เพื่อนตาย → รับบทแทน",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "team",
+   "role",
+   "swap"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "team/ore-claim.md",
+  "title": "แย่งแร่สายเดียวกัน",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "team",
+   "ore",
+   "claim"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "team/team-sleep.md",
+  "title": "นอนพร้อมกัน",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "team",
+   "sleep"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "team/pvp-bots.md",
+  "title": "PvP ระหว่างบอต (กฎแล็บ jing)",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "pvp",
+   "jing",
+   "team",
+   "bots"
+  ],
+  "lines": 4
  },
  {
   "path": "test-commands/summon.md",
