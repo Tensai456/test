@@ -449,15 +449,15 @@
 
 - [เรือ แพ และเรือบรรทุกหีบ](travel/boats.md) · 10 บรรทัด
 - [อูฐ](travel/camel.md) · 8 บรรทัด
-- [ลา ล่อ ลามะ](travel/donkey-mule-llama.md) · 3 บรรทัด
-- [แฮปปี้แกสต์](travel/happy-ghast.md) · 5 บรรทัด
+- [ลา ล่อ ลามะ](travel/donkey-mule-llama.md) · 10 บรรทัด
+- [แฮปปี้แกสต์](travel/happy-ghast.md) · 8 บรรทัด
 - [ม้า (สถิติ ทามม์ อุปกรณ์)](travel/horse.md) · 11 บรรทัด
-- [รถรางและราง](travel/minecart.md) · 8 บรรทัด
+- [รถรางและราง](travel/minecart.md) · 10 บรรทัด
 - [ทางด่วน Nether](travel/nether-highway.md) · 5 บรรทัด
 - [หมู + carrot on a stick](travel/pig.md) · 8 บรรทัด
 - [เลือกพาหนะ (สรุปเกณฑ์แล็บ)](travel/selection.md) · 9 บรรทัด
-- [สไตรเดอร์บนลาวา](travel/strider.md) · 8 บรรทัด
-- [ยังไม่ยืนยัน](travel/unverified.md) · 6 บรรทัด
+- [สไตรเดอร์บนลาวา](travel/strider.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](travel/unverified.md) · 4 บรรทัด
 - [เดิน วิ่ง และค่า hunger](travel/walking-hunger.md) · 8 บรรทัด
 
 ## trial-chambers (`trial-chambers/`)
