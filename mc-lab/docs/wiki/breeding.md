@@ -70,7 +70,7 @@
 | Raw Beef | 3 | 1.8 | W/Raw_Beef |
 | Raw Chicken | 2 | 1.2 (30% ติด Hunger 30 วิ) | W/Raw_Chicken |
 | Raw Mutton | 2 | 1.2 | W/Raw_Mutton |
-| Raw Porkchop | 3 | snippet บอก 0.6 แต่ตาราง lab = 1.8 → [ไม่แน่ใจ] | W/Raw_Porkchop |
+| Raw Porkchop | 3 | 1.8 (ไม่ขัดกัน: 0.6 = ตัวคูณ saturation · 1.8 = 3 × 0.6 = ค่าจริง ตรง minecraft-data) | W/Raw_Porkchop |
 | เวลากิน | 32 tick (1.6 วิ), stack 64; Suspicious Stew กินได้แม้หิวเต็ม | W/Food, W/Suspicious_Stew |
 
 บอตควร: ย่างก่อนกิน (เนื้อสุกให้ hunger มากกว่าดิบ ~2.7 เท่าสำหรับ steak/porkchop); กิน stew แล้วทิ้งชามไว้ใช้ต่อ (ชามไม่หายตาม W/Beetroot_Soup).
@@ -178,7 +178,6 @@
 ตัดสินผล: เกณฑ์แล็บ — ถ้าป้อนอาหารเดิมแล้วไม่เข้า love mode ให้บันทึกชนิดตัวแปรเป็นข้อมูลทดสอบ.
 
 ## unverified · ยังไม่ยืนยัน
-- Raw Porkchop saturation: snippet บอก 0.6 ขัดกับตาราง lab 1.8 (ยึด 1.8 แต่ยังไม่ยืนยัน)
 - Rabbit Stew saturation (lab ตาราง 12; snippet ได้เฉพาะ hunger 10)
 - ผลของ suspicious stew จาก cornflower, torchflower, wither rose ฯลฯ ไม่ครบใน snippet
 - ดรอปตอนไฟไหม้ของกระต่าย/strider และดรอปของ strider

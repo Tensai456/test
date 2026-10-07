@@ -110,7 +110,7 @@
 - [hoglin และ strider](breeding/nether-animals.md) · 10 บรรทัด
 - [สิ่งใหม่ใน 26.x ที่เกี่ยวกับการผสม](breeding/new-26x.md) · 9 บรรทัด
 - [แกะ ขน และสีลูก](breeding/sheep-wool.md) · 9 บรรทัด
-- [ยังไม่ยืนยัน](breeding/unverified.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](breeding/unverified.md) · 8 บรรทัด
 
 ## brewing (`brewing/`)
 
