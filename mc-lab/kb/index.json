@@ -1686,6 +1686,125 @@
   "lines": 6
  },
  {
+  "path": "version-26x/version-timeline.md",
+  "title": "ไทม์ไลน์และเลขเวอร์ชัน",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "timeline"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "version-26x/v26-1-overview.md",
+  "title": "ภาพรวม 26.1",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "v26",
+   "overview"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "version-26x/v26-2-overview.md",
+  "title": "ภาพรวม 26.2 Chaos Cubed",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "chaos",
+   "cubed",
+   "version",
+   "v26",
+   "overview"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "version-26x/spear.md",
+  "title": "หอก (1.21.11)",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "spear"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "version-26x/mobs-1-21-11.md",
+  "title": "มอบใหม่ 1.21.11",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "mobs"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "version-26x/items-armor.md",
+  "title": "ไอเทมและเกราะ",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "items",
+   "armor"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "version-26x/copper-age-1-21-9.md",
+  "title": "1.21.9 Copper Age",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "copper",
+   "age",
+   "version"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "version-26x/sulfur-cube.md",
+  "title": "sulfur cube (26.2)",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "sulfur",
+   "cube",
+   "version"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "version-26x/game-rules-tech.md",
+  "title": "กฎเกม/เทคนิค",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "game",
+   "rules",
+   "tech"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "version-26x/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "unverified"
+  ],
+  "lines": 8
+ },
+ {
   "path": "mobs/_rules.md",
   "title": "0. กฎแล็บ (บังคับ)",
   "group": "mobs",

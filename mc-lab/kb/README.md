@@ -222,6 +222,19 @@
 - [2. ผล PvP (n=400 สลับฝั่ง, ping 10–50, เกราะเหล็กทั้งคู่)](sim/pvp-results.md) · 22 บรรทัด
 - [3. ผลเอาชีวิตรอด (n=300, Normal)](sim/survival-results.md) · 20 บรรทัด
 
+## version-26x (`version-26x/`)
+
+- [1.21.9 Copper Age](version-26x/copper-age-1-21-9.md) · 8 บรรทัด
+- [กฎเกม/เทคนิค](version-26x/game-rules-tech.md) · 4 บรรทัด
+- [ไอเทมและเกราะ](version-26x/items-armor.md) · 8 บรรทัด
+- [มอบใหม่ 1.21.11](version-26x/mobs-1-21-11.md) · 9 บรรทัด
+- [หอก (1.21.11)](version-26x/spear.md) · 15 บรรทัด
+- [sulfur cube (26.2)](version-26x/sulfur-cube.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](version-26x/unverified.md) · 8 บรรทัด
+- [ภาพรวม 26.1](version-26x/v26-1-overview.md) · 11 บรรทัด
+- [ภาพรวม 26.2 Chaos Cubed](version-26x/v26-2-overview.md) · 10 บรรทัด
+- [ไทม์ไลน์และเลขเวอร์ชัน](version-26x/version-timeline.md) · 11 บรรทัด
+
 ## อาวุธ (`weapons/`)
 
 - [5. ข้อสังเกตสำหรับบอต](weapons/bot-notes.md) · 5 บรรทัด
