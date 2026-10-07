@@ -9,7 +9,7 @@
 | lapis สูงสุดต่อไอเท็ม | 3 | W/Enchanting_Table |
 | สูตรฐาน | xpBase = 1 + randInt(7) + ⌊min(15,ชั้น)/2⌋ + randInt(min(15,ชั้น)) | W/Enchanting_table_mechanics |
 | ช่องบน/กลาง/ล่าง | ⌊max(1,base/3)⌋ / ⌊2·base/3⌋+1 / max(base, 2·ชั้น) | W/Enchanting_table_mechanics |
-| ช่อง 1 และ 2 จ่ายกี่เลเวล/lapis | [ไม่แน่ใจ] (สมมติ 1 และ 2 ตามลำดับ ไม่ได้ยืนยันใน snippet) | - |
+| ช่อง 1 และ 2 จ่ายกี่เลเวล/lapis | ช่อง 1 = 1 เลเวล + 1 lapis · ช่อง 2 = 2 เลเวล + 2 lapis · ช่อง 3 = 3 + 3 (เลเวลที่จ่าย = จำนวน lapis; ต้องมี XP ≥ เลเวลที่ช่องนั้นแสดง) | W/Enchanting_Table |
 
 บอตควร: สต็อก lapis ≥3 ต่อครั้ง และ XP ≥30 เลเวลก่อนเลือกช่องที่ 3
 ตัดสินผล: lapis <3 หรือ XP <30 → ไม่เสริม; รอเก็บทรัพยากร

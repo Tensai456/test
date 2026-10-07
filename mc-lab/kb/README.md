@@ -123,13 +123,13 @@
 
 ## enchanting (`enchanting/`)
 
-- [ทั่ง การรวม และ Too Expensive](enchanting/anvil.md) · 11 บรรทัด
+- [ทั่ง การรวม และ Too Expensive](enchanting/anvil.md) · 14 บรรทัด
 - [ค่า XP และ Lapis](enchanting/costs.md) · 10 บรรทัด
 - [เอนชานต์ที่ใช้ร่วมกันไม่ได้](enchanting/exclusive.md) · 12 บรรทัด
 - [หินลับ](enchanting/grindstone.md) · 9 บรรทัด
 - [วิธีเลือกข้อเสนอ](enchanting/offers.md) · 9 บรรทัด
 - [ชุดแนะนำต่อไอเท็ม](enchanting/sets.md) · 14 บรรทัด
-- [โต๊ะตีเหล็ก](enchanting/smithing.md) · 4 บรรทัด
+- [โต๊ะตีเหล็ก](enchanting/smithing.md) · 8 บรรทัด
 - [โต๊ะเสริมพลัง + ชั้นหนังสือ](enchanting/table-setup.md) · 10 บรรทัด
 - [เอนชานต์ Treasure และแหล่งที่ได้](enchanting/treasure.md) · 11 บรรทัด
 - [ยังไม่ยืนยัน](enchanting/unverified.md) · 7 บรรทัด
@@ -477,17 +477,17 @@
 
 ## villagers (`villagers/`)
 
-- [เพาะพันธุ์ชาวบ้าน](villagers/breeding.md) · 8 บรรทัด
-- [แหล่งมรกต](villagers/emerald-sources.md) · 5 บรรทัด
-- [ไอรอนโกเลม](villagers/iron-golem.md) · 7 บรรทัด
+- [เพาะพันธุ์ชาวบ้าน](villagers/breeding.md) · 9 บรรทัด
+- [แหล่งมรกต](villagers/emerald-sources.md) · 9 บรรทัด
+- [ไอรอนโกเลม](villagers/iron-golem.md) · 10 บรรทัด
 - [บรรณารักษ์ / Mending](villagers/librarian-mending.md) · 7 บรรทัด
 - [อาชีพและ workstation](villagers/professions.md) · 21 บรรทัด
 - [เรด / Bad Omen](villagers/raid.md) · 7 บรรทัด
-- [เติมสต็อก/ส่วนลด/ปลุกซอมบี้](villagers/restock-discount.md) · 9 บรรทัด
+- [เติมสต็อก/ส่วนลด/ปลุกซอมบี้](villagers/restock-discount.md) · 10 บรรทัด
 - [ช่างเกราะ/เครื่องมือ/อาวุธ](villagers/smiths.md) · 10 บรรทัด
 - [ระดับการเทรด](villagers/trading-levels.md) · 13 บรรทัด
-- [ยังไม่ยืนยัน](villagers/unverified.md) · 4 บรรทัด
-- [ซอมบี้บุกหมู่บ้าน](villagers/zombie-siege.md) · 7 บรรทัด
+- [ยังไม่ยืนยัน](villagers/unverified.md) · 5 บรรทัด
+- [ซอมบี้บุกหมู่บ้าน](villagers/zombie-siege.md) · 9 บรรทัด
 
 ## อาวุธ (`weapons/`)
 

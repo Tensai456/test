@@ -2355,7 +2355,7 @@
    "enchanting",
    "anvil"
   ],
-  "lines": 11
+  "lines": 14
  },
  {
   "path": "enchanting/grindstone.md",
@@ -2377,7 +2377,7 @@
    "enchanting",
    "smithing"
   ],
-  "lines": 4
+  "lines": 8
  },
  {
   "path": "enchanting/exclusive.md",
@@ -4148,7 +4148,7 @@
    "emerald",
    "sources"
   ],
-  "lines": 5
+  "lines": 9
  },
  {
   "path": "villagers/restock-discount.md",
@@ -4160,7 +4160,7 @@
    "restock",
    "discount"
   ],
-  "lines": 9
+  "lines": 10
  },
  {
   "path": "villagers/breeding.md",
@@ -4171,7 +4171,7 @@
    "villagers",
    "breeding"
   ],
-  "lines": 8
+  "lines": 9
  },
  {
   "path": "villagers/iron-golem.md",
@@ -4183,7 +4183,7 @@
    "iron",
    "golem"
   ],
-  "lines": 7
+  "lines": 10
  },
  {
   "path": "villagers/zombie-siege.md",
@@ -4195,7 +4195,7 @@
    "zombie",
    "siege"
   ],
-  "lines": 7
+  "lines": 9
  },
  {
   "path": "villagers/raid.md",
@@ -4219,7 +4219,7 @@
    "villagers",
    "unverified"
   ],
-  "lines": 4
+  "lines": 5
  },
  {
   "path": "mobs/_rules.md",
