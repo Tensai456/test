@@ -3146,7 +3146,7 @@
    "basics",
    "doors"
   ],
-  "lines": 18
+  "lines": 17
  },
  {
   "path": "redstone-basics/switches.md",
@@ -3171,7 +3171,7 @@
    "basics",
    "plates"
   ],
-  "lines": 11
+  "lines": 12
  },
  {
   "path": "redstone-basics/tripwire.md",
@@ -3210,7 +3210,7 @@
    "basics",
    "pistons"
   ],
-  "lines": 14
+  "lines": 15
  },
  {
   "path": "redstone-basics/dispenser.md",
@@ -3259,7 +3259,7 @@
    "basics",
    "unverified"
   ],
-  "lines": 5
+  "lines": 6
  },
  {
   "path": "structures/village.md",

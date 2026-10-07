@@ -371,15 +371,15 @@
 
 - [วงจรง่าย ๆ ที่มีประโยชน์](redstone-basics/builds.md) · 11 บรรทัด
 - [dispenser / dropper](redstone-basics/dispenser.md) · 16 บรรทัด
-- [ประตูไม้ vs เหล็ก, trapdoor, fence gate](redstone-basics/doors.md) · 18 บรรทัด
+- [ประตูไม้ vs เหล็ก, trapdoor, fence gate](redstone-basics/doors.md) · 17 บรรทัด
 - [observer, hopper](redstone-basics/observer-hopper.md) · 12 บรรทัด
-- [piston / sticky piston](redstone-basics/pistons.md) · 14 บรรทัด
-- [แผ่นกด (mob ใดกดได้)](redstone-basics/plates.md) · 11 บรรทัด
+- [piston / sticky piston](redstone-basics/pistons.md) · 15 บรรทัด
+- [แผ่นกด (mob ใดกดได้)](redstone-basics/plates.md) · 12 บรรทัด
 - [ระยะสัญญาณ redstone](redstone-basics/signal-range.md) · 8 บรรทัด
 - [ปุ่ม คันโยก](redstone-basics/switches.md) · 14 บรรทัด
 - [TNT](redstone-basics/tnt.md) · 11 บรรทัด
 - [สายสะดุด](redstone-basics/tripwire.md) · 11 บรรทัด
-- [ยังไม่ยืนยัน](redstone-basics/unverified.md) · 5 บรรทัด
+- [ยังไม่ยืนยัน](redstone-basics/unverified.md) · 6 บรรทัด
 
 ## ตัวจำลอง (`sim/`)
 
