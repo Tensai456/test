@@ -4,6 +4,21 @@
 > สร้างโดย `node scripts/split_kb.mjs` (เอกสาร) + `node scripts/gen_catalog.cjs` (บล็อก) — **แก้ที่ docs/ แล้วรันใหม่ ห้ามแก้ kb/ ตรง**
 > ความน่าเชื่อถือ: minecraft-data > วิกิ > เกณฑ์แล็บ > ผลจำลอง
 
+## biomes (`biomes/`)
+
+- [ถ้ำ (dripstone/lush/deep dark), cherry grove, pale garden](biomes/caves-special.md) · 10 บรรทัด
+- [ทะเลทราย/เมซา](biomes/desert-badlands.md) · 10 บรรทัด
+- [จังเกิล](biomes/jungle.md) · 5 บรรทัด
+- [ภูเขา/ยอดเขา/ทุ่งหญ้าบนเขา](biomes/mountains-peaks.md) · 10 บรรทัด
+- [ทุ่งเห็ด](biomes/mushroom-fields.md) · 9 บรรทัด
+- [เนเธอร์](biomes/nether.md) · 12 บรรทัด
+- [ที่ราบ/ป่า (plains, forest, birch, dark forest)](biomes/plains-forest.md) · 10 บรรทัด
+- [ซาวันนา](biomes/savanna.md) · 5 บรรทัด
+- [หนองน้ำ/โกงกาง](biomes/swamp-mangrove.md) · 12 บรรทัด
+- [ไทกา/หิมะ (snowy taiga, grove, snowy slopes)](biomes/taiga-snowy.md) · 12 บรรทัด
+- [ยังไม่ยืนยัน](biomes/unverified.md) · 4 บรรทัด
+- [มหาสมุทร/แม่น้ำ/ชายหาด](biomes/water-shore.md) · 5 บรรทัด
+
 ## บล็อก/ไอเทม/อาหาร (จาก minecraft-data) (`blocks/`)
 
 - [เอฟเฟกต์ทั้งหมด 40 ชนิด](blocks/_effects.md) · 49 บรรทัด
@@ -21,6 +36,18 @@
 - [บล็อกขุดด้วยอีเต้อ (ต้องขั้น wooden ขึ้นไป) — 281 ชนิด](blocks/pickaxe-wooden.md) · 290 บรรทัด
 - [บล็อกขุดด้วยพลั่ว — 36 ชนิด](blocks/shovel.md) · 45 บรรทัด
 - [บล็อกขุดด้วยดาบ — 3 ชนิด](blocks/sword.md) · 12 บรรทัด
+
+## brewing (`brewing/`)
+
+- [ขวดน้ำ → Awkward → ยา](brewing/base-chain.md) · 9 บรรทัด
+- [ยาที่ควรพก](brewing/bot-loadout.md) · 13 บรรทัด
+- [แท่นต้มยาและเชื้อเพลิง](brewing/brewing-stand.md) · 10 บรรทัด
+- [Fermented spider eye](brewing/corruption.md) · 7 บรรทัด
+- [ระยะเวลายา (ดื่ม, Java)](brewing/durations.md) · 17 บรรทัด
+- [redstone / glowstone](brewing/modifiers.md) · 9 บรรทัด
+- [สูตรยาแต่ละชนิด (ส่วนผสม + Awkward)](brewing/recipes.md) · 17 บรรทัด
+- [Splash / Lingering / Tipped Arrow](brewing/splash-lingering-arrow.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](brewing/unverified.md) · 4 บรรทัด
 
 ## ตัวเลขกลาง (`core/`)
 
@@ -41,6 +68,59 @@
 - [ขนส่ง](crafting/transport.md) · 3 บรรทัด
 - [ยังไม่ยืนยัน](crafting/unverified.md) · 6 บรรทัด
 - [บล็อกใช้งาน](crafting/utility.md) · 19 บรรทัด
+
+## elytra (`elytra/`)
+
+- [การเปิดใช้งาน](elytra/activate.md) · 6 บรรทัด
+- [ต่อสู้ (mace)](elytra/combat.md) · 11 บรรทัด
+- [ความทนทานและซ่อม](elytra/durability.md) · 10 บรรทัด
+- [ความเร็ว/พิทช์](elytra/glide.md) · 8 บรรทัด
+- [ความเสียหายชนผนัง](elytra/kinetic.md) · 9 บรรทัด
+- [การลงจอดและ fall damage](elytra/landing.md) · 7 บรรทัด
+- [การได้มา](elytra/obtain.md) · 7 บรรทัด
+- [ความเสี่ยงของบอต](elytra/risks.md) · 9 บรรทัด
+- [จรวดดอกไม้ไฟ](elytra/rocket.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](elytra/unverified.md) · 5 บรรทัด
+
+## experience (`experience/`)
+
+- [XP เมื่อตาย](experience/death-loss.md) · 7 บรรทัด
+- [สูตรเลเวล](experience/level-formula.md) · 10 บรรทัด
+- [XP ถึงเลเวล 30](experience/lvl30.md) · 3 บรรทัด
+- [Mending](experience/mending.md) · 8 บรรทัด
+- [แหล่ง XP และปริมาณ](experience/sources.md) · 18 บรรทัด
+- [ยังไม่ยืนยัน](experience/unverified.md) · 5 บรรทัด
+- [ฟาร์ม XP เบื้องต้น](experience/xp-farms.md) · 9 บรรทัด
+- [ออร์บ XP](experience/xp-orbs.md) · 8 บรรทัด
+
+## farming (`farming/`)
+
+- [ไอเดียฟาร์มอัตโนมัติ (บอตทำได้)](farming/auto-farm-ideas.md) · 10 บรรทัด
+- [ไผ่และสาหร่ายทะเล](farming/bamboo-kelp.md) · 9 บรรทัด
+- [บีทรูท](farming/beetroot.md) · 8 บรรทัด
+- [ปุ๋ยกระดูก](farming/bone-meal.md) · 9 บรรทัด
+- [กระบองเพชร](farming/cactus.md) · 8 บรรทัด
+- [คอมโพสเตอร์](farming/composter.md) · 9 บรรทัด
+- [พืชหลัก (ข้าวสาลี/แครอท/มันฝรั่ง)](farming/crops-wheat.md) · 11 บรรทัด
+- [น้ำและการเหยียบ farmland](farming/hydration-trampling.md) · 8 บรรทัด
+- [เห็ด](farming/mushroom.md) · 8 บรรทัด
+- [เนเธอร์วอร์ต](farming/nether-wart.md) · 10 บรรทัด
+- [ฟักทอง/แตงโม](farming/stem-crops.md) · 9 บรรทัด
+- [อ้อย](farming/sugar-cane.md) · 9 บรรทัด
+- [เบอร์รี่หวาน/โกโก้](farming/sweet-berries-cocoa.md) · 10 บรรทัด
+- [ต้นไม้/ต้นกล้า](farming/trees.md) · 10 บรรทัด
+- [ยังไม่ยืนยัน](farming/unverified.md) · 5 บรรทัด
+
+## fishing (`fishing/`)
+
+- [การตรวจจับการกัดสำหรับบอต](fishing/bite-detection.md) · 8 บรรทัด
+- [ความทนทานและการเกี่ยวเอนทิตี](fishing/durability-hooks.md) · 10 บรรทัด
+- [Lure, Luck of the Sea, ฝน](fishing/enchants-rain.md) · 10 บรรทัด
+- [ปลาเป็นอาหาร](fishing/food.md) · 10 บรรทัด
+- [ตารางของที่ตกได้](fishing/loot-table.md) · 11 บรรทัด
+- [เงื่อนไขน้ำเปิดสำหรับสมบัติ](fishing/open-water.md) · 8 บรรทัด
+- [ยังไม่ยืนยัน](fishing/unverified.md) · 6 บรรทัด
+- [เวลารอและการกัดเบ็ด](fishing/wait-and-bite.md) · 10 บรรทัด
 
 ## อันตรายนอกการต่อสู้ (`hazards/`)
 
@@ -133,6 +213,21 @@
 - [8. ยังไม่ได้ verify](movement/unverified.md) · 2 บรรทัด
 - [7. เทคนิคจาก YouTube — **ยังว่าง (รอข้อมูล)**](movement/youtube-pending.md) · 2 บรรทัด
 
+## navigation (`navigation/`)
+
+- [ชังก์และระยะมองเห็น](navigation/chunks.md) · 7 บรรทัด
+- [นาฬิกา ดวงอาทิตย์ และดวงจันทร์](navigation/clock-sun.md) · 12 บรรทัด
+- [เข็มทิศ](navigation/compass.md) · 6 บรรทัด
+- [ระบบพิกัด](navigation/coordinates.md) · 11 บรรทัด
+- [ขีดจำกัดความสูง](navigation/height-limits.md) · 8 บรรทัด
+- [เข็มทิศ Lodestone](navigation/lodestone.md) · 6 บรรทัด
+- [แผนที่และ explorer map](navigation/maps.md) · 12 บรรทัด
+- [เดินทางผ่าน Nether 1:8](navigation/nether-travel.md) · 6 บรรทัด
+- [เข็มทิศกู้คืน](navigation/recovery-compass.md) · 6 บรรทัด
+- [กลับบ้านหลังกลางคืน/ตาย](navigation/return-home.md) · 8 บรรทัด
+- [ยังไม่ยืนยัน](navigation/unverified.md) · 5 บรรทัด
+- [แผนจุดอ้างอิงสำหรับทีมบอต](navigation/waypoints.md) · 11 บรรทัด
+
 ## นรก / End / บอส (`nether-end/`)
 
 - [Entry D1: ไปถึง End](nether-end/d1-reach-end.md) · 6 บรรทัด
@@ -215,6 +310,20 @@
 - [11. ผลรวม [ไม่แน่ใจ] / ข้อสังเกตข้อมูล](progression/unverified.md) · 4 บรรทัด
 - [2. ไม้ → crafting table → เครื่องมือ (จำนวนสูตร)](progression/wood-tools-recipes.md) · 13 บรรทัด
 
+## redstone-basics (`redstone-basics/`)
+
+- [วงจรง่าย ๆ ที่มีประโยชน์](redstone-basics/builds.md) · 6 บรรทัด
+- [dispenser / dropper](redstone-basics/dispenser.md) · 9 บรรทัด
+- [ประตูไม้ vs เหล็ก, trapdoor, fence gate](redstone-basics/doors.md) · 7 บรรทัด
+- [observer, hopper](redstone-basics/observer-hopper.md) · 7 บรรทัด
+- [piston / sticky piston](redstone-basics/pistons.md) · 7 บรรทัด
+- [แผ่นกด (mob ใดกดได้)](redstone-basics/plates.md) · 6 บรรทัด
+- [ระยะสัญญาณ redstone](redstone-basics/signal-range.md) · 8 บรรทัด
+- [ปุ่ม คันโยก](redstone-basics/switches.md) · 9 บรรทัด
+- [TNT](redstone-basics/tnt.md) · 6 บรรทัด
+- [สายสะดุด](redstone-basics/tripwire.md) · 6 บรรทัด
+- [ยังไม่ยืนยัน](redstone-basics/unverified.md) · 5 บรรทัด
+
 ## ตัวจำลอง (`sim/`)
 
 - [4. ข้อจำกัด (ต้องรู้ก่อนใช้ตัดสินใจ)](sim/limitations.md) · 4 บรรทัด
@@ -246,6 +355,60 @@
 - [หมู่บ้าน](structures/village.md) · 7 บรรทัด
 - [กระท่อมแม่มด](structures/witch-hut.md) · 7 บรรทัด
 - [คฤหาสน์ป่า](structures/woodland-mansion.md) · 7 บรรทัด
+
+## test-commands (`test-commands/`)
+
+- [แอตทริบิวต์](test-commands/attribute.md) · 4 บรรทัด
+- [ทำดาเมจ](test-commands/damage.md) · 4 บรรทัด
+- [ความยาก / kill / clear](test-commands/difficulty-kill-clear.md) · 4 บรรทัด
+- [เอฟเฟกต์](test-commands/effect.md) · 6 บรรทัด
+- [กฎเกม (เปลี่ยนชื่อแล้ว!)](test-commands/gamerule.md) · 6 บรรทัด
+- [ให้ไอเทม (item components)](test-commands/give.md) · 6 บรรทัด
+- [หาโครงสร้าง/ไบโอม](test-commands/locate.md) · 3 บรรทัด
+- [เรียกม็อบ (+NBT)](test-commands/summon.md) · 6 บรรทัด
+- [เวลา](test-commands/time.md) · 4 บรรทัด
+- [เทเลพอร์ต (/tp = /teleport)](test-commands/tp.md) · 8 บรรทัด
+- [ยังไม่ยืนยัน](test-commands/unverified.md) · 12 บรรทัด
+- [อากาศ](test-commands/weather.md) · 2 บรรทัด
+
+## time-weather (`time-weather/`)
+
+- [วัฏจักรกลางวัน-กลางคืน](time-weather/daylight-cycle.md) · 10 บรรทัด
+- [ระดับแสง](time-weather/light-levels.md) · 12 บรรทัด
+- [ฟ้าผ่าและกับดัก](time-weather/lightning.md) · 10 บรรทัด
+- [ข้างขึ้นข้างแรมและสไลม์](time-weather/moon-slime.md) · 8 บรรทัด
+- [อาการนอนไม่หลับ](time-weather/phantom.md) · 9 บรรทัด
+- [การนอนและข้ามคืน](time-weather/sleeping.md) · 12 บรรทัด
+- [จุดเกิดใหม่ (เตียง/anchor)](time-weather/spawn-point.md) · 10 บรรทัด
+- [ไหม้แดด](time-weather/sun-burn.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](time-weather/unverified.md) · 5 บรรทัด
+- [ฝน/พายุ](time-weather/weather.md) · 12 บรรทัด
+
+## travel (`travel/`)
+
+- [เรือ แพ และเรือบรรทุกหีบ](travel/boats.md) · 10 บรรทัด
+- [อูฐ](travel/camel.md) · 8 บรรทัด
+- [ลา ล่อ ลามะ](travel/donkey-mule-llama.md) · 3 บรรทัด
+- [แฮปปี้แกสต์](travel/happy-ghast.md) · 5 บรรทัด
+- [ม้า (สถิติ ทามม์ อุปกรณ์)](travel/horse.md) · 11 บรรทัด
+- [รถรางและราง](travel/minecart.md) · 8 บรรทัด
+- [ทางด่วน Nether](travel/nether-highway.md) · 5 บรรทัด
+- [หมู + carrot on a stick](travel/pig.md) · 8 บรรทัด
+- [เลือกพาหนะ (สรุปเกณฑ์แล็บ)](travel/selection.md) · 9 บรรทัด
+- [สไตรเดอร์บนลาวา](travel/strider.md) · 8 บรรทัด
+- [ยังไม่ยืนยัน](travel/unverified.md) · 6 บรรทัด
+- [เดิน วิ่ง และค่า hunger](travel/walking-hunger.md) · 8 บรรทัด
+
+## trial-chambers (`trial-chambers/`)
+
+- [แผนบอตเคลียร์](trial-chambers/bot-plan.md) · 9 บรรทัด
+- [Breeze และกลยุทธ์](trial-chambers/breeze.md) · 11 บรรทัด
+- [การเกิดโครงสร้าง](trial-chambers/generation.md) · 9 บรรทัด
+- [กุญแจและ Vault](trial-chambers/keys-vault.md) · 11 บรรทัด
+- [ชุดมอบ](trial-chambers/mobs.md) · 7 บรรทัด
+- [Trial Omen / Ominous Trial](trial-chambers/ominous.md) · 11 บรรทัด
+- [กลไก Trial Spawner](trial-chambers/trial-spawner.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](trial-chambers/unverified.md) · 4 บรรทัด
 
 ## version-26x (`version-26x/`)
 

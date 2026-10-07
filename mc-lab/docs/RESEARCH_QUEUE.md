@@ -17,11 +17,11 @@
 | 10 | `enchanting` | โต๊ะเอนชานต์, ชั้นหนังสือ, ลาพิส, ทั่ง, หินลับ, เอนชานต์ที่ควรได้ | 🔄 |
 | 11 | `brewing` | แท่นปรุงยา, สูตรยาทั้งหมด, ระยะเวลา, ยาที่บอตควรมี | 🔄 |
 | 12 | `navigation` | พิกัด, เข็มทิศ, แผนที่, lodestone, recovery compass, หาทางกลับ | 🔄 |
-| 13 | `experience` | XP: แหล่งได้, เลเวล, ตายแล้วเสีย | 🔄 |
+| 13 | `experience` | XP: แหล่งได้, เลเวล, ตายแล้วเสีย | ✅ |
 | 14 | `fishing` | ตกปลา: กลไก, ของที่ได้, Luck of the Sea/Lure | 🔄 |
 | 15 | `travel` | เรือ, รถราง, ม้า/ล่อ/อูฐ, สไตรเดอร์ ความเร็ว/ความเสี่ยง | 🔄 |
 | 16 | `elytra` | เอลิทรา, พลุ, การร่อน, ความเสี่ยงชนกำแพง | 🔄 |
 | 17 | `test-commands` | คำสั่งที่ใช้เทส (/summon /tp /gamerule /effect /give /locate /time) | 🔄 |
 | 18 | `redstone-basics` | ประตู, แผ่นกด, คันโยก, ลูกสูบ — เท่าที่บอตต้องใช้/ระวัง | 🔄 |
-| 19 | `trial-chambers` | trial chamber: spawner, กุญแจ, vault, ominous | 🔄 |
+| 19 | `trial-chambers` | trial chamber: spawner, กุญแจ, vault, ominous | ✅ |
 | 20 | `beacon-conduit` | บีคอน, คอนดูอิท, ของปลายเกม | 🔄 |
