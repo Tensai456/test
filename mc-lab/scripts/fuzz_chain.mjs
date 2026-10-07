@@ -1,5 +1,5 @@
 // fuzz_chain.mjs — ดัน chain/chainDeep ทีละ 200k ขนานทุกคอร์ (แต่ละโปรเซสคนละรอบ) จนครบเป้า · หยุดทันทีที่เจอช่องโหว่
-// node scripts/fuzz_chain.mjs <event> <จากรอบ> <ถึงรอบ> [N=200000] → docs/fuzz_out/<event>_r<round>.md (เก็บเฉพาะรอบที่เจอ) + docs/FUZZ_LOG.md
+// คิว: ทุกคอร์ทำงานตลอด · node scripts/fuzz_chain.mjs <event> <จากรอบ> <ถึงรอบ> [N=200000] → docs/fuzz_out/<event>_r<round>.md (เก็บเฉพาะรอบที่เจอ) + docs/FUZZ_LOG.md
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -18,9 +18,14 @@ const one = (round) => new Promise((resolve) => {
   p.on('close', () => { const bad = !/ผิด 0 /.test(txt); if (bad) holes.push(round); else fs.rmSync(path.join(ROOT, out), { force: true }); resolve(); });
 });
 const t0 = Date.now();
-while (rounds.length && !holes.length) {
-  await Promise.all(rounds.splice(0, W).map(one));
-  done = to - from + 1 - rounds.length;
-  console.log(`${ev}: ${done} รอบ × ${N.toLocaleString()} = ${(done * N).toLocaleString()} · ${((Date.now() - t0) / 1000).toFixed(0)}s${holes.length ? ` · ❌ ช่องโหว่ รอบ ${holes.join(',')}` : ''}`);
-}
+// คิวงาน: คอร์ไหนว่างหยิบรอบถัดไปทันที (ไม่รอทั้งชุด) → ใช้ครบทุกคอร์ตลอด
+const total = rounds.length;
+const worker = async () => {
+  while (rounds.length && !holes.length) {
+    await one(rounds.shift());
+    done++;
+    if (done % W === 0 || holes.length || !rounds.length) console.log(`${ev}: ${done} รอบ × ${N.toLocaleString()} = ${(done * N).toLocaleString()} / ${(total * N).toLocaleString()} · ${((Date.now() - t0) / 1000).toFixed(0)}s${holes.length ? ` · ❌ ช่องโหว่ รอบ ${holes.join(',')}` : ''}`);
+  }
+};
+await Promise.all(Array.from({ length: W }, worker));
 fs.appendFileSync(path.join(ROOT, 'docs', 'FUZZ_LOG.md'), `\n- ${new Date().toISOString().slice(0, 16)} · ${ev} รอบ ${from}–${from + done - 1} × ${N.toLocaleString()} = ${(done * N).toLocaleString()} · ${holes.length ? `❌ รอบ ${holes.join(',')} (docs/fuzz_out/${ev}_r*.md)` : '✅ 0 ช่องโหว่'}\n`);
