@@ -44,18 +44,18 @@
 
 ## biomes (`biomes/`)
 
-- [ถ้ำ (dripstone/lush/deep dark), cherry grove, pale garden](biomes/caves-special.md) · 10 บรรทัด
+- [ถ้ำ (dripstone/lush/deep dark), cherry grove, pale garden](biomes/caves-special.md) · 13 บรรทัด
 - [ทะเลทราย/เมซา](biomes/desert-badlands.md) · 10 บรรทัด
-- [จังเกิล](biomes/jungle.md) · 5 บรรทัด
-- [ภูเขา/ยอดเขา/ทุ่งหญ้าบนเขา](biomes/mountains-peaks.md) · 10 บรรทัด
+- [จังเกิล](biomes/jungle.md) · 12 บรรทัด
+- [ภูเขา/ยอดเขา/ทุ่งหญ้าบนเขา](biomes/mountains-peaks.md) · 12 บรรทัด
 - [ทุ่งเห็ด](biomes/mushroom-fields.md) · 9 บรรทัด
-- [เนเธอร์](biomes/nether.md) · 12 บรรทัด
-- [ที่ราบ/ป่า (plains, forest, birch, dark forest)](biomes/plains-forest.md) · 10 บรรทัด
-- [ซาวันนา](biomes/savanna.md) · 5 บรรทัด
-- [หนองน้ำ/โกงกาง](biomes/swamp-mangrove.md) · 12 บรรทัด
-- [ไทกา/หิมะ (snowy taiga, grove, snowy slopes)](biomes/taiga-snowy.md) · 12 บรรทัด
-- [ยังไม่ยืนยัน](biomes/unverified.md) · 4 บรรทัด
-- [มหาสมุทร/แม่น้ำ/ชายหาด](biomes/water-shore.md) · 5 บรรทัด
+- [เนเธอร์](biomes/nether.md) · 14 บรรทัด
+- [ที่ราบ/ป่า (plains, forest, birch, dark forest)](biomes/plains-forest.md) · 13 บรรทัด
+- [ซาวันนา](biomes/savanna.md) · 10 บรรทัด
+- [หนองน้ำ/โกงกาง](biomes/swamp-mangrove.md) · 14 บรรทัด
+- [ไทกา/หิมะ (snowy taiga, grove, snowy slopes)](biomes/taiga-snowy.md) · 15 บรรทัด
+- [ยังไม่ยืนยัน](biomes/unverified.md) · 5 บรรทัด
+- [มหาสมุทร/แม่น้ำ/ชายหาด](biomes/water-shore.md) · 13 บรรทัด
 
 ## บล็อก/ไอเทม/อาหาร (จาก minecraft-data) (`blocks/`)
 

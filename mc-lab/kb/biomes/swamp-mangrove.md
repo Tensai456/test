@@ -5,13 +5,15 @@
 
 | หัวข้อ | ข้อมูล | แหล่ง |
 |---|---|---|
-| Mangrove swamp | มี slime, frog, bogged เกิด; พื้นโคลน; ต้นโกงกางบางต้นมีรังผึ้ง | W/Mangrove_Swamp |
-| Frog | เกิดกลุ่ม 2-5 ใน swamp/mangrove | W/Mangrove_Swamp |
-| Bogged | เกิดทดแทนโครงกระดูก ~30%; Java กลุ่ม 4 ที่ light 0; ยิงลูกศรพิษ | W/Bogged |
+| Swamp | temp 0.8; lily pad, blue orchid (ที่นี่ที่เดียว), โอ๊คมีเถาวัลย์; slime, witch, frog เกิด | W/Swamp |
+| Swamp hut | เกิดเฉพาะในหนองน้ำ มี witch + แมวดำ; ในกระท่อมเกิดได้เฉพาะ witch | W/Swamp |
+| Slime ใน swamp | กลางคืน/พายุ Y 50-70 เท่านั้น; ถี่สุดตอนพระจันทร์เต็มดวง ไม่เกิดเลยตอนจันทร์ดับ; เป็นที่เดียวที่เจอ slime บนดิน (+mangrove) | W/Swamp, W/Slime |
+| Mangrove swamp | slime, frog, bogged; พื้นโคลน; โกงกางบางต้นมีรังผึ้ง | W/Mangrove_Swamp |
+| Frog | กลุ่ม 2-5 | W/Mangrove_Swamp |
+| Bogged | แทนโครงกระดูก ~30%; Java กลุ่ม 4 ที่ light 0; ลูกศรพิษ | W/Bogged |
 | Drowned | ไม่เกินใน swamp ตั้งแต่ Java 1.14 | W/Bogged |
-| Propagule | วางได้บนดิน/ตะไคร่/โคลน/ดินเหนียว | W/Mangrove_Propagule |
-- slime ใน swamp เงื่อนไขพระจันทร์/witch hut [ไม่แน่ใจ ไม่ได้ค้น]
+| Propagule | วางบนดิน/ตะไคร่/โคลน/ดินเหนียว | W/Mangrove_Propagule |
 - บ้าน 2/5 ดุลยพินิจ (bogged พิษ, พื้นโคลน)
 
-บอตควร: พกนมแก้พิษ [ไม่แน่ใจ]; สวมเกราะก่อนเข้า
+บอตควร: สวมเกราะก่อนเข้า; ระวัง witch รอบ swamp hut; นมแก้พิษ [ไม่แน่ใจ ไม่ได้ค้น]
 ตัดสินผล: เกณฑ์แล็บ ผ่านเมื่อบอตสู้ bogged ได้โดยไม่ตาย

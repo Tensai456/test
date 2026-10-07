@@ -8,7 +8,9 @@
 | Frozen Peaks | -0.7 หิมะ น้ำแข็งอัด | W/Frozen_Peaks |
 | Snowy Slopes | -0.3 | W/Snowy_Slopes |
 | Grove | -0.2 | W/Grove |
-- meadow, jagged/stony peaks, ไม้/อาหาร = [ไม่แน่ใจ]
+- Meadow: temp 0.5 (Java), ม็อบเฉพาะกระต่าย แกะ ลา(บางครั้ง); รังผึ้ง 100% ในต้นไม้ที่เกิด (W/Meadow)
+- Cherry Grove: temp 0.5 (Java); ต้นซากุระเกิดที่นี่ที่เดียว 5% มีรังผึ้ง 2-3 ตัว; หมู แกะ กระต่าย (W/Cherry_Grove)
+- stray เกิดใน frozen/jagged peaks (W/Stray); jagged/stony peaks รายละเอียดอื่น, ไม้/อาหาร = [ไม่แน่ใจ]
 - บ้าน 2/5 ดุลยพินิจ (ลาดชัน ตกจากที่สูง [ไม่แน่ใจ ไม่มีแหล่ง])
 
 บอตควร: ระวังตกหน้าผาและ powder snow

@@ -1797,7 +1797,7 @@
    "dark",
    "biomes"
   ],
-  "lines": 10
+  "lines": 13
  },
  {
   "path": "biomes/taiga-snowy.md",
@@ -1811,7 +1811,7 @@
    "slopes",
    "biomes"
   ],
-  "lines": 12
+  "lines": 15
  },
  {
   "path": "biomes/desert-badlands.md",
@@ -1834,7 +1834,7 @@
    "biomes",
    "jungle"
   ],
-  "lines": 5
+  "lines": 12
  },
  {
   "path": "biomes/savanna.md",
@@ -1845,7 +1845,7 @@
    "biomes",
    "savanna"
   ],
-  "lines": 5
+  "lines": 10
  },
  {
   "path": "biomes/swamp-mangrove.md",
@@ -1857,7 +1857,7 @@
    "swamp",
    "mangrove"
   ],
-  "lines": 12
+  "lines": 14
  },
  {
   "path": "biomes/mountains-peaks.md",
@@ -1869,7 +1869,7 @@
    "mountains",
    "peaks"
   ],
-  "lines": 10
+  "lines": 12
  },
  {
   "path": "biomes/water-shore.md",
@@ -1881,7 +1881,7 @@
    "water",
    "shore"
   ],
-  "lines": 5
+  "lines": 13
  },
  {
   "path": "biomes/mushroom-fields.md",
@@ -1913,7 +1913,7 @@
    "caves",
    "special"
   ],
-  "lines": 10
+  "lines": 13
  },
  {
   "path": "biomes/nether.md",
@@ -1924,7 +1924,7 @@
    "biomes",
    "nether"
   ],
-  "lines": 12
+  "lines": 14
  },
  {
   "path": "biomes/unverified.md",
@@ -1935,7 +1935,7 @@
    "biomes",
    "unverified"
   ],
-  "lines": 4
+  "lines": 5
  },
  {
   "path": "brewing/brewing-stand.md",

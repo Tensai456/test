@@ -10,8 +10,11 @@
 | Snowy Slopes | -0.3 | หิมะหลายชั้น แถบ powder snow | W/Snowy_Slopes |
 - powder snow เกิดตามธรรมชาติเฉพาะ grove, snowy slopes และห้อง trial chamber (W/Tutorial:Powder_snow_farming)
 - หิมะตกคลุมบล็อกตามอุณหภูมิ ขึ้นกับความสูง (W/Snow)
-- bogged โดน powder snow แล้วเสียหาย (W/Bogged); stray/ไม้/อาหารไบโอมนี้ [ไม่แน่ใจ]
-- บ้าน 3/5 ดุลยพินิจ: ไม้สปรูซมี แต่ powder snow ติดกับดักได้ [ไม่แน่ใจ ไม่มีแหล่ง]
+- bogged โดน powder snow แล้วเสียหาย (W/Bogged)
+- stray เกิดกลางคืน/พายุ ใน snowy plains, ice spikes, frozen ocean/river, snowy slopes, jagged peaks, frozen peaks แทน skeleton 80% (snowy plains/ice spikes); ยิงลูกศร slowness; ไม่แข็งใน powder snow (W/Stray)
+- รองเท้าหนัง (leather boots) ทำให้เดินบน powder snow ได้ไม่จม และปีนได้ (W/Powder_Snow, W/Leather_Boots)
+- ไม้/อาหารเฉพาะไบโอม [ไม่แน่ใจ]
+- บ้าน 3/5 ดุลยพินิจ (ไม่ใช่ข้อมูลวิกิ): powder snow ติดกับดักได้ถ้าไม่มีรองเท้าหนัง
 
-บอตควร: เลี่ยงเดินบน powder snow ถ้าไม่มีรองเท้าหนัง [ไม่แน่ใจ ต้องยืนยัน]; ดูหน้า W/Tutorial:Snowy_biome_survival
+บอตควร: สวมรองเท้าหนังก่อนเดินบน powder snow (W/Powder_Snow); ระวัง stray ยิง slowness (W/Stray)
 ตัดสินผล: เกณฑ์แล็บ ผ่านเมื่อบอตไม่ตกใน powder snow ในการทดสอบ
