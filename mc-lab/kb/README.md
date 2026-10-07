@@ -108,6 +108,28 @@
 - [Splash / Lingering / Tipped Arrow](brewing/splash-lingering-arrow.md) · 10 บรรทัด
 - [ยังไม่ยืนยัน](brewing/unverified.md) · 3 บรรทัด
 
+## combat-ai (`combat-ai/`)
+
+- [ความเร็วโจมตีตามอาวุธ](combat-ai/attack-speed.md) · 11 บรรทัด
+- [Breach/Density (mace)](combat-ai/breach-density.md) · 8 บรรทัด
+- [ครีปเปอร์](combat-ai/creeper-ai.md) · 8 บรรทัด
+- [ดาเมจตามความยาก (ม็อบ)](combat-ai/damage-difficulty.md) · 13 บรรทัด
+- [ดราวน์](combat-ai/drowned-ai.md) · 9 บรรทัด
+- [พิลเลเจอร์ วินดิเคเตอร์ อีโวเกอร์ ราเวเจอร์](combat-ai/illagers.md) · 10 บรรทัด
+- [i-frame และการลดดาเมจ](combat-ai/immunity.md) · 10 บรรทัด
+- [ม็อบเนเธอร์](combat-ai/nether-combat.md) · 13 บรรทัด
+- [แฟนทอมและเอนเดอร์แมน](combat-ai/phantom-enderman.md) · 10 บรรทัด
+- [ธนูและ Crossbow](combat-ai/ranged-weapons.md) · 10 บรรทัด
+- [โล่](combat-ai/shield.md) · 11 บรรทัด
+- [สเกเลตัน สเตรย์ บ็อกก์](combat-ai/skeleton-ai.md) · 11 บรรทัด
+- [สไลม์](combat-ai/slime-split.md) · 8 บรรทัด
+- [แมงมุม](combat-ai/spider-ai.md) · 7 บรรทัด
+- [Sweep และ Knockback](combat-ai/sweep-knockback.md) · 12 บรรทัด
+- [โทเท็มกันตาย](combat-ai/totem.md) · 8 บรรทัด
+- [ยังไม่ยืนยัน](combat-ai/unverified.md) · 7 บรรทัด
+- [แม่มด](combat-ai/witch-ai.md) · 13 บรรทัด
+- [ซอมบี้](combat-ai/zombie-ai.md) · 11 บรรทัด
+
 ## combat-events (`combat-events/`)
 
 - [ครีปเปอร์ชาร์จ](combat-events/charged-creeper.md) · 3 บรรทัด
@@ -162,6 +184,20 @@
 - [โต๊ะเสริมพลัง + ชั้นหนังสือ](enchanting/table-setup.md) · 10 บรรทัด
 - [เอนชานต์ Treasure และแหล่งที่ได้](enchanting/treasure.md) · 11 บรรทัด
 - [ยังไม่ยืนยัน](enchanting/unverified.md) · 6 บรรทัด
+
+## endgame-modes (`endgame-modes/`)
+
+- [หลังมังกรตาย](endgame-modes/dragon-after.md) · 9 บรรทัด
+- [End crystal และการฟื้น HP มังกร](endgame-modes/dragon-crystals.md) · 11 บรรทัด
+- [ดาเมจที่มังกรทำ และดาเมจที่มังกรรับ](endgame-modes/dragon-damage.md) · 10 บรรทัด
+- [เฟสการบินและ perching](endgame-modes/dragon-phases.md) · 12 บรรทัด
+- [End city, shulker, เรือ](endgame-modes/end-city.md) · 12 บรรทัด
+- [ชื่อ gamerule ใน 26.x](endgame-modes/gamerules.md) · 13 บรรทัด
+- [Hardcore และโหมดเกม](endgame-modes/hardcore-modes.md) · 11 บรรทัด
+- [มอบ/ไอเท็มใหม่ที่ยืนยันแล้ว](endgame-modes/new-mobs-26x.md) · 12 บรรทัด
+- [เสียงที่ยืนยัน](endgame-modes/sounds.md) · 8 บรรทัด
+- [ยังไม่ยืนยัน](endgame-modes/unverified.md) · 8 บรรทัด
+- [Wither: เกิด เฟส และการต่อสู้](endgame-modes/wither-summon.md) · 16 บรรทัด
 
 ## experience (`experience/`)
 

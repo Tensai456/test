@@ -2259,6 +2259,225 @@
   "lines": 3
  },
  {
+  "path": "combat-ai/shield.md",
+  "title": "โล่",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "shield"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "combat-ai/sweep-knockback.md",
+  "title": "Sweep และ Knockback",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "sweep",
+   "knockback",
+   "combat"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "combat-ai/attack-speed.md",
+  "title": "ความเร็วโจมตีตามอาวุธ",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "attack",
+   "speed"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "combat-ai/immunity.md",
+  "title": "i-frame และการลดดาเมจ",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "frame",
+   "combat",
+   "immunity"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "combat-ai/breach-density.md",
+  "title": "Breach/Density (mace)",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "breach",
+   "density",
+   "mace",
+   "combat"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "combat-ai/ranged-weapons.md",
+  "title": "ธนูและ Crossbow",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "crossbow",
+   "combat",
+   "ranged",
+   "weapons"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "combat-ai/totem.md",
+  "title": "โทเท็มกันตาย",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "totem"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "combat-ai/damage-difficulty.md",
+  "title": "ดาเมจตามความยาก (ม็อบ)",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "damage",
+   "difficulty"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "combat-ai/zombie-ai.md",
+  "title": "ซอมบี้",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "zombie"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "combat-ai/skeleton-ai.md",
+  "title": "สเกเลตัน สเตรย์ บ็อกก์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "skeleton"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "combat-ai/spider-ai.md",
+  "title": "แมงมุม",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "spider"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "combat-ai/creeper-ai.md",
+  "title": "ครีปเปอร์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "creeper"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "combat-ai/phantom-enderman.md",
+  "title": "แฟนทอมและเอนเดอร์แมน",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "phantom",
+   "enderman"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "combat-ai/witch-ai.md",
+  "title": "แม่มด",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "witch"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "combat-ai/drowned-ai.md",
+  "title": "ดราวน์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "drowned"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "combat-ai/illagers.md",
+  "title": "พิลเลเจอร์ วินดิเคเตอร์ อีโวเกอร์ ราเวเจอร์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "illagers"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "combat-ai/slime-split.md",
+  "title": "สไลม์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "slime",
+   "split"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "combat-ai/nether-combat.md",
+  "title": "ม็อบเนเธอร์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "nether"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "combat-ai/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "unverified"
+  ],
+  "lines": 7
+ },
+ {
   "path": "combat-events/raid-bell.md",
   "title": "ระฆังหมู่บ้าน",
   "group": "combat-events",
@@ -2708,6 +2927,150 @@
    "unverified"
   ],
   "lines": 6
+ },
+ {
+  "path": "endgame-modes/dragon-crystals.md",
+  "title": "End crystal และการฟื้น HP มังกร",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "end",
+   "crystal",
+   "endgame",
+   "modes",
+   "dragon",
+   "crystals"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "endgame-modes/dragon-phases.md",
+  "title": "เฟสการบินและ perching",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "perching",
+   "endgame",
+   "modes",
+   "dragon",
+   "phases"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "endgame-modes/dragon-damage.md",
+  "title": "ดาเมจที่มังกรทำ และดาเมจที่มังกรรับ",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "dragon",
+   "damage"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "endgame-modes/dragon-after.md",
+  "title": "หลังมังกรตาย",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "dragon",
+   "after"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "endgame-modes/wither-summon.md",
+  "title": "Wither: เกิด เฟส และการต่อสู้",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "wither",
+   "endgame",
+   "modes",
+   "summon"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "endgame-modes/end-city.md",
+  "title": "End city, shulker, เรือ",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "end",
+   "city",
+   "shulker",
+   "endgame",
+   "modes"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "endgame-modes/hardcore-modes.md",
+  "title": "Hardcore และโหมดเกม",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "hardcore",
+   "endgame",
+   "modes"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "endgame-modes/gamerules.md",
+  "title": "ชื่อ gamerule ใน 26.x",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "gamerule",
+   "endgame",
+   "modes",
+   "gamerules"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "endgame-modes/new-mobs-26x.md",
+  "title": "มอบ/ไอเท็มใหม่ที่ยืนยันแล้ว",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "new",
+   "mobs"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "endgame-modes/sounds.md",
+  "title": "เสียงที่ยืนยัน",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "sounds"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "endgame-modes/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "unverified"
+  ],
+  "lines": 8
  },
  {
   "path": "experience/xp-orbs.md",
