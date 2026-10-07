@@ -7,7 +7,8 @@ export const PLOT = 9;                 // แปลงมาตรฐาน 9×9
 export const LIGHT_REACH_CROP = 5;     // 14 − 9 = ไกลสุด 5 บล็อกที่ยังได้แสง ≥9
 
 // origin = มุมแปลงแรก {x, z} · plots = [กว้าง, ยาว] (จำนวนแปลง) · path = ทางเดิน 1 ช่องรอบแปลงในรั้ว (เผื่อเดินไม่เหยียบ farmland)
-export function farmPlan({ origin = { x: 0, z: 0 }, plots = [1, 1], path = true, gateSide = 'south' } = {}) {
+// entrance: 'carpet' = รั้ว + พรมบนหัว (ผู้เล่นกระโดดขึ้นได้ ม็อบขึ้นไม่ได้ ยกเว้นกระต่าย/อูฐ — W/Fence) · 'gate' = ประตูรั้ว
+export function farmPlan({ origin = { x: 0, z: 0 }, plots = [1, 1], path = true, gateSide = 'south', entrance = 'carpet' } = {}) {
   const [px, pz] = plots;
   const water = [], farmland = [];
   for (let i = 0; i < px; i++) for (let j = 0; j < pz; j++) {
@@ -24,8 +25,9 @@ export function farmPlan({ origin = { x: 0, z: 0 }, plots = [1, 1], path = true,
   for (let x = X0; x <= X1; x++) { ring.push({ x, z: Z0 }); ring.push({ x, z: Z1 }); }
   for (let z = Z0 + 1; z < Z1; z++) { ring.push({ x: X0, z }); ring.push({ x: X1, z }); }
   const gx = Math.floor((X0 + X1) / 2), gz = gateSide === 'north' ? Z0 : Z1;
-  const gate = { x: gx, z: gz };
-  const fences = ring.filter((c) => !(c.x === gate.x && c.z === gate.z));
+  const gate = { x: gx, z: gz, kind: entrance };
+  // carpet: จุดเข้าเป็นรั้วธรรมดา + พรมบนหัว → นับเป็นรั้วด้วย · gate: เว้นช่องไว้ใส่ประตูรั้ว
+  const fences = entrance === 'carpet' ? ring : ring.filter((c) => !(c.x === gate.x && c.z === gate.z));
   // คบเพลิง: ให้ทุก farmland ได้แสง ≥9 (taxicab ≤5) · เลือกช่องที่ครอบช่องมืดได้มากสุดก่อน (greedy) · ช่องคบเพลิงไม่ไถ (ดินธรรมดา)
   const torches = [];
   const reach = (t, f) => Math.abs(t.x - f.x) + Math.abs(t.z - f.z) <= LIGHT_REACH_CROP;
@@ -40,8 +42,9 @@ export function farmPlan({ origin = { x: 0, z: 0 }, plots = [1, 1], path = true,
   const fenceCrafts = Math.ceil(fences.length / 3);
   const torchCrafts = Math.ceil(torches.length / 4);
   const need = {
-    planks: fenceCrafts * 4 + 2,                       // + ประตูรั้ว 2
-    sticks: fenceCrafts * 2 + 4 + torchCrafts,          // + ประตูรั้ว 4 + คบเพลิง
+    planks: fenceCrafts * 4 + (entrance === 'gate' ? 2 : 0),          // + ประตูรั้ว 2
+    sticks: fenceCrafts * 2 + (entrance === 'gate' ? 4 : 0) + torchCrafts,
+    ...(entrance === 'carpet' ? { wool: 2 } : {}),                      // ขนแกะ 2 → พรม 3 (recipes.json)
     coal: torchCrafts,
     water_bucket: water.length <= 1 ? 1 : 2,            // ถัง 2 ใบ + แหล่งน้ำ 2 ช่อง = น้ำไม่จำกัด (W/Water) [ทำเองได้]
     seeds: farmland.length - torches.filter((t) => t.onFarmland).length,

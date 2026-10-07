@@ -7,8 +7,10 @@ test('แปลง 9×9: น้ำ 1 · farmland ทุกช่องห่า�
   assert.equal(p.water.length, 1);
   for (const f of p.farmland) assert.ok(Math.max(Math.abs(f.x - p.water[0].x), Math.abs(f.z - p.water[0].z)) <= 4);
   for (const f of p.farmland) assert.ok(p.torches.some((t) => Math.abs(t.x - f.x) + Math.abs(t.z - f.z) + (t.y ?? 0) <= LIGHT_REACH_CROP), `${f.x},${f.z} มืด`);
-  assert.ok(p.gate && !p.fences.some((c) => c.x === p.gate.x && c.z === p.gate.z));
-  assert.equal(p.fences.length + 1, 4 * 13 - 4);    // กรอบ 13×13 (แปลง 9 + ทางเดิน 1×2 + รั้ว 1×2)
+  const g = farmPlan({ plots: [1, 1], entrance: 'gate' });
+  assert.ok(!g.fences.some((c) => c.x === g.gate.x && c.z === g.gate.z));
+  assert.equal(g.fences.length + 1, 4 * 13 - 4);    // กรอบ 13×13 (แปลง 9 + ทางเดิน 1×2 + รั้ว 1×2)
+  assert.equal(p.gate.kind, 'carpet'); assert.equal(p.fences.length, 48); assert.equal(p.need.wool, 2);
   assert.ok(p.torches.length <= 4, `คบเพลิง ${p.torches.length}`);
   assert.ok(p.need.seeds > 70 && p.need.logs > 0);
 });
