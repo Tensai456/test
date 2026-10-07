@@ -169,6 +169,18 @@
   ]
  },
  {
+  "id": "wither-effect",
+  "prio": 81,
+  "when": {
+   "hasEffect": "wither"
+  },
+  "do": "ดื่มนม (ล้างเอฟเฟกต์) · ไม่มีนม: กินแอปเปิลทอง/ถอยออกจาก wither skeleton/Wither",
+  "kb": [
+   "hazards/status-effects.md",
+   "nether-end/wither.md"
+  ]
+ },
+ {
   "id": "dig-straight-down",
   "prio": 80,
   "when": {
@@ -214,6 +226,23 @@
   "do": "ตีลูกไฟสะท้อนกลับ/ยิงธนู · ยืนหลังบล็อกกันระเบิดสูง (cobblestone) · อย่ายืนขอบลาวา",
   "kb": [
    "nether-end/m1-ghast.md"
+  ]
+ },
+ {
+  "id": "outnumbered",
+  "prio": 77,
+  "when": {
+   "countNear": {
+    "hostile": true,
+    "within": 6,
+    "atLeast": 4
+   },
+   "hpBelow": 14
+  },
+  "do": "[คิดเอง] ถอยไปช่องแคบ 1 บล็อก/หน้าประตูให้ม็อบเข้ามาทีละตัว · ไปหาทีม/ที่สว่าง · ห้ามยืนกลางวง (กฎ jing: ห้ามก่อกำแพงขังตัว — ใช้ช่องแคบที่มีอยู่)",
+  "kb": [
+   "mobs/_rules.md",
+   "problems/mobs-summary.md"
   ]
  },
  {
@@ -278,7 +307,7 @@
     "type": [
      "witch"
     ],
-    "within": 12
+    "within": 16
    }
   },
   "do": "เข้าประชิดเร็ว (ยาสาดระยะไกล) · มีนมไว้ล้างพิษ · ฆ่าก่อนมันดื่มยารักษา",
@@ -331,7 +360,7 @@
      "parched",
      "pillager"
     ],
-    "within": 15
+    "within": 16
    }
   },
   "do": "หลบหลังบล็อกหรือวิ่งซิกแซกเข้าหา · ยกโล่",
@@ -364,7 +393,11 @@
   "when": {
    "hasEffect": "hunger",
    "foodBelow": 18,
-   "hasFood": true
+   "hasFood": true,
+   "notNear": {
+    "hostile": true,
+    "within": 6
+   }
   },
   "do": "Hunger ทำให้หิวเร็ว → กินอาหารรอง (ไม่ใช่ของดีสุด) หลังพ้นการต่อสู้",
   "kb": [
@@ -377,7 +410,11 @@
   "prio": 65,
   "when": {
    "foodBelow": 7,
-   "hasFood": true
+   "hasFood": true,
+   "notNear": {
+    "hostile": true,
+    "within": 6
+   }
   },
   "do": "กินทันที (หิว ≤6 วิ่งไม่ได้)",
   "kb": [

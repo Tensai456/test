@@ -54,6 +54,7 @@ export function test(c, s) {
       clutch: () => !!chooseClutch({ inventory: Object.keys(s.inv ?? {}).filter((k) => s.inv[k] > 0), dimension: s.dim, wallAdjacent: !!s.wallAdjacent }) === v,
       teammateNeeds: () => (s.team ?? []).some((m) => m.hp < v.hpBelow && m.dist <= v.within),
       selfHpAtLeast: () => s.hp >= v,
+      countNear: () => (s.nearby ?? []).filter((e) => e.dist <= v.within && (!v.hostile || e.hostile)).length >= v.atLeast,
       nearBlock: () => (s.nearBlocks ?? []).some((b) => v.type.includes(b.type) && b.dist <= v.within),
       woodNearby: () => (s.woodNearby ?? true) === v,
       hasEffect: () => (s.effects ?? []).includes(v),
