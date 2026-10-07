@@ -8,7 +8,8 @@
 | Splash | เท่ากันใน Java (Legacy Console = 3/4) | W/Splash_Potion, W/Brewing |
 | Lingering | 1/4 (เช่น 8:00 → 2:00) | W/Lingering_Potion, W/Brewing |
 | Tipped arrow | 1/8 ของยา | W/Tipped_Arrow |
-- ส่วนผสมแปลง: gunpowder→splash, dragon's breath→lingering, สูตร tipped arrow: [ไม่แน่ใจ] (snippet ไม่ระบุ)
+- ส่วนผสมแปลง: gunpowder: ยาดื่ม→splash; dragon's breath: splash→lingering (W/Splash_Potion, W/Brewing)
+- สูตร tipped arrow: arrow 8 ลูก + lingering potion 1 ขวด (คราฟต์) → tipped arrow 8 ลูก (W/Tipped_Arrow)
 
 บอตควร: ใช้ splash สำหรับ debuff/heal ศัตรู-พวกที่อยู่ไกล; tipped arrow ได้เวลาสั้นมาก ใช้เฉพาะ instant (Harming)
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าคำนวณเวลาตามอัตราส่วนข้างต้นตรงกับที่เห็น

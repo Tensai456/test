@@ -14,7 +14,12 @@
 | Invisibility | 3:00 | 8:00 | — |
 | Regeneration | 0:45 | 1:30 | 0:22 |
 | Turtle Master | 0:20 | 0:40 | 0:20 |
-แหล่ง: W/Potion_of_Swiftness, _Fire_Resistance, _Strength, _Slow_Falling, _Water_Breathing, _Night_Vision, _Invisibility, _Regeneration, _the_Turtle_Master
+| Poison | 0:45 | 1:30 | 0:21.6 |
+| Weakness | 1:30 | 4:00 | — |
+| Slowness | 1:30 | 4:00 | 0:20 (Slowness IV) |
+| Leaping | 3:00 | 8:00 | 1:30 |
+| Harming | instant | — | instant (II = 12 HP; I = 6 HP) |
+แหล่ง: W/Potion_of_Swiftness, _Fire_Resistance, _Strength, _Slow_Falling, _Water_Breathing, _Night_Vision, _Invisibility, _Regeneration, _the_Turtle_Master, _Poison, _Weakness, _Slowness, _Leaping, _Harming
 - Strength I/II ใน Java: +3 damage ต่อระดับ → II = +6 (W/Potion_of_Strength)
 - Turtle Master: Slowness IV + Resistance III (II: Slowness VI + Resistance IV) (W/Potion_of_the_Turtle_Master)
 

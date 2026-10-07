@@ -118,6 +118,53 @@
 บอตควร: ถือว่าเมื่ออยู่ไกล > ระยะ simulation สิ่งรอบข้างไม่ขยับ/ไอเทมไม่ despawn; คำนวณตำแหน่งชังก์ด้วย floor(x/16)
 ตัดสินผล: (เกณฑ์แล็บ) ตรวจ view/simulation distance ของเซิร์ฟเวอร์ก่อนวางแผนระยะ; ไม่ทราบ = [ไม่แน่ใจ]
 
+## stronghold-triangulation · หาป้อมด้วยวิธีสามเหลี่ยม
+- eye of ender = ender pearl 1 + blaze powder 1 (W/Eye_of_Ender); ใช้ได้เฉพาะ Overworld และต้องมี stronghold อยู่/สร้างได้ ไม่ทำงานใน Nether/End (W/Eye_of_Ender)
+- โยนแล้วบินประมาณ 12 บล็อกไปทางแนวนอนของ stronghold ที่ใกล้สุด ทะลุบล็อกได้ มีอนุภาคม่วง แล้วลอยสั้น ๆ ก่อนตกเป็นไอเทม (80%) หรือแตก (20%) (W/Eye_of_Ender)
+- ไกล > 12 บล็อกจากมุม NW ของ chunk บันไดป้อม ตาจะบินขึ้น; ใกล้กว่า 12 จะบินลง = อยู่เหนือป้อมแล้ว ให้ขุดลง (W/Eye_of_Ender)
+- วงแรกมี 3 ป้อม ที่ 1,280–2,816 บล็อกจากจุด (0,0); รวม 8 วง 128 ป้อม (W/Stronghold)
+- ต้องใช้ 12 eye เปิดพอร์ทัล; กรอบแต่ละอันมี eye อยู่แล้ว 10% (เฉลี่ย 1.2 กรอบ); แนะนำเตรียม ~15–16 eye (W/Eye_of_Ender, W/Stronghold)
+- ประมาณระยะจากมุมต่างของสองโยน: 0.5° ≈ 2000, 1° ≈ 1000, 2° ≈ 500 บล็อก (W/Tutorial:Locating_a_stronghold); โยนสองจุดห่างราว 500 บล็อกให้แม่นพอ
+- วิธีคิด (ผู้เขียนแล็บอนุมานจากแกนใน W/Coordinates + yaw ใน W/Rotation; ไม่ใช่สูตรตรงจาก wiki):
+  1. อ่านจุด P1=(x1,z1) yaw1 ตอนตาบิน (ให้มองตามตาไปจนตาหยุด) แล้วเดินตั้งฉากไกล ~500 บล็อก อ่าน P2=(x2,z2) yaw2
+  2. เวกเตอร์ทิศ d=(-sin(yaw), cos(yaw)) โดย yaw เป็นเรเดียน (เหนือ yaw=180° → (0,-1) ถูกต้อง; ตะวันออก -90° → (+1,0) ถูกต้อง)
+  3. cross = d1x·d2z − d1z·d2x; ถ้า |cross| < ~0.02 (เกือบขนาน) → ย้ายจุดโยนแล้วทำใหม่
+  4. t1 = ((x2−x1)·d2z − (z2−z1)·d2x) / cross; ผลลัพธ์ S = (x1 + t1·d1x, z1 + t1·d1z)
+  5. ตรวจ t1>0 และ t2>0 (เดินไปข้างหน้า) และ |S| อยู่ในช่วงวง (≥1,280); ถ้าไม่ใช่ = อ่านผิด
+  6. เดินไป S; โยนซ้ำระหว่างทางเพื่อปรับ; เมื่อตาบินลงดินให้ขุดลง
+- สูตร wiki แบบ tan/cot: X=(Z1−Z2−X2·cot A2+X1·cot A1)/(cot A1−cot A2) (W/Tutorial:Locating_a_stronghold) — นิยามมุม A ใน wiki ต่างจาก yaw ต้องแปลงก่อน: [ไม่แน่ใจ]
+
+บอตควร: โยนจากที่โล่ง บันทึก (x,z,yaw) ทุกครั้ง คำนวณด้วยสูตรเวกเตอร์ข้างบน; พก eye ≥ 16; ห้ามใช้ใน Nether/End
+ตัดสินผล: (เกณฑ์แล็บ) ผ่าน = ได้จุด S ที่ t1,t2>0 และเดินไปแล้วตาบินลงภายใน ~12 บล็อก; ตาไม่บินเลย = ไม่ใช่ Overworld/ไม่มี stronghold → รายงาน
+
+## smelting-list · สูตรหลอมที่จำเป็น
+| อินพุต | ผลลัพธ์ | เตาที่ใช้ได้ | XP ต่อชิ้น | แหล่ง |
+|---|---|---|---|---|
+| raw iron / iron ore | iron ingot | furnace, blast | 0.7 | W/Smelting, W/Raw_Iron |
+| raw copper | copper ingot | furnace, blast | 0.7 | W/Smelting |
+| raw gold / nether gold ore | gold ingot | furnace, blast | 1 | W/Smelting |
+| coal ore | coal | furnace, blast | 0.1 | W/Smelting |
+| diamond ore | diamond | furnace, blast | 1 | W/Smelting |
+| redstone ore | redstone | furnace, blast | 0.7 | W/Smelting |
+| lapis ore | lapis lazuli | furnace, blast | 0.2 | W/Smelting |
+| emerald ore | emerald | furnace, blast | 1 | W/Smelting |
+| ancient debris | netherite scrap | furnace, blast | 2 | W/Smelting |
+| raw beef/chicken/cod/salmon, potato | steak/cooked/baked potato | furnace, smoker, campfire (campfire ไม่ให้ XP) | 0.35 | W/Steak, W/Smelting |
+| sand | glass | furnace | 0.1 | W/Smelting |
+| cobblestone | stone | furnace | 0.1 | W/Smelting |
+| log | charcoal | furnace | 0.15 | W/Charcoal |
+| clay ball | brick | furnace | 0.3 | W/Brick |
+| cactus | green dye | furnace | 1 | W/Green_Dye |
+| kelp | dried kelp | furnace, smoker, campfire | 0.1 | W/Kelp, W/Dried_Kelp |
+- เวลา: furnace 200 tick/ชิ้น; blast furnace และ smoker 100 tick/ชิ้น (ใช้เชื้อเพลิงเร็วกว่า 2 เท่า จำนวนชิ้นต่อเชื้อเพลิงเท่าเดิม) (W/Furnace, W/Blast_Furnace, W/Smoker)
+- blast furnace: เฉพาะแร่/โลหะดิบ/ancient debris/เครื่องมือเกราะโลหะ; smoker: เฉพาะอาหาร; ทั้งสองไม่ทำ sand/cobblestone/log/clay/cactus (W/Blast_Furnace, W/Smoker)
+- ถ่านหิน/ถ่าน 1 ชิ้น = 80 วินาที = 8 ชิ้น; dried kelp block เป็นเชื้อเพลิง 20 ชิ้น (W/Furnace, W/Dried_Kelp_Block)
+- XP สะสมในเตา ได้เมื่อผู้เล่นหยิบผลลัพธ์ด้วยมือผ่าน GUI; hopper ดึงออกไม่ให้ XP แต่ตัวนับเก็บไว้ (W/Smelting)
+- XP ของอาหารอื่น (porkchop, mutton, rabbit ฯลฯ), ผล raw iron ผ่าน blast ฯลฯ ที่ไม่อยู่ในตาราง: [ไม่แน่ใจ]
+
+บอตควร: เลือกเตาตามชนิดอินพุต (แร่→blast, อาหาร→smoker, อื่น→furnace); เติมเชื้อเพลิงตามสัดส่วน 1 coal : 8 ชิ้น; หยิบผลลัพธ์ผ่าน GUI ถ้าต้องการ XP
+ตัดสินผล: (เกณฑ์แล็บ) ผ่าน = จำนวนผลลัพธ์ = จำนวนอินพุตที่ใส่ภายในเวลา (ชิ้น × 200 หรือ 100 tick); ใส่ผิดเตา = ไม่หลอม → รายงาน
+
 ## unverified · ยังไม่ยืนยัน
 - ค่าที่ตรวจแล้ว (จาก snippet): view/simulation-distance default 10 (W/Server.properties); lodestone = chiseled stone bricks + iron ingot (1.21.5+) (W/Lodestone); echo shard 1–3 ชิ้น 30.4%/หีบ ancient city (W/Echo_Shard); world border เริ่มต้น 59,999,968 (±29,999,984) (W/World_border); spawn area 21×21 ปรับด้วย respawn_radius, ผู้เล่นเกิดสุ่มใน 20×20 รอบ spawn (W/World_spawn); F3 yaw/ทิศ (W/Debug_screen)
 - ค่า server จริงอาจต่างจาก default (เจ้าของเซิร์ฟเวอร์แก้ได้): ต้องอ่านจากเซิร์ฟเวอร์ — [ไม่แน่ใจ]

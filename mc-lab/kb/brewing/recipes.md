@@ -16,7 +16,10 @@
 | Poison | spider eye | W/Potion_of_Poison |
 | Strength | blaze powder | W/Potion_of_Strength |
 | Weakness | fermented spider eye + ขวดน้ำ (ไม่ใช้ Awkward) | W/Potion_of_Weakness |
-- Regeneration (ghast tear), Invisibility, Slowness, Harming: [ไม่แน่ใจ] จาก snippet; ดู unverified
+| Regeneration | ghast tear + Awkward | W/Potion_of_Regeneration |
+| Invisibility | fermented spider eye + Night Vision | W/Potion_of_Invisibility |
+| Slowness | fermented spider eye + Swiftness หรือ Leaping | W/Potion_of_Slowness |
+| Harming | fermented spider eye + Healing หรือ Poison | W/Potion_of_Harming |
 
 บอตควร: เก็บ lookup ตารางนี้เป็น data; ตรวจว่ามีส่วนผสมครบก่อนสั่งต้ม
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าผลตรงชื่อยาในตาราง

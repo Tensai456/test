@@ -8,7 +8,8 @@
 | ช่องขวดยา | 3 ช่อง ต้มพร้อมกันได้ → สูงสุด 60 ขวด/ผง 1 ชิ้น | W/Brewing_Stand |
 | เวลาต้ม 1 รอบ | 20 วินาที (400 tick) | W/Brewing_Stand |
 | ประวัติ | เดิม 30 รอบ ลดเป็น 20 ตั้งแต่ 1.9 (15w43a) | W/Brewing_Stand |
-- ผง blaze ได้จาก blaze rod (W/Blaze_Powder) — จำนวนต่อแท่ง [ไม่แน่ใจ]
+- ผง blaze ได้จาก blaze rod 1 แท่ง → 2 ผง (สูตรคราฟต์ kb/blocks/_recipes.md, data/catalog_26.1/recipes.json)
+- Brewing stand คราฟต์: blaze_rod×1 + cobbled_deepslate×3 (kb/blocks/_recipes.md); glass_bottle: glass×3 → 3 ขวด
 
 บอตควร: เติม blaze powder ก่อนเริ่มทุกชุด; เติมขวด 3 ช่องให้เต็มเพื่อคุ้มเชื้อเพลิง; รอ ≥20 วินาที/ขั้น
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าครบ 3 ขวดต่อ 1 รอบ และเชื้อเพลิงลดตามจำนวนรอบที่คาดไว้
@@ -16,10 +17,10 @@
 ## base-chain · ขวดน้ำ → Awkward → ยา
 | ขั้น | สูตร | แหล่ง |
 |---|---|---|
-| Awkward Potion | น้ำขวด + nether wart | [ไม่แน่ใจ] (snippet ไม่ระบุตรง; หน้า W/Brewing) |
+| Awkward Potion | น้ำขวด + nether wart | W/Brewing, W/Awkward_Potion |
 | ยาเอฟเฟกต์ | ส่วนผสม + Awkward Potion | W/Brewing |
 | ยาที่ใช้ขวดน้ำตรง ๆ | Weakness = fermented spider eye + ขวดน้ำ | W/Potion_of_Weakness |
-- ที่มาของขวดน้ำ (เติมจากหม้อต้ม/น้ำ) [ไม่แน่ใจ]
+- ขวดน้ำ: เติม glass bottle จาก cauldron หรือบล็อกน้ำ (W/Brewing, W/Water_Bottle)
 
 บอตควร: ทำ Awkward เป็นชุดใหญ่แล้วค่อยแตกสูตร ลดรอบเชื้อเพลิง
 ตัดสินผล: (เกณฑ์แล็บ) ตรวจชื่อไอเทมผลลัพธ์เป็น Awkward ก่อนเติมส่วนผสมถัดไป
@@ -38,7 +39,10 @@
 | Poison | spider eye | W/Potion_of_Poison |
 | Strength | blaze powder | W/Potion_of_Strength |
 | Weakness | fermented spider eye + ขวดน้ำ (ไม่ใช้ Awkward) | W/Potion_of_Weakness |
-- Regeneration (ghast tear), Invisibility, Slowness, Harming: [ไม่แน่ใจ] จาก snippet; ดู unverified
+| Regeneration | ghast tear + Awkward | W/Potion_of_Regeneration |
+| Invisibility | fermented spider eye + Night Vision | W/Potion_of_Invisibility |
+| Slowness | fermented spider eye + Swiftness หรือ Leaping | W/Potion_of_Slowness |
+| Harming | fermented spider eye + Healing หรือ Poison | W/Potion_of_Harming |
 
 บอตควร: เก็บ lookup ตารางนี้เป็น data; ตรวจว่ามีส่วนผสมครบก่อนสั่งต้ม
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าผลตรงชื่อยาในตาราง
@@ -49,9 +53,10 @@
 | redstone dust | ยืดเวลา (extended) | W/Potion_of_Fire_Resistance, W/Potion_of_Slow_Falling |
 | glowstone dust | เพิ่มระดับ (II) ลดเวลา | W/Potion_of_Swiftness, W/Potion_of_Strength |
 - Healing II = glowstone + Healing: ฟื้น 8 HP (4 หัวใจ) (W/Potion_of_Healing)
-- Healing/Fire Resistance ฯลฯ บางชนิดไม่มีระดับ II [ไม่แน่ใจ] — ตรวจรายตัว
+- ไม่มีระดับ II: Night Vision, Invisibility, Fire Resistance, Water Breathing, Weakness (W/Potion); Healing ไม่มี extended เพราะเป็น instant (W/Potion)
+- redstone กับ glowstone ใช้พร้อมกันบนยาเดียวไม่ได้ (extended กับ II เป็นของคู่ที่ไม่ใช้ร่วมกัน) (W/Potion)
 
-บอตควร: เลือกตามภารกิจ — ต้องการเวลายาว→redstone, ต้องการพลังสูง→glowstone (ห้ามทั้งสองบนยาเดียวกันเกินที่เกมอนุญาต [ไม่แน่ใจ])
+บอตควร: เลือกตามภารกิจ — ต้องการเวลายาว→redstone, ต้องการพลังสูง→glowstone (ห้ามทั้งสองบนยาเดียว)
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้า tooltip ผลลัพธ์แสดงเวลา/ระดับตรงตารางถัดไป
 
 ## durations · ระยะเวลายา (ดื่ม, Java)
@@ -66,7 +71,12 @@
 | Invisibility | 3:00 | 8:00 | — |
 | Regeneration | 0:45 | 1:30 | 0:22 |
 | Turtle Master | 0:20 | 0:40 | 0:20 |
-แหล่ง: W/Potion_of_Swiftness, _Fire_Resistance, _Strength, _Slow_Falling, _Water_Breathing, _Night_Vision, _Invisibility, _Regeneration, _the_Turtle_Master
+| Poison | 0:45 | 1:30 | 0:21.6 |
+| Weakness | 1:30 | 4:00 | — |
+| Slowness | 1:30 | 4:00 | 0:20 (Slowness IV) |
+| Leaping | 3:00 | 8:00 | 1:30 |
+| Harming | instant | — | instant (II = 12 HP; I = 6 HP) |
+แหล่ง: W/Potion_of_Swiftness, _Fire_Resistance, _Strength, _Slow_Falling, _Water_Breathing, _Night_Vision, _Invisibility, _Regeneration, _the_Turtle_Master, _Poison, _Weakness, _Slowness, _Leaping, _Harming
 - Strength I/II ใน Java: +3 damage ต่อระดับ → II = +6 (W/Potion_of_Strength)
 - Turtle Master: Slowness IV + Resistance III (II: Slowness VI + Resistance IV) (W/Potion_of_the_Turtle_Master)
 
@@ -77,7 +87,7 @@
 - ทำลายผลยา: Healing/Poison → Harming; Healing II และ Poison extended → Harming extended (W/Fermented_Spider_Eye)
 - Harming/Healing: Instant Health ฟื้นสิ่งมีชีวิตทั่วไป แต่ทำดาเมจ undead (W/Instant_Health)
 - Weakness ได้จากขวดน้ำ + fermented spider eye (W/Potion_of_Weakness)
-- ผล corruption ของ Swiftness→Slowness, Night Vision→Invisibility, Leaping→Slowness: [ไม่แน่ใจ]
+- corruption อื่น: Swiftness→Slowness, Leaping→Slowness, Night Vision→Invisibility (ทั้งแบบปกติและ extended) (W/Potion_of_Slowness, W/Fermented_Spider_Eye)
 
 บอตควร: ห้ามใช้ยา Harming กับตัวเอง/เพื่อน; undead (zombie/skeleton) ต้องระวังเมื่อโยน Healing
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าไม่เผลอเติม fermented spider eye ในชุดยาตัวเอง
@@ -88,7 +98,8 @@
 | Splash | เท่ากันใน Java (Legacy Console = 3/4) | W/Splash_Potion, W/Brewing |
 | Lingering | 1/4 (เช่น 8:00 → 2:00) | W/Lingering_Potion, W/Brewing |
 | Tipped arrow | 1/8 ของยา | W/Tipped_Arrow |
-- ส่วนผสมแปลง: gunpowder→splash, dragon's breath→lingering, สูตร tipped arrow: [ไม่แน่ใจ] (snippet ไม่ระบุ)
+- ส่วนผสมแปลง: gunpowder: ยาดื่ม→splash; dragon's breath: splash→lingering (W/Splash_Potion, W/Brewing)
+- สูตร tipped arrow: arrow 8 ลูก + lingering potion 1 ขวด (คราฟต์) → tipped arrow 8 ลูก (W/Tipped_Arrow)
 
 บอตควร: ใช้ splash สำหรับ debuff/heal ศัตรู-พวกที่อยู่ไกล; tipped arrow ได้เวลาสั้นมาก ใช้เฉพาะ instant (Harming)
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าคำนวณเวลาตามอัตราส่วนข้างต้นตรงกับที่เห็น
@@ -109,7 +120,6 @@
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าก่อนออกสำรวจมี Fire Resistance ≥1 และ Healing ≥2 (ค่าที่แล็บตั้งเอง ไม่ใช่ค่าเกม)
 
 ## unverified · ยังไม่ยืนยัน
-- งบค้นหาเต็มก่อนตรวจรอบสุดท้าย; ทุกข้อมูลมาจาก snippet ไม่ใช่หน้าเต็ม
-- Awkward = nether wart + ขวดน้ำ, Regeneration/Invisibility/Slowness/Harming/Leaping ระดับ II และเวลา, Poison/Weakness/Slowness/Leaping/Harming เวลา, ผลของ corruption ที่เหลือ
-- gunpowder/dragon's breath/สูตร tipped arrow (8 ลูก+lingering), ที่มาและวิธีเติมขวดน้ำ, จำนวน blaze powder ต่อ rod
-- ข้อจำกัดใช้ redstone+glowstone พร้อมกัน, ยาที่ไม่มี II
+- ทุกข้อมูลมาจาก snippet ไม่ใช่หน้าเต็ม; รอบนี้ยืนยันแล้ว: Awkward, สูตร Regeneration/Invisibility/Slowness/Harming, เวลา Poison/Weakness/Slowness/Leaping, corruption, gunpowder/dragon's breath/tipped arrow, ขวดน้ำ, blaze powder, redstone+glowstone
+- ยังไม่ยืนยัน: Slow Falling ไม่มี II (ตาราง "—" มาจากรอบก่อน ไม่ได้ตรวจซ้ำ); Weakness/Slowness extended ตามสัดส่วน 8/3 ยืนยันเฉพาะค่าใน snippet
+- ยังไม่ยืนยัน: Regeneration/Slowness/Harming ระดับ II ของ splash/lingering, Weakness ใน Bedrock (ต่างจาก Java)

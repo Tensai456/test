@@ -80,13 +80,13 @@
 
 - [ขวดน้ำ → Awkward → ยา](brewing/base-chain.md) · 9 บรรทัด
 - [ยาที่ควรพก](brewing/bot-loadout.md) · 13 บรรทัด
-- [แท่นต้มยาและเชื้อเพลิง](brewing/brewing-stand.md) · 10 บรรทัด
+- [แท่นต้มยาและเชื้อเพลิง](brewing/brewing-stand.md) · 11 บรรทัด
 - [Fermented spider eye](brewing/corruption.md) · 7 บรรทัด
-- [ระยะเวลายา (ดื่ม, Java)](brewing/durations.md) · 17 บรรทัด
-- [redstone / glowstone](brewing/modifiers.md) · 9 บรรทัด
-- [สูตรยาแต่ละชนิด (ส่วนผสม + Awkward)](brewing/recipes.md) · 17 บรรทัด
-- [Splash / Lingering / Tipped Arrow](brewing/splash-lingering-arrow.md) · 9 บรรทัด
-- [ยังไม่ยืนยัน](brewing/unverified.md) · 4 บรรทัด
+- [ระยะเวลายา (ดื่ม, Java)](brewing/durations.md) · 22 บรรทัด
+- [redstone / glowstone](brewing/modifiers.md) · 10 บรรทัด
+- [สูตรยาแต่ละชนิด (ส่วนผสม + Awkward)](brewing/recipes.md) · 20 บรรทัด
+- [Splash / Lingering / Tipped Arrow](brewing/splash-lingering-arrow.md) · 10 บรรทัด
+- [ยังไม่ยืนยัน](brewing/unverified.md) · 3 บรรทัด
 
 ## ตัวเลขกลาง (`core/`)
 
@@ -277,6 +277,8 @@
 - [เดินทางผ่าน Nether 1:8](navigation/nether-travel.md) · 6 บรรทัด
 - [เข็มทิศกู้คืน](navigation/recovery-compass.md) · 6 บรรทัด
 - [กลับบ้านหลังกลางคืน/ตาย](navigation/return-home.md) · 8 บรรทัด
+- [สูตรหลอมที่จำเป็น](navigation/smelting-list.md) · 26 บรรทัด
+- [หาป้อมด้วยวิธีสามเหลี่ยม](navigation/stronghold-triangulation.md) · 17 บรรทัด
 - [ยังไม่ยืนยัน](navigation/unverified.md) · 6 บรรทัด
 - [แผนจุดอ้างอิงสำหรับทีมบอต](navigation/waypoints.md) · 11 บรรทัด
 

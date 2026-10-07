@@ -1946,7 +1946,7 @@
    "brewing",
    "stand"
   ],
-  "lines": 10
+  "lines": 11
  },
  {
   "path": "brewing/base-chain.md",
@@ -1971,7 +1971,7 @@
    "brewing",
    "recipes"
   ],
-  "lines": 17
+  "lines": 20
  },
  {
   "path": "brewing/modifiers.md",
@@ -1984,7 +1984,7 @@
    "brewing",
    "modifiers"
   ],
-  "lines": 9
+  "lines": 10
  },
  {
   "path": "brewing/durations.md",
@@ -1996,7 +1996,7 @@
    "brewing",
    "durations"
   ],
-  "lines": 17
+  "lines": 22
  },
  {
   "path": "brewing/corruption.md",
@@ -2024,7 +2024,7 @@
    "arrow",
    "brewing"
   ],
-  "lines": 9
+  "lines": 10
  },
  {
   "path": "brewing/bot-loadout.md",
@@ -2047,7 +2047,7 @@
    "brewing",
    "unverified"
   ],
-  "lines": 4
+  "lines": 3
  },
  {
   "path": "crafting/grid-rule.md",
@@ -3049,6 +3049,30 @@
    "chunks"
   ],
   "lines": 8
+ },
+ {
+  "path": "navigation/stronghold-triangulation.md",
+  "title": "หาป้อมด้วยวิธีสามเหลี่ยม",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "stronghold",
+   "triangulation"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "navigation/smelting-list.md",
+  "title": "สูตรหลอมที่จำเป็น",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "smelting",
+   "list"
+  ],
+  "lines": 26
  },
  {
   "path": "navigation/unverified.md",

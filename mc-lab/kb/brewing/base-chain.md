@@ -5,10 +5,10 @@
 
 | ขั้น | สูตร | แหล่ง |
 |---|---|---|
-| Awkward Potion | น้ำขวด + nether wart | [ไม่แน่ใจ] (snippet ไม่ระบุตรง; หน้า W/Brewing) |
+| Awkward Potion | น้ำขวด + nether wart | W/Brewing, W/Awkward_Potion |
 | ยาเอฟเฟกต์ | ส่วนผสม + Awkward Potion | W/Brewing |
 | ยาที่ใช้ขวดน้ำตรง ๆ | Weakness = fermented spider eye + ขวดน้ำ | W/Potion_of_Weakness |
-- ที่มาของขวดน้ำ (เติมจากหม้อต้ม/น้ำ) [ไม่แน่ใจ]
+- ขวดน้ำ: เติม glass bottle จาก cauldron หรือบล็อกน้ำ (W/Brewing, W/Water_Bottle)
 
 บอตควร: ทำ Awkward เป็นชุดใหญ่แล้วค่อยแตกสูตร ลดรอบเชื้อเพลิง
 ตัดสินผล: (เกณฑ์แล็บ) ตรวจชื่อไอเทมผลลัพธ์เป็น Awkward ก่อนเติมส่วนผสมถัดไป

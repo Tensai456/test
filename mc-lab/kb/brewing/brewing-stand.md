@@ -9,7 +9,8 @@
 | ช่องขวดยา | 3 ช่อง ต้มพร้อมกันได้ → สูงสุด 60 ขวด/ผง 1 ชิ้น | W/Brewing_Stand |
 | เวลาต้ม 1 รอบ | 20 วินาที (400 tick) | W/Brewing_Stand |
 | ประวัติ | เดิม 30 รอบ ลดเป็น 20 ตั้งแต่ 1.9 (15w43a) | W/Brewing_Stand |
-- ผง blaze ได้จาก blaze rod (W/Blaze_Powder) — จำนวนต่อแท่ง [ไม่แน่ใจ]
+- ผง blaze ได้จาก blaze rod 1 แท่ง → 2 ผง (สูตรคราฟต์ kb/blocks/_recipes.md, data/catalog_26.1/recipes.json)
+- Brewing stand คราฟต์: blaze_rod×1 + cobbled_deepslate×3 (kb/blocks/_recipes.md); glass_bottle: glass×3 → 3 ขวด
 
 บอตควร: เติม blaze powder ก่อนเริ่มทุกชุด; เติมขวด 3 ช่องให้เต็มเพื่อคุ้มเชื้อเพลิง; รอ ≥20 วินาที/ขั้น
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าครบ 3 ขวดต่อ 1 รอบ และเชื้อเพลิงลดตามจำนวนรอบที่คาดไว้

@@ -8,7 +8,8 @@
 | redstone dust | ยืดเวลา (extended) | W/Potion_of_Fire_Resistance, W/Potion_of_Slow_Falling |
 | glowstone dust | เพิ่มระดับ (II) ลดเวลา | W/Potion_of_Swiftness, W/Potion_of_Strength |
 - Healing II = glowstone + Healing: ฟื้น 8 HP (4 หัวใจ) (W/Potion_of_Healing)
-- Healing/Fire Resistance ฯลฯ บางชนิดไม่มีระดับ II [ไม่แน่ใจ] — ตรวจรายตัว
+- ไม่มีระดับ II: Night Vision, Invisibility, Fire Resistance, Water Breathing, Weakness (W/Potion); Healing ไม่มี extended เพราะเป็น instant (W/Potion)
+- redstone กับ glowstone ใช้พร้อมกันบนยาเดียวไม่ได้ (extended กับ II เป็นของคู่ที่ไม่ใช้ร่วมกัน) (W/Potion)
 
-บอตควร: เลือกตามภารกิจ — ต้องการเวลายาว→redstone, ต้องการพลังสูง→glowstone (ห้ามทั้งสองบนยาเดียวกันเกินที่เกมอนุญาต [ไม่แน่ใจ])
+บอตควร: เลือกตามภารกิจ — ต้องการเวลายาว→redstone, ต้องการพลังสูง→glowstone (ห้ามทั้งสองบนยาเดียว)
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้า tooltip ผลลัพธ์แสดงเวลา/ระดับตรงตารางถัดไป

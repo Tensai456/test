@@ -6,7 +6,7 @@
 - ทำลายผลยา: Healing/Poison → Harming; Healing II และ Poison extended → Harming extended (W/Fermented_Spider_Eye)
 - Harming/Healing: Instant Health ฟื้นสิ่งมีชีวิตทั่วไป แต่ทำดาเมจ undead (W/Instant_Health)
 - Weakness ได้จากขวดน้ำ + fermented spider eye (W/Potion_of_Weakness)
-- ผล corruption ของ Swiftness→Slowness, Night Vision→Invisibility, Leaping→Slowness: [ไม่แน่ใจ]
+- corruption อื่น: Swiftness→Slowness, Leaping→Slowness, Night Vision→Invisibility (ทั้งแบบปกติและ extended) (W/Potion_of_Slowness, W/Fermented_Spider_Eye)
 
 บอตควร: ห้ามใช้ยา Harming กับตัวเอง/เพื่อน; undead (zombie/skeleton) ต้องระวังเมื่อโยน Healing
 ตัดสินผล: (เกณฑ์แล็บ) ผ่านถ้าไม่เผลอเติม fermented spider eye ในชุดยาตัวเอง
