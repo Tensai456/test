@@ -4,6 +4,16 @@
 > สร้างโดย `node scripts/split_kb.mjs` (เอกสาร) + `node scripts/gen_catalog.cjs` (บล็อก) — **แก้ที่ docs/ แล้วรันใหม่ ห้ามแก้ kb/ ตรง**
 > ความน่าเชื่อถือ: minecraft-data > วิกิ > เกณฑ์แล็บ > ผลจำลอง
 
+## advanced (`advanced/`)
+
+- [ส่วนลดจากการรักษาซอมบี้ชาวบ้าน (แก้ข้อมูลผิด)](advanced/cure-discount.md) · 7 บรรทัด
+- [ฟาร์ม iron golem (แหล่งเหล็ก)](advanced/golem-farm.md) · 8 บรรทัด
+- [แม่แบบอัปเกรด netherite](advanced/netherite-template.md) · 7 บรรทัด
+- [ขวด Ominous (เข้า trial แบบยาก)](advanced/ominous-bottle.md) · 8 บรรทัด
+- [เรดสโตนขั้นสูง (ความรู้เสริม ไม่ใช่เอาชีวิตรอด)](advanced/redstone-advanced.md) · 5 บรรทัด
+- [ยังไม่ยืนยัน](advanced/unverified.md) · 1 บรรทัด
+- [ขนแกะกันแรงสั่น sculk](advanced/wool-vibration.md) · 8 บรรทัด
+
 ## animals (`animals/`)
 
 - [อาร์มาดิลโล](animals/armadillo.md) · 7 บรรทัด

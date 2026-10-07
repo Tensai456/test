@@ -1406,6 +1406,91 @@
   "lines": 4
  },
  {
+  "path": "advanced/wool-vibration.md",
+  "title": "ขนแกะกันแรงสั่น sculk",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "sculk",
+   "advanced",
+   "wool",
+   "vibration"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/ominous-bottle.md",
+  "title": "ขวด Ominous (เข้า trial แบบยาก)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "ominous",
+   "trial",
+   "advanced",
+   "bottle"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/cure-discount.md",
+  "title": "ส่วนลดจากการรักษาซอมบี้ชาวบ้าน (แก้ข้อมูลผิด)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "cure",
+   "discount"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "advanced/golem-farm.md",
+  "title": "ฟาร์ม iron golem (แหล่งเหล็ก)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "iron",
+   "golem",
+   "advanced",
+   "farm"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/netherite-template.md",
+  "title": "แม่แบบอัปเกรด netherite",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "netherite",
+   "advanced",
+   "template"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "advanced/redstone-advanced.md",
+  "title": "เรดสโตนขั้นสูง (ความรู้เสริม ไม่ใช่เอาชีวิตรอด)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "redstone"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "advanced/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
   "path": "animals/breeding-rules.md",
   "title": "กฎการผสมพันธุ์ทั่วไป",
   "group": "animals",

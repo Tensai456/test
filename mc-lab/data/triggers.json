@@ -410,9 +410,10 @@
     "within": 8
    }
   },
-  "do": "ย่อเดิน (ไม่สั่นสะเทือน) · ห้ามวางบล็อก/ขุดใกล้ shrieker · ถอยออกจาก deep dark",
+  "do": "ย่อเดิน (ไม่สั่น) · วางขนแกะคั่นระหว่างตัวกับ sensor ก่อนวางบล็อก/เปิดหีบ (wool occlusion) · ห้ามขุด/วางบล็อกใกล้ shrieker · ได้ยินเสียงร้อง ≥3 ครั้ง ถอยออก (ครั้งที่ 4 = warden)",
   "kb": [
-   "hazards/deep-dark-warden.md"
+   "hazards/deep-dark-warden.md",
+   "advanced/wool-vibration.md"
   ]
  },
  {
