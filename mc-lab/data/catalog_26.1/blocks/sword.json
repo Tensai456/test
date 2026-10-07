@@ -1,0 +1,77 @@
+[
+ {
+  "name": "cobweb",
+  "display": "Cobweb",
+  "hardness": 4,
+  "blastRes": 4,
+  "tool": "sword",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 20,
+   "wooden": 0.4,
+   "stone": 0.4,
+   "iron": 0.4,
+   "diamond": 0.4,
+   "netherite": 0.4
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "slows",
+   "fallSafe"
+  ],
+  "drops": [
+   "string"
+  ]
+ },
+ {
+  "name": "bamboo_sapling",
+  "display": "Bamboo Shoot",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "sword",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "bamboo"
+  ]
+ },
+ {
+  "name": "bamboo",
+  "display": "Bamboo",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "sword",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo"
+  ]
+ }
+]

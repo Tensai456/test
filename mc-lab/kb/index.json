@@ -1,0 +1,1991 @@
+[
+ {
+  "path": "core/numbers.md",
+  "title": "ตัวเลขกลางที่ใช้บ่อย",
+  "group": "core",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "core",
+   "numbers"
+  ],
+  "lines": 24
+ },
+ {
+  "path": "problems/p01-mining-wrong-tool.md",
+  "title": "P1 ขุดมือเปล่า / ใช้เครื่องมือผิด",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p01",
+   "mining",
+   "wrong",
+   "tool"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p02-low-hp-not-eating.md",
+  "title": "P2 เลือดต่ำแต่ไม่กิน / กินผิดจังหวะ",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p02",
+   "low",
+   "not",
+   "eating"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p03-team-food-zero.md",
+  "title": "P3 อาหารทีม = 0 (เคยเกิดใน s20)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "s20",
+   "problems",
+   "p03",
+   "team",
+   "food",
+   "zero"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p04-desert-no-wood.md",
+  "title": "P4 เกิดในทะเลทราย ไม่มีไม้ (เคยเกิดใน s22)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "s22",
+   "problems",
+   "p04",
+   "desert",
+   "wood"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "problems/p05-fall-death.md",
+  "title": "P5 ตกที่สูงตาย",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p05",
+   "fall",
+   "death"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p06-dig-down-lava.md",
+  "title": "P6 ขุดลงตรง / ลาวา",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p06",
+   "dig",
+   "down",
+   "lava"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "problems/p07-drowning.md",
+  "title": "P7 จมน้ำ",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p07",
+   "drowning"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "problems/p08-stuck-suffocation.md",
+  "title": "P8 ติดบล็อก / ทรายหรือกรวดร่วงทับ",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p08",
+   "stuck",
+   "suffocation"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "problems/p09-afk-idle.md",
+  "title": "P9 ยืนนิ่ง AFK (ตรรกะบอต ไม่ใช่กลไกเกม)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "afk",
+   "problems",
+   "p09",
+   "idle"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p10-home-near-hole.md",
+  "title": "P10 บ้าน/เตียงข้างหลุม (s37) · บ้านไม่ปลอดภัย",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "p10",
+   "s37",
+   "problems",
+   "home",
+   "near",
+   "hole"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p11-first-night.md",
+  "title": "P11 คืนแรกไม่มีที่หลบ",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "p11",
+   "problems",
+   "first",
+   "night"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p12-bed-nether-end.md",
+  "title": "P12 นอนในนรก/End",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "p12",
+   "end",
+   "problems",
+   "bed",
+   "nether"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "problems/mobs-summary.md",
+  "title": "D. ม็อบ (สรุป — รายละเอียดเต็มรอ MOB_TACTICS)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "mob_tactics",
+   "problems",
+   "mobs",
+   "summary"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "problems/pvp-hypotheses.md",
+  "title": "E. PvP (สมมติฐานจากวิกิ + ตัวจำลอง → ต้องเทส)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "pvp",
+   "problems",
+   "hypotheses"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "problems/test-checklist.md",
+  "title": "F. เช็กลิสต์เทสจริง (อีก ~3 วัน)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "test",
+   "checklist"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "movement/speed-jump.md",
+  "title": "1. ความเร็ว/การกระโดด (ตัวเลขฐาน)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "movement",
+   "speed",
+   "jump"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "movement/fall-damage.md",
+  "title": "2. การตก (Fall damage)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "fall",
+   "damage",
+   "movement"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "movement/fall-safe-blocks.md",
+  "title": "2.1 พื้นที่ลด/กันดาเมจตก",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "movement",
+   "fall",
+   "safe",
+   "blocks"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "movement/clutch-mlg.md",
+  "title": "2.2 Clutch / MLG — วิธีทำ (แปลงเป็นขั้นตอนบอต)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "clutch",
+   "mlg",
+   "movement"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "movement/edges-bridging-stuck.md",
+  "title": "3. ขอบ/รอบตัว/ติดบล็อก",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "movement",
+   "edges",
+   "bridging",
+   "stuck"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "movement/parkour-dropper-camera.md",
+  "title": "4. Parkour / Dropper / มุมกล้อง",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "parkour",
+   "dropper",
+   "movement",
+   "camera"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "movement/pvp-movement.md",
+  "title": "5. PvP — ส่วนที่เกี่ยวกับการเคลื่อนที่ (รายละเอียดเต็มอยู่ใน PVP_PLAYBOOK)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "pvp",
+   "pvp_playbook",
+   "movement"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "movement/bot-rules.md",
+  "title": "6. ตารางกฎสำหรับบอต (พร้อมโค้ด)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "movement",
+   "bot",
+   "rules"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "movement/youtube-pending.md",
+  "title": "7. เทคนิคจาก YouTube — **ยังว่าง (รอข้อมูล)**",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "youtube",
+   "movement",
+   "pending"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "movement/unverified.md",
+  "title": "8. ยังไม่ได้ verify",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "verify",
+   "movement",
+   "unverified"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "weapons/melee.md",
+  "title": "1. อาวุธระยะประชิด",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "melee"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "weapons/ranged-thrown.md",
+  "title": "2. ยิงไกล/ขว้าง",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "ranged",
+   "thrown"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "weapons/explosive-fire-potion.md",
+  "title": "3. ระเบิด/ไฟ/ยา/สิ่งแวดล้อม",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "explosive",
+   "fire",
+   "potion"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "weapons/enchantments-damage.md",
+  "title": "4. เอนชานต์ที่มีผลต่อดาเมจ",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "enchantments",
+   "damage"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "weapons/bot-notes.md",
+  "title": "5. ข้อสังเกตสำหรับบอต",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "bot",
+   "notes"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "sim/physics-validation.md",
+  "title": "1. ฟิสิกส์ (`lib/pvp/physics.mjs`) — เทียบกับวิกิ",
+  "group": "sim",
+  "source": "SIM_RESULTS.md",
+  "keywords": [
+   "lib",
+   "pvp",
+   "physics",
+   "mjs",
+   "sim",
+   "validation"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "sim/pvp-results.md",
+  "title": "2. ผล PvP (n=400 สลับฝั่ง, ping 10–50, เกราะเหล็กทั้งคู่)",
+  "group": "sim",
+  "source": "SIM_RESULTS.md",
+  "keywords": [
+   "pvp",
+   "ping",
+   "sim",
+   "results"
+  ],
+  "lines": 22
+ },
+ {
+  "path": "sim/survival-results.md",
+  "title": "3. ผลเอาชีวิตรอด (n=300, Normal)",
+  "group": "sim",
+  "source": "SIM_RESULTS.md",
+  "keywords": [
+   "normal",
+   "sim",
+   "survival",
+   "results"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "sim/limitations.md",
+  "title": "4. ข้อจำกัด (ต้องรู้ก่อนใช้ตัดสินใจ)",
+  "group": "sim",
+  "source": "SIM_RESULTS.md",
+  "keywords": [
+   "sim",
+   "limitations"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "physics/player-entity-constants.md",
+  "title": "0. ค่าพื้นฐานผู้เล่น/เอนทิตี",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "player",
+   "entity",
+   "constants"
+  ],
+  "lines": 23
+ },
+ {
+  "path": "physics/slippery.md",
+  "title": "1. พื้นลื่น (Slipperiness)",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "slipperiness",
+   "physics",
+   "slippery"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "physics/speed-modifiers.md",
+  "title": "2. ตัวหน่วง/เปลี่ยนความเร็ว",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "speed",
+   "modifiers"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "physics/bounce-fall.md",
+  "title": "3. การเด้ง / ดาเมจตก",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "bounce",
+   "fall"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "physics/climbable.md",
+  "title": "4. ปีนได้ (Climbable)",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "climbable",
+   "physics"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "physics/collision-shapes.md",
+  "title": "5. Collision shape ที่ดัก/สะดุด",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "collision",
+   "shape",
+   "physics",
+   "shapes"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "physics/fluids.md",
+  "title": "6. ของเหลว",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "fluids"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "physics/gravity-blocks.md",
+  "title": "7. Gravity blocks",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "gravity",
+   "blocks",
+   "physics"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "physics/bot-checklist.md",
+  "title": "8. สรุปกฎสำหรับบอต (checklist)",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "checklist",
+   "physics",
+   "bot"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "physics/unverified.md",
+  "title": "9. ยังไม่ยืนยัน [ไม่แน่ใจ]",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "hazards/hunger-exhaustion.md",
+  "title": "1. หิว / Exhaustion / Starvation",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "exhaustion",
+   "starvation",
+   "hazards",
+   "hunger"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "hazards/food-poisoning.md",
+  "title": "2. อาหารพิษ",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "food",
+   "poisoning"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "hazards/status-effects.md",
+  "title": "3. Status effects",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "status",
+   "effects",
+   "hazards"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "hazards/powder-snow-freezing.md",
+  "title": "4. ความหนาว (Powder snow)",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "powder",
+   "snow",
+   "hazards",
+   "freezing"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/damage-blocks.md",
+  "title": "5. บล็อกทำร้าย",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "damage",
+   "blocks"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "hazards/fire-lightning.md",
+  "title": "6. ไฟลาม, ฟ้าผ่า",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "fire",
+   "lightning"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "hazards/drowning.md",
+  "title": "7. จมน้ำ",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "drowning"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/fall-void.md",
+  "title": "8. ตกจากที่สูง / Void",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "void",
+   "hazards",
+   "fall"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/falling-blocks.md",
+  "title": "9. บล็อกตก",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "falling",
+   "blocks"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/caves-lava.md",
+  "title": "10. ถ้ำ/ Cave-in / ลาวา",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "cave",
+   "hazards",
+   "caves",
+   "lava"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "hazards/deep-dark-warden.md",
+  "title": "11. Deep Dark / Warden",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "deep",
+   "dark",
+   "warden",
+   "hazards"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "hazards/night-lost-phantom.md",
+  "title": "12. กลางคืน / หลงทาง / Phantom",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "phantom",
+   "hazards",
+   "night",
+   "lost"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "hazards/raid.md",
+  "title": "13. Raid",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "raid",
+   "hazards"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "hazards/structure-traps.md",
+  "title": "14. กับดักโครงสร้าง",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "structure",
+   "traps"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "hazards/boat-ice.md",
+  "title": "15. เรือ / น้ำแข็ง",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "boat",
+   "ice"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "hazards/death-item-loss.md",
+  "title": "16. ไอเท็มหาย / ตาย",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "death",
+   "item",
+   "loss"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/durability.md",
+  "title": "17. ความทนทาน (Durability)",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "durability",
+   "hazards"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "hazards/reflex-priority.md",
+  "title": "ตารางดับเพลิงด่วน (bot reflex priority)",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "bot",
+   "reflex",
+   "priority",
+   "hazards"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "hazards/source-notes.md",
+  "title": "ข้อควรระวังด้านแหล่งข้อมูล",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "source",
+   "notes"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "nether-end/nether-mobs-table.md",
+  "title": "1. ตารางมอนสเตอร์ Nether (Normal)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "nether",
+   "normal",
+   "end",
+   "mobs",
+   "table"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "nether-end/m1-ghast.md",
+  "title": "Entry M1: ถูก Ghast ยิง (HP หายเป็นก้อน, มี projectile fireball เข้า)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "ghast",
+   "projectile",
+   "fireball",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/m2-blaze.md",
+  "title": "Entry M2: Blaze ในป้อม",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "blaze",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/m3-zombified-piglin.md",
+  "title": "Entry M3: Zombified Piglin ทั้งฝูงเข้าตี",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "zombified",
+   "piglin",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/m4-piglin-brute.md",
+  "title": "Entry M4: Piglin / Brute ใน bastion",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "piglin",
+   "brute",
+   "bastion",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/m5-hoglin-zoglin.md",
+  "title": "Entry M5: Hoglin / Zoglin",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "hoglin",
+   "zoglin",
+   "nether",
+   "end"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "nether-end/m6-magma-cube-strider.md",
+  "title": "Entry M6: Magma Cube / Strider",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "magma",
+   "cube",
+   "strider",
+   "nether",
+   "end"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "nether-end/e1-portal-build.md",
+  "title": "Entry E1: สร้างและจุด portal",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "portal",
+   "nether",
+   "end",
+   "build"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e2-portal-coords-lost.md",
+  "title": "Entry E2: พิกัดและจุดกลับ portal (หลงทาง)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "portal",
+   "nether",
+   "end",
+   "coords",
+   "lost"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e3-water-lava.md",
+  "title": "Entry E3: น้ำ / ลาวา / การตกลาวา",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "nether",
+   "end",
+   "water",
+   "lava"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e4-bed-anchor.md",
+  "title": "Entry E4: นอนเตียง / respawn anchor ผิดมิติ",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "respawn",
+   "anchor",
+   "nether",
+   "end",
+   "bed"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e5-ground-fire.md",
+  "title": "Entry E5: ผิวพื้น/ไฟ/อันตรายอื่น",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "nether",
+   "end",
+   "ground",
+   "fire"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "nether-end/e6-ghast-breaks-portal.md",
+  "title": "Entry E6: Ghast ทำลายพอร์ทัล (ติดอยู่ใน Nether)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "ghast",
+   "nether",
+   "end",
+   "breaks",
+   "portal"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e7-gold-armor.md",
+  "title": "Entry E7: กฎเกราะทอง",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "nether",
+   "end",
+   "gold",
+   "armor"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "nether-end/d1-reach-end.md",
+  "title": "Entry D1: ไปถึง End",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "end",
+   "nether",
+   "reach"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d2-end-spawn-void.md",
+  "title": "Entry D2: ถึง End แล้ว - spawn และ void",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "end",
+   "spawn",
+   "void",
+   "nether"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d3-ender-dragon.md",
+  "title": "Entry D3: Ender Dragon",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "ender",
+   "dragon",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d4-end-enderman.md",
+  "title": "Entry D4: Enderman ใน End",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "enderman",
+   "end",
+   "nether"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d5-shulker-levitation.md",
+  "title": "Entry D5: Shulker + Levitation",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "shulker",
+   "levitation",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d6-gateway-elytra.md",
+  "title": "Entry D6: End gateway / เกาะนอก / elytra",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "end",
+   "gateway",
+   "elytra",
+   "nether"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "nether-end/d7-return-home.md",
+  "title": "Entry D7: กลับบ้านจาก End",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "end",
+   "nether",
+   "return",
+   "home"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "nether-end/wither.md",
+  "title": "4. Wither (boss)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "wither",
+   "boss",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/unverified.md",
+  "title": "สรุปจุดที่ไม่แน่ใจ",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "nether",
+   "end",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "progression/milestones.md",
+  "title": "1. ตารางไมล์สโตน (สิ่งที่ต้องนับใน inventory)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "inventory",
+   "progression",
+   "milestones"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "progression/wood-tools-recipes.md",
+  "title": "2. ไม้ → crafting table → เครื่องมือ (จำนวนสูตร)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "crafting",
+   "table",
+   "progression",
+   "wood",
+   "tools",
+   "recipes"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "progression/tool-durability.md",
+  "title": "Durability เครื่องมือ (ใช้ได้กี่ครั้ง; ทุกชนิด pickaxe/axe/shovel/sword/hoe ตาม snippet)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "durability",
+   "pickaxe",
+   "axe",
+   "shovel",
+   "sword",
+   "hoe",
+   "snippet",
+   "progression",
+   "tool"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "progression/armor.md",
+  "title": "3. เกราะ (durability ต่อชิ้น / armor points ต่อชิ้น)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "durability",
+   "armor",
+   "points",
+   "progression"
+  ],
+  "lines": 18
+ },
+ {
+  "path": "progression/ores-y-levels.md",
+  "title": "4. แร่: ระดับ Y, ตำแหน่งขุดที่ดี, pickaxe ที่ต้องใช้ (Java 1.18+)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "pickaxe",
+   "java",
+   "progression",
+   "ores",
+   "levels"
+  ],
+  "lines": 18
+ },
+ {
+  "path": "progression/smelting-fuel.md",
+  "title": "5. Smelting และเชื้อเพลิง",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "smelting",
+   "progression",
+   "fuel"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "progression/food.md",
+  "title": "6. อาหาร",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "progression",
+   "food"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "progression/iron-first-set.md",
+  "title": "7. ชุดเหล็กชุดแรก: iron รวม",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "iron",
+   "progression",
+   "first",
+   "set"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "progression/enchant-anvil-villager.md",
+  "title": "8. Enchant / Anvil / Villager",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "enchant",
+   "anvil",
+   "villager",
+   "progression"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "progression/nether-to-end.md",
+  "title": "9. Nether → End",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "nether",
+   "end",
+   "progression"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "progression/p00-playbook-intro.md",
+  "title": "10. Playbook รายไมล์สโตน (อาการ → สาเหตุ → แก้ → ตัวเลข+แหล่ง → ตัดสินผล → เทสจริง)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "playbook",
+   "progression",
+   "p00",
+   "intro"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "progression/p01-wood-table.md",
+  "title": "P1 ไม้ / table / เครื่องมือไม้",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "table",
+   "progression",
+   "p01",
+   "wood"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "progression/p02-stone-furnace.md",
+  "title": "P2 stone tools + furnace",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "stone",
+   "tools",
+   "furnace",
+   "progression",
+   "p02"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p03-food.md",
+  "title": "P3 อาหาร",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "progression",
+   "p03",
+   "food"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p04-bed.md",
+  "title": "P4 เตียง (wool)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "wool",
+   "progression",
+   "p04",
+   "bed"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p05-iron.md",
+  "title": "P5 เหล็ก (ชุดแรก 36 ingot)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "ingot",
+   "progression",
+   "p05",
+   "iron"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "progression/p06-diamond.md",
+  "title": "P6 เพชร",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "progression",
+   "p06",
+   "diamond"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p07-enchant.md",
+  "title": "P7 Enchant",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "enchant",
+   "progression",
+   "p07"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p08-nether-portal.md",
+  "title": "P8 Nether portal",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "nether",
+   "portal",
+   "progression",
+   "p08"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p09-blaze-pearl.md",
+  "title": "P9 blaze rod + pearl",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "blaze",
+   "rod",
+   "pearl",
+   "progression",
+   "p09"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "progression/p10-stronghold-end.md",
+  "title": "P10 stronghold + End",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "p10",
+   "stronghold",
+   "end",
+   "progression"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "progression/unverified.md",
+  "title": "11. ผลรวม [ไม่แน่ใจ] / ข้อสังเกตข้อมูล",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "progression",
+   "unverified"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "mobs/_rules.md",
+  "title": "0. กฎแล็บ (บังคับ)",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "mobs",
+   "rules"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "mobs/_unverified.md",
+  "title": "4. ที่ยังไม่ยืนยัน",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "mobs",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "mobs/zombie.md",
+  "title": "zombie",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "zombie",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/husk.md",
+  "title": "husk",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "husk",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/drowned.md",
+  "title": "drowned",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "drowned",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/zombie_villager.md",
+  "title": "zombie villager",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "zombie",
+   "villager",
+   "mobs",
+   "zombie_villager"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "mobs/skeleton.md",
+  "title": "skeleton",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "skeleton",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/stray.md",
+  "title": "stray",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "stray",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/bogged.md",
+  "title": "bogged",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "bogged",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/parched.md",
+  "title": "parched",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "parched",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/creeper.md",
+  "title": "creeper",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "creeper",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/spider.md",
+  "title": "spider",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "spider",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/cave_spider.md",
+  "title": "cave spider",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "cave",
+   "spider",
+   "mobs",
+   "cave_spider"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/enderman.md",
+  "title": "enderman",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "enderman",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/witch.md",
+  "title": "witch",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "witch",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/slime.md",
+  "title": "slime",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "slime",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/phantom.md",
+  "title": "phantom",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "phantom",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/silverfish.md",
+  "title": "silverfish",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "silverfish",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/pillager.md",
+  "title": "pillager",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "pillager",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/vindicator.md",
+  "title": "vindicator",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "vindicator",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/evoker.md",
+  "title": "evoker",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "evoker",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/vex.md",
+  "title": "vex",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "vex",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/ravager.md",
+  "title": "ravager",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "ravager",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/illusioner.md",
+  "title": "illusioner",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "illusioner",
+   "mobs"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "mobs/guardian.md",
+  "title": "guardian",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "guardian",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/elder_guardian.md",
+  "title": "elder guardian",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "elder",
+   "guardian",
+   "mobs",
+   "elder_guardian"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/warden.md",
+  "title": "warden",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "warden",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/breeze.md",
+  "title": "breeze",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "breeze",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/creaking.md",
+  "title": "creaking",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "creaking",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/wolf.md",
+  "title": "wolf",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "wolf",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/bee.md",
+  "title": "bee",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "bee",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/polar_bear.md",
+  "title": "polar bear",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "polar",
+   "bear",
+   "mobs",
+   "polar_bear"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/llama.md",
+  "title": "llama",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "llama",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/goat.md",
+  "title": "goat",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "goat",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/iron_golem.md",
+  "title": "iron golem",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "iron",
+   "golem",
+   "mobs",
+   "iron_golem"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/pufferfish.md",
+  "title": "pufferfish",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "pufferfish",
+   "mobs"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "mobs/dolphin.md",
+  "title": "dolphin",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "dolphin",
+   "mobs"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "mobs/endermite.md",
+  "title": "endermite",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "endermite",
+   "mobs"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "blocks/_effects.md",
+  "title": "เอฟเฟกต์ทั้งหมด 40 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "effects"
+  ],
+  "lines": 49
+ },
+ {
+  "path": "blocks/_enchantments.md",
+  "title": "เอนชานต์ทั้งหมด 43 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "enchantments"
+  ],
+  "lines": 52
+ },
+ {
+  "path": "blocks/_entities.md",
+  "title": "เอนทิตีทั้งหมด 157 ชนิด (ขนาดกล่องชน)",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "entities"
+  ],
+  "lines": 166
+ },
+ {
+  "path": "blocks/_foods.md",
+  "title": "อาหารทั้งหมด 44 ชนิด (เรียงตาม อิ่ม + saturation)",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "foods"
+  ],
+  "lines": 53
+ },
+ {
+  "path": "blocks/_special.md",
+  "title": "บล็อกพิเศษ (อันตราย / ร่วง / ช้า / ลื่น / ปีน / กันตก)",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "special"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "blocks/axe.md",
+  "title": "บล็อกขุดด้วยขวาน — 285 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "axe"
+  ],
+  "lines": 294
+ },
+ {
+  "path": "blocks/hand.md",
+  "title": "บล็อกขุดด้วยมือ (ไม่มีเครื่องมือที่เร็วกว่า) — 348 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "hand"
+  ],
+  "lines": 357
+ },
+ {
+  "path": "blocks/hoe.md",
+  "title": "บล็อกขุดด้วยจอบ — 29 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "hoe"
+  ],
+  "lines": 38
+ },
+ {
+  "path": "blocks/pickaxe-any.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ขั้นไหนก็ได้ของ) — 79 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "any"
+  ],
+  "lines": 88
+ },
+ {
+  "path": "blocks/pickaxe-diamond.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ต้องขั้น diamond ขึ้นไป) — 5 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "diamond"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "blocks/pickaxe-iron.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ต้องขั้น iron ขึ้นไป) — 12 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "iron"
+  ],
+  "lines": 21
+ },
+ {
+  "path": "blocks/pickaxe-stone.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ต้องขั้น stone ขึ้นไป) — 90 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "stone"
+  ],
+  "lines": 99
+ },
+ {
+  "path": "blocks/pickaxe-wooden.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ต้องขั้น wooden ขึ้นไป) — 281 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "wooden"
+  ],
+  "lines": 290
+ },
+ {
+  "path": "blocks/shovel.md",
+  "title": "บล็อกขุดด้วยพลั่ว — 36 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "shovel"
+  ],
+  "lines": 45
+ },
+ {
+  "path": "blocks/sword.md",
+  "title": "บล็อกขุดด้วยดาบ — 3 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "sword"
+  ],
+  "lines": 12
+ }
+]

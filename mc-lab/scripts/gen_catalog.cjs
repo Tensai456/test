@@ -77,41 +77,55 @@ const entities = d.entitiesArray.map((e) => ({ name: e.name, display: e.displayN
 const enchants = (d.enchantmentsArray || []).map((e) => ({ name: e.name, display: e.displayName, maxLevel: e.maxLevel, category: e.category, treasure: e.treasureOnly, curse: e.curse, exclude: e.exclude }));
 const effects = (d.effectsArray || []).map((e) => ({ name: e.name, display: e.displayName, type: e.type }));
 
-const write = (n, v) => fs.writeFileSync(path.join(OUT, n), JSON.stringify(v, null, 1));
+const write = (n, v) => { fs.mkdirSync(path.dirname(path.join(OUT, n)), { recursive: true }); fs.writeFileSync(path.join(OUT, n), JSON.stringify(v, null, 1)); };
 write('blocks.json', blocks); write('items.json', items); write('foods.json', foods);
 write('entities.json', entities); write('enchantments.json', enchants); write('effects.json', effects);
 
-// ---------- markdown ----------
+// ---------- แยกบล็อกเป็นกลุ่มเล็ก (ตามเครื่องมือ · อีเต้อแยกตามขั้นต่ำ) ----------
+const groupOf = (b) => (b.tool === 'pickaxe' ? `pickaxe-${b.needsTool ? b.minTier : 'any'}` : b.tool);
+const groups = {};
+for (const b of blocks) (groups[groupOf(b)] ??= []).push(b);
+const blockIndex = {};
+for (const [g, list] of Object.entries(groups)) {
+  write(`blocks/${g}.json`, list);
+  for (const b of list) blockIndex[b.name] = { group: g, json: `blocks/${g}.json`, md: `kb/blocks/${g}.md` };
+}
+write('blocks/index.json', blockIndex);
+
+// ---------- markdown → kb/blocks/ (1 หัวข้อ/ไฟล์) ----------
+const KBB = path.join(__dirname, '..', 'kb', 'blocks');
+fs.rmSync(KBB, { recursive: true, force: true });
+fs.mkdirSync(KBB, { recursive: true });
 const fmt = (t) => (t == null ? '—' : t === 0 ? 'ทันที' : t.toFixed(2));
-const md = [];
-md.push(`# BLOCK_CATALOG — ทุกบล็อกใน Java ${ver} (สร้างอัตโนมัติจาก minecraft-data)`, '');
-md.push(`> สร้างด้วย \`node scripts/gen_catalog.cjs ${ver}\` · ห้ามแก้มือ · JSON เต็มอยู่ \`data/catalog_${ver}/\``);
-md.push('> เวลาขุด = วินาที, ไม่มีเอนชานต์/ยา, ยืนบนพื้น, ไม่อยู่ในน้ำ (อยู่ในน้ำหรือลอย ×5 ต่ออย่าง) · สูตร [Breaking](https://minecraft.wiki/w/Breaking)');
-md.push('> "เครื่องมือ" = ชนิดที่ขุดเร็วสุด · "ขั้นต่ำ" = ขั้นเครื่องมือต่ำสุดที่ขุดแล้วได้ของ · ตัวหนา = ขุดแล้วไม่ได้ของ', '');
-md.push(`จำนวน: บล็อก ${blocks.length} · ไอเทม ${items.length} · อาหาร ${foods.length} · เอนทิตี ${entities.length} · เอนชานต์ ${enchants.length} · เอฟเฟกต์ ${effects.length}`, '');
-
-md.push('## 1. บล็อกพิเศษ (อันตราย/ฟิสิกส์)', '');
+const HEAD = (title) => [`# ${title}`, '', `<!-- สร้างอัตโนมัติโดย scripts/gen_catalog.cjs ${ver} จาก minecraft-data · ห้ามแก้มือ -->`,
+  '> เวลาขุด = วินาที, ไม่มีเอนชานต์/ยา, ยืนบนพื้น, ไม่อยู่ในน้ำ (อยู่ในน้ำหรือลอย ×5 ต่ออย่าง) · สูตร [Breaking](https://minecraft.wiki/w/Breaking)',
+  '> "ขั้นต่ำ" = ขั้นเครื่องมือต่ำสุดที่ขุดแล้วได้ของ · **ตัวหนา** = ขุดได้แต่ไม่ได้ของ · ค้นบล็อก→ไฟล์: `data/catalog_' + ver + '/blocks/index.json`', ''];
+const writeMd = (f, lines) => fs.writeFileSync(path.join(KBB, f), lines.join('\n') + '\n');
+const TOOL_TH = { pickaxe: 'อีเต้อ', axe: 'ขวาน', shovel: 'พลั่ว', hoe: 'จอบ', sword: 'ดาบ', hand: 'มือ (ไม่มีเครื่องมือที่เร็วกว่า)' };
+for (const [g, list] of Object.entries(groups).sort()) {
+  const [tool, tier] = g.split('-');
+  const title = `บล็อกขุดด้วย${TOOL_TH[tool] ?? tool}${tier ? (tier === 'any' ? ' (ขั้นไหนก็ได้ของ)' : ` (ต้องขั้น ${tier} ขึ้นไป)`) : ''} — ${list.length} ชนิด`;
+  const md = HEAD(title);
+  md.push('| บล็อก | ความแข็ง | กันระเบิด | ขั้นต่ำ | มือ | ไม้ | หิน | เหล็ก | เพชร | เนเธอไรต์ | แสง | แท็ก |', '|---|---|---|---|---|---|---|---|---|---|---|---|');
+  for (const b of [...list].sort((a, z) => a.name.localeCompare(z.name))) {
+    const cell = (t) => {
+      const v = b.time[t];
+      const id = t === 'hand' ? null : d.itemsByName[`${t}_${b.tool}`]?.id;
+      const bad = b.needsTool && !canHarvest(d.blocksByName[b.name], id ?? null);
+      return bad && v != null ? `**${fmt(v)}**` : fmt(v);
+    };
+    md.push(`| ${b.name} | ${b.hardness ?? '—'} | ${b.blastRes} | ${b.needsTool ? b.minTier : '—'} | ${cell('hand')} | ${cell('wooden')} | ${cell('stone')} | ${cell('iron')} | ${cell('diamond')} | ${cell('netherite')} | ${b.light || ''} | ${b.tags.join(' ')} |`);
+  }
+  writeMd(`${g}.md`, md);
+}
+const special = HEAD('บล็อกพิเศษ (อันตราย / ร่วง / ช้า / ลื่น / ปีน / กันตก)');
 for (const [k, label] of [['danger', 'อันตราย'], ['gravity', 'ร่วงได้'], ['slows', 'ทำให้ช้า'], ['slippery', 'ลื่น/เด้ง'], ['climbable', 'ปีนได้'], ['fallSafe', 'ลดหรือกันดาเมจตก']]) {
-  md.push(`- **${label}:** ${blocks.filter((b) => b.tags.includes(k)).map((b) => b.name).join(', ')}`);
+  special.push(`- **${label}:** ${blocks.filter((b) => b.tags.includes(k)).map((b) => b.name).join(', ')}`);
 }
-md.push('', '## 2. อาหารทั้งหมด (เรียงตาม อิ่ม + saturation)', '', '| อาหาร | อิ่ม | saturation |', '|---|---|---|');
-for (const f of foods) md.push(`| ${f.display} | ${f.food} | ${f.saturation} |`);
-
-md.push('', '## 3. ทุกบล็อก', '', '| บล็อก | ความแข็ง | กันระเบิด | เครื่องมือ | ขั้นต่ำ | มือ | ไม้ | หิน | เหล็ก | เพชร | เนเธอไรต์ | แสง | แท็ก |', '|---|---|---|---|---|---|---|---|---|---|---|---|---|');
-for (const b of [...blocks].sort((a, z) => a.name.localeCompare(z.name))) {
-  const cell = (tier) => {
-    const t = b.time[tier];
-    const id = tier === 'hand' ? null : d.itemsByName[`${tier}_${b.tool}`]?.id;
-    const bad = b.needsTool && !canHarvest(d.blocksByName[b.name], id ?? null);
-    return bad && t != null ? `**${fmt(t)}**` : fmt(t);
-  };
-  md.push(`| ${b.name} | ${b.hardness ?? '—'} | ${b.blastRes} | ${b.tool} | ${b.needsTool ? b.minTier : '—'} | ${cell('hand')} | ${cell('wooden')} | ${cell('stone')} | ${cell('iron')} | ${cell('diamond')} | ${cell('netherite')} | ${b.light || ''} | ${b.tags.join(' ')} |`);
-}
-md.push('', '## 4. เอนทิตีทั้งหมด (ขนาดกล่องชน)', '', '| เอนทิตี | ประเภท | หมวด | กว้าง | สูง |', '|---|---|---|---|---|');
-for (const e of entities) md.push(`| ${e.name} | ${e.type} | ${e.category ?? ''} | ${e.width} | ${e.height} |`);
-md.push('', '## 5. เอนชานต์ทั้งหมด', '', '| เอนชานต์ | เลเวลสูงสุด | ใช้กับ | treasure | ห้ามคู่กับ |', '|---|---|---|---|---|');
-for (const e of enchants) md.push(`| ${e.name} | ${e.maxLevel} | ${e.category ?? ''} | ${e.treasure ? '✓' : ''} | ${(e.exclude || []).join(', ')} |`);
-md.push('', '## 6. เอฟเฟกต์ทั้งหมด', '', effects.map((e) => `${e.name} (${e.type === 'good' ? 'ดี' : 'ร้าย'})`).join(' · '));
-const docs = path.join(__dirname, '..', 'docs', 'BLOCK_CATALOG.md');
-fs.writeFileSync(docs, md.join('\n') + '\n');
-console.log(`OK ${ver}: blocks ${blocks.length}, items ${items.length}, foods ${foods.length}, entities ${entities.length}, enchants ${enchants.length}, effects ${effects.length}`);
+special.push('', 'รายละเอียดพฤติกรรม: `kb/physics/` · แท็กคัดมือใน `scripts/gen_catalog.cjs` (TAGS)');
+writeMd('_special.md', special);
+writeMd('_foods.md', [...HEAD(`อาหารทั้งหมด ${foods.length} ชนิด (เรียงตาม อิ่ม + saturation)`), '| อาหาร | อิ่ม | saturation |', '|---|---|---|', ...foods.map((f) => `| ${f.display} | ${f.food} | ${f.saturation} |`)]);
+writeMd('_entities.md', [...HEAD(`เอนทิตีทั้งหมด ${entities.length} ชนิด (ขนาดกล่องชน)`), '| เอนทิตี | ประเภท | หมวด | กว้าง | สูง |', '|---|---|---|---|---|', ...entities.map((e) => `| ${e.name} | ${e.type} | ${e.category ?? ''} | ${e.width} | ${e.height} |`)]);
+writeMd('_enchantments.md', [...HEAD(`เอนชานต์ทั้งหมด ${enchants.length} ชนิด`), '| เอนชานต์ | เลเวลสูงสุด | ใช้กับ | treasure | ห้ามคู่กับ |', '|---|---|---|---|---|', ...enchants.map((e) => `| ${e.name} | ${e.maxLevel} | ${e.category ?? ''} | ${e.treasure ? '✓' : ''} | ${(e.exclude || []).join(', ')} |`)]);
+writeMd('_effects.md', [...HEAD(`เอฟเฟกต์ทั้งหมด ${effects.length} ชนิด`), '| เอฟเฟกต์ | ดี/ร้าย |', '|---|---|', ...effects.map((e) => `| ${e.name} | ${e.type === 'good' ? 'ดี' : 'ร้าย'} |`)]);
+console.log(`OK ${ver}: blocks ${blocks.length} (${Object.keys(groups).length} กลุ่ม), items ${items.length}, foods ${foods.length}, entities ${entities.length}, enchants ${enchants.length}, effects ${effects.length}`);

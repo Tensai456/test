@@ -1,0 +1,8209 @@
+[
+ {
+  "name": "air",
+  "display": "Air",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "oak_sapling",
+  "display": "Oak Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "oak_sapling"
+  ]
+ },
+ {
+  "name": "spruce_sapling",
+  "display": "Spruce Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "spruce_sapling"
+  ]
+ },
+ {
+  "name": "birch_sapling",
+  "display": "Birch Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "birch_sapling"
+  ]
+ },
+ {
+  "name": "jungle_sapling",
+  "display": "Jungle Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "jungle_sapling"
+  ]
+ },
+ {
+  "name": "acacia_sapling",
+  "display": "Acacia Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "acacia_sapling"
+  ]
+ },
+ {
+  "name": "cherry_sapling",
+  "display": "Cherry Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cherry_sapling"
+  ]
+ },
+ {
+  "name": "dark_oak_sapling",
+  "display": "Dark Oak Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "dark_oak_sapling"
+  ]
+ },
+ {
+  "name": "pale_oak_sapling",
+  "display": "Pale Oak Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pale_oak_sapling"
+  ]
+ },
+ {
+  "name": "mangrove_propagule",
+  "display": "Mangrove Propagule",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "bedrock",
+  "display": "Bedrock",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "water",
+  "display": "Water",
+  "hardness": 100,
+  "blastRes": 100,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 150,
+   "wooden": 150,
+   "stone": 150,
+   "iron": 150,
+   "diamond": 150,
+   "netherite": 150
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "slows",
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "lava",
+  "display": "Lava",
+  "hardness": 100,
+  "blastRes": 100,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 150,
+   "wooden": 150,
+   "stone": 150,
+   "iron": 150,
+   "diamond": 150,
+   "netherite": 150
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "danger",
+   "slows"
+  ],
+  "drops": []
+ },
+ {
+  "name": "glass",
+  "display": "Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "white_bed",
+  "display": "White Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "orange_bed",
+  "display": "Orange Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "magenta_bed",
+  "display": "Magenta Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "light_blue_bed",
+  "display": "Light Blue Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "yellow_bed",
+  "display": "Yellow Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "lime_bed",
+  "display": "Lime Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "pink_bed",
+  "display": "Pink Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "gray_bed",
+  "display": "Gray Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "light_gray_bed",
+  "display": "Light Gray Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "cyan_bed",
+  "display": "Cyan Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "purple_bed",
+  "display": "Purple Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "blue_bed",
+  "display": "Blue Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "brown_bed",
+  "display": "Brown Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "green_bed",
+  "display": "Green Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "red_bed",
+  "display": "Red Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "black_bed",
+  "display": "Black Bed",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.3,
+   "stone": 0.3,
+   "iron": 0.3,
+   "diamond": 0.3,
+   "netherite": 0.3
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "short_grass",
+  "display": "Short Grass",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "wheat_seeds"
+  ]
+ },
+ {
+  "name": "fern",
+  "display": "Fern",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_bush",
+  "display": "Dead Bush",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "air"
+  ]
+ },
+ {
+  "name": "bush",
+  "display": "Bush",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "short_dry_grass",
+  "display": "Short Dry Grass",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "tall_dry_grass",
+  "display": "Tall Dry Grass",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "seagrass",
+  "display": "Seagrass",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "tall_seagrass",
+  "display": "Tall Seagrass",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "white_wool",
+  "display": "White Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "white_wool"
+  ]
+ },
+ {
+  "name": "orange_wool",
+  "display": "Orange Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "orange_wool"
+  ]
+ },
+ {
+  "name": "magenta_wool",
+  "display": "Magenta Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "magenta_wool"
+  ]
+ },
+ {
+  "name": "light_blue_wool",
+  "display": "Light Blue Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_blue_wool"
+  ]
+ },
+ {
+  "name": "yellow_wool",
+  "display": "Yellow Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "yellow_wool"
+  ]
+ },
+ {
+  "name": "lime_wool",
+  "display": "Lime Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lime_wool"
+  ]
+ },
+ {
+  "name": "pink_wool",
+  "display": "Pink Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pink_wool"
+  ]
+ },
+ {
+  "name": "gray_wool",
+  "display": "Gray Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "gray_wool"
+  ]
+ },
+ {
+  "name": "light_gray_wool",
+  "display": "Light Gray Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_gray_wool"
+  ]
+ },
+ {
+  "name": "cyan_wool",
+  "display": "Cyan Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cyan_wool"
+  ]
+ },
+ {
+  "name": "purple_wool",
+  "display": "Purple Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "purple_wool"
+  ]
+ },
+ {
+  "name": "blue_wool",
+  "display": "Blue Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "blue_wool"
+  ]
+ },
+ {
+  "name": "brown_wool",
+  "display": "Brown Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "brown_wool"
+  ]
+ },
+ {
+  "name": "green_wool",
+  "display": "Green Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "green_wool"
+  ]
+ },
+ {
+  "name": "red_wool",
+  "display": "Red Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "red_wool"
+  ]
+ },
+ {
+  "name": "black_wool",
+  "display": "Black Wool",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 1.2,
+   "stone": 1.2,
+   "iron": 1.2,
+   "diamond": 1.2,
+   "netherite": 1.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "black_wool"
+  ]
+ },
+ {
+  "name": "moving_piston",
+  "display": "Moving Piston",
+  "hardness": -1,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dandelion",
+  "display": "Dandelion",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "dandelion"
+  ]
+ },
+ {
+  "name": "golden_dandelion",
+  "display": "Golden Dandelion",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "golden_dandelion"
+  ]
+ },
+ {
+  "name": "torchflower",
+  "display": "Torchflower",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "torchflower"
+  ]
+ },
+ {
+  "name": "poppy",
+  "display": "Poppy",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "poppy"
+  ]
+ },
+ {
+  "name": "blue_orchid",
+  "display": "Blue Orchid",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "blue_orchid"
+  ]
+ },
+ {
+  "name": "allium",
+  "display": "Allium",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "allium"
+  ]
+ },
+ {
+  "name": "azure_bluet",
+  "display": "Azure Bluet",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "azure_bluet"
+  ]
+ },
+ {
+  "name": "red_tulip",
+  "display": "Red Tulip",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "red_tulip"
+  ]
+ },
+ {
+  "name": "orange_tulip",
+  "display": "Orange Tulip",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "orange_tulip"
+  ]
+ },
+ {
+  "name": "white_tulip",
+  "display": "White Tulip",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "white_tulip"
+  ]
+ },
+ {
+  "name": "pink_tulip",
+  "display": "Pink Tulip",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pink_tulip"
+  ]
+ },
+ {
+  "name": "oxeye_daisy",
+  "display": "Oxeye Daisy",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "oxeye_daisy"
+  ]
+ },
+ {
+  "name": "cornflower",
+  "display": "Cornflower",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cornflower"
+  ]
+ },
+ {
+  "name": "wither_rose",
+  "display": "Wither Rose",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "danger"
+  ],
+  "drops": [
+   "wither_rose"
+  ]
+ },
+ {
+  "name": "lily_of_the_valley",
+  "display": "Lily of the Valley",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "lily_of_the_valley"
+  ]
+ },
+ {
+  "name": "brown_mushroom",
+  "display": "Brown Mushroom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 1,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "brown_mushroom"
+  ]
+ },
+ {
+  "name": "red_mushroom",
+  "display": "Red Mushroom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "red_mushroom"
+  ]
+ },
+ {
+  "name": "tnt",
+  "display": "TNT",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "danger"
+  ],
+  "drops": [
+   "tnt"
+  ]
+ },
+ {
+  "name": "torch",
+  "display": "Torch",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 14,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "torch"
+  ]
+ },
+ {
+  "name": "wall_torch",
+  "display": "Torch",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 14,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "torch"
+  ]
+ },
+ {
+  "name": "fire",
+  "display": "Fire",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "danger"
+  ],
+  "drops": []
+ },
+ {
+  "name": "soul_fire",
+  "display": "Soul Fire",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 10,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "danger"
+  ],
+  "drops": []
+ },
+ {
+  "name": "redstone_wire",
+  "display": "Redstone Wire",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "redstone"
+  ]
+ },
+ {
+  "name": "wheat",
+  "display": "Wheat Crops",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "wheat_seeds"
+  ]
+ },
+ {
+  "name": "lever",
+  "display": "Lever",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "lever"
+  ]
+ },
+ {
+  "name": "redstone_torch",
+  "display": "Redstone Torch",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 7,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "redstone_torch"
+  ]
+ },
+ {
+  "name": "redstone_wall_torch",
+  "display": "Redstone Torch",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 7,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "redstone_torch"
+  ]
+ },
+ {
+  "name": "cactus",
+  "display": "Cactus",
+  "hardness": 0.4,
+  "blastRes": 0.4,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.6,
+   "wooden": 0.6,
+   "stone": 0.6,
+   "iron": 0.6,
+   "diamond": 0.6,
+   "netherite": 0.6
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "danger"
+  ],
+  "drops": [
+   "cactus"
+  ]
+ },
+ {
+  "name": "cactus_flower",
+  "display": "Cactus Flower",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cactus_flower"
+  ]
+ },
+ {
+  "name": "sugar_cane",
+  "display": "Sugar Cane",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "sugar_cane"
+  ]
+ },
+ {
+  "name": "soul_torch",
+  "display": "Soul Torch",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 10,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "soul_torch"
+  ]
+ },
+ {
+  "name": "soul_wall_torch",
+  "display": "Soul Torch",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 10,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "soul_torch"
+  ]
+ },
+ {
+  "name": "copper_torch",
+  "display": "Copper Torch",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 14,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "copper_torch"
+  ]
+ },
+ {
+  "name": "copper_wall_torch",
+  "display": "Copper Torch",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 14,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "copper_torch"
+  ]
+ },
+ {
+  "name": "glowstone",
+  "display": "Glowstone",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 15,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "glowstone_dust"
+  ]
+ },
+ {
+  "name": "nether_portal",
+  "display": "Nether Portal",
+  "hardness": -1,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 11,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "cake",
+  "display": "Cake",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "repeater",
+  "display": "Redstone Repeater",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "repeater"
+  ]
+ },
+ {
+  "name": "white_stained_glass",
+  "display": "White Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "orange_stained_glass",
+  "display": "Orange Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "magenta_stained_glass",
+  "display": "Magenta Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "light_blue_stained_glass",
+  "display": "Light Blue Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "yellow_stained_glass",
+  "display": "Yellow Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "lime_stained_glass",
+  "display": "Lime Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "pink_stained_glass",
+  "display": "Pink Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "gray_stained_glass",
+  "display": "Gray Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "light_gray_stained_glass",
+  "display": "Light Gray Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "cyan_stained_glass",
+  "display": "Cyan Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "purple_stained_glass",
+  "display": "Purple Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "blue_stained_glass",
+  "display": "Blue Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "brown_stained_glass",
+  "display": "Brown Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "green_stained_glass",
+  "display": "Green Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "red_stained_glass",
+  "display": "Red Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "black_stained_glass",
+  "display": "Black Stained Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "glass_pane",
+  "display": "Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "attached_pumpkin_stem",
+  "display": "Attached Pumpkin Stem",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pumpkin_seeds"
+  ]
+ },
+ {
+  "name": "attached_melon_stem",
+  "display": "Attached Melon Stem",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "melon_seeds"
+  ]
+ },
+ {
+  "name": "pumpkin_stem",
+  "display": "Pumpkin Stem",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "air"
+  ]
+ },
+ {
+  "name": "melon_stem",
+  "display": "Melon Stem",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "air"
+  ]
+ },
+ {
+  "name": "resin_clump",
+  "display": "Resin Clump",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "air"
+  ]
+ },
+ {
+  "name": "lily_pad",
+  "display": "Lily Pad",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lily_pad"
+  ]
+ },
+ {
+  "name": "resin_block",
+  "display": "Block of Resin",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "resin_block"
+  ]
+ },
+ {
+  "name": "nether_wart",
+  "display": "Nether Wart",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "nether_wart"
+  ]
+ },
+ {
+  "name": "end_portal",
+  "display": "End Portal",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "end_portal_frame",
+  "display": "End Portal Frame",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 1,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dragon_egg",
+  "display": "Dragon Egg",
+  "hardness": 3,
+  "blastRes": 9,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 4.55,
+   "stone": 4.55,
+   "iron": 4.55,
+   "diamond": 4.55,
+   "netherite": 4.55
+  },
+  "light": 1,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "dragon_egg"
+  ]
+ },
+ {
+  "name": "redstone_lamp",
+  "display": "Redstone Lamp",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "redstone_lamp"
+  ]
+ },
+ {
+  "name": "tripwire_hook",
+  "display": "Tripwire Hook",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "tripwire_hook"
+  ]
+ },
+ {
+  "name": "tripwire",
+  "display": "Tripwire",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "string"
+  ]
+ },
+ {
+  "name": "command_block",
+  "display": "Command Block",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "needsTool": true,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "beacon",
+  "display": "Beacon",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 4.55,
+   "stone": 4.55,
+   "iron": 4.55,
+   "diamond": 4.55,
+   "netherite": 4.55
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "beacon"
+  ]
+ },
+ {
+  "name": "flower_pot",
+  "display": "Flower Pot",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot"
+  ]
+ },
+ {
+  "name": "potted_torchflower",
+  "display": "Potted Torchflower",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "torchflower"
+  ]
+ },
+ {
+  "name": "potted_oak_sapling",
+  "display": "Potted Oak Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "oak_sapling"
+  ]
+ },
+ {
+  "name": "potted_spruce_sapling",
+  "display": "Potted Spruce Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "spruce_sapling"
+  ]
+ },
+ {
+  "name": "potted_birch_sapling",
+  "display": "Potted Birch Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "birch_sapling"
+  ]
+ },
+ {
+  "name": "potted_jungle_sapling",
+  "display": "Potted Jungle Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "jungle_sapling"
+  ]
+ },
+ {
+  "name": "potted_acacia_sapling",
+  "display": "Potted Acacia Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "acacia_sapling"
+  ]
+ },
+ {
+  "name": "potted_cherry_sapling",
+  "display": "Potted Cherry Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "cherry_sapling"
+  ]
+ },
+ {
+  "name": "potted_dark_oak_sapling",
+  "display": "Potted Dark Oak Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "dark_oak_sapling"
+  ]
+ },
+ {
+  "name": "potted_pale_oak_sapling",
+  "display": "Potted Pale Oak Sapling",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "pale_oak_sapling"
+  ]
+ },
+ {
+  "name": "potted_mangrove_propagule",
+  "display": "Potted Mangrove Propagule",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "mangrove_propagule"
+  ]
+ },
+ {
+  "name": "potted_fern",
+  "display": "Potted Fern",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "fern"
+  ]
+ },
+ {
+  "name": "potted_dandelion",
+  "display": "Potted Dandelion",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "dandelion"
+  ]
+ },
+ {
+  "name": "potted_golden_dandelion",
+  "display": "Potted Golden Dandelion",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "golden_dandelion"
+  ]
+ },
+ {
+  "name": "potted_poppy",
+  "display": "Potted Poppy",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "poppy"
+  ]
+ },
+ {
+  "name": "potted_blue_orchid",
+  "display": "Potted Blue Orchid",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "blue_orchid"
+  ]
+ },
+ {
+  "name": "potted_allium",
+  "display": "Potted Allium",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "allium"
+  ]
+ },
+ {
+  "name": "potted_azure_bluet",
+  "display": "Potted Azure Bluet",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "azure_bluet"
+  ]
+ },
+ {
+  "name": "potted_red_tulip",
+  "display": "Potted Red Tulip",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "red_tulip"
+  ]
+ },
+ {
+  "name": "potted_orange_tulip",
+  "display": "Potted Orange Tulip",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "orange_tulip"
+  ]
+ },
+ {
+  "name": "potted_white_tulip",
+  "display": "Potted White Tulip",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "white_tulip"
+  ]
+ },
+ {
+  "name": "potted_pink_tulip",
+  "display": "Potted Pink Tulip",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "pink_tulip"
+  ]
+ },
+ {
+  "name": "potted_oxeye_daisy",
+  "display": "Potted Oxeye Daisy",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "oxeye_daisy"
+  ]
+ },
+ {
+  "name": "potted_cornflower",
+  "display": "Potted Cornflower",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "cornflower"
+  ]
+ },
+ {
+  "name": "potted_lily_of_the_valley",
+  "display": "Potted Lily of the Valley",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "lily_of_the_valley"
+  ]
+ },
+ {
+  "name": "potted_wither_rose",
+  "display": "Potted Wither Rose",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "wither_rose"
+  ]
+ },
+ {
+  "name": "potted_red_mushroom",
+  "display": "Potted Red Mushroom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "red_mushroom"
+  ]
+ },
+ {
+  "name": "potted_brown_mushroom",
+  "display": "Potted Brown Mushroom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "brown_mushroom"
+  ]
+ },
+ {
+  "name": "potted_dead_bush",
+  "display": "Potted Dead Bush",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "dead_bush"
+  ]
+ },
+ {
+  "name": "potted_cactus",
+  "display": "Potted Cactus",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "cactus"
+  ]
+ },
+ {
+  "name": "carrots",
+  "display": "Carrots",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "carrot"
+  ]
+ },
+ {
+  "name": "potatoes",
+  "display": "Potatoes",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "potato"
+  ]
+ },
+ {
+  "name": "skeleton_skull",
+  "display": "Skeleton Skull",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "skeleton_skull"
+  ]
+ },
+ {
+  "name": "skeleton_wall_skull",
+  "display": "Skeleton Skull",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "skeleton_skull"
+  ]
+ },
+ {
+  "name": "wither_skeleton_skull",
+  "display": "Wither Skeleton Skull",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "wither_skeleton_skull"
+  ]
+ },
+ {
+  "name": "wither_skeleton_wall_skull",
+  "display": "Wither Skeleton Skull",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "wither_skeleton_skull"
+  ]
+ },
+ {
+  "name": "zombie_head",
+  "display": "Zombie Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "zombie_head"
+  ]
+ },
+ {
+  "name": "zombie_wall_head",
+  "display": "Zombie Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "zombie_head"
+  ]
+ },
+ {
+  "name": "player_head",
+  "display": "Player Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "player_head"
+  ]
+ },
+ {
+  "name": "player_wall_head",
+  "display": "Player Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "player_head"
+  ]
+ },
+ {
+  "name": "creeper_head",
+  "display": "Creeper Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "creeper_head"
+  ]
+ },
+ {
+  "name": "creeper_wall_head",
+  "display": "Creeper Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "creeper_head"
+  ]
+ },
+ {
+  "name": "dragon_head",
+  "display": "Dragon Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dragon_head"
+  ]
+ },
+ {
+  "name": "dragon_wall_head",
+  "display": "Dragon Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dragon_head"
+  ]
+ },
+ {
+  "name": "piglin_head",
+  "display": "Piglin Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "piglin_head"
+  ]
+ },
+ {
+  "name": "piglin_wall_head",
+  "display": "Piglin Head",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 1.5,
+   "stone": 1.5,
+   "iron": 1.5,
+   "diamond": 1.5,
+   "netherite": 1.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "piglin_head"
+  ]
+ },
+ {
+  "name": "comparator",
+  "display": "Redstone Comparator",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "comparator"
+  ]
+ },
+ {
+  "name": "white_stained_glass_pane",
+  "display": "White Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "orange_stained_glass_pane",
+  "display": "Orange Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "magenta_stained_glass_pane",
+  "display": "Magenta Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "light_blue_stained_glass_pane",
+  "display": "Light Blue Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "yellow_stained_glass_pane",
+  "display": "Yellow Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "lime_stained_glass_pane",
+  "display": "Lime Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "pink_stained_glass_pane",
+  "display": "Pink Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "gray_stained_glass_pane",
+  "display": "Gray Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "light_gray_stained_glass_pane",
+  "display": "Light Gray Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "cyan_stained_glass_pane",
+  "display": "Cyan Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "purple_stained_glass_pane",
+  "display": "Purple Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "blue_stained_glass_pane",
+  "display": "Blue Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "brown_stained_glass_pane",
+  "display": "Brown Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "green_stained_glass_pane",
+  "display": "Green Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "red_stained_glass_pane",
+  "display": "Red Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "black_stained_glass_pane",
+  "display": "Black Stained Glass Pane",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "slime_block",
+  "display": "Slime Block",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "slippery",
+   "fallSafe"
+  ],
+  "drops": [
+   "slime_block"
+  ]
+ },
+ {
+  "name": "barrier",
+  "display": "Barrier",
+  "hardness": -1,
+  "blastRes": 3600000.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "light",
+  "display": "Light",
+  "hardness": -1,
+  "blastRes": 3600000.8,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "sea_lantern",
+  "display": "Sea Lantern",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 15,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "prismarine_crystals"
+  ]
+ },
+ {
+  "name": "white_carpet",
+  "display": "White Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "white_carpet"
+  ]
+ },
+ {
+  "name": "orange_carpet",
+  "display": "Orange Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "orange_carpet"
+  ]
+ },
+ {
+  "name": "magenta_carpet",
+  "display": "Magenta Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "magenta_carpet"
+  ]
+ },
+ {
+  "name": "light_blue_carpet",
+  "display": "Light Blue Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_blue_carpet"
+  ]
+ },
+ {
+  "name": "yellow_carpet",
+  "display": "Yellow Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "yellow_carpet"
+  ]
+ },
+ {
+  "name": "lime_carpet",
+  "display": "Lime Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lime_carpet"
+  ]
+ },
+ {
+  "name": "pink_carpet",
+  "display": "Pink Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pink_carpet"
+  ]
+ },
+ {
+  "name": "gray_carpet",
+  "display": "Gray Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "gray_carpet"
+  ]
+ },
+ {
+  "name": "light_gray_carpet",
+  "display": "Light Gray Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_gray_carpet"
+  ]
+ },
+ {
+  "name": "cyan_carpet",
+  "display": "Cyan Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cyan_carpet"
+  ]
+ },
+ {
+  "name": "purple_carpet",
+  "display": "Purple Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "purple_carpet"
+  ]
+ },
+ {
+  "name": "blue_carpet",
+  "display": "Blue Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "blue_carpet"
+  ]
+ },
+ {
+  "name": "brown_carpet",
+  "display": "Brown Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "brown_carpet"
+  ]
+ },
+ {
+  "name": "green_carpet",
+  "display": "Green Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "green_carpet"
+  ]
+ },
+ {
+  "name": "red_carpet",
+  "display": "Red Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "red_carpet"
+  ]
+ },
+ {
+  "name": "black_carpet",
+  "display": "Black Carpet",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "black_carpet"
+  ]
+ },
+ {
+  "name": "sunflower",
+  "display": "Sunflower",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "sunflower"
+  ]
+ },
+ {
+  "name": "lilac",
+  "display": "Lilac",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "lilac"
+  ]
+ },
+ {
+  "name": "rose_bush",
+  "display": "Rose Bush",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "rose_bush"
+  ]
+ },
+ {
+  "name": "peony",
+  "display": "Peony",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "peony"
+  ]
+ },
+ {
+  "name": "tall_grass",
+  "display": "Tall Grass",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "large_fern",
+  "display": "Large Fern",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "end_rod",
+  "display": "End Rod",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 14,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "end_rod"
+  ]
+ },
+ {
+  "name": "torchflower_crop",
+  "display": "Torchflower Crop",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "torchflower_seeds"
+  ]
+ },
+ {
+  "name": "pitcher_crop",
+  "display": "Pitcher Crop",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pitcher_pod"
+  ]
+ },
+ {
+  "name": "pitcher_plant",
+  "display": "Pitcher Plant",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pitcher_plant"
+  ]
+ },
+ {
+  "name": "beetroots",
+  "display": "Beetroots",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "beetroot_seeds"
+  ]
+ },
+ {
+  "name": "end_gateway",
+  "display": "End Gateway",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "repeating_command_block",
+  "display": "Repeating Command Block",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "needsTool": true,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "chain_command_block",
+  "display": "Chain Command Block",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "needsTool": true,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "frosted_ice",
+  "display": "Frosted Ice",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "slippery"
+  ],
+  "drops": []
+ },
+ {
+  "name": "structure_void",
+  "display": "Structure Void",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "kelp",
+  "display": "Kelp",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "kelp"
+  ]
+ },
+ {
+  "name": "kelp_plant",
+  "display": "Kelp Plant",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "kelp"
+  ]
+ },
+ {
+  "name": "turtle_egg",
+  "display": "Turtle Egg",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "sniffer_egg",
+  "display": "Sniffer Egg",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "sniffer_egg"
+  ]
+ },
+ {
+  "name": "dried_ghast",
+  "display": "Dried Ghast",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dried_ghast"
+  ]
+ },
+ {
+  "name": "dead_tube_coral",
+  "display": "Dead Tube Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_brain_coral",
+  "display": "Dead Brain Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_bubble_coral",
+  "display": "Dead Bubble Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_fire_coral",
+  "display": "Dead Fire Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_horn_coral",
+  "display": "Dead Horn Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "tube_coral",
+  "display": "Tube Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "brain_coral",
+  "display": "Brain Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "bubble_coral",
+  "display": "Bubble Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "fire_coral",
+  "display": "Fire Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "horn_coral",
+  "display": "Horn Coral",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_tube_coral_fan",
+  "display": "Dead Tube Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_brain_coral_fan",
+  "display": "Dead Brain Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_bubble_coral_fan",
+  "display": "Dead Bubble Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_fire_coral_fan",
+  "display": "Dead Fire Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_horn_coral_fan",
+  "display": "Dead Horn Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "tube_coral_fan",
+  "display": "Tube Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "brain_coral_fan",
+  "display": "Brain Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "bubble_coral_fan",
+  "display": "Bubble Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "fire_coral_fan",
+  "display": "Fire Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "horn_coral_fan",
+  "display": "Horn Coral Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_tube_coral_wall_fan",
+  "display": "Dead Tube Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_brain_coral_wall_fan",
+  "display": "Dead Brain Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_bubble_coral_wall_fan",
+  "display": "Dead Bubble Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_fire_coral_wall_fan",
+  "display": "Dead Fire Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "dead_horn_coral_wall_fan",
+  "display": "Dead Horn Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "tube_coral_wall_fan",
+  "display": "Tube Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "brain_coral_wall_fan",
+  "display": "Brain Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "bubble_coral_wall_fan",
+  "display": "Bubble Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "fire_coral_wall_fan",
+  "display": "Fire Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "horn_coral_wall_fan",
+  "display": "Horn Coral Wall Fan",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "sea_pickle",
+  "display": "Sea Pickle",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 6,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "sea_pickle"
+  ]
+ },
+ {
+  "name": "potted_bamboo",
+  "display": "Potted Bamboo",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "bamboo"
+  ]
+ },
+ {
+  "name": "void_air",
+  "display": "Void Air",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "cave_air",
+  "display": "Cave Air",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "bubble_column",
+  "display": "Bubble Column",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "scaffolding",
+  "display": "Scaffolding",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "gravity",
+   "climbable",
+   "fallSafe"
+  ],
+  "drops": [
+   "scaffolding"
+  ]
+ },
+ {
+  "name": "sweet_berry_bush",
+  "display": "Sweet Berry Bush",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "danger",
+   "slows",
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "warped_fungus",
+  "display": "Warped Fungus",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "warped_fungus"
+  ]
+ },
+ {
+  "name": "warped_roots",
+  "display": "Warped Roots",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "warped_roots"
+  ]
+ },
+ {
+  "name": "nether_sprouts",
+  "display": "Nether Sprouts",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "crimson_fungus",
+  "display": "Crimson Fungus",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "crimson_fungus"
+  ]
+ },
+ {
+  "name": "weeping_vines",
+  "display": "Weeping Vines",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "climbable",
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "weeping_vines_plant",
+  "display": "Weeping Vines Plant",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "climbable"
+  ],
+  "drops": []
+ },
+ {
+  "name": "twisting_vines",
+  "display": "Twisting Vines",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "climbable",
+   "fallSafe"
+  ],
+  "drops": [
+   "twisting_vines"
+  ]
+ },
+ {
+  "name": "twisting_vines_plant",
+  "display": "Twisting Vines Plant",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "climbable"
+  ],
+  "drops": []
+ },
+ {
+  "name": "crimson_roots",
+  "display": "Crimson Roots",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "crimson_roots"
+  ]
+ },
+ {
+  "name": "structure_block",
+  "display": "Structure Block",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "needsTool": true,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "jigsaw",
+  "display": "Jigsaw Block",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "needsTool": true,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "test_block",
+  "display": "Test Block",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "test_instance_block",
+  "display": "Test Instance Block",
+  "hardness": -1,
+  "blastRes": 3600000,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": null,
+   "wooden": null,
+   "stone": null,
+   "iron": null,
+   "diamond": null,
+   "netherite": null
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "honey_block",
+  "display": "Honey Block",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "slows",
+   "fallSafe"
+  ],
+  "drops": [
+   "honey_block"
+  ]
+ },
+ {
+  "name": "honeycomb_block",
+  "display": "Honeycomb Block",
+  "hardness": 0.6,
+  "blastRes": 0.6,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.9,
+   "wooden": 0.9,
+   "stone": 0.9,
+   "iron": 0.9,
+   "diamond": 0.9,
+   "netherite": 0.9
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "honeycomb_block"
+  ]
+ },
+ {
+  "name": "potted_crimson_fungus",
+  "display": "Potted Crimson Fungus",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "crimson_fungus"
+  ]
+ },
+ {
+  "name": "potted_warped_fungus",
+  "display": "Potted Warped Fungus",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "warped_fungus"
+  ]
+ },
+ {
+  "name": "potted_crimson_roots",
+  "display": "Potted Crimson Roots",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "crimson_roots"
+  ]
+ },
+ {
+  "name": "potted_warped_roots",
+  "display": "Potted Warped Roots",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "warped_roots"
+  ]
+ },
+ {
+  "name": "candle",
+  "display": "Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "candle"
+  ]
+ },
+ {
+  "name": "white_candle",
+  "display": "White Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "white_candle"
+  ]
+ },
+ {
+  "name": "orange_candle",
+  "display": "Orange Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "orange_candle"
+  ]
+ },
+ {
+  "name": "magenta_candle",
+  "display": "Magenta Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "magenta_candle"
+  ]
+ },
+ {
+  "name": "light_blue_candle",
+  "display": "Light Blue Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_blue_candle"
+  ]
+ },
+ {
+  "name": "yellow_candle",
+  "display": "Yellow Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "yellow_candle"
+  ]
+ },
+ {
+  "name": "lime_candle",
+  "display": "Lime Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lime_candle"
+  ]
+ },
+ {
+  "name": "pink_candle",
+  "display": "Pink Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pink_candle"
+  ]
+ },
+ {
+  "name": "gray_candle",
+  "display": "Gray Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "gray_candle"
+  ]
+ },
+ {
+  "name": "light_gray_candle",
+  "display": "Light Gray Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_gray_candle"
+  ]
+ },
+ {
+  "name": "cyan_candle",
+  "display": "Cyan Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cyan_candle"
+  ]
+ },
+ {
+  "name": "purple_candle",
+  "display": "Purple Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "purple_candle"
+  ]
+ },
+ {
+  "name": "blue_candle",
+  "display": "Blue Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "blue_candle"
+  ]
+ },
+ {
+  "name": "brown_candle",
+  "display": "Brown Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "brown_candle"
+  ]
+ },
+ {
+  "name": "green_candle",
+  "display": "Green Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "green_candle"
+  ]
+ },
+ {
+  "name": "red_candle",
+  "display": "Red Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "red_candle"
+  ]
+ },
+ {
+  "name": "black_candle",
+  "display": "Black Candle",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.15,
+   "stone": 0.15,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "black_candle"
+  ]
+ },
+ {
+  "name": "candle_cake",
+  "display": "Cake with Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "candle"
+  ]
+ },
+ {
+  "name": "white_candle_cake",
+  "display": "Cake with White Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "white_candle"
+  ]
+ },
+ {
+  "name": "orange_candle_cake",
+  "display": "Cake with Orange Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "orange_candle"
+  ]
+ },
+ {
+  "name": "magenta_candle_cake",
+  "display": "Cake with Magenta Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "magenta_candle"
+  ]
+ },
+ {
+  "name": "light_blue_candle_cake",
+  "display": "Cake with Light Blue Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_blue_candle"
+  ]
+ },
+ {
+  "name": "yellow_candle_cake",
+  "display": "Cake with Yellow Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "yellow_candle"
+  ]
+ },
+ {
+  "name": "lime_candle_cake",
+  "display": "Cake with Lime Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lime_candle"
+  ]
+ },
+ {
+  "name": "pink_candle_cake",
+  "display": "Cake with Pink Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pink_candle"
+  ]
+ },
+ {
+  "name": "gray_candle_cake",
+  "display": "Cake with Gray Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "gray_candle"
+  ]
+ },
+ {
+  "name": "light_gray_candle_cake",
+  "display": "Cake with Light Gray Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_gray_candle"
+  ]
+ },
+ {
+  "name": "cyan_candle_cake",
+  "display": "Cake with Cyan Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cyan_candle"
+  ]
+ },
+ {
+  "name": "purple_candle_cake",
+  "display": "Cake with Purple Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "purple_candle"
+  ]
+ },
+ {
+  "name": "blue_candle_cake",
+  "display": "Cake with Blue Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "blue_candle"
+  ]
+ },
+ {
+  "name": "brown_candle_cake",
+  "display": "Cake with Brown Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "brown_candle"
+  ]
+ },
+ {
+  "name": "green_candle_cake",
+  "display": "Cake with Green Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "green_candle"
+  ]
+ },
+ {
+  "name": "red_candle_cake",
+  "display": "Cake with Red Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "red_candle"
+  ]
+ },
+ {
+  "name": "black_candle_cake",
+  "display": "Cake with Black Candle",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.75,
+   "stone": 0.75,
+   "iron": 0.75,
+   "diamond": 0.75,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "black_candle"
+  ]
+ },
+ {
+  "name": "tinted_glass",
+  "display": "Tinted Glass",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "tinted_glass"
+  ]
+ },
+ {
+  "name": "powder_snow",
+  "display": "Powder Snow",
+  "hardness": 0.25,
+  "blastRes": 0.25,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.4,
+   "wooden": 0.4,
+   "stone": 0.4,
+   "iron": 0.4,
+   "diamond": 0.4,
+   "netherite": 0.4
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "danger",
+   "slows",
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "cave_vines",
+  "display": "Cave Vines",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "climbable"
+  ],
+  "drops": []
+ },
+ {
+  "name": "cave_vines_plant",
+  "display": "Cave Vines Plant",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "climbable"
+  ],
+  "drops": []
+ },
+ {
+  "name": "spore_blossom",
+  "display": "Spore Blossom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "spore_blossom"
+  ]
+ },
+ {
+  "name": "azalea",
+  "display": "Azalea",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "azalea"
+  ]
+ },
+ {
+  "name": "flowering_azalea",
+  "display": "Flowering Azalea",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flowering_azalea"
+  ]
+ },
+ {
+  "name": "pink_petals",
+  "display": "Pink Petals",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pink_petals"
+  ]
+ },
+ {
+  "name": "wildflowers",
+  "display": "Wildflowers",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "wildflowers"
+  ]
+ },
+ {
+  "name": "leaf_litter",
+  "display": "Leaf Litter",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "leaf_litter"
+  ]
+ },
+ {
+  "name": "small_dripleaf",
+  "display": "Small Dripleaf",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "hanging_roots",
+  "display": "Hanging Roots",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "potted_azalea_bush",
+  "display": "Potted Azalea",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "azalea"
+  ]
+ },
+ {
+  "name": "potted_flowering_azalea_bush",
+  "display": "Potted Flowering Azalea",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "flowering_azalea"
+  ]
+ },
+ {
+  "name": "ochre_froglight",
+  "display": "Ochre Froglight",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 15,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "ochre_froglight"
+  ]
+ },
+ {
+  "name": "verdant_froglight",
+  "display": "Verdant Froglight",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 15,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "verdant_froglight"
+  ]
+ },
+ {
+  "name": "pearlescent_froglight",
+  "display": "Pearlescent Froglight",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.45,
+   "stone": 0.45,
+   "iron": 0.45,
+   "diamond": 0.45,
+   "netherite": 0.45
+  },
+  "light": 15,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pearlescent_froglight"
+  ]
+ },
+ {
+  "name": "frogspawn",
+  "display": "Frogspawn",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "reinforced_deepslate",
+  "display": "Reinforced Deepslate",
+  "hardness": 55,
+  "blastRes": 1200,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 82.5,
+   "wooden": 82.5,
+   "stone": 82.5,
+   "iron": 82.5,
+   "diamond": 82.5,
+   "netherite": 82.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "decorated_pot",
+  "display": "Decorated Pot",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "decorated_pot"
+  ]
+ },
+ {
+  "name": "trial_spawner",
+  "display": "Trial Spawner",
+  "hardness": 50,
+  "blastRes": 50,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 75,
+   "wooden": 75,
+   "stone": 75,
+   "iron": 75,
+   "diamond": 75,
+   "netherite": 75
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "vault",
+  "display": "Vault",
+  "hardness": 50,
+  "blastRes": 50,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 75,
+   "wooden": 75,
+   "stone": 75,
+   "iron": 75,
+   "diamond": 75,
+   "netherite": 75
+  },
+  "light": 6,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "pale_hanging_moss",
+  "display": "Pale Hanging Moss",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "open_eyeblossom",
+  "display": "Open Eyeblossom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "open_eyeblossom"
+  ]
+ },
+ {
+  "name": "closed_eyeblossom",
+  "display": "Closed Eyeblossom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "closed_eyeblossom"
+  ]
+ },
+ {
+  "name": "potted_open_eyeblossom",
+  "display": "Potted Open Eyeblossom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "open_eyeblossom"
+  ]
+ },
+ {
+  "name": "potted_closed_eyeblossom",
+  "display": "Potted Closed Eyeblossom",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "flower_pot",
+   "closed_eyeblossom"
+  ]
+ },
+ {
+  "name": "firefly_bush",
+  "display": "Firefly Bush",
+  "hardness": 0,
+  "blastRes": 0,
+  "tool": "hand",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0,
+   "wooden": 0,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 2,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "firefly_bush"
+  ]
+ }
+]

@@ -1,0 +1,5842 @@
+{
+ "air": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "oak_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "spruce_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "birch_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "jungle_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "acacia_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cherry_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dark_oak_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pale_oak_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "mangrove_propagule": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "bedrock": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "water": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lava": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "white_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "orange_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "magenta_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_blue_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "yellow_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lime_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "gray_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_gray_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cyan_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "purple_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "blue_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brown_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "green_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "black_bed": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "short_grass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "fern": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_bush": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "bush": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "short_dry_grass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tall_dry_grass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "seagrass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tall_seagrass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "white_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "orange_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "magenta_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_blue_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "yellow_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lime_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "gray_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_gray_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cyan_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "purple_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "blue_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brown_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "green_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "black_wool": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "moving_piston": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dandelion": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "golden_dandelion": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "torchflower": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "poppy": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "blue_orchid": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "allium": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "azure_bluet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_tulip": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "orange_tulip": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "white_tulip": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_tulip": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "oxeye_daisy": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cornflower": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "wither_rose": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lily_of_the_valley": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brown_mushroom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_mushroom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tnt": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "torch": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "wall_torch": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "fire": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "soul_fire": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "redstone_wire": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "wheat": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lever": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "redstone_torch": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "redstone_wall_torch": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cactus": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cactus_flower": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "sugar_cane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "soul_torch": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "soul_wall_torch": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "copper_torch": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "copper_wall_torch": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "glowstone": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "nether_portal": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "repeater": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "white_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "orange_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "magenta_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_blue_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "yellow_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lime_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "gray_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_gray_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cyan_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "purple_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "blue_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brown_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "green_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "black_stained_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "attached_pumpkin_stem": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "attached_melon_stem": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pumpkin_stem": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "melon_stem": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "resin_clump": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lily_pad": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "resin_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "nether_wart": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "end_portal": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "end_portal_frame": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dragon_egg": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "redstone_lamp": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tripwire_hook": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tripwire": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "command_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "beacon": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "flower_pot": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_torchflower": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_oak_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_spruce_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_birch_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_jungle_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_acacia_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_cherry_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_dark_oak_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_pale_oak_sapling": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_mangrove_propagule": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_fern": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_dandelion": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_golden_dandelion": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_poppy": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_blue_orchid": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_allium": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_azure_bluet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_red_tulip": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_orange_tulip": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_white_tulip": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_pink_tulip": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_oxeye_daisy": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_cornflower": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_lily_of_the_valley": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_wither_rose": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_red_mushroom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_brown_mushroom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_dead_bush": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_cactus": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "carrots": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potatoes": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "skeleton_skull": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "skeleton_wall_skull": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "wither_skeleton_skull": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "wither_skeleton_wall_skull": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "zombie_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "zombie_wall_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "player_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "player_wall_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "creeper_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "creeper_wall_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dragon_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dragon_wall_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "piglin_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "piglin_wall_head": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "comparator": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "white_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "orange_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "magenta_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_blue_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "yellow_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lime_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "gray_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_gray_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cyan_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "purple_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "blue_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brown_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "green_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "black_stained_glass_pane": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "slime_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "barrier": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "sea_lantern": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "white_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "orange_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "magenta_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_blue_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "yellow_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lime_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "gray_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_gray_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cyan_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "purple_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "blue_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brown_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "green_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "black_carpet": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "sunflower": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lilac": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "rose_bush": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "peony": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tall_grass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "large_fern": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "end_rod": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "torchflower_crop": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pitcher_crop": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pitcher_plant": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "beetroots": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "end_gateway": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "repeating_command_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "chain_command_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "frosted_ice": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "structure_void": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "kelp": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "kelp_plant": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "turtle_egg": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "sniffer_egg": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dried_ghast": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_tube_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_brain_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_bubble_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_fire_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_horn_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tube_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brain_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "bubble_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "fire_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "horn_coral": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_tube_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_brain_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_bubble_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_fire_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_horn_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tube_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brain_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "bubble_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "fire_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "horn_coral_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_tube_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_brain_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_bubble_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_fire_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "dead_horn_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tube_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brain_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "bubble_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "fire_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "horn_coral_wall_fan": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "sea_pickle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_bamboo": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "void_air": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cave_air": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "bubble_column": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "scaffolding": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "sweet_berry_bush": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "warped_fungus": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "warped_roots": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "nether_sprouts": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "crimson_fungus": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "weeping_vines": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "weeping_vines_plant": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "twisting_vines": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "twisting_vines_plant": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "crimson_roots": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "structure_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "jigsaw": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "test_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "test_instance_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "honey_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "honeycomb_block": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_crimson_fungus": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_warped_fungus": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_crimson_roots": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_warped_roots": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "white_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "orange_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "magenta_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_blue_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "yellow_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lime_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "gray_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_gray_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cyan_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "purple_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "blue_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brown_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "green_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "black_candle": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "white_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "orange_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "magenta_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_blue_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "yellow_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "lime_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "gray_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "light_gray_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cyan_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "purple_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "blue_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "brown_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "green_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "red_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "black_candle_cake": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "tinted_glass": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "powder_snow": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cave_vines": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "cave_vines_plant": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "spore_blossom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "azalea": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "flowering_azalea": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pink_petals": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "wildflowers": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "leaf_litter": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "small_dripleaf": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "hanging_roots": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_azalea_bush": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_flowering_azalea_bush": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "ochre_froglight": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "verdant_froglight": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pearlescent_froglight": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "frogspawn": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "reinforced_deepslate": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "decorated_pot": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "trial_spawner": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "vault": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "pale_hanging_moss": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "open_eyeblossom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "closed_eyeblossom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_open_eyeblossom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "potted_closed_eyeblossom": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "firefly_bush": {
+  "group": "hand",
+  "json": "blocks/hand.json",
+  "md": "kb/blocks/hand.md"
+ },
+ "stone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "granite": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_granite": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "diorite": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_diorite": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "andesite": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_andesite": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cobblestone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "coal_ore": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_coal_ore": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "nether_gold_ore": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dispenser": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "sandstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_sandstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cut_sandstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mossy_cobblestone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "spawner": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "furnace": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cobblestone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "netherrack": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "basalt": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_basalt": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "stone_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mossy_stone_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cracked_stone_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_stone_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mud_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "iron_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "copper_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "exposed_copper_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "weathered_copper_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "oxidized_copper_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "waxed_copper_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "waxed_exposed_copper_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "waxed_weathered_copper_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "waxed_oxidized_copper_bars": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "iron_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "copper_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "exposed_copper_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "weathered_copper_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "oxidized_copper_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "waxed_copper_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "waxed_exposed_copper_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "waxed_weathered_copper_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "waxed_oxidized_copper_chain": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "stone_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mud_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "resin_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "resin_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "resin_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "resin_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_resin_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "nether_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "nether_brick_fence": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "nether_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "enchanting_table": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cauldron": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "water_cauldron": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "lava_cauldron": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "powder_snow_cauldron": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "end_stone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "sandstone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cobblestone_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mossy_cobblestone_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "anvil": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chipped_anvil": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "damaged_anvil": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "redstone_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "nether_quartz_ore": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "hopper": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "quartz_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_quartz_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "quartz_pillar": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "quartz_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dropper": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "white_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "orange_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "magenta_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "light_blue_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "yellow_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "lime_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "pink_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "gray_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "light_gray_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cyan_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "purple_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "blue_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "brown_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "green_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "black_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "iron_trapdoor": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "prismarine": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "prismarine_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dark_prismarine": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "prismarine_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "prismarine_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dark_prismarine_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "prismarine_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "prismarine_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dark_prismarine_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "coal_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_sandstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_red_sandstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cut_red_sandstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_sandstone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "stone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_stone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "sandstone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cut_sandstone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "petrified_oak_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cobblestone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "stone_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mud_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "nether_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "quartz_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_sandstone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cut_red_sandstone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "purpur_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_stone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_sandstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_quartz": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_red_sandstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "purpur_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "purpur_pillar": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "purpur_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "end_stone_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "magma_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_nether_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "bone_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "observer": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "white_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "orange_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "magenta_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "light_blue_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "yellow_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "lime_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "pink_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "gray_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "light_gray_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cyan_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "purple_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "blue_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "brown_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "green_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "black_glazed_terracotta": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "white_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "orange_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "magenta_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "light_blue_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "yellow_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "lime_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "pink_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "gray_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "light_gray_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cyan_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "purple_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "blue_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "brown_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "green_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "black_concrete": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dead_tube_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dead_brain_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dead_bubble_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dead_fire_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dead_horn_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tube_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "brain_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "bubble_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "fire_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "horn_coral_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_granite_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_red_sandstone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mossy_stone_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_diorite_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mossy_cobblestone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "end_stone_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "stone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_sandstone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_quartz_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "granite_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "andesite_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_nether_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_andesite_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "diorite_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_granite_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_red_sandstone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mossy_stone_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_diorite_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mossy_cobblestone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "end_stone_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_sandstone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_quartz_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "granite_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "andesite_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_nether_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_andesite_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "diorite_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "prismarine_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_sandstone_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mossy_stone_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "granite_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "stone_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "mud_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "nether_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "andesite_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "red_nether_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "sandstone_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "end_stone_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "diorite_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smoker": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "blast_furnace": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "grindstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "stonecutter": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "warped_nylium": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "crimson_nylium": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "lodestone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "blackstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "blackstone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "blackstone_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "blackstone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_blackstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_blackstone_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cracked_polished_blackstone_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_polished_blackstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_blackstone_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_blackstone_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_blackstone_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "gilded_blackstone": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_blackstone_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_blackstone_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_blackstone_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_nether_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cracked_nether_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "quartz_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "amethyst_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "budding_amethyst": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tuff": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tuff_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tuff_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tuff_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_tuff": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_tuff_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_tuff_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_tuff_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_tuff": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tuff_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tuff_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tuff_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "tuff_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_tuff_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "calcite": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "dripstone_block": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cobbled_deepslate": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cobbled_deepslate_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cobbled_deepslate_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cobbled_deepslate_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_deepslate": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_deepslate_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_deepslate_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "polished_deepslate_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_tiles": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_tile_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_tile_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_tile_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_brick_stairs": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_brick_slab": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "deepslate_brick_wall": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "chiseled_deepslate": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cracked_deepslate_bricks": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "cracked_deepslate_tiles": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "smooth_basalt": {
+  "group": "pickaxe-wooden",
+  "json": "blocks/pickaxe-wooden.json",
+  "md": "kb/blocks/pickaxe-wooden.md"
+ },
+ "grass_block": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "dirt": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "coarse_dirt": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "podzol": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "sand": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "suspicious_sand": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "red_sand": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "gravel": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "suspicious_gravel": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "muddy_mangrove_roots": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "farmland": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "snow": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "snow_block": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "clay": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "soul_sand": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "soul_soil": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "mycelium": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "dirt_path": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "white_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "orange_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "magenta_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "light_blue_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "yellow_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "lime_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "pink_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "gray_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "light_gray_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "cyan_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "purple_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "blue_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "brown_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "green_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "red_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "black_concrete_powder": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "rooted_dirt": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "mud": {
+  "group": "shovel",
+  "json": "blocks/shovel.json",
+  "md": "kb/blocks/shovel.md"
+ },
+ "oak_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_mosaic": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_roots": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_block": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_spruce_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_birch_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_jungle_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_acacia_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_cherry_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_dark_oak_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_pale_oak_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_oak_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_mangrove_log": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_bamboo_block": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_oak_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_spruce_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_birch_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_jungle_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_acacia_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_cherry_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_dark_oak_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_pale_oak_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_mangrove_wood": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "note_block": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bookshelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "chiseled_bookshelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_shelf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "creaking_heart": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "chest": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crafting_table": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "ladder": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_wall_hanging_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jukebox": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "carved_pumpkin": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jack_o_lantern": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "brown_mushroom_block": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "red_mushroom_block": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mushroom_stem": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pumpkin": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "melon": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "vine": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "glow_lichen": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cocoa": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "trapped_chest": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "daylight_detector": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_mosaic_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "white_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "orange_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "magenta_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "light_blue_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "yellow_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "lime_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pink_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "gray_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "light_gray_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cyan_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "purple_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "blue_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "brown_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "green_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "red_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "black_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "white_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "orange_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "magenta_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "light_blue_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "yellow_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "lime_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pink_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "gray_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "light_gray_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cyan_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "purple_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "blue_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "brown_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "green_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "red_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "black_wall_banner": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "oak_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_mosaic_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "spruce_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "birch_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "jungle_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "acacia_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cherry_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "dark_oak_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "pale_oak_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "mangrove_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bamboo_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "chorus_plant": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "chorus_flower": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "loom": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "barrel": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "cartography_table": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "fletching_table": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "lectern": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "smithing_table": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "campfire": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "soul_campfire": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_stem": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_warped_stem": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_hyphae": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_warped_hyphae": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_stem": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_crimson_stem": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_hyphae": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "stripped_crimson_hyphae": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_planks": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_slab": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_pressure_plate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_fence": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_trapdoor": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_fence_gate": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_stairs": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_button": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_door": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "crimson_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "warped_wall_sign": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "composter": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "bee_nest": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "beehive": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "big_dripleaf": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "big_dripleaf_stem": {
+  "group": "axe",
+  "json": "blocks/axe.json",
+  "md": "kb/blocks/axe.md"
+ },
+ "gold_ore": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "deepslate_gold_ore": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "gold_block": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "diamond_ore": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "deepslate_diamond_ore": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "diamond_block": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "redstone_ore": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "deepslate_redstone_ore": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "emerald_ore": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "deepslate_emerald_ore": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "emerald_block": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "raw_gold_block": {
+  "group": "pickaxe-iron",
+  "json": "blocks/pickaxe-iron.json",
+  "md": "kb/blocks/pickaxe-iron.md"
+ },
+ "iron_ore": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "deepslate_iron_ore": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "lapis_ore": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "deepslate_lapis_ore": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "lapis_block": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "iron_block": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "copper_block": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "copper_ore": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "deepslate_copper_ore": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_cut_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_cut_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_cut_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "cut_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_chiseled_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_chiseled_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_chiseled_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "chiseled_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_chiseled_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_chiseled_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_chiseled_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_chiseled_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_cut_copper_stairs": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_cut_copper_stairs": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_cut_copper_stairs": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "cut_copper_stairs": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_cut_copper_slab": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_cut_copper_slab": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_cut_copper_slab": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "cut_copper_slab": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_copper_block": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_cut_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_cut_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_cut_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_cut_copper": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_cut_copper_stairs": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_cut_copper_stairs": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_cut_copper_stairs": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_cut_copper_stairs": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_cut_copper_slab": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_cut_copper_slab": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_cut_copper_slab": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_cut_copper_slab": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "copper_trapdoor": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_copper_trapdoor": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_copper_trapdoor": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_copper_trapdoor": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_copper_trapdoor": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_copper_trapdoor": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_copper_trapdoor": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_copper_trapdoor": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "copper_grate": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_copper_grate": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_copper_grate": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_copper_grate": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_copper_grate": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_copper_grate": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_copper_grate": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_copper_grate": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "copper_bulb": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_copper_bulb": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_copper_bulb": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_copper_bulb": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_copper_bulb": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_copper_bulb": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_copper_bulb": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_copper_bulb": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "copper_chest": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_copper_chest": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_copper_chest": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_copper_chest": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_copper_chest": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_copper_chest": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_copper_chest": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_copper_chest": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "lightning_rod": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "exposed_lightning_rod": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "weathered_lightning_rod": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oxidized_lightning_rod": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_lightning_rod": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_exposed_lightning_rod": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_weathered_lightning_rod": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "waxed_oxidized_lightning_rod": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "raw_iron_block": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "raw_copper_block": {
+  "group": "pickaxe-stone",
+  "json": "blocks/pickaxe-stone.json",
+  "md": "kb/blocks/pickaxe-stone.md"
+ },
+ "oak_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "spruce_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "birch_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "jungle_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "acacia_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "cherry_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "dark_oak_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "pale_oak_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "mangrove_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "azalea_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "flowering_azalea_leaves": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "sponge": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "wet_sponge": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "hay_block": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "nether_wart_block": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "dried_kelp_block": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "warped_wart_block": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "shroomlight": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "target": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "sculk_sensor": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "calibrated_sculk_sensor": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "sculk": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "sculk_vein": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "sculk_catalyst": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "sculk_shrieker": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "moss_carpet": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "moss_block": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "pale_moss_block": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "pale_moss_carpet": {
+  "group": "hoe",
+  "json": "blocks/hoe.json",
+  "md": "kb/blocks/hoe.md"
+ },
+ "powered_rail": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "detector_rail": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "sticky_piston": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "piston": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "piston_head": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "rail": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "stone_pressure_plate": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "iron_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "stone_button": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "ice": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "packed_mud": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "infested_stone": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "infested_cobblestone": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "infested_stone_bricks": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "infested_mossy_stone_bricks": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "infested_cracked_stone_bricks": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "infested_chiseled_stone_bricks": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "brewing_stand": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "ender_chest": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "light_weighted_pressure_plate": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "heavy_weighted_pressure_plate": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "activator_rail": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "packed_ice": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "white_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "orange_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "magenta_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "light_blue_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "yellow_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "lime_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "pink_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "gray_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "light_gray_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "cyan_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "purple_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "blue_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "brown_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "green_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "red_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "black_shulker_box": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "blue_ice": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "conduit": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "bell": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "soul_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "copper_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "exposed_copper_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "weathered_copper_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "oxidized_copper_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_copper_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_exposed_copper_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_weathered_copper_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_oxidized_copper_lantern": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "polished_blackstone_pressure_plate": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "polished_blackstone_button": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "amethyst_cluster": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "large_amethyst_bud": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "medium_amethyst_bud": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "small_amethyst_bud": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "copper_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "exposed_copper_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "oxidized_copper_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "weathered_copper_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_copper_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_exposed_copper_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_oxidized_copper_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_weathered_copper_door": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "copper_golem_statue": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "exposed_copper_golem_statue": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "weathered_copper_golem_statue": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "oxidized_copper_golem_statue": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_copper_golem_statue": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_exposed_copper_golem_statue": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_weathered_copper_golem_statue": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "waxed_oxidized_copper_golem_statue": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "pointed_dripstone": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "infested_deepslate": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "crafter": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "heavy_core": {
+  "group": "pickaxe-any",
+  "json": "blocks/pickaxe-any.json",
+  "md": "kb/blocks/pickaxe-any.md"
+ },
+ "cobweb": {
+  "group": "sword",
+  "json": "blocks/sword.json",
+  "md": "kb/blocks/sword.md"
+ },
+ "bamboo_sapling": {
+  "group": "sword",
+  "json": "blocks/sword.json",
+  "md": "kb/blocks/sword.md"
+ },
+ "bamboo": {
+  "group": "sword",
+  "json": "blocks/sword.json",
+  "md": "kb/blocks/sword.md"
+ },
+ "obsidian": {
+  "group": "pickaxe-diamond",
+  "json": "blocks/pickaxe-diamond.json",
+  "md": "kb/blocks/pickaxe-diamond.md"
+ },
+ "netherite_block": {
+  "group": "pickaxe-diamond",
+  "json": "blocks/pickaxe-diamond.json",
+  "md": "kb/blocks/pickaxe-diamond.md"
+ },
+ "ancient_debris": {
+  "group": "pickaxe-diamond",
+  "json": "blocks/pickaxe-diamond.json",
+  "md": "kb/blocks/pickaxe-diamond.md"
+ },
+ "crying_obsidian": {
+  "group": "pickaxe-diamond",
+  "json": "blocks/pickaxe-diamond.json",
+  "md": "kb/blocks/pickaxe-diamond.md"
+ },
+ "respawn_anchor": {
+  "group": "pickaxe-diamond",
+  "json": "blocks/pickaxe-diamond.json",
+  "md": "kb/blocks/pickaxe-diamond.md"
+ }
+}

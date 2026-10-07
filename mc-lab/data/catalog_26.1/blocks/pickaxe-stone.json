@@ -1,0 +1,2162 @@
+[
+ {
+  "name": "iron_ore",
+  "display": "Iron Ore",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_iron"
+  ]
+ },
+ {
+  "name": "deepslate_iron_ore",
+  "display": "Deepslate Iron Ore",
+  "hardness": 4.5,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 22.5,
+   "wooden": 11.25,
+   "stone": 1.7,
+   "iron": 1.15,
+   "diamond": 0.85,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_iron"
+  ]
+ },
+ {
+  "name": "lapis_ore",
+  "display": "Lapis Lazuli Ore",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lapis_lazuli"
+  ]
+ },
+ {
+  "name": "deepslate_lapis_ore",
+  "display": "Deepslate Lapis Lazuli Ore",
+  "hardness": 4.5,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 22.5,
+   "wooden": 11.25,
+   "stone": 1.7,
+   "iron": 1.15,
+   "diamond": 0.85,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lapis_lazuli"
+  ]
+ },
+ {
+  "name": "lapis_block",
+  "display": "Block of Lapis Lazuli",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lapis_block"
+  ]
+ },
+ {
+  "name": "iron_block",
+  "display": "Block of Iron",
+  "hardness": 5,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 25,
+   "wooden": 12.5,
+   "stone": 1.9,
+   "iron": 1.25,
+   "diamond": 0.95,
+   "netherite": 0.85
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "iron_block"
+  ]
+ },
+ {
+  "name": "copper_block",
+  "display": "Block of Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "copper_block"
+  ]
+ },
+ {
+  "name": "exposed_copper",
+  "display": "Exposed Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_copper"
+  ]
+ },
+ {
+  "name": "weathered_copper",
+  "display": "Weathered Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_copper"
+  ]
+ },
+ {
+  "name": "oxidized_copper",
+  "display": "Oxidized Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_copper"
+  ]
+ },
+ {
+  "name": "copper_ore",
+  "display": "Copper Ore",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_copper"
+  ]
+ },
+ {
+  "name": "deepslate_copper_ore",
+  "display": "Deepslate Copper Ore",
+  "hardness": 4.5,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 22.5,
+   "wooden": 11.25,
+   "stone": 1.7,
+   "iron": 1.15,
+   "diamond": 0.85,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_copper"
+  ]
+ },
+ {
+  "name": "oxidized_cut_copper",
+  "display": "Oxidized Cut Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_cut_copper"
+  ]
+ },
+ {
+  "name": "weathered_cut_copper",
+  "display": "Weathered Cut Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_cut_copper"
+  ]
+ },
+ {
+  "name": "exposed_cut_copper",
+  "display": "Exposed Cut Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_cut_copper"
+  ]
+ },
+ {
+  "name": "cut_copper",
+  "display": "Cut Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cut_copper"
+  ]
+ },
+ {
+  "name": "oxidized_chiseled_copper",
+  "display": "Oxidized Chiseled Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_chiseled_copper"
+  ]
+ },
+ {
+  "name": "weathered_chiseled_copper",
+  "display": "Weathered Chiseled Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_chiseled_copper"
+  ]
+ },
+ {
+  "name": "exposed_chiseled_copper",
+  "display": "Exposed Chiseled Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_chiseled_copper"
+  ]
+ },
+ {
+  "name": "chiseled_copper",
+  "display": "Chiseled Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "chiseled_copper"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_chiseled_copper",
+  "display": "Waxed Oxidized Chiseled Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_chiseled_copper"
+  ]
+ },
+ {
+  "name": "waxed_weathered_chiseled_copper",
+  "display": "Waxed Weathered Chiseled Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_chiseled_copper"
+  ]
+ },
+ {
+  "name": "waxed_exposed_chiseled_copper",
+  "display": "Waxed Exposed Chiseled Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_chiseled_copper"
+  ]
+ },
+ {
+  "name": "waxed_chiseled_copper",
+  "display": "Waxed Chiseled Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_chiseled_copper"
+  ]
+ },
+ {
+  "name": "oxidized_cut_copper_stairs",
+  "display": "Oxidized Cut Copper Stairs",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_cut_copper_stairs"
+  ]
+ },
+ {
+  "name": "weathered_cut_copper_stairs",
+  "display": "Weathered Cut Copper Stairs",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_cut_copper_stairs"
+  ]
+ },
+ {
+  "name": "exposed_cut_copper_stairs",
+  "display": "Exposed Cut Copper Stairs",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_cut_copper_stairs"
+  ]
+ },
+ {
+  "name": "cut_copper_stairs",
+  "display": "Cut Copper Stairs",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cut_copper_stairs"
+  ]
+ },
+ {
+  "name": "oxidized_cut_copper_slab",
+  "display": "Oxidized Cut Copper Slab",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_cut_copper_slab"
+  ]
+ },
+ {
+  "name": "weathered_cut_copper_slab",
+  "display": "Weathered Cut Copper Slab",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_cut_copper_slab"
+  ]
+ },
+ {
+  "name": "exposed_cut_copper_slab",
+  "display": "Exposed Cut Copper Slab",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_cut_copper_slab"
+  ]
+ },
+ {
+  "name": "cut_copper_slab",
+  "display": "Cut Copper Slab",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cut_copper_slab"
+  ]
+ },
+ {
+  "name": "waxed_copper_block",
+  "display": "Waxed Block of Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_copper_block"
+  ]
+ },
+ {
+  "name": "waxed_weathered_copper",
+  "display": "Waxed Weathered Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_copper"
+  ]
+ },
+ {
+  "name": "waxed_exposed_copper",
+  "display": "Waxed Exposed Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_copper"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_copper",
+  "display": "Waxed Oxidized Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_copper"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_cut_copper",
+  "display": "Waxed Oxidized Cut Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_cut_copper"
+  ]
+ },
+ {
+  "name": "waxed_weathered_cut_copper",
+  "display": "Waxed Weathered Cut Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_cut_copper"
+  ]
+ },
+ {
+  "name": "waxed_exposed_cut_copper",
+  "display": "Waxed Exposed Cut Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_cut_copper"
+  ]
+ },
+ {
+  "name": "waxed_cut_copper",
+  "display": "Waxed Cut Copper",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_cut_copper"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_cut_copper_stairs",
+  "display": "Waxed Oxidized Cut Copper Stairs",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_cut_copper_stairs"
+  ]
+ },
+ {
+  "name": "waxed_weathered_cut_copper_stairs",
+  "display": "Waxed Weathered Cut Copper Stairs",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_cut_copper_stairs"
+  ]
+ },
+ {
+  "name": "waxed_exposed_cut_copper_stairs",
+  "display": "Waxed Exposed Cut Copper Stairs",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_cut_copper_stairs"
+  ]
+ },
+ {
+  "name": "waxed_cut_copper_stairs",
+  "display": "Waxed Cut Copper Stairs",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_cut_copper_stairs"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_cut_copper_slab",
+  "display": "Waxed Oxidized Cut Copper Slab",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_cut_copper_slab"
+  ]
+ },
+ {
+  "name": "waxed_weathered_cut_copper_slab",
+  "display": "Waxed Weathered Cut Copper Slab",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_cut_copper_slab"
+  ]
+ },
+ {
+  "name": "waxed_exposed_cut_copper_slab",
+  "display": "Waxed Exposed Cut Copper Slab",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_cut_copper_slab"
+  ]
+ },
+ {
+  "name": "waxed_cut_copper_slab",
+  "display": "Waxed Cut Copper Slab",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_cut_copper_slab"
+  ]
+ },
+ {
+  "name": "copper_trapdoor",
+  "display": "Copper Trapdoor",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "copper_trapdoor"
+  ]
+ },
+ {
+  "name": "exposed_copper_trapdoor",
+  "display": "Exposed Copper Trapdoor",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_copper_trapdoor"
+  ]
+ },
+ {
+  "name": "oxidized_copper_trapdoor",
+  "display": "Oxidized Copper Trapdoor",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_copper_trapdoor"
+  ]
+ },
+ {
+  "name": "weathered_copper_trapdoor",
+  "display": "Weathered Copper Trapdoor",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_copper_trapdoor"
+  ]
+ },
+ {
+  "name": "waxed_copper_trapdoor",
+  "display": "Waxed Copper Trapdoor",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_copper_trapdoor"
+  ]
+ },
+ {
+  "name": "waxed_exposed_copper_trapdoor",
+  "display": "Waxed Exposed Copper Trapdoor",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_copper_trapdoor"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_copper_trapdoor",
+  "display": "Waxed Oxidized Copper Trapdoor",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_copper_trapdoor"
+  ]
+ },
+ {
+  "name": "waxed_weathered_copper_trapdoor",
+  "display": "Waxed Weathered Copper Trapdoor",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_copper_trapdoor"
+  ]
+ },
+ {
+  "name": "copper_grate",
+  "display": "Copper Grate",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "copper_grate"
+  ]
+ },
+ {
+  "name": "exposed_copper_grate",
+  "display": "Exposed Copper Grate",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_copper_grate"
+  ]
+ },
+ {
+  "name": "weathered_copper_grate",
+  "display": "Weathered Copper Grate",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_copper_grate"
+  ]
+ },
+ {
+  "name": "oxidized_copper_grate",
+  "display": "Oxidized Copper Grate",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_copper_grate"
+  ]
+ },
+ {
+  "name": "waxed_copper_grate",
+  "display": "Waxed Copper Grate",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_copper_grate"
+  ]
+ },
+ {
+  "name": "waxed_exposed_copper_grate",
+  "display": "Waxed Exposed Copper Grate",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_copper_grate"
+  ]
+ },
+ {
+  "name": "waxed_weathered_copper_grate",
+  "display": "Waxed Weathered Copper Grate",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_copper_grate"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_copper_grate",
+  "display": "Waxed Oxidized Copper Grate",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_copper_grate"
+  ]
+ },
+ {
+  "name": "copper_bulb",
+  "display": "Copper Bulb",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "copper_bulb"
+  ]
+ },
+ {
+  "name": "exposed_copper_bulb",
+  "display": "Exposed Copper Bulb",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_copper_bulb"
+  ]
+ },
+ {
+  "name": "weathered_copper_bulb",
+  "display": "Weathered Copper Bulb",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_copper_bulb"
+  ]
+ },
+ {
+  "name": "oxidized_copper_bulb",
+  "display": "Oxidized Copper Bulb",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_copper_bulb"
+  ]
+ },
+ {
+  "name": "waxed_copper_bulb",
+  "display": "Waxed Copper Bulb",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_copper_bulb"
+  ]
+ },
+ {
+  "name": "waxed_exposed_copper_bulb",
+  "display": "Waxed Exposed Copper Bulb",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_copper_bulb"
+  ]
+ },
+ {
+  "name": "waxed_weathered_copper_bulb",
+  "display": "Waxed Weathered Copper Bulb",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_copper_bulb"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_copper_bulb",
+  "display": "Waxed Oxidized Copper Bulb",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_copper_bulb"
+  ]
+ },
+ {
+  "name": "copper_chest",
+  "display": "Copper Chest",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "copper_chest"
+  ]
+ },
+ {
+  "name": "exposed_copper_chest",
+  "display": "Exposed Copper Chest",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_copper_chest"
+  ]
+ },
+ {
+  "name": "weathered_copper_chest",
+  "display": "Weathered Copper Chest",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_copper_chest"
+  ]
+ },
+ {
+  "name": "oxidized_copper_chest",
+  "display": "Oxidized Copper Chest",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_copper_chest"
+  ]
+ },
+ {
+  "name": "waxed_copper_chest",
+  "display": "Waxed Copper Chest",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_copper_chest"
+  ]
+ },
+ {
+  "name": "waxed_exposed_copper_chest",
+  "display": "Waxed Exposed Copper Chest",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_copper_chest"
+  ]
+ },
+ {
+  "name": "waxed_weathered_copper_chest",
+  "display": "Waxed Weathered Copper Chest",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_copper_chest"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_copper_chest",
+  "display": "Waxed Oxidized Copper Chest",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_copper_chest"
+  ]
+ },
+ {
+  "name": "lightning_rod",
+  "display": "Lightning Rod",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lightning_rod"
+  ]
+ },
+ {
+  "name": "exposed_lightning_rod",
+  "display": "Exposed Lightning Rod",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_lightning_rod"
+  ]
+ },
+ {
+  "name": "weathered_lightning_rod",
+  "display": "Weathered Lightning Rod",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_lightning_rod"
+  ]
+ },
+ {
+  "name": "oxidized_lightning_rod",
+  "display": "Oxidized Lightning Rod",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_lightning_rod"
+  ]
+ },
+ {
+  "name": "waxed_lightning_rod",
+  "display": "Waxed Lightning Rod",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_lightning_rod"
+  ]
+ },
+ {
+  "name": "waxed_exposed_lightning_rod",
+  "display": "Waxed Exposed Lightning Rod",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_lightning_rod"
+  ]
+ },
+ {
+  "name": "waxed_weathered_lightning_rod",
+  "display": "Waxed Weathered Lightning Rod",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_lightning_rod"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_lightning_rod",
+  "display": "Waxed Oxidized Lightning Rod",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_lightning_rod"
+  ]
+ },
+ {
+  "name": "raw_iron_block",
+  "display": "Block of Raw Iron",
+  "hardness": 5,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 25,
+   "wooden": 12.5,
+   "stone": 1.9,
+   "iron": 1.25,
+   "diamond": 0.95,
+   "netherite": 0.85
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_iron_block"
+  ]
+ },
+ {
+  "name": "raw_copper_block",
+  "display": "Block of Raw Copper",
+  "hardness": 5,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "stone",
+  "needsTool": true,
+  "time": {
+   "hand": 25,
+   "wooden": 12.5,
+   "stone": 1.9,
+   "iron": 1.25,
+   "diamond": 0.95,
+   "netherite": 0.85
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_copper_block"
+  ]
+ }
+]

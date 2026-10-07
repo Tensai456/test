@@ -1,0 +1,122 @@
+[
+ {
+  "name": "obsidian",
+  "display": "Obsidian",
+  "hardness": 50,
+  "blastRes": 1200,
+  "tool": "pickaxe",
+  "minTier": "diamond",
+  "needsTool": true,
+  "time": {
+   "hand": 250,
+   "wooden": 125,
+   "stone": 62.5,
+   "iron": 41.7,
+   "diamond": 9.4,
+   "netherite": 8.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "obsidian"
+  ]
+ },
+ {
+  "name": "netherite_block",
+  "display": "Block of Netherite",
+  "hardness": 50,
+  "blastRes": 1200,
+  "tool": "pickaxe",
+  "minTier": "diamond",
+  "needsTool": true,
+  "time": {
+   "hand": 250,
+   "wooden": 125,
+   "stone": 62.5,
+   "iron": 41.7,
+   "diamond": 9.4,
+   "netherite": 8.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "netherite_block"
+  ]
+ },
+ {
+  "name": "ancient_debris",
+  "display": "Ancient Debris",
+  "hardness": 30,
+  "blastRes": 1200,
+  "tool": "pickaxe",
+  "minTier": "diamond",
+  "needsTool": true,
+  "time": {
+   "hand": 150,
+   "wooden": 75,
+   "stone": 37.5,
+   "iron": 25,
+   "diamond": 5.65,
+   "netherite": 5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "ancient_debris"
+  ]
+ },
+ {
+  "name": "crying_obsidian",
+  "display": "Crying Obsidian",
+  "hardness": 50,
+  "blastRes": 1200,
+  "tool": "pickaxe",
+  "minTier": "diamond",
+  "needsTool": true,
+  "time": {
+   "hand": 250,
+   "wooden": 125,
+   "stone": 62.5,
+   "iron": 41.7,
+   "diamond": 9.4,
+   "netherite": 8.35
+  },
+  "light": 10,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crying_obsidian"
+  ]
+ },
+ {
+  "name": "respawn_anchor",
+  "display": "Respawn Anchor",
+  "hardness": 50,
+  "blastRes": 1200,
+  "tool": "pickaxe",
+  "minTier": "diamond",
+  "needsTool": true,
+  "time": {
+   "hand": 250,
+   "wooden": 125,
+   "stone": 62.5,
+   "iron": 41.7,
+   "diamond": 9.4,
+   "netherite": 8.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "respawn_anchor"
+  ]
+ }
+]
