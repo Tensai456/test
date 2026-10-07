@@ -63,3 +63,16 @@ test('ทางขึ้นบ้าน: วางบล็อกบนทาง
   assert.equal(bot.brain.blockedPassage()[0].block, 'dirt');
   assert.equal(bot.brain.think().d.rule.id, 'entrance-blocked');
 });
+
+test('ตาย→เกิด: หยุด pathfinder · ช่วงพักห้ามวางบล็อก · หมดช่วงพักวางได้', () => {
+  const bot = fakeBot(); let goal = 'old'; bot.pathfinder = { setGoal: (g) => (goal = g) };
+  bot.loadPlugin(brainPlugin({ goal: 'iron_kit', respawnGraceTicks: 40 }));
+  bot.emit('death'); assert.equal(goal, null);
+  goal = 'again'; bot.emit('spawn'); assert.equal(goal, null);
+  assert.equal(bot.brain.allowed('place_block').ok, false);
+  assert.equal(bot.brain.allowed('place_block').vetoes[0].id, 'respawn-grace');
+  for (let i = 0; i < 41; i++) bot.emit('physicsTick');
+  assert.equal(bot.brain.allowed('place_block').ok, true);
+  assert.equal(bot.brain.think().d.rule.id, 'death-recovery');
+  bot.brain.clearDeath();
+});

@@ -1665,5 +1665,22 @@
   "kb": [
    "home-keeping/passages.md"
   ]
+ },
+ {
+  "id": "respawn-grace",
+  "prio": 75,
+  "veto": true,
+  "when": {
+   "actionIn": [
+    "place_block",
+    "build_shelter",
+    "wall_in"
+   ],
+   "flag": "respawnGrace"
+  },
+  "do": "เพิ่งเกิดใหม่ (≤60 tick) → ห้ามวางบล็อก รอชังก์โหลด/ยืนพื้นก่อน (แก้บั๊กเกิดแล้ววางบล็อก)",
+  "kb": [
+   "server-tech/respawn-place.md"
+  ]
  }
 ]

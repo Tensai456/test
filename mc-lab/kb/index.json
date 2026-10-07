@@ -5105,6 +5105,20 @@
   "lines": 4
  },
  {
+  "path": "server-tech/respawn-place.md",
+  "title": "บั๊ก \"ตายแล้วเกิดปุ๊บวางบล็อก\" (jing เจอจริง 7 ต.ค. 2026)",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "jing",
+   "server",
+   "tech",
+   "respawn",
+   "place"
+  ],
+  "lines": 7
+ },
+ {
   "path": "server-tech/version-lock.md",
   "title": "ล็อกเวอร์ชัน",
   "group": "server-tech",

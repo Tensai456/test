@@ -88,8 +88,10 @@ export const EXT_EVENTS = {
       ['เผาเพชร/ถ่าน ฯลฯ → veto', (s, d) => !(s.action === 'smelt' && s.flags.noSmeltItem) || hasVeto(d, 'smelt-no-need')],
       ['ไม้/อาหารไม่พอ + ไม่มีศัตรู ≤16 → ห้ามแผน', (s, d) => !((s.flags.fuelShort || s.flags.foodShort) && !near(s, (e) => e.hostile && e.dist <= 16).length) || d.mode === 'reflex']] },
   homeKeep: { gen: (s, r) => { const f = flags(s); f.inBase = true; if (r() < 0.5) f.entranceBlocked = true;
-      if (r() < 0.4) { s.action = 'place_block'; if (r() < 0.6) f.targetInPassage = true; } },
+      if (r() < 0.4) { s.action = 'place_block'; if (r() < 0.6) f.targetInPassage = true; }
+      if (r() < 0.3) { f.respawnGrace = true; f.justDied = true; if (r() < 0.6) s.action = pick(r, ['place_block', 'build_shelter', 'wall_in']); } },
     inv: [['ทางขึ้นบ้าน/ประตูถูกขวาง + ไม่มีศัตรู ≤8 → ห้ามแผน (ต้องเคลียร์)', (s, d) => !(s.flags.entranceBlocked && !near(s, (e) => e.hostile && e.dist <= 8).length) || d.mode === 'reflex'],
-      ['วางบล็อกบนทางเดินขึ้นบ้าน → veto', (s, d) => !(s.action === 'place_block' && s.flags.targetInPassage) || hasVeto(d, 'no-block-in-passage')]] },
+      ['วางบล็อกบนทางเดินขึ้นบ้าน → veto', (s, d) => !(s.action === 'place_block' && s.flags.targetInPassage) || hasVeto(d, 'no-block-in-passage')],
+      ['เพิ่งเกิดใหม่ + วางบล็อก/ทำที่หลบ → veto respawn-grace', (s, d) => !(s.flags.respawnGrace && ['place_block', 'build_shelter', 'wall_in'].includes(s.action)) || hasVeto(d, 'respawn-grace')]] },
 };
 

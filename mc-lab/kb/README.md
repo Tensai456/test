@@ -570,6 +570,7 @@
 - [ชังก์ยังไม่โหลด](server-tech/chunk-unloaded.md) · 4 บรรทัด
 - [ping สูง](server-tech/high-ping.md) · 4 บรรทัด
 - [โดนดึงกลับ/เตะ "moved too quickly"](server-tech/moved-too-quickly.md) · 10 บรรทัด
+- [บั๊ก "ตายแล้วเกิดปุ๊บวางบล็อก" (jing เจอจริง 7 ต.ค. 2026)](server-tech/respawn-place.md) · 7 บรรทัด
 - [เซิร์ฟแล็ก (TPS ตก)](server-tech/tps-low.md) · 4 บรรทัด
 - [ล็อกเวอร์ชัน](server-tech/version-lock.md) · 1 บรรทัด
 

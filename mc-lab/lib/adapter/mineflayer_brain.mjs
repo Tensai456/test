@@ -72,7 +72,7 @@ export function brainPlugin(opts = {}) {
     };
     // ทางเดินขึ้นบ้าน + ปากประตู: ลงทะเบียนด้วย bot.brain.setPassages([{x,y,z}]) · เช็กทุก 20 tick
     let passages = [], blocked = [];
-    const extra0 = () => (blocked.length ? { passageBlocked: blocked, flags: { entranceBlocked: true } } : {});
+    const extra0 = () => ({ ...(blocked.length ? { passageBlocked: blocked } : {}), flags: { ...(blocked.length ? { entranceBlocked: true } : {}), ...(tick < graceUntil ? { respawnGrace: true } : {}), ...(justDied ? { justDied: true } : {}) } });
     const extra = (more = {}) => { const sm = { ...smeltState(), ...extra0(), flags: { ...(smeltState().flags ?? {}), ...(extra0().flags ?? {}) } }; return { role: opts.role, enemyNames: opts.enemyNames ?? [], team: opts.team?.() ?? [], ...sm, ...more, flags: { ...(opts.flags?.() ?? {}), ...(sm.flags ?? {}), ...(more.flags ?? {}) } }; };
     let tick = 0, lastKey = null, busy = false;
 
@@ -82,6 +82,14 @@ export function brainPlugin(opts = {}) {
       if (entity === bot.entity && source?.id != null) tr.provoked.add(source.id);
     });
     bot.on('entityGone', (e) => tr.provoked.delete(e.id));
+
+    // ตาย → เกิดใหม่ (แก้บั๊ก "เกิดปุ๊บวางบล็อก" ที่ jing เจอ):
+    //  · mineflayer 4.39 ส่ง 'spawn' ซ้ำทุกครั้งที่เกิดใหม่ (health.js) → โค้ดเริ่มต้นที่ผูก bot.on('spawn') จะรันซ้ำ
+    //  · mineflayer-pathfinder 2.4.5 ไม่ล้าง goal ตอนตาย → เกิดใหม่แล้ววางแผนไปเป้าเดิม + allow1by1towers/สะพาน = วางบล็อก (ชังก์ยังโหลดไม่ครบ ใต้เท้าดูเป็นอากาศ)
+    //  → ตอนตาย: หยุด pathfinder + ปล่อยปุ่ม · ตอนเกิด: ช่วงพัก (grace) 60 tick ห้ามวางบล็อก + ตั้ง justDied ให้กฎ death-recovery
+    let died = false, graceUntil = -1, justDied = false;
+    bot.on('death', () => { died = true; try { bot.pathfinder?.setGoal(null); bot.pathfinder?.stop?.(); } catch {} bot.clearControlStates?.(); bot.emit('brain:died'); });
+    bot.on('spawn', () => { if (!died) return; died = false; justDied = true; graceUntil = tick + (opts.respawnGraceTicks ?? 60); try { bot.pathfinder?.setGoal(null); } catch {} bot.clearControlStates?.(); bot.emit('brain:respawned'); });
 
     const think = (more) => { const s = toState(bot, tr, extra(more)); return { s, d: decide(s, goalOf(s)) }; };
 
@@ -103,6 +111,7 @@ export function brainPlugin(opts = {}) {
     bot.brain.startSmelt = (pos, plan) => { smelt = { pos, roamRadius: plan.roamRadius, readyAt: (bot.time?.age ?? 0) + plan.sec * 20, fuelShort: plan.fuelAction !== 'ok', foodShort: plan.foodAction !== 'ok' && plan.foodAction !== 'eat-from-chest', trail: [pos] }; };
     bot.brain.endSmelt = () => { smelt = null; };
     bot.brain.setPassages = (cells) => { passages = cells; };
+    bot.brain.clearDeath = () => { justDied = false; };   // เรียกเมื่อเก็บของคืนแล้ว/เลิกตามของ
     bot.brain.blockedPassage = () => blocked;
     bot.brain.trailBack = () => (smelt ? [...smelt.trail].reverse() : []);   // จุดทางกลับ (ส่งให้ pathfinder ทีละจุด)
 
