@@ -12,4 +12,4 @@
 | โจมตีม็อบ | กรอบครบ: ม็อบศัตรูในรัศมี 8, 4 HP ทุก 2 วิ ถ้าโดนน้ำ/ฝน | W/Conduit_Power |
 บอตควร: ใช้เมื่อทำงานใต้น้ำ (monument, ขุด) นำ shell 8 + heart 1 หาก่อน; ต้องวางในน้ำ/ฝนตามกรอบ
 ตัดสินผล: ผ่าน = ได้ Conduit Power ติดบอตใต้น้ำ (เกณฑ์แล็บ)
-แหล่ง nautilus shell/heart of the sea: [ไม่แน่ใจ ไม่ได้ค้น] ดู W/Nautilus_Shell, W/Heart_of_the_Sea
+แหล่ง nautilus shell: ตกปลา (treasure 0.8% ไม่มี Luck of the Sea, 1.2/1.5/1.9% ที่ LotS I/II/III), drowned เกิดถือไว้ในมือรอง 3% (Java) แล้วดรอปเสมอ, wandering trader (W/Nautilus_Shell). Heart of the sea: อยู่ใน buried treasure chest เท่านั้น ได้ 1 ชิ้นต่อหีบเสมอ; หีบอยู่ที่ตำแหน่ง chunk 9,?,9 (Java) ได้จาก buried treasure map ในซากเรือ/ocean ruins (W/Heart_of_the_Sea, W/Buried_Treasure)

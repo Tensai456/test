@@ -11,4 +11,4 @@
 | Evoker | เริ่ม wave 5; Hard: w5=1, w6=1, w7=2, extra=ravager+evoker | W/Raid |
 | แคปเทน evoker | ดรอป ominous bottle + banner | W/Raid |
 บอตควร: ทำเมื่อมีเกียร์ดี+โล่; ล้อมให้ raiders มารวมจุด; ใช้ totem ที่มือรอง (offhand) เป็นประกัน
-ตัดสินผล: เกณฑ์แล็บ = totem/ชม. และบอตตาย 0 ครั้งต่อ raid; ตัวเลขอัตราจริง [ไม่แน่ใจ]
+ตัดสินผล: เกณฑ์แล็บ = totem/ชม. และบอตตาย 0 ครั้งต่อ raid; ดรอป 1 ชิ้นเสมอต่อ evoker (W/Evoker, W/Totem_of_Undying; evoker เป็นแหล่งเดียว, spawn ใน mansion และ raid wave 5+); อัตรา/ชม. และเวลา raid [ไม่แน่ใจ]

@@ -5,7 +5,7 @@
 
 | หัวข้อ | ค่า | อ้างอิง |
 |---|---|---|
-| วัสดุ | crying obsidian + glowstone (สัดส่วนจำนวน: ไม่ยืนยัน) | W/Respawn_Anchor |
+| วัสดุ | crying obsidian 6 + glowstone block 3 (ตรง kb/blocks/_recipes.md; wiki snippet ยืนยันชนิดวัสดุ) | W/Respawn_Anchor |
 | ชาร์จ | ใช้ glowstone block เท่านั้น (ไม่ใช่ dust) สูงสุด 4 ชาร์จ; dispenser ชาร์จได้ | W/Respawn_Anchor |
 | ตั้งสปอว์น | ใช้เหมือนเตียง ต้องมีชาร์จ ≥ 1 และอยู่ใน Nether | W/Respawn_Anchor |
 | ใช้ชาร์จ | ตายแล้วเกิดใหม่หัก 1 ชาร์จ แม้เป็นผู้เล่นอื่น | W/Respawn_Anchor |

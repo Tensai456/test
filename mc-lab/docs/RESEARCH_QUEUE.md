@@ -24,4 +24,4 @@
 | 17 | `test-commands` | คำสั่งที่ใช้เทส (/summon /tp /gamerule /effect /give /locate /time) | ✅ เติมแล้ว |
 | 18 | `redstone-basics` | ประตู, แผ่นกด, คันโยก, ลูกสูบ — เท่าที่บอตต้องใช้/ระวัง | ✅ เติมแล้ว |
 | 19 | `trial-chambers` | trial chamber: spawner, กุญแจ, vault, ominous | ✅ เติมแล้ว |
-| 20 | `beacon-conduit` | บีคอน, คอนดูอิท, ของปลายเกม | ✅⚠ ค้นไม่ครบ (โควตาค้นหมด) |
+| 20 | `beacon-conduit` | บีคอน, คอนดูอิท, ของปลายเกม | ✅ เติมแล้ว |

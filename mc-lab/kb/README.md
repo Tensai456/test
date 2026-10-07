@@ -33,13 +33,13 @@
 - [เอฟเฟกต์ Beacon](beacon-conduit/beacon-effects.md) · 8 บรรทัด
 - [Beacon พีระมิดและบล็อก](beacon-conduit/beacon-pyramid.md) · 9 บรรทัด
 - [Conduit](beacon-conduit/conduit.md) · 10 บรรทัด
-- [Lodestone และ Recovery Compass](beacon-conduit/navigation.md) · 8 บรรทัด
-- [เส้นทาง Netherite](beacon-conduit/netherite-path.md) · 10 บรรทัด
+- [Lodestone และ Recovery Compass](beacon-conduit/navigation.md) · 9 บรรทัด
+- [เส้นทาง Netherite](beacon-conduit/netherite-path.md) · 13 บรรทัด
 - [ลำดับหลัง Diamond (เสนอ)](beacon-conduit/priority.md) · 9 บรรทัด
 - [Respawn Anchor (Nether)](beacon-conduit/respawn-anchor.md) · 9 บรรทัด
 - [Shulker Box และ Ender Chest](beacon-conduit/storage.md) · 8 บรรทัด
 - [Totem ผ่าน Raid (Evoker)](beacon-conduit/totem-raid.md) · 9 บรรทัด
-- [ยังไม่ยืนยัน](beacon-conduit/unverified.md) · 5 บรรทัด
+- [ยังไม่ยืนยัน](beacon-conduit/unverified.md) · 4 บรรทัด
 - [Wither และ Nether Star](beacon-conduit/wither-nether-star.md) · 9 บรรทัด
 
 ## biomes (`biomes/`)

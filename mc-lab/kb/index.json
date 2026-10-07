@@ -1743,7 +1743,7 @@
    "conduit",
    "path"
   ],
-  "lines": 10
+  "lines": 13
  },
  {
   "path": "beacon-conduit/navigation.md",
@@ -1758,7 +1758,7 @@
    "conduit",
    "navigation"
   ],
-  "lines": 8
+  "lines": 9
  },
  {
   "path": "beacon-conduit/priority.md",
@@ -1783,7 +1783,7 @@
    "conduit",
    "unverified"
   ],
-  "lines": 5
+  "lines": 4
  },
  {
   "path": "biomes/plains-forest.md",
