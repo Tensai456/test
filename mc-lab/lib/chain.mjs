@@ -4,7 +4,7 @@
 //  decide(state, goal) — ถ้ามี reflex prio ≥ REFLEX_MIN ทำ reflex ก่อน ไม่งั้นทำตามแผน
 // state (สร้างจาก mineflayer ได้): { hp, food, dim, inLava, onFire, air, fallDistance, suffocating,
 //   nearby:[{type, dist, hostile}], inv:{item:n}, worn:[item], flags:{}, time, sheltered, edgeDepth,
-//   digging:{block, canHarvest}, idleSeconds, action }
+//   digging:{block, canHarvest, belowFeet}, idleSeconds, action, effects:[name], freezing }
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -49,6 +49,9 @@ export function test(c, s) {
       hasAnySuffix: () => Object.entries(v).every(([suf, n]) => Object.entries(s.inv ?? {}).filter(([it]) => it.endsWith(suf)).reduce((a, [, x]) => a + x, 0) >= n),
       lacksAll: () => v.every((it) => count(s, it) === 0),
       flag: () => !!s.flags?.[v],
+      notFlag: () => !s.flags?.[v],
+      hasEffect: () => (s.effects ?? []).includes(v),
+      freezing: () => !!s.freezing === v,
       digging: () => !!s.digging && Object.entries(v).every(([kk, vv]) => s.digging[kk] === vv),
       anyOf: () => v.some((cc) => test(cc, s)),
     }[k];

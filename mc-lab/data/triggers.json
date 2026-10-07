@@ -1,21 +1,422 @@
 [
- {"id": "bed-wrong-dimension", "prio": 99, "when": {"action": "sleep", "notDim": "overworld"}, "do": "ห้ามใช้เตียง (ระเบิด power 5)", "kb": ["problems/p12-bed-nether-end.md", "nether-end/e4-bed-anchor.md"]},
- {"id": "in-lava", "prio": 98, "when": {"inLava": true}, "do": "กระโดดออกทางบล็อกปลอดภัยล่าสุด · มียาไฟให้ดื่ม · ห้ามขุดต่อ", "kb": ["hazards/caves-lava.md", "hazards/damage-blocks.md", "problems/p06-dig-down-lava.md"]},
- {"id": "falling", "prio": 95, "when": {"fallingOver": 3}, "do": "chooseClutch → สลับช่อง → มองลง (pitch −90°) → วางทุก tick ที่เข้าระยะ", "kb": ["movement/clutch-mlg.md", "problems/p05-fall-death.md"], "lib": ["fall_safety.chooseClutch", "fall_safety.clutchWindow", "fall_safety.mustClutch"]},
- {"id": "suffocating", "prio": 92, "when": {"suffocating": true}, "do": "ขุดบล็อกที่ทับหัวทันที · ถ้าทรายร่วงต่อให้ถอยออก", "kb": ["problems/p08-stuck-suffocation.md", "hazards/falling-blocks.md"]},
- {"id": "drowning", "prio": 90, "when": {"airBelow": 5}, "do": "ว่ายขึ้นตรง · ห้ามขุดใต้น้ำ", "kb": ["hazards/drowning.md", "problems/p07-drowning.md"]},
- {"id": "creeper-fusing", "prio": 88, "when": {"near": {"type": ["creeper"], "within": 3}}, "do": "ตีตอนวิ่งให้กระเด็นแล้วถอย หรือถอยออกเกิน 7 บล็อก", "kb": ["mobs/creeper.md"]},
- {"id": "on-fire", "prio": 85, "when": {"onFire": true}, "do": "ลงน้ำ/ใช้ถังน้ำ · ดื่มยาไฟ · ออกจากบล็อกไฟ", "kb": ["hazards/fire-lightning.md"]},
- {"id": "low-hp-in-combat", "prio": 84, "when": {"hpBelow": 7, "near": {"hostile": true, "within": 6}}, "do": "ถอยออกนอกระยะก่อน แล้วกินแอปเปิลทอง/อาหาร · มีโทเท็มให้ถือมือรอง", "kb": ["health/healing.md", "health/totem.md", "problems/p02-low-hp-not-eating.md"]},
- {"id": "warden-near", "prio": 83, "when": {"near": {"type": ["warden"], "within": 20}}, "do": "ย่อเดินออก ห้ามสู้ ห้ามวิ่ง/วางบล็อกใกล้ sculk", "kb": ["mobs/warden.md", "hazards/deep-dark-warden.md"]},
- {"id": "hostile-close", "prio": 75, "when": {"near": {"hostile": true, "within": 4}}, "do": "สู้ตามไฟล์ม็อบ: รอชาร์จ ≥95% · กระโดดคริ (ปล่อยวิ่ง) · ยกโล่ระหว่างรอ", "kb": ["mobs/_rules.md", "problems/mobs-summary.md"], "lib": ["pvp/damage.meleeRaw"], "kbByMob": "mobs/{type}.md"},
- {"id": "skeleton-open", "prio": 72, "when": {"near": {"type": ["skeleton", "stray", "bogged", "parched", "pillager"], "within": 15}}, "do": "หลบหลังบล็อกหรือวิ่งซิกแซกเข้าหา · ยกโล่", "kb": ["mobs/skeleton.md"]},
- {"id": "eat-to-regen", "prio": 70, "when": {"hpBelow": 11, "foodBelow": 18, "hasFood": true, "notNear": {"hostile": true, "within": 6}}, "do": "กินจนหิว ≥18 (ฟื้นเลือดเอง) · เลือกอาหาร saturation สูงก่อน", "kb": ["problems/p02-low-hp-not-eating.md", "health/health.md", "blocks/_foods.md"]},
- {"id": "hungry", "prio": 65, "when": {"foodBelow": 7, "hasFood": true}, "do": "กินทันที (หิว ≤6 วิ่งไม่ได้)", "kb": ["hazards/hunger-exhaustion.md"]},
- {"id": "enderman-near", "prio": 60, "when": {"near": {"type": ["enderman"], "within": 64}}, "do": "ห้ามมองหน้า · ถ้าจะล่าไข่มุก: วางบล็อก ตี 1 ครั้ง ถอย ตีต่อ", "kb": ["mobs/enderman.md"]},
- {"id": "nether-no-gold", "prio": 58, "when": {"dim": "the_nether", "lacksAll": ["golden_boots", "golden_helmet", "golden_chestplate", "golden_leggings"]}, "do": "ใส่รองเท้าทอง (กฎ jing: ทองทำรองเท้าเท่านั้น) หรือกลับ overworld", "kb": ["nether-end/e7-gold-armor.md"]},
- {"id": "edge", "prio": 55, "when": {"edgeDepthOver": 3}, "do": "ย่อ (sneak) ค้างตอนเดินขอบ", "kb": ["movement/edges-bridging-stuck.md"]},
- {"id": "night-exposed", "prio": 50, "when": {"dim": "overworld", "timeBetween": [12542, 23460], "sheltered": false}, "do": "กลับบ้าน/นอน · ไม่มีบ้านคืนแรก: ที่หลบชั่วคราว + คบเพลิง", "kb": ["problems/p11-first-night.md", "time-weather/sleeping.md"]},
- {"id": "wrong-tool", "prio": 45, "when": {"digging": {"canHarvest": false}}, "do": "หยุดขุด · ทำ/สลับเครื่องมือขั้นที่ขุดได้ของ", "kb": ["problems/p01-mining-wrong-tool.md"], "lib": ["kb.blockInfo"]},
- {"id": "idle", "prio": 10, "when": {"idleSecondsOver": 30}, "do": "เลือกขั้นถัดไปจาก chain (nextStep)", "kb": ["problems/p09-afk-idle.md"], "lib": ["chain.nextStep"]}
+ {
+  "id": "bed-wrong-dimension",
+  "prio": 99,
+  "when": {
+   "action": "sleep",
+   "notDim": "overworld"
+  },
+  "do": "ห้ามใช้เตียง (ระเบิด power 5)",
+  "kb": [
+   "problems/p12-bed-nether-end.md",
+   "nether-end/e4-bed-anchor.md"
+  ]
+ },
+ {
+  "id": "in-lava",
+  "prio": 98,
+  "when": {
+   "inLava": true
+  },
+  "do": "กระโดดออกทางบล็อกปลอดภัยล่าสุด · มียาไฟให้ดื่ม · ห้ามขุดต่อ",
+  "kb": [
+   "hazards/caves-lava.md",
+   "hazards/damage-blocks.md",
+   "problems/p06-dig-down-lava.md"
+  ]
+ },
+ {
+  "id": "falling",
+  "prio": 95,
+  "when": {
+   "fallingOver": 3
+  },
+  "do": "chooseClutch → สลับช่อง → มองลง (pitch −90°) → วางทุก tick ที่เข้าระยะ",
+  "kb": [
+   "movement/clutch-mlg.md",
+   "problems/p05-fall-death.md"
+  ],
+  "lib": [
+   "fall_safety.chooseClutch",
+   "fall_safety.clutchWindow",
+   "fall_safety.mustClutch"
+  ]
+ },
+ {
+  "id": "suffocating",
+  "prio": 92,
+  "when": {
+   "suffocating": true
+  },
+  "do": "ขุดบล็อกที่ทับหัวทันที · ถ้าทรายร่วงต่อให้ถอยออก",
+  "kb": [
+   "problems/p08-stuck-suffocation.md",
+   "hazards/falling-blocks.md"
+  ]
+ },
+ {
+  "id": "drowning",
+  "prio": 90,
+  "when": {
+   "airBelow": 5
+  },
+  "do": "ว่ายขึ้นตรง · ห้ามขุดใต้น้ำ",
+  "kb": [
+   "hazards/drowning.md",
+   "problems/p07-drowning.md"
+  ]
+ },
+ {
+  "id": "creeper-fusing",
+  "prio": 88,
+  "when": {
+   "near": {
+    "type": [
+     "creeper"
+    ],
+    "within": 3
+   }
+  },
+  "do": "ตีตอนวิ่งให้กระเด็นแล้วถอย หรือถอยออกเกิน 7 บล็อก",
+  "kb": [
+   "mobs/creeper.md"
+  ]
+ },
+ {
+  "id": "levitation",
+  "prio": 87,
+  "when": {
+   "hasEffect": "levitation"
+  },
+  "do": "อยู่ใต้หลังคา/เกาะบล็อกเหนือหัว · หยุดลอยแล้วเตรียมกันตก (ถังน้ำ/Slow Falling) · ฆ่า shulker จากที่กำบัง",
+  "kb": [
+   "nether-end/d5-shulker-levitation.md",
+   "movement/clutch-mlg.md"
+  ]
+ },
+ {
+  "id": "freezing",
+  "prio": 86,
+  "when": {
+   "freezing": true
+  },
+  "do": "ออกจากผงหิมะทันที (กระโดด/ขุด) · ใส่รองเท้าหนังกันได้",
+  "kb": [
+   "hazards/powder-snow-freezing.md"
+  ]
+ },
+ {
+  "id": "on-fire",
+  "prio": 85,
+  "when": {
+   "onFire": true
+  },
+  "do": "ลงน้ำ/ใช้ถังน้ำ · ดื่มยาไฟ · ออกจากบล็อกไฟ",
+  "kb": [
+   "hazards/fire-lightning.md"
+  ]
+ },
+ {
+  "id": "low-hp-in-combat",
+  "prio": 84,
+  "when": {
+   "hpBelow": 7,
+   "near": {
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "ถอยออกนอกระยะก่อน แล้วกินแอปเปิลทอง/อาหาร · มีโทเท็มให้ถือมือรอง",
+  "kb": [
+   "health/healing.md",
+   "health/totem.md",
+   "problems/p02-low-hp-not-eating.md"
+  ]
+ },
+ {
+  "id": "warden-near",
+  "prio": 83,
+  "when": {
+   "near": {
+    "type": [
+     "warden"
+    ],
+    "within": 20
+   }
+  },
+  "do": "ย่อเดินออก ห้ามสู้ ห้ามวิ่ง/วางบล็อกใกล้ sculk",
+  "kb": [
+   "mobs/warden.md",
+   "hazards/deep-dark-warden.md"
+  ]
+ },
+ {
+  "id": "dig-straight-down",
+  "prio": 80,
+  "when": {
+   "digging": {
+    "belowFeet": true
+   },
+   "notFlag": "ownPillar"
+  },
+  "do": "ห้ามขุดใต้เท้าตรง ๆ (ยกเว้นเสาของตัวเอง) · ขุดเป็นขั้นบันได",
+  "kb": [
+   "problems/p06-dig-down-lava.md",
+   "hazards/caves-lava.md"
+  ]
+ },
+ {
+  "id": "brute-near",
+  "prio": 79,
+  "when": {
+   "near": {
+    "type": [
+     "piglin_brute"
+    ],
+    "within": 16
+   }
+  },
+  "do": "brute ไม่สนทอง — ถอยออกจาก bastion หรือสู้ด้วยโล่+ดาบ ห้ามสู้ในที่แคบใกล้ลาวา",
+  "kb": [
+   "nether-end/m4-piglin-brute.md"
+  ]
+ },
+ {
+  "id": "ghast-fireball",
+  "prio": 78,
+  "when": {
+   "near": {
+    "type": [
+     "ghast"
+    ],
+    "within": 64
+   }
+  },
+  "do": "ตีลูกไฟสะท้อนกลับ/ยิงธนู · ยืนหลังบล็อกกันระเบิดสูง (cobblestone) · อย่ายืนขอบลาวา",
+  "kb": [
+   "nether-end/m1-ghast.md"
+  ]
+ },
+ {
+  "id": "hostile-close",
+  "prio": 75,
+  "when": {
+   "near": {
+    "hostile": true,
+    "within": 4
+   }
+  },
+  "do": "สู้ตามไฟล์ม็อบ: รอชาร์จ ≥95% · กระโดดคริ (ปล่อยวิ่ง) · ยกโล่ระหว่างรอ",
+  "kb": [
+   "mobs/_rules.md",
+   "problems/mobs-summary.md"
+  ],
+  "lib": [
+   "pvp/damage.meleeRaw"
+  ],
+  "kbByMob": "mobs/{type}.md"
+ },
+ {
+  "id": "phantom-attack",
+  "prio": 74,
+  "when": {
+   "near": {
+    "type": [
+     "phantom"
+    ],
+    "within": 16
+   }
+  },
+  "do": "หลบใต้หลังคา/ตีตอนมันโฉบลง · คืนนี้ต้องนอนเพื่อรีเซ็ต",
+  "kb": [
+   "mobs/phantom.md",
+   "hazards/night-lost-phantom.md"
+  ]
+ },
+ {
+  "id": "witch-ranged",
+  "prio": 73,
+  "when": {
+   "near": {
+    "type": [
+     "witch"
+    ],
+    "within": 12
+   }
+  },
+  "do": "เข้าประชิดเร็ว (ยาสาดระยะไกล) · มีนมไว้ล้างพิษ · ฆ่าก่อนมันดื่มยารักษา",
+  "kb": [
+   "mobs/witch.md"
+  ]
+ },
+ {
+  "id": "skeleton-open",
+  "prio": 72,
+  "when": {
+   "near": {
+    "type": [
+     "skeleton",
+     "stray",
+     "bogged",
+     "parched",
+     "pillager"
+    ],
+    "within": 15
+   }
+  },
+  "do": "หลบหลังบล็อกหรือวิ่งซิกแซกเข้าหา · ยกโล่",
+  "kb": [
+   "mobs/skeleton.md"
+  ]
+ },
+ {
+  "id": "eat-to-regen",
+  "prio": 70,
+  "when": {
+   "hpBelow": 11,
+   "foodBelow": 18,
+   "hasFood": true,
+   "notNear": {
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "กินจนหิว ≥18 (ฟื้นเลือดเอง) · เลือกอาหาร saturation สูงก่อน",
+  "kb": [
+   "problems/p02-low-hp-not-eating.md",
+   "health/health.md",
+   "blocks/_foods.md"
+  ]
+ },
+ {
+  "id": "eat-after-hunger-effect",
+  "prio": 66,
+  "when": {
+   "hasEffect": "hunger",
+   "foodBelow": 18,
+   "hasFood": true
+  },
+  "do": "Hunger ทำให้หิวเร็ว → กินอาหารรอง (ไม่ใช่ของดีสุด) หลังพ้นการต่อสู้",
+  "kb": [
+   "mobs/husk.md",
+   "hazards/status-effects.md"
+  ]
+ },
+ {
+  "id": "hungry",
+  "prio": 65,
+  "when": {
+   "foodBelow": 7,
+   "hasFood": true
+  },
+  "do": "กินทันที (หิว ≤6 วิ่งไม่ได้)",
+  "kb": [
+   "hazards/hunger-exhaustion.md"
+  ]
+ },
+ {
+  "id": "no-food",
+  "prio": 64,
+  "when": {
+   "foodBelow": 7,
+   "hasFood": false
+  },
+  "do": "ฆ่าสัตว์ใกล้สุด/ตกปลา/เก็บพืช · ลดวิ่ง+กระโดด (เปลือง exhaustion) · แจ้งทีมขออาหาร",
+  "kb": [
+   "problems/p03-team-food-zero.md",
+   "progression/p03-food.md",
+   "fishing/food.md"
+  ]
+ },
+ {
+  "id": "wrong-tool",
+  "prio": 62,
+  "when": {
+   "digging": {
+    "canHarvest": false
+   }
+  },
+  "do": "หยุดขุด · ทำ/สลับเครื่องมือขั้นที่ขุดได้ของ",
+  "kb": [
+   "problems/p01-mining-wrong-tool.md"
+  ],
+  "lib": [
+   "kb.blockInfo"
+  ]
+ },
+ {
+  "id": "enderman-near",
+  "prio": 60,
+  "when": {
+   "near": {
+    "type": [
+     "enderman"
+    ],
+    "within": 64
+   }
+  },
+  "do": "ห้ามมองหน้า · ถ้าจะล่าไข่มุก: วางบล็อก ตี 1 ครั้ง ถอย ตีต่อ",
+  "kb": [
+   "mobs/enderman.md"
+  ]
+ },
+ {
+  "id": "nether-no-gold",
+  "prio": 58,
+  "when": {
+   "dim": "the_nether",
+   "lacksAll": [
+    "golden_boots",
+    "golden_helmet",
+    "golden_chestplate",
+    "golden_leggings"
+   ]
+  },
+  "do": "ใส่รองเท้าทอง (กฎ jing: ทองทำรองเท้าเท่านั้น) หรือกลับ overworld",
+  "kb": [
+   "nether-end/e7-gold-armor.md"
+  ]
+ },
+ {
+  "id": "edge",
+  "prio": 55,
+  "when": {
+   "edgeDepthOver": 3
+  },
+  "do": "ย่อ (sneak) ค้างตอนเดินขอบ",
+  "kb": [
+   "movement/edges-bridging-stuck.md"
+  ]
+ },
+ {
+  "id": "night-exposed",
+  "prio": 50,
+  "when": {
+   "dim": "overworld",
+   "timeBetween": [
+    12542,
+    23460
+   ],
+   "sheltered": false
+  },
+  "do": "กลับบ้าน/นอน · ไม่มีบ้านคืนแรก: ที่หลบชั่วคราว + คบเพลิง",
+  "kb": [
+   "problems/p11-first-night.md",
+   "time-weather/sleeping.md"
+  ]
+ },
+ {
+  "id": "idle",
+  "prio": 10,
+  "when": {
+   "idleSecondsOver": 30
+  },
+  "do": "เลือกขั้นถัดไปจาก chain (nextStep)",
+  "kb": [
+   "problems/p09-afk-idle.md"
+  ],
+  "lib": [
+   "chain.nextStep"
+  ]
+ }
 ]
