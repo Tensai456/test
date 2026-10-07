@@ -68,7 +68,7 @@ export const EXT_EVENTS = {
   tech: { gen: (s, r) => { if (r() < 0.3) flags(s).chunkUnloaded = true; if (r() < 0.2) flags(s).justKicked = true;
       s.tps = Math.round(r() * 20 * 10) / 10; s.ping = Math.floor(r() * 600);
       if (r() < 0.4) s.action = pick(r, ['elytra_launch', 'mlg_practice', 'pvp_engage', 'parkour', 'mine']); },
-    inv: [['ชังก์ไม่โหลด → prio ≥93', (s, d) => !s.flags?.chunkUnloaded || prioAtLeast(d, 93)],
+    inv: [['ชังก์ไม่โหลด → ห้ามเดินตามแผน (reflex)', (s, d) => !s.flags?.chunkUnloaded || d.mode === 'reflex'],
       ['TPS <15 + งานอิงจังหวะ → veto', (s, d) => !(s.tps < 15 && ['elytra_launch', 'mlg_practice', 'pvp_engage', 'parkour'].includes(s.action)) || hasVeto(d, 'tps-risky')],
       ['ping >300 + งานอิงจังหวะ → veto', (s, d) => !(s.ping > 300 && ['pvp_engage', 'parkour', 'mlg_practice'].includes(s.action)) || hasVeto(d, 'ping-risky')]] },
   shelter: { gen: (s, r) => { flags(s).inShelter = true; if (r() < 0.4) flags(s).shelterBreached = true;

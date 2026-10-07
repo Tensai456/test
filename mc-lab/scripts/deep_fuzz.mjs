@@ -79,7 +79,7 @@ const isAction = (d) => d.mode === 'reflex' && !d.rule.veto;
 
 // เหตุการณ์: gen ปรับ state ให้โฟกัส · inv = invariant เฉพาะเหตุการณ์ [ชื่อ, ฟังก์ชัน]
 const EVENTS = {
-  lava: { gen: (s, r) => { s.inLava = true; s.onFire = r() < 0.9; if (r() < 0.3) s.action = 'sleep'; }, inv: [['อยู่ในลาวา → หนีลาวาเป็นอันดับแรก', (s, d) => top(d) === 'in-lava']] },
+  lava: { gen: (s, r) => { s.inLava = true; s.onFire = r() < 0.9; if (r() < 0.3) s.action = 'sleep'; }, inv: [['อยู่ในลาวา → หนีลาวาเป็นอันดับแรก', (s, d) => !s.inLava || top(d) === 'in-lava']] },
   veto: { gen: (s, r) => { if (r() < 0.5) s.action = 'sleep'; else s.digging = { block: 'stone', canHarvest: r() < 0.5, belowFeet: true }; },
     inv: [['นอนนอก overworld → มี veto เสมอ', (s, d) => !(s.action === 'sleep' && s.dim !== 'overworld') || d.vetoes.some((v) => v.id === 'bed-wrong-dimension')],
       ['ขุดลงตรง → มี veto เสมอ', (s, d) => !s.digging?.belowFeet || d.vetoes.some((v) => v.id === 'dig-straight-down')]] },
@@ -88,9 +88,9 @@ const EVENTS = {
   creeper: { gen: (s, r) => { s.nearby.push({ type: 'creeper', dist: Math.round(r() * 12 * 2) / 2, hostile: true }); },
     inv: [['ครีปเปอร์ ≤3 → ห้ามสู้แบบยืนฟัน/ห้ามกิน/ห้ามแผน', (s, d) => !near(s, (e) => e.type === 'creeper' && e.dist <= 3).length || (isAction(d) && !['hostile-close', 'eat-to-regen', 'hungry', 'recover'].includes(top(d)))]] },
   fall: { gen: (s, r) => { s.fallDistance = 4 + Math.round(r() * 80); if (r() < 0.3) s.wallAdjacent = true; },
-    inv: [['ตก >3 → ต้องเป็นเรื่องตก (หรืออันตรายที่ด่วนกว่า: ลาวา)', (s, d) => ['falling', 'falling-no-clutch', 'in-lava'].includes(top(d))]] },
+    inv: [['ตก >3 → ต้องเป็นเรื่องตก (หรืออันตรายที่ด่วนกว่า: ลาวา) · ร่อนเอลิทราไม่นับ', (s, d) => !((s.fallDistance ?? 0) > 3) || s.flags?.gliding || ['falling', 'falling-no-clutch', 'in-lava'].includes(top(d))]] },
   drowning: { gen: (s, r) => { s.air = Math.floor(r() * 5); },
-    inv: [['อากาศ <5 → ว่ายขึ้น (เว้นลาวา/ตก/ติดบล็อก)', (s, d) => ['drowning', 'in-lava', 'falling', 'falling-no-clutch', 'suffocating'].includes(top(d))]] },
+    inv: [['อากาศ <5 → ว่ายขึ้น (เว้นลาวา/ตก/ติดบล็อก)', (s, d) => !((s.air ?? 15) < 5) || s.flags?.gliding || ['drowning', 'in-lava', 'falling', 'falling-no-clutch', 'suffocating'].includes(top(d))]] },
   warden: { gen: (s, r) => { s.nearby.push({ type: 'warden', dist: Math.round(r() * 30 * 2) / 2, hostile: true }); if (r() < 0.5) s.nearBlocks = [{ type: 'sculk_shrieker', dist: Math.round(r() * 10) }]; },
     inv: [['warden ≤20 → ห้ามสู้/ห้ามกิน/ห้ามยืนรอ', (s, d) => !near(s, (e) => e.type === 'warden' && e.dist <= 20).length || (isAction(d) && !['hostile-close', 'hostile-approach', 'eat-to-regen', 'hungry', 'recover', 'teammate-down'].includes(top(d)))]] },
   crowd: { gen: (s, r) => { const k = 2 + Math.floor(r() * 5); for (let i = 0; i < k; i++) s.nearby.push({ type: ['zombie', 'husk', 'skeleton', 'spider', 'drowned', 'vindicator'][Math.floor(r() * 6)], dist: Math.round(r() * 8 * 2) / 2, hostile: true }); s.armor = r() < 0.5 ? 'none' : 'iron'; },
@@ -118,7 +118,7 @@ Object.assign(EVENTS, {
       for (let i = 0; i < k; i++) s.nearby.push({ type: t, dist: Math.round(r() * 16 * 2) / 2, hostile: false, provoked: prov });
       if (!prov && r() < 0.5) { s.action = 'attack'; s.target = s.nearby[s.nearby.length - 1]; } },
     inv: [['ม็อบโกรธ ≤16 → ต้องหนีหรือสู้ (ห้ามแผน)', (s, d) => !near(s, (e) => e.provoked && e.dist <= 16).length || isAction(d)],
-      ['จะตีม็อบเป็นกลางที่ยังไม่โกรธ → ต้องมี veto', (s, d) => !(s.action === 'attack' && s.target && !s.target.provoked) || d.vetoes.some((v) => v.id === 'dont-provoke')]] },
+      ['จะตีม็อบเป็นกลางที่ยังไม่โกรธ → ต้องมี veto', (s, d) => !(s.action === 'attack' && s.target && !s.target.hostile && !s.target.provoked) || d.vetoes.some((v) => v.id === 'dont-provoke')]] },
   blocks: { gen: (s, r) => { const b = ALL_BLOCKS[Math.floor(r() * ALL_BLOCKS.length)]; const mode = r();
       if (mode < 0.4) s.touching = [r() < 0.5 ? b.name : DANGER_BLOCKS[Math.floor(r() * DANGER_BLOCKS.length)]];
       else { const tiers = ['hand', 'wooden', 'stone', 'iron', 'diamond']; const t = tiers[Math.floor(r() * tiers.length)];
@@ -163,7 +163,7 @@ Object.assign(EVENTS, {
       const bucket = s.fallDistance < 24 ? '4–23' : s.fallDistance < 50 ? '24–49' : s.fallDistance < 100 ? '50–99' : '100+';
       const k = `${bucket} | ${c ? (needsWindow && win === 0 ? `${c} (0 tick ให้วาง)` : c) : 'ไม่มีของ'}`;
       const st = (mlgStats[k] ??= { n: 0, ok: 0 }); st.n++; if (survive) st.ok++; },
-    inv: [['ตก + มีของกันตกที่รอดได้ → ต้องเลือก falling (clutch)', (s, d) => !s.clutchPick || ['falling', 'in-lava'].includes(top(d))],
+    inv: [['ตก + มีของกันตกที่รอดได้ → ต้องเลือก falling (clutch)', (s, d) => !s.clutchPick || s.flags?.gliding || ['falling', 'in-lava'].includes(top(d))],
       ['ของที่เลือกต้องไม่ใช่ฟาง/น้ำผึ้งที่ยังตาย', (s) => !(s.clutchPick && ['hay_block', 'honey_block'].includes(s.clutchPick) && fallDamage(s.fallDistance, { landing: s.clutchPick }) >= s.hp)]] },
   biomes: { gen: (s, r) => { const ks = Object.keys(BIOMES); const k = ks[Math.floor(r() * ks.length)]; s.biome = k; BIOMES[k](s, r); }, inv: [] },
   weapons: { gen: (s, r) => { s.inv = {}; for (const w of WEAPON_ITEMS) if (r() < 0.25) s.inv[w] = 1; if (r() < 0.5) s.inv.arrow = 16;
@@ -175,6 +175,23 @@ Object.assign(EVENTS, {
 });
 
 Object.assign(EVENTS, EXT_EVENTS);   // ชุด 2: 12 หมวด (scripts/fuzz_events_ext.mjs)
+// chain (โหมดยาก): ซ้อน 2–4 เหตุการณ์ในสถานะเดียว → invariant ของทุกเหตุการณ์ที่เลือกต้องผ่านพร้อมกัน
+// เหตุการณ์ที่คำนวณผลตอน gen (weapons/weaponTactics/mlg — รีเซ็ตกระเป๋า) เลือกได้ไม่เกิน 1 และทำเป็นตัวสุดท้าย
+{
+  const PURE = ['weapons', 'weaponTactics', 'mlg'];
+  const POOL = Object.keys(EVENTS).filter((k) => !PURE.includes(k));
+  const ALL_INV = Object.entries(EVENTS).flatMap(([ev, E]) => E.inv.map(([name, f]) => [`[${ev}] ${name}`, (s, d) => !s._chain.includes(ev) || f(s, d)]));
+  EVENTS.chain = {
+    gen: (s, r) => {
+      const k = 2 + Math.floor(r() * 3), pick = new Set();
+      while (pick.size < k) pick.add(POOL[Math.floor(r() * POOL.length)]);
+      s._chain = [...pick];
+      if (r() < 0.25) s._chain.push(PURE[Math.floor(r() * PURE.length)]);
+      for (const ev of s._chain) EVENTS[ev].gen(s, r);
+    },
+    inv: ALL_INV,
+  };
+}
 if (process.argv.includes('--list')) { console.log(Object.keys(EVENTS).join(' ')); process.exit(0); }
 
 const GLOBAL = [
@@ -201,7 +218,7 @@ for (const [ev, E] of Object.entries(EVENTS)) {
       const key = `${name} | ${tk}`;
       const g = groups.get(key) ?? { n: 0, ex: [] };
       g.n++;
-      if (g.ex.length < 3) g.ex.push(JSON.stringify({ hp: s.hp, food: s.food, dim: s.dim, nearby: s.nearby, eff: s.effects, fall: s.fallDistance, air: s.air, edge: s.edgeDepth, lava: s.inLava, fire: s.onFire, act: s.action, inv: Object.keys(s.inv), flags: s.flags, nb: s.nearBlocks }));
+      if (g.ex.length < 3) g.ex.push(JSON.stringify({ hp: s.hp, food: s.food, dim: s.dim, nearby: s.nearby, eff: s.effects, fall: s.fallDistance, air: s.air, edge: s.edgeDepth, lava: s.inLava, fire: s.onFire, act: s.action, inv: Object.keys(s.inv), flags: s.flags, nb: s.nearBlocks, chain: s._chain }));
       groups.set(key, g);
     }
   }
