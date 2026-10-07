@@ -47,6 +47,7 @@ const WEAPON_ITEMS = [...Object.keys(WEAPONS).filter((w) => w !== 'fist'), 'bow'
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const N = Number(process.argv[2] ?? 2_000_000);
 const ROUND = Number((process.argv.find((a) => a.startsWith('--round=')) ?? '--round=1').split('=')[1]);
+const OUT = (process.argv.find((a) => a.startsWith('--out=')) ?? '--out=docs/DEEP_FUZZ.md').split('=')[1];
 const ONLY = process.argv.slice(3).filter((a) => !a.startsWith('--'));
 
 const HOSTILE = ['zombie', 'husk', 'drowned', 'skeleton', 'stray', 'bogged', 'parched', 'spider', 'cave_spider', 'creeper', 'witch', 'pillager', 'vindicator', 'blaze', 'wither_skeleton', 'piglin_brute', 'breeze', 'phantom', 'ghast', 'slime', 'silverfish', 'warden'];
@@ -216,4 +217,5 @@ if (Object.keys(mlgStats).length) {
   for (const [k, v] of Object.entries(mlgStats).sort()) { const [b, c] = k.split(' | '); md.push(`| ${b} | ${c} | ${v.n.toLocaleString()} | ${((v.ok / v.n) * 100).toFixed(1)}% |`); }
   md.push('');
 }
-fs.writeFileSync(path.join(ROOT, 'docs', 'DEEP_FUZZ.md'), md.join('\n'));
+fs.mkdirSync(path.dirname(path.join(ROOT, OUT)), { recursive: true });
+fs.writeFileSync(path.join(ROOT, OUT), md.join('\n'));
