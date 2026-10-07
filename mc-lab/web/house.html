@@ -1,0 +1,153 @@
+<title>บ้านไม้หลังคาจั่ว 9×11</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600&family=Bai+Jamjuree:wght@600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: แผงควบคุมด้านซ้าย + ฉาก 3 มิติเต็มพื้นที่ (โทรศัพท์: ฉากบน แผงล่าง) · โทนไม้สน/หินกรวด */
+:root {
+  --bg: #eef0ea; --panel: #f8f8f4; --fg: #26261f; --muted: #6a6b5e; --line: #d5d6cb;
+  --accent: #7a4a24; --sky: #dde7ea; --ok: #2f7a3e;
+  --display: "Bai Jamjuree", "IBM Plex Sans Thai", system-ui, sans-serif;
+  --body: "IBM Plex Sans Thai", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #16170f; --panel: #1f2018; --fg: #ecebdf; --muted: #a3a393; --line: #34352b; --accent: #d39a62; --sky: #1b2226; --ok: #6fc07f; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #16170f; --panel: #1f2018; --fg: #ecebdf; --muted: #a3a393; --line: #34352b; --accent: #d39a62; --sky: #1b2226; --ok: #6fc07f; color-scheme: dark }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); margin: 0; }
+.app { display: grid; grid-template-columns: 320px 1fr; height: 100%; }
+aside { background: var(--panel); border-right: 1px solid var(--line); padding-inline: 20px; padding-block: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+h1 { font-family: var(--display); font-size: 1.5rem; margin: 0; text-wrap: balance; line-height: 1.2; }
+.sub { color: var(--muted); font-size: .9rem; margin: 4px 0 0; line-height: 1.5; }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; }
+.stat b { display: block; font-family: var(--mono); font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: .78rem; }
+.ctl { display: flex; flex-direction: column; gap: 8px; }
+.ctl label { font-size: .78rem; letter-spacing: .04em; color: var(--muted); }
+.row { display: flex; gap: 8px; align-items: center; }
+input[type=range] { width: 100%; accent-color: var(--accent); }
+button { font: 600 .9rem var(--body); background: var(--accent); color: var(--panel); border: 0; border-radius: 6px; padding: 8px 14px; cursor: pointer; }
+button.ghost { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.now { font-family: var(--mono); font-size: .82rem; color: var(--fg); min-height: 2.6em; line-height: 1.4; }
+.legend { display: grid; grid-template-columns: 1fr; gap: 6px; font-size: .85rem; }
+.legend div { display: flex; align-items: center; gap: 8px; }
+.sw { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--line); flex: none; }
+.legend .n { margin-left: auto; font-family: var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.raw { font-size: .82rem; color: var(--muted); line-height: 1.6; }
+.note { font-size: .78rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; line-height: 1.5; }
+#stage { position: relative; min-width: 0; background: var(--sky); touch-action: none; }
+#stage canvas { display: block; width: 100%; height: 100%; }
+.hint { position: absolute; left: 16px; bottom: 14px; font-size: .78rem; color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; }
+@media (max-width: 760px) { .app { grid-template-columns: 1fr; grid-template-rows: 55vh auto; height: auto; } #stage { order: -1; height: 55vh; } aside { border-right: 0; border-top: 1px solid var(--line); } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+<div class="app">
+  <aside>
+    <div>
+      <h1>บ้านไม้หลังคาจั่ว 9×11</h1>
+      <p class="sub">แบบของแล็บเอง จากหลักในวิกิ · ลากเพื่อหมุน · ถ่างนิ้ว/ล้อเมาส์เพื่อซูม · เลื่อนแถบเพื่อดูบอตวางทีละก้อน</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="sBlocks">–</b><span>บล็อกทั้งหมด</span></div>
+      <div class="stat"><b id="sTime">–</b><span>นาที (เวลาวางจำลอง)</span></div>
+      <div class="stat"><b id="sLogs">–</b><span>ซุงที่ต้องใช้</span></div>
+      <div class="stat"><b id="sScaf">–</b><span>นั่งร้านสูงสุด (ชั้น)</span></div>
+    </div>
+    <div class="ctl">
+      <label for="step">ลำดับการวาง</label>
+      <input id="step" type="range" min="0" max="1" value="1">
+      <div class="row"><button id="play">▶ เล่นการสร้าง</button><button class="ghost" id="all">ดูบ้านเสร็จ</button></div>
+      <div class="now" id="now">–</div>
+    </div>
+    <div class="ctl">
+      <label for="cut">ตัดความสูง (ดูข้างใน)</label>
+      <input id="cut" type="range" min="0" max="12" value="12">
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="raw" id="raw"></div>
+    <p class="note">ยืนยันระดับจำลอง: ตรวจทุกก้อนว่ามีที่ยึดและเอื้อมถึง ≤4.5 บล็อก · ยังไม่ได้วางจริงในเซิร์ฟ · ทิศบันไดตอนวางจริงต้องหันหน้าเข้าบ้าน</p>
+  </aside>
+  <div id="stage"><span class="hint">ลากเพื่อหมุน</span></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const D = {"order":[[0,0,0,"cobblestone","",0],[0,0,1,"cobblestone","",0],[1,0,0,"cobblestone","",0],[1,0,1,"oak_planks","",0],[0,0,2,"cobblestone","",0],[2,0,0,"cobblestone","",0],[1,0,2,"oak_planks","",0],[0,0,3,"cobblestone","",0],[2,0,1,"oak_planks","",0],[1,0,3,"oak_planks","",0],[0,0,4,"cobblestone","",0],[2,0,2,"oak_planks","",0],[1,0,4,"oak_planks","",0],[0,0,5,"cobblestone","",0],[2,0,3,"oak_planks","",0],[1,0,5,"oak_planks","",0],[0,0,6,"cobblestone","",0],[2,0,4,"oak_planks","",0],[1,0,6,"oak_planks","",0],[0,0,7,"cobblestone","",0],[2,0,5,"oak_planks","",0],[1,0,7,"oak_planks","",0],[0,0,8,"cobblestone","",0],[2,0,6,"oak_planks","",0],[1,0,8,"oak_planks","",0],[0,0,9,"cobblestone","",0],[2,0,7,"oak_planks","",0],[1,0,9,"oak_planks","",0],[0,0,10,"cobblestone","",0],[2,0,8,"oak_planks","",0],[1,0,10,"cobblestone","",0],[2,0,9,"oak_planks","",0],[2,0,10,"cobblestone","",0],[3,0,8,"oak_planks","",0],[3,0,7,"oak_planks","",0],[3,0,9,"oak_planks","",0],[3,0,6,"oak_planks","",0],[3,0,10,"cobblestone","",0],[4,0,8,"oak_planks","",0],[4,0,7,"oak_planks","",0],[4,0,9,"oak_planks","",0],[3,0,5,"oak_planks","",0],[4,0,6,"oak_planks","",0],[4,0,10,"cobblestone","",0],[3,0,4,"oak_planks","",0],[4,0,5,"oak_planks","",0],[3,0,3,"oak_planks","",0],[4,0,4,"oak_planks","",0],[3,0,2,"oak_planks","",0],[4,0,3,"oak_planks","",0],[3,0,1,"oak_planks","",0],[4,0,2,"oak_planks","",0],[3,0,0,"cobblestone","",0],[4,0,1,"oak_planks","",0],[4,0,0,"cobblestone","",0],[5,0,2,"oak_planks","",0],[5,0,1,"oak_planks","",0],[5,0,3,"oak_planks","",0],[5,0,0,"cobblestone","",0],[5,0,4,"oak_planks","",0],[5,0,5,"oak_planks","",0],[5,0,6,"oak_planks","",0],[5,0,7,"oak_planks","",0],[5,0,8,"oak_planks","",0],[5,0,9,"oak_planks","",0],[5,0,10,"cobblestone","",0],[6,0,8,"oak_planks","",0],[6,0,7,"oak_planks","",0],[6,0,9,"oak_planks","",0],[6,0,6,"oak_planks","",0],[6,0,10,"cobblestone","",0],[6,0,5,"oak_planks","",0],[6,0,4,"oak_planks","",0],[6,0,3,"oak_planks","",0],[6,0,2,"oak_planks","",0],[6,0,1,"oak_planks","",0],[6,0,0,"cobblestone","",0],[7,0,2,"oak_planks","",0],[7,0,1,"oak_planks","",0],[7,0,3,"oak_planks","",0],[7,0,0,"cobblestone","",0],[7,0,4,"oak_planks","",0],[7,0,5,"oak_planks","",0],[7,0,6,"oak_planks","",0],[7,0,7,"oak_planks","",0],[7,0,8,"oak_planks","",0],[7,0,9,"oak_planks","",0],[7,0,10,"cobblestone","",0],[8,0,8,"cobblestone","",0],[8,0,7,"cobblestone","",0],[8,0,9,"cobblestone","",0],[8,0,6,"cobblestone","",0],[8,0,10,"cobblestone","",0],[8,0,5,"cobblestone","",0],[8,0,4,"cobblestone","",0],[8,0,3,"cobblestone","",0],[8,0,2,"cobblestone","",0],[8,0,1,"cobblestone","",0],[8,0,0,"cobblestone","",0],[4,1,0,"oak_door","south",0],[3,1,0,"spruce_planks","",0],[5,1,0,"spruce_planks","",0],[2,1,0,"spruce_log","",0],[6,1,0,"spruce_log","",0],[7,1,2,"furnace","",0],[1,1,2,"barrel","",0],[7,1,3,"furnace","",0],[1,1,0,"spruce_planks","",0],[7,1,0,"spruce_planks","",0],[0,1,2,"glass_pane","",0],[8,1,2,"glass_pane","",0],[0,1,1,"spruce_planks","",0],[0,1,3,"glass_pane","",0],[8,1,1,"spruce_planks","",0],[8,1,3,"glass_pane","",0],[0,1,0,"spruce_log","",0],[0,1,4,"spruce_planks","",0],[8,1,0,"spruce_log","",0],[8,1,4,"spruce_planks","",0],[0,1,5,"spruce_log","",0],[0,1,6,"spruce_planks","",0],[0,1,7,"glass_pane","",0],[1,1,8,"white_bed","head",0],[0,1,8,"glass_pane","",0],[1,1,9,"white_bed","foot",0],[0,1,9,"spruce_planks","",0],[2,1,10,"spruce_log","",0],[1,1,10,"spruce_planks","",0],[3,1,10,"spruce_planks","",0],[0,1,10,"spruce_log","",0],[4,1,10,"spruce_planks","",0],[5,1,10,"spruce_planks","",0],[6,1,9,"chest","",0],[6,1,10,"spruce_log","",0],[7,1,9,"chest","",0],[7,1,7,"crafting_table","",0],[7,1,10,"spruce_planks","",0],[8,1,8,"glass_pane","",0],[8,1,7,"glass_pane","",0],[8,1,9,"spruce_planks","",0],[8,1,6,"spruce_planks","",0],[8,1,10,"spruce_log","",0],[8,1,5,"spruce_log","",0],[4,2,10,"spruce_planks","",0],[3,2,10,"spruce_planks","",0],[5,2,10,"spruce_planks","",0],[2,2,10,"spruce_log","",0],[6,2,10,"spruce_log","",0],[0,2,6,"spruce_planks","",0],[0,2,7,"glass_pane","",0],[8,2,6,"spruce_planks","",0],[8,2,7,"glass_pane","",0],[1,2,10,"spruce_planks","",0],[7,2,10,"spruce_planks","",0],[0,2,5,"spruce_log","",0],[0,2,9,"spruce_planks","",0],[0,2,8,"glass_pane","",0],[8,2,5,"spruce_log","",0],[8,2,9,"spruce_planks","",0],[8,2,8,"glass_pane","",0],[0,2,4,"spruce_planks","",0],[0,2,10,"spruce_log","",0],[0,2,3,"glass_pane","",0],[0,2,1,"spruce_planks","",0],[0,2,2,"glass_pane","",0],[2,2,0,"spruce_log","",0],[1,2,0,"spruce_planks","",0],[3,2,0,"spruce_planks","",0],[0,2,0,"spruce_log","",0],[4,2,0,"oak_door","south",0],[5,2,0,"spruce_planks","",0],[3,2,-1,"wall_torch","",0],[6,2,0,"spruce_log","",0],[5,2,-1,"wall_torch","",0],[7,2,0,"spruce_planks","",0],[8,2,1,"spruce_planks","",0],[8,2,2,"glass_pane","",0],[8,2,0,"spruce_log","",0],[8,2,4,"spruce_planks","",0],[8,2,3,"glass_pane","",0],[8,2,10,"spruce_log","",0],[8,3,6,"spruce_planks","",0],[8,3,5,"spruce_log","",0],[7,3,5,"wall_torch","",0],[8,3,7,"spruce_planks","",0],[8,3,4,"spruce_planks","",0],[8,3,8,"spruce_planks","",0],[8,3,3,"spruce_planks","",0],[8,3,9,"spruce_planks","",0],[6,3,10,"spruce_log","",0],[5,3,10,"spruce_planks","",0],[7,3,10,"spruce_planks","",0],[4,3,10,"spruce_planks","",0],[4,3,9,"wall_torch","",0],[8,3,2,"spruce_planks","",0],[8,3,10,"spruce_log","",0],[3,3,10,"spruce_planks","",0],[0,3,6,"spruce_planks","",0],[0,3,5,"spruce_log","",0],[1,3,5,"wall_torch","",0],[0,3,7,"spruce_planks","",0],[0,3,4,"spruce_planks","",0],[0,3,8,"spruce_planks","",0],[2,3,10,"spruce_log","",0],[0,3,3,"spruce_planks","",0],[0,3,9,"spruce_planks","",0],[1,3,10,"spruce_planks","",0],[0,3,2,"spruce_planks","",0],[0,3,10,"spruce_log","",0],[0,3,1,"spruce_planks","",0],[2,3,0,"spruce_log","",0],[1,3,0,"spruce_planks","",0],[3,3,0,"spruce_planks","",0],[0,3,0,"spruce_log","",0],[4,3,0,"spruce_planks","",0],[4,3,1,"wall_torch","",0],[5,3,0,"spruce_planks","",0],[6,3,0,"spruce_log","",0],[7,3,0,"spruce_planks","",0],[8,3,1,"spruce_planks","",0],[8,3,0,"spruce_log","",0],[4,4,0,"stripped_spruce_log","",0],[3,4,0,"stripped_spruce_log","",0],[5,4,0,"stripped_spruce_log","",0],[2,4,0,"spruce_log","",0],[6,4,0,"spruce_log","",0],[1,4,0,"stripped_spruce_log","",0],[7,4,0,"stripped_spruce_log","",0],[0,4,2,"stripped_spruce_log","",0],[8,4,2,"stripped_spruce_log","",0],[0,4,1,"stripped_spruce_log","",0],[0,4,3,"stripped_spruce_log","",0],[8,4,1,"stripped_spruce_log","",0],[8,4,3,"stripped_spruce_log","",0],[0,4,0,"spruce_log","",0],[0,4,4,"stripped_spruce_log","",0],[8,4,0,"spruce_log","",0],[8,4,4,"stripped_spruce_log","",0],[0,4,5,"spruce_log","",0],[0,4,6,"stripped_spruce_log","",0],[0,4,7,"stripped_spruce_log","",0],[0,4,8,"stripped_spruce_log","",0],[0,4,9,"stripped_spruce_log","",0],[2,4,10,"spruce_log","",0],[1,4,10,"stripped_spruce_log","",0],[3,4,10,"stripped_spruce_log","",0],[0,4,10,"spruce_log","",0],[4,4,10,"stripped_spruce_log","",0],[5,4,10,"stripped_spruce_log","",0],[6,4,10,"spruce_log","",0],[7,4,10,"stripped_spruce_log","",0],[8,4,8,"stripped_spruce_log","",0],[8,4,7,"stripped_spruce_log","",0],[8,4,9,"stripped_spruce_log","",0],[8,4,6,"stripped_spruce_log","",0],[8,4,10,"spruce_log","",0],[8,4,5,"spruce_log","",0],[4,5,10,"oak_planks","",0],[3,5,10,"oak_planks","",0],[5,5,10,"oak_planks","",0],[2,5,10,"oak_planks","",0],[6,5,10,"oak_planks","",0],[1,5,10,"oak_planks","",0],[0,5,10,"oak_planks","",0],[-1,5,10,"spruce_stairs","east",0],[-1,5,9,"spruce_stairs","east",0],[-1,5,8,"spruce_stairs","east",0],[-1,5,7,"spruce_stairs","east",0],[-1,5,6,"spruce_stairs","east",0],[-1,5,5,"spruce_stairs","east",0],[-1,5,4,"spruce_stairs","east",0],[-1,5,3,"spruce_stairs","east",0],[-1,5,2,"spruce_stairs","east",0],[-1,5,1,"spruce_stairs","east",0],[1,5,0,"oak_planks","",0],[0,5,0,"oak_planks","",0],[2,5,0,"oak_planks","",0],[-1,5,0,"spruce_stairs","east",0],[3,5,0,"oak_planks","",0],[4,5,0,"oak_planks","",0],[5,5,0,"oak_planks","",0],[-1,5,-1,"spruce_stairs","east",0],[6,5,0,"oak_planks","",0],[7,5,0,"oak_planks","",0],[8,5,0,"oak_planks","",0],[9,5,0,"spruce_stairs","west",0],[9,5,1,"spruce_stairs","west",0],[9,5,2,"spruce_stairs","west",0],[9,5,-1,"spruce_stairs","west",0],[9,5,3,"spruce_stairs","west",0],[9,5,4,"spruce_stairs","west",0],[9,5,5,"spruce_stairs","west",0],[9,5,6,"spruce_stairs","west",0],[9,5,7,"spruce_stairs","west",0],[9,5,8,"spruce_stairs","west",0],[7,5,10,"oak_planks","",0],[9,5,9,"spruce_stairs","west",0],[8,5,10,"oak_planks","",0],[9,5,10,"spruce_stairs","west",0],[9,5,11,"spruce_stairs","west",0],[-1,5,11,"spruce_stairs","east",0],[2,6,10,"oak_planks","",0],[1,6,10,"oak_planks","",0],[3,6,10,"oak_planks","",0],[0,6,10,"spruce_stairs","east",0],[0,6,9,"spruce_stairs","east",0],[0,6,8,"spruce_stairs","east",0],[4,6,10,"oak_planks","",0],[0,6,7,"spruce_stairs","east",0],[0,6,11,"spruce_stairs","east",0],[5,6,10,"oak_planks","",0],[6,6,10,"oak_planks","",0],[7,6,10,"oak_planks","",0],[8,6,10,"spruce_stairs","west",0],[8,6,9,"spruce_stairs","west",0],[8,6,8,"spruce_stairs","west",0],[8,6,7,"spruce_stairs","west",0],[8,6,6,"spruce_stairs","west",0],[8,6,5,"spruce_stairs","west",0],[8,6,4,"spruce_stairs","west",0],[8,6,3,"spruce_stairs","west",0],[8,6,2,"spruce_stairs","west",0],[8,6,1,"spruce_stairs","west",0],[6,6,0,"oak_planks","",0],[5,6,0,"oak_planks","",0],[4,6,0,"oak_planks","",0],[3,6,0,"oak_planks","",0],[2,6,0,"oak_planks","",0],[1,6,0,"oak_planks","",0],[0,6,0,"spruce_stairs","east",0],[0,6,1,"spruce_stairs","east",0],[0,6,2,"spruce_stairs","east",0],[0,6,3,"spruce_stairs","east",0],[0,6,4,"spruce_stairs","east",0],[0,6,-1,"spruce_stairs","east",0],[0,6,5,"spruce_stairs","east",0],[0,6,6,"spruce_stairs","east",0],[7,6,0,"oak_planks","",0],[8,6,0,"spruce_stairs","west",0],[8,6,-1,"spruce_stairs","west",0],[8,6,11,"spruce_stairs","west",0],[7,7,10,"spruce_stairs","west",1],[7,7,9,"spruce_stairs","west",0],[7,7,8,"spruce_stairs","west",0],[7,7,7,"spruce_stairs","west",0],[7,7,6,"spruce_stairs","west",0],[7,7,5,"spruce_stairs","west",0],[7,7,4,"spruce_stairs","west",0],[7,7,3,"spruce_stairs","west",0],[7,7,2,"spruce_stairs","west",0],[7,7,1,"spruce_stairs","west",0],[6,7,0,"oak_planks","",0],[7,7,0,"spruce_stairs","west",0],[7,7,-1,"spruce_stairs","west",1],[5,7,0,"oak_planks","",0],[4,7,0,"oak_planks","",0],[3,7,0,"oak_planks","",0],[2,7,0,"oak_planks","",0],[1,7,0,"spruce_stairs","east",0],[1,7,1,"spruce_stairs","east",0],[1,7,2,"spruce_stairs","east",0],[1,7,-1,"spruce_stairs","east",1],[1,7,3,"spruce_stairs","east",0],[1,7,4,"spruce_stairs","east",0],[1,7,5,"spruce_stairs","east",0],[1,7,6,"spruce_stairs","east",0],[1,7,7,"spruce_stairs","east",0],[1,7,8,"spruce_stairs","east",0],[1,7,9,"spruce_stairs","east",0],[2,7,10,"oak_planks","",0],[1,7,10,"spruce_stairs","east",1],[3,7,10,"oak_planks","",0],[4,7,10,"oak_planks","",0],[5,7,10,"oak_planks","",0],[6,7,10,"oak_planks","",1],[7,7,11,"spruce_stairs","west",1],[1,7,11,"spruce_stairs","east",1],[3,8,10,"oak_planks","",1],[2,8,10,"spruce_stairs","east",1],[2,8,9,"spruce_stairs","east",1],[2,8,8,"spruce_stairs","east",1],[2,8,7,"spruce_stairs","east",1],[2,8,6,"spruce_stairs","east",1],[2,8,5,"spruce_stairs","east",1],[2,8,4,"spruce_stairs","east",1],[2,8,3,"spruce_stairs","east",1],[2,8,2,"spruce_stairs","east",1],[2,8,1,"spruce_stairs","east",1],[2,8,0,"spruce_stairs","east",1],[3,8,0,"oak_planks","",1],[4,8,0,"oak_planks","",2],[2,8,-1,"spruce_stairs","east",2],[5,8,0,"oak_planks","",1],[6,8,0,"spruce_stairs","west",1],[6,8,1,"spruce_stairs","west",1],[6,8,2,"spruce_stairs","west",1],[6,8,-1,"spruce_stairs","west",2],[6,8,3,"spruce_stairs","west",1],[6,8,4,"spruce_stairs","west",1],[6,8,5,"spruce_stairs","west",1],[6,8,6,"spruce_stairs","west",1],[6,8,7,"spruce_stairs","west",1],[6,8,8,"spruce_stairs","west",1],[6,8,9,"spruce_stairs","west",1],[6,8,10,"spruce_stairs","west",1],[5,8,10,"oak_planks","",1],[4,8,10,"oak_planks","",2],[6,8,11,"spruce_stairs","west",2],[2,8,11,"spruce_stairs","east",2],[3,9,10,"spruce_stairs","east",2],[3,9,9,"spruce_stairs","east",2],[3,9,8,"spruce_stairs","east",2],[4,9,10,"oak_planks","",3],[3,9,7,"spruce_stairs","east",2],[3,9,6,"spruce_stairs","east",2],[3,9,5,"spruce_stairs","east",2],[3,9,4,"spruce_stairs","east",2],[3,9,3,"spruce_stairs","east",2],[3,9,2,"spruce_stairs","east",2],[3,9,1,"spruce_stairs","east",2],[3,9,0,"spruce_stairs","east",2],[4,9,0,"oak_planks","",3],[3,9,-1,"spruce_stairs","east",3],[5,9,0,"spruce_stairs","west",2],[5,9,1,"spruce_stairs","west",2],[5,9,2,"spruce_stairs","west",2],[5,9,-1,"spruce_stairs","west",3],[5,9,3,"spruce_stairs","west",2],[5,9,4,"spruce_stairs","west",2],[5,9,5,"spruce_stairs","west",2],[5,9,6,"spruce_stairs","west",2],[5,9,7,"spruce_stairs","west",2],[5,9,8,"spruce_stairs","west",2],[5,9,9,"spruce_stairs","west",2],[5,9,10,"spruce_stairs","west",2],[5,9,11,"spruce_stairs","west",3],[3,9,11,"spruce_stairs","east",3]],"counts":{"cobblestone":36,"oak_planks":113,"spruce_log":40,"spruce_planks":60,"glass_pane":16,"oak_door":1,"stripped_spruce_log":26,"spruce_stairs":130,"white_bed":1,"chest":2,"crafting_table":1,"furnace":2,"barrel":1,"wall_torch":6},"raw":{"cobblestone":52,"oak_log":32,"spruce_log":140,"sand":6,"coal_for_smelting":1,"white_wool":3,"charcoal":2},"time":291.10437511500334,"scaf":107,"maxScaf":3,"W":9,"L":11};
+const NAMES = { cobblestone: 'หินกรวด', oak_planks: 'แผ่นไม้โอ๊ก', spruce_planks: 'แผ่นไม้สน', spruce_log: 'ซุงสน', stripped_spruce_log: 'ซุงสนลอกเปลือก', spruce_stairs: 'บันไดไม้สน (หลังคา)', spruce_slab: 'แผ่นครึ่งไม้สน (สัน)', glass_pane: 'กระจกบาน', oak_door: 'ประตูไม้โอ๊ก', white_bed: 'เตียง', chest: 'หีบ', barrel: 'ถัง', crafting_table: 'โต๊ะคราฟต์', furnace: 'เตา', wall_torch: 'คบเพลิง' };
+const COLOR = { cobblestone: 0x8a8a84, oak_planks: 0xb8935a, spruce_planks: 0x7a5a36, spruce_log: 0x4e3a24, stripped_spruce_log: 0x9c7446, spruce_stairs: 0x5f4429, spruce_slab: 0x5f4429, glass_pane: 0xbfe3ef, oak_door: 0x9d7643, white_bed: 0xe9e4da, chest: 0xa8742f, barrel: 0x7b5630, crafting_table: 0x9a6b3b, furnace: 0x5d5d58, wall_torch: 0xffc24a };
+const $ = (id) => document.getElementById(id);
+$('sBlocks').textContent = D.order.length;
+$('sTime').textContent = (D.time / 60).toFixed(1);
+$('sLogs').textContent = Object.entries(D.raw).filter(([k]) => k.endsWith('_log')).reduce((a, [, v]) => a + v, 0);
+$('sScaf').textContent = D.maxScaf;
+$('legend').innerHTML = Object.entries(D.counts).sort((a, b) => b[1] - a[1]).map(([k, n]) => `<div><span class="sw" style="background:#${(COLOR[k] ?? 0x999999).toString(16).padStart(6, '0')}"></span>${NAMES[k] ?? k}<span class="n">${n}</span></div>`).join('');
+$('raw').innerHTML = '<b>วัตถุดิบดิบ:</b> ' + Object.entries(D.raw).map(([k, v]) => `${k.replace(/_/g, ' ')} ${v}`).join(' · ');
+
+const stage = $('stage');
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
+stage.prepend(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 500);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x666655, 0.85));
+const sun = new THREE.DirectionalLight(0xffffff, 0.7); sun.position.set(20, 30, 10); scene.add(sun);
+const ground = new THREE.Mesh(new THREE.BoxGeometry(D.W + 8, 0.2, D.L + 8), new THREE.MeshLambertMaterial({ color: 0x6f8f4e }));
+ground.position.set(D.W / 2 - 0.5, -0.6, D.L / 2 - 0.5); scene.add(ground);
+
+const mats = {}, mat = (n) => mats[n] ??= new THREE.MeshLambertMaterial({ color: COLOR[n] ?? 0x999999, transparent: n === 'glass_pane', opacity: n === 'glass_pane' ? 0.45 : 1 });
+const G = { cube: new THREE.BoxGeometry(1, 1, 1), half: new THREE.BoxGeometry(1, 0.5, 1), quarterX: new THREE.BoxGeometry(0.5, 0.5, 1), pane: new THREE.BoxGeometry(1, 1, 0.15), paneZ: new THREE.BoxGeometry(0.15, 1, 1), torch: new THREE.BoxGeometry(0.15, 0.5, 0.15), door: new THREE.BoxGeometry(1, 1, 0.2), bed: new THREE.BoxGeometry(1, 0.55, 1) };
+const meshes = D.order.map(([x, y, z, n, p]) => {
+  const g = new THREE.Group(); g.position.set(x, y, z);
+  const m = mat(n);
+  if (n.endsWith('_stairs')) {
+    const lo = new THREE.Mesh(G.half, m); lo.position.y = -0.25; g.add(lo);
+    const hi = new THREE.Mesh(G.quarterX, m); hi.position.set(p === 'east' ? 0.25 : -0.25, 0.25, 0); g.add(hi);
+  } else if (n.endsWith('_slab')) { const s = new THREE.Mesh(G.half, m); s.position.y = -0.25; g.add(s); }
+  else if (n === 'glass_pane') g.add(new THREE.Mesh(x === 0 || x === D.W - 1 ? G.paneZ : G.pane, m));
+  else if (n === 'wall_torch') { const t = new THREE.Mesh(G.torch, m); t.position.y = -0.1; g.add(t); }
+  else if (n.endsWith('_door')) g.add(new THREE.Mesh(G.door, m));
+  else if (n.endsWith('_bed')) { const b = new THREE.Mesh(G.bed, m); b.position.y = -0.22; g.add(b); }
+  else g.add(new THREE.Mesh(G.cube, m));
+  g.userData = { y, n, x, z }; scene.add(g); return g;
+});
+const step = $('step'), cut = $('cut');
+step.max = String(meshes.length); step.value = String(meshes.length);
+const maxY = Math.max(...D.order.map((o) => o[1])); cut.max = String(maxY); cut.value = String(maxY);
+function apply() {
+  const k = +step.value, c = +cut.value;
+  meshes.forEach((g, i) => { g.visible = i < k && g.userData.y <= c; });
+  const last = D.order[k - 1];
+  $('now').textContent = k ? `ก้อนที่ ${k}/${meshes.length}: ${NAMES[last[3]] ?? last[3]} @ ${last[0]},${last[1]},${last[2]}${last[5] ? ` · นั่งร้าน ${last[5]} ชั้น` : ''}` : 'ยังไม่วาง';
+  draw();
+}
+let theta = 0.75, phi = 0.95, radius = 30;
+const target = new THREE.Vector3(D.W / 2 - 0.5, 3, D.L / 2 - 0.5);
+function draw() {
+  camera.position.set(target.x + radius * Math.sin(phi) * Math.sin(theta), target.y + radius * Math.cos(phi), target.z + radius * Math.sin(phi) * Math.cos(theta));
+  camera.lookAt(target); renderer.render(scene, camera);
+}
+function resize() { const r = stage.getBoundingClientRect(); renderer.setSize(r.width, r.height, false); camera.aspect = r.width / Math.max(1, r.height); camera.updateProjectionMatrix(); draw(); }
+new ResizeObserver(resize).observe(stage);
+const pts = new Map(); let pinch0 = 0, r0 = radius;
+stage.addEventListener('pointerdown', (e) => { stage.setPointerCapture(e.pointerId); pts.set(e.pointerId, [e.clientX, e.clientY]); if (pts.size === 2) { const [a, b] = [...pts.values()]; pinch0 = Math.hypot(a[0] - b[0], a[1] - b[1]); r0 = radius; } });
+stage.addEventListener('pointermove', (e) => {
+  if (!pts.has(e.pointerId)) return;
+  const [px, py] = pts.get(e.pointerId); pts.set(e.pointerId, [e.clientX, e.clientY]);
+  if (pts.size === 2) { const [a, b] = [...pts.values()]; const d = Math.hypot(a[0] - b[0], a[1] - b[1]); radius = Math.min(80, Math.max(10, r0 * pinch0 / Math.max(1, d))); }
+  else { theta -= (e.clientX - px) * 0.008; phi = Math.min(1.5, Math.max(0.2, phi - (e.clientY - py) * 0.006)); }
+  draw();
+});
+const up = (e) => pts.delete(e.pointerId);
+stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
+stage.addEventListener('wheel', (e) => { e.preventDefault(); radius = Math.min(80, Math.max(10, radius * (1 + Math.sign(e.deltaY) * 0.08))); draw(); }, { passive: false });
+step.addEventListener('input', apply); cut.addEventListener('input', apply);
+let timer = null;
+$('play').addEventListener('click', () => {
+  if (timer) { clearInterval(timer); timer = null; $('play').textContent = '▶ เล่นการสร้าง'; return; }
+  if (+step.value >= meshes.length) step.value = '0';
+  $('play').textContent = '❚❚ หยุด';
+  const fast = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 20 : 3;
+  timer = setInterval(() => { step.value = String(Math.min(meshes.length, +step.value + fast)); apply(); if (+step.value >= meshes.length) $('play').click(); }, 30);
+});
+$('all').addEventListener('click', () => { step.value = String(meshes.length); cut.value = String(maxY); apply(); });
+resize(); apply();
+</script>
