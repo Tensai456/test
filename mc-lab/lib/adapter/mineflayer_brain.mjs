@@ -1,0 +1,99 @@
+// mineflayer_brain.mjs — เสียบสมอง (decide: reflex + veto + แผน) เข้าบอต mineflayer 4.39 ด้วย bot.loadPlugin
+//
+//   import { brainPlugin } from './mc-lab/lib/adapter/mineflayer_brain.mjs';
+//   bot.loadPlugin(brainPlugin({ goal: 'iron_kit', role: 'miner', enemyNames: [], team: () => [...] }));
+//   bot.on('brain:decision', (d) => { ... })            // ทุกครั้งที่การตัดสินใจหลักเปลี่ยน
+//   if (!bot.brain.allowed('sleep').ok) return;          // ถามก่อนทำสิ่งเสี่ยง (veto: นอนนอก overworld, ตีม็อบเป็นกลาง, ทิ้งอาวุธ ...)
+//
+// ตรวจกับซอร์ส mineflayer 4.39.0 แล้ว: physicsTick, entityHurt(entity, source), oxygenLevel, time.age, entity.elytraFlying,
+//   player.ping, effects[id], blockAt() = null เมื่อชังก์ไม่โหลด · executor ค่าเริ่ม = ยืนยันระดับจำลอง ยังไม่ได้รันกับเซิร์ฟจริง
+import { createTracker, toState } from './mineflayer_state.mjs';
+import { decide } from '../chain.mjs';
+import { chooseClutch } from '../fall_safety.mjs';
+
+const HOSTILE_HINT = new Set(['zombie', 'skeleton', 'creeper', 'spider', 'witch', 'pillager', 'vindicator', 'blaze', 'ghast', 'wither_skeleton', 'piglin_brute', 'warden']);
+const key = (d) => (d.mode === 'reflex' ? `reflex:${d.rule.id}` : d.mode === 'plan' ? `plan:${d.step.id}` : d.mode);
+
+// executor ค่าเริ่ม — เฉพาะท่าที่ปลอดภัยและไม่ต้องหาเส้นทาง · ที่เหลือบอตเขียนเอง (ฟัง brain:decision)
+// แต่ละตัว: async (bot, d, state) → คืนเมื่อทำเสร็จ · ถูกล็อกไม่ให้ซ้อนกัน
+export const DEFAULT_EXECUTORS = {
+  // ว่ายขึ้น: กดกระโดดค้างจนอากาศกลับ (kb/hazards/drowning)
+  drowning: async (bot) => { bot.setControlState('jump', true); await wait(bot, 20); bot.setControlState('jump', false); },
+  // ครีปเปอร์ ≤3 / ชาร์จ: หันหนีแล้ววิ่งถอย 1 วิ (kb/mobs/creeper)
+  'creeper-fusing': async (bot, d, s) => flee(bot, 'creeper', 20),
+  'charged-creeper': async (bot, d, s) => flee(bot, 'creeper', 40),
+  // ตก: ถือของกันตกที่ chooseClutch เลือกไว้ในมือก่อน (การวาง/ใช้ตอนใกล้พื้น = โค้ดบอต) (kb/movement)
+  falling: async (bot, d, s) => {
+    const item = chooseClutch({ inventory: Object.keys(s.inv), dimension: s.dim, wallAdjacent: !!s.wallAdjacent, fallDistance: s.fallDistance, hp: s.hp });
+    const it = item && bot.inventory.items().find((i) => i.name === item);
+    if (it) await bot.equip(it, 'hand');
+  },
+  // กินเมื่อไม่มีศัตรูใกล้ (กฎ eat-* เช็กแล้ว) — เลือกอาหารชิ้นแรกที่มี
+  'eat-to-regen': async (bot) => eat(bot),
+  hungry: async (bot) => eat(bot),
+  'eat-after-hunger-effect': async (bot) => eat(bot),
+  // ชังก์ไม่โหลด: หยุดเดิน
+  'chunk-unloaded': async (bot) => bot.clearControlStates(),
+};
+
+function wait(bot, ticks) { return new Promise((res) => { let n = 0; const f = () => { if (++n >= ticks) { bot.removeListener('physicsTick', f); res(); } }; bot.on('physicsTick', f); }); }
+async function flee(bot, type, ticks) {
+  const me = bot.entity.position;
+  const m = Object.values(bot.entities).filter((e) => e.name === type && e.position).sort((a, b) => a.position.distanceTo(me) - b.position.distanceTo(me))[0];
+  if (!m) return;
+  await bot.lookAt(me.plus(me.minus(m.position)).offset(0, 1.6, 0), true);   // มองทิศตรงข้ามม็อบ
+  bot.setControlState('sprint', true); bot.setControlState('forward', true);
+  await wait(bot, ticks);
+  bot.setControlState('forward', false); bot.setControlState('sprint', false);
+}
+async function eat(bot) {
+  const foods = bot.registry?.foodsByName ?? {};
+  const it = bot.inventory.items().find((i) => foods[i.name]);
+  if (!it) return;
+  await bot.equip(it, 'hand');
+  await bot.consume();
+}
+
+export function brainPlugin(opts = {}) {
+  return (bot) => {
+    const tr = createTracker();
+    const every = opts.everyTicks ?? 4;                                  // 4 tick = 5 ครั้ง/วิ (OODA: วงรอบสั้น)
+    const executors = { ...(opts.defaultExecutors === false ? {} : DEFAULT_EXECUTORS), ...(opts.executors ?? {}) };
+    const goalOf = (s) => (typeof opts.goal === 'function' ? opts.goal(s) : opts.goal ?? 'first_night');
+    const extra = (more = {}) => ({ role: opts.role, enemyNames: opts.enemyNames ?? [], team: opts.team?.() ?? [], flags: { ...(opts.flags?.() ?? {}), ...(more.flags ?? {}) }, ...more });
+    let tick = 0, lastKey = null, busy = false;
+
+    // ม็อบเป็นกลางโกรธ: เราตีมัน หรือมันตีเรา (entityHurt(entity, source) — mineflayer 4.39)
+    bot.on('entityHurt', (entity, source) => {
+      if (source === bot.entity && entity?.id != null && !HOSTILE_HINT.has(entity.name)) tr.provoked.add(entity.id);
+      if (entity === bot.entity && source?.id != null) tr.provoked.add(source.id);
+    });
+    bot.on('entityGone', (e) => tr.provoked.delete(e.id));
+
+    const think = (more) => { const s = toState(bot, tr, extra(more)); return { s, d: decide(s, goalOf(s)) }; };
+
+    bot.brain = {
+      tracker: tr,
+      last: null,
+      state: null,
+      think: () => think(),
+      // ถามก่อนทำ: action = 'sleep' | 'attack' | 'drop_weapon' | 'wall_in' | 'mine_ore' | 'open_container' | ...
+      allowed(action, more = {}) {
+        const { d } = think({ action, ...more });
+        return { ok: d.vetoes.length === 0, vetoes: d.vetoes.map((v) => ({ id: v.id, why: v.do })) };
+      },
+    };
+
+    bot.on('physicsTick', async () => {
+      if (++tick % every || !bot.entity) return;
+      const { s, d } = think();
+      bot.brain.state = s; bot.brain.last = d;
+      const k = key(d);
+      if (k !== lastKey) { lastKey = k; bot.emit('brain:decision', d, s); }
+      const ex = d.mode === 'reflex' && !d.rule.veto && executors[d.rule.id];
+      if (!ex || busy) return;
+      busy = true;
+      try { await ex(bot, d, s); } catch (err) { bot.emit('brain:error', err, d); } finally { busy = false; }
+    });
+  };
+}

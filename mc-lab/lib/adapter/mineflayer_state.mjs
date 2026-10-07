@@ -1,15 +1,16 @@
 // mineflayer_state.mjs — แปลงบอต mineflayer → state ที่ lib/chain.mjs decide() ใช้
 // ใช้: const tracker = createTracker(); ทุก tick: const s = toState(bot, tracker, { role, team }); decide(s, goal)
-// ⚠ ชื่อฟิลด์ mineflayer ที่ติด [ตรวจ] = [ไม่แน่ใจ] กับ 4.39 / 26.1 — ตรวจตอนต่อบอตจริงครั้งแรก
+// ✅ ตรวจกับซอร์ส mineflayer 4.39.0 แล้ว (7 ต.ค. 2026): oxygenLevel (air/15 → 0–20), time.age, entity.elytraFlying, player.ping,
+//    effects[id], blockAt()=null เมื่อชังก์ไม่โหลด · ที่ยังติด [ตรวจ] = ต้องดูกับเซิร์ฟจริง (ค่าตามโปรโตคอล 26.1 ผ่าน ViaVersion)
 const HOSTILE = new Set(['zombie', 'husk', 'drowned', 'zombie_villager', 'skeleton', 'stray', 'bogged', 'parched', 'spider', 'cave_spider', 'creeper', 'witch', 'slime', 'magma_cube', 'phantom', 'silverfish', 'endermite', 'pillager', 'vindicator', 'evoker', 'vex', 'ravager', 'guardian', 'elder_guardian', 'warden', 'breeze', 'creaking', 'blaze', 'ghast', 'wither_skeleton', 'piglin_brute', 'hoglin', 'zoglin', 'shulker', 'ender_dragon', 'wither']);
-const ARMOR_SLOTS = [5, 6, 7, 8];                                   // หมวก/เสื้อ/กางเกง/รองเท้า [ตรวจ]
+const ARMOR_SLOTS = [5, 6, 7, 8];                                   // หมวก/เสื้อ/กางเกง/รองเท้า (simple_inventory.js)
 const DIM = (d) => String(d ?? 'overworld').replace(/^minecraft:/, '');
 
 export function createTracker() {
   return { airborneFromY: null, lastPos: null, idleSince: null, lastInv: '', provoked: new Set(), tpsMark: null };
 }
 
-// ระยะตก: mineflayer ไม่มี fallDistance ตรง ๆ [ตรวจ] → จำ Y สูงสุดตั้งแต่ลอย แล้วคิด (สูงสุด − ปัจจุบัน) ตอนกำลังตก
+// ระยะตก: mineflayer 4.39 ไม่มี fallDistance (ค้นซอร์สแล้ว) → จำ Y สูงสุดตั้งแต่ลอย แล้วคิด (สูงสุด − ปัจจุบัน) ตอนกำลังตก
 function fallDistance(e, tr) {
   if (e.onGround || e.isInWater || e.isInLava) { tr.airborneFromY = null; return 0; }
   tr.airborneFromY = Math.max(tr.airborneFromY ?? e.position.y, e.position.y);
@@ -28,8 +29,9 @@ export function toState(bot, tr = createTracker(), extra = {}) {
   const inv = {};
   for (const it of items) inv[it.name] = (inv[it.name] ?? 0) + it.count;
   const worn = ARMOR_SLOTS.map((i) => bot.inventory?.slots?.[i]?.name).filter(Boolean);
-  if (bot.inventory?.slots?.[45]) worn.push(bot.inventory.slots[45].name);           // มือรอง [ตรวจ]
-  // effects: mineflayer เก็บเป็น { [id]: {amplifier, duration} } [ตรวจ] → แปลงชื่อด้วย bot.registry
+  if (bot.inventory?.slots?.[45]) worn.push(bot.inventory.slots[45].name);           // มือรอง = 45 (simple_inventory.js)
+  // effects: mineflayer เก็บเป็น { [id]: effect } (entities.js) → แปลงชื่อด้วย bot.registry
+  // ชื่อใน minecraft-data เป็น CamelCase (เช่น 'Speed', 'InstantDamage') → snake_case
   const effects = Object.keys(e.effects ?? {}).map((id) => bot.registry?.effects?.[id]?.name?.replace(/([a-z])([A-Z])/g, '$1_$2').toLowerCase()).filter(Boolean);
   // idle: ตำแหน่ง+กระเป๋าไม่เปลี่ยน
   // เวลา: ใช้ tick เกม (bot.time.age) ถ้ามี — เซิร์ฟแล็กแล้วนาฬิกาเครื่องจะเพี้ยน · 1 tick = 50 ms
@@ -48,14 +50,14 @@ export function toState(bot, tr = createTracker(), extra = {}) {
   return {
     hp: bot.health, food: bot.food, dim: DIM(bot.game?.dimension), time: bot.time?.timeOfDay ?? 0,
     inLava: !!e.isInLava, inWater: !!e.isInWater, onFire: !!(e.metadata?.[0] & 0x01),   // flag ติดไฟ [ตรวจ]
-    air: ((bot.oxygenLevel ?? 20) / 20) * 15,                                            // 20 = เต็ม → วินาที [ตรวจ]
+    air: ((bot.oxygenLevel ?? 20) / 20) * 15,                                            // oxygenLevel 0–20 (breath.js) → วินาที 0–15
     fallDistance: fallDistance(e, tr), suffocating: !!(head && head.boundingBox === 'block'),
     standingOn: below?.name, nearby, inv, worn, effects,
     idleSeconds: (now - (tr.idleSince ?? now)) / 1000,
-    ping: bot.player?.ping, tps: tr.tps,                                                  // [ตรวจ] ชื่อฟิลด์ ping
+    ping: bot.player?.ping, tps: tr.tps,                                                  // player.ping (entities.js/tablist)
     ...extra,
     nearby: [...nearby, ...enemies, ...(extra.nearby ?? [])],
-    // flags: elytraFlying [ตรวจ] · ใต้เท้า null = ชังก์ยังไม่โหลด [ตรวจ]
+    // flags: entity.elytraFlying · blockAt null = ชังก์ไม่โหลด (blocks.js) — ยืนยันจากซอร์ส
     flags: { ...(e.elytraFlying ? { gliding: true } : {}), ...(bot.blockAt && below === null ? { chunkUnloaded: true } : {}), ...(extra.flags ?? {}) },
   };
 }
