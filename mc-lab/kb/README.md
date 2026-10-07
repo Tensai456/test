@@ -140,7 +140,10 @@
 - [สูตรเลเวล](experience/level-formula.md) · 10 บรรทัด
 - [XP ถึงเลเวล 30](experience/lvl30.md) · 3 บรรทัด
 - [Mending](experience/mending.md) · 8 บรรทัด
-- [แหล่ง XP และปริมาณ](experience/sources.md) · 18 บรรทัด
+- [XP มอนอื่น](experience/mob-xp-extra.md) · 14 บรรทัด
+- [พฤติกรรมออร์บ](experience/orb-behavior.md) · 8 บรรทัด
+- [XP จากการหลอม](experience/smelting-xp.md) · 13 บรรทัด
+- [แหล่ง XP และปริมาณ](experience/sources.md) · 20 บรรทัด
 - [ยังไม่ยืนยัน](experience/unverified.md) · 5 บรรทัด
 - [ฟาร์ม XP เบื้องต้น](experience/xp-farms.md) · 9 บรรทัด
 - [ออร์บ XP](experience/xp-orbs.md) · 8 บรรทัด
@@ -165,10 +168,10 @@
 
 ## fishing (`fishing/`)
 
-- [การตรวจจับการกัดสำหรับบอต](fishing/bite-detection.md) · 8 บรรทัด
+- [การตรวจจับการกัดสำหรับบอต](fishing/bite-detection.md) · 9 บรรทัด
 - [ความทนทานและการเกี่ยวเอนทิตี](fishing/durability-hooks.md) · 10 บรรทัด
 - [Lure, Luck of the Sea, ฝน](fishing/enchants-rain.md) · 10 บรรทัด
-- [ปลาเป็นอาหาร](fishing/food.md) · 10 บรรทัด
+- [ปลาเป็นอาหาร](fishing/food.md) · 11 บรรทัด
 - [ตารางของที่ตกได้](fishing/loot-table.md) · 11 บรรทัด
 - [เงื่อนไขน้ำเปิดสำหรับสมบัติ](fishing/open-water.md) · 8 บรรทัด
 - [ยังไม่ยืนยัน](fishing/unverified.md) · 6 บรรทัด

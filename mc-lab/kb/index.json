@@ -2443,7 +2443,42 @@
    "experience",
    "sources"
   ],
-  "lines": 18
+  "lines": 20
+ },
+ {
+  "path": "experience/smelting-xp.md",
+  "title": "XP จากการหลอม",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "smelting"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "experience/mob-xp-extra.md",
+  "title": "XP มอนอื่น",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "mob",
+   "extra"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "experience/orb-behavior.md",
+  "title": "พฤติกรรมออร์บ",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "orb",
+   "behavior"
+  ],
+  "lines": 8
  },
  {
   "path": "experience/level-formula.md",
@@ -2713,7 +2748,7 @@
    "bite",
    "detection"
   ],
-  "lines": 8
+  "lines": 9
  },
  {
   "path": "fishing/loot-table.md",
@@ -2764,7 +2799,7 @@
    "fishing",
    "food"
   ],
-  "lines": 10
+  "lines": 11
  },
  {
   "path": "fishing/durability-hooks.md",

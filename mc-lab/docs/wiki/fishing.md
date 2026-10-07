@@ -31,8 +31,8 @@
 | ขยะ | 10% | W/Fishing |
 | สมบัติ | 5% | W/Fishing |
 ภายในหมวดปลา: Raw Cod 60%, Raw Salmon 25%, Pufferfish 13%, Tropical Fish 2% (W/Fishing).
-ขยะ Java (นอกป่าดิบชื้น): Lily Pad 17, Bone/Leather Boots/Rotten Flesh/Tripwire Hook/Water Bottle อย่างละ 10, Stick 5 (W/Fishing). ป่าดิบชื้นเพิ่ม Bamboo, Bowl, Leather, String, Fishing Rod, Ink Sac (W/Fishing; น้ำหนักแต่ละอัน [ไม่แน่ใจ]).
-สมบัติ Java: รายการ/น้ำหนักที่ยืนยันได้ในรอบนี้มีเฉพาะฝั่ง Bedrock → Java [ไม่แน่ใจ].
+ขยะ Java (นอกป่าดิบชื้น): Lily Pad 17, Bone/Leather Boots/Rotten Flesh/Tripwire Hook/Water Bottle อย่างละ 10, Stick 5 (W/Fishing). ป่าดิบชื้น (W/Fishing, snippet): Lily Pad 17, Bowl 10, Leather 10, Leather Boots 10, Bamboo 10, Stick 5, String 5, Fishing Rod 2, Ink Sac 1 (snippet ว่าเป็นชุด 10 ชิ้น) — snippet ระบุรวม 110; น้ำหนักของ Bone/Rotten Flesh/Tripwire Hook/Water Bottle ในป่า และความสอดคล้องของยอดรวม [ไม่แน่ใจ].
+สมบัติ Java (W/Fishing, snippet): Bow, Enchanted Book, Fishing Rod, Name Tag, Nautilus Shell, Saddle — เท่ากัน 1/6 (16.67%) ต่อชิ้นในหมวดสมบัติ; หมายเหตุสภาพ/enchant ของของที่ตก [ไม่แน่ใจ].
 
 บอตควร: คาดว่า ~85% ได้ปลาดิบ; เก็บเฉพาะของที่ใช้ได้ ทิ้งขยะ; ปลาปักเป้า/ปลาเขตร้อนอย่ากินเป็นอาหารหลัก.
 ตัดสินผล: (เกณฑ์แล็บ) ใน ≥ 50 ครั้ง สัดส่วนปลา 75–95% = ปกติ; นอกช่วง = ตรวจเงื่อนไขน้ำเปิด/บั๊กตรวจของ.
@@ -64,9 +64,10 @@
 |---|---|---|---|---|
 | Cooked Cod | 5 | 6 | ต้องเตา | W/Cooked_Cod |
 | Cooked Salmon | 6 | 9.6 | ต้องเตา | W/Cooked_Salmon |
+| Raw Cod | 2 | 0.4 | ดิบ | kb/blocks/_foods.md |
+| Raw Salmon | 2 | 0.4 | ดิบ | kb/blocks/_foods.md |
 | Pufferfish | 1 | 0.2 | Hunger III 15 วิ, Poison II 1 นาที, Nausea I 15 วิ | W/Pufferfish_(item) |
 | Tropical Fish | 1 | 0.2 | ทำให้สุกไม่ได้ | W/Tropical_Fish_(item) |
-ค่า Raw Cod/Raw Salmon: [ไม่แน่ใจ] (ไม่ได้ยืนยันในรอบนี้).
 
 บอตควร: ตกปลา → ย่าง (cod/salmon) → กิน; ห้ามกินปักเป้า; ใช้เป็นอาหารเริ่มต้นที่ปลอดภัย (ไม่ต้องสู้มอนสเตอร์) แต่ควรทำที่ปลอดภัยจากมอนสเตอร์กลางคืน/ฝั่งน้ำ.
 ตัดสินผล: (เกณฑ์แล็บ) สถานะหิว ≤ 14 → กินปลาสุก; อัตรา ≥ 1 ปลาสุก/นาทีรอบการตกเป็นเป้าหมายต่ำสุด [เกณฑ์แล็บ ยังไม่ทดสอบ].
@@ -84,9 +85,9 @@
 ตัดสินผล: (เกณฑ์แล็บ) เหลือ ≤ 6 ความทน → หยุดตกและเตรียมคันใหม่ (ค่าแล็บ).
 
 ## unverified · ยังไม่ยืนยัน
-- รายการ/น้ำหนักสมบัติของ Java Edition (snippet มีเฉพาะ Bedrock) [ไม่แน่ใจ]
-- น้ำหนักขยะเฉพาะป่าดิบชื้น [ไม่แน่ใจ]
-- วิธีที่ mineflayer เห็นทุ่นจม/อนุภาค/เสียง (วิกิไม่ครอบคลุม) [ไม่แน่ใจ]
-- ค่าอาหารของ Raw Cod/Raw Salmon [ไม่แน่ใจ]
+- สมบัติ Java: รายการ 6 อย่างน้ำหนักเท่ากันมาจาก snippet เดียว ไม่ได้เปิดหน้าเต็ม [ไม่แน่ใจ ระดับกลาง]
+- ขยะป่าดิบชื้น: น้ำหนัก Bone/Rotten Flesh/Tripwire Hook/Water Bottle ในป่า และยอดรวม 110 [ไม่แน่ใจ]
+- ชื่อ event/packet ของ mineflayer สำหรับทุ่นจม/อนุภาค/เสียง และเกณฑ์ velocity ที่ client เห็น (วิกิไม่ครอบคลุม ต้องทดสอบในแล็บ) [ไม่แน่ใจ]
+- ค่าอาหาร Raw Cod/Raw Salmon: ยืนยันแล้วจาก kb/blocks/_foods.md (2 / 0.4)
 - เวอร์ชันปัจจุบันของเกมอาจต่างจาก snippet; ค่ากลไกทั้งหมดมาจากสรุปค้นหา ไม่ได้เปิดหน้าเต็ม
 - ตัวเลขทั้งหมดที่ระบุ "เกณฑ์แล็บ" เป็นค่าตั้งของแล็บ ไม่ใช่ข้อมูลวิกิ
