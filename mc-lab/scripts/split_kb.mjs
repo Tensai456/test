@@ -21,6 +21,10 @@ const SOURCES = [
   { file: 'playbook/PROGRESSION.md', level: 3, dir: 'progression', slugs: ['milestones', 'wood-tools-recipes', 'tool-durability', 'armor', 'ores-y-levels', 'smelting-fuel', 'food', 'iron-first-set', 'enchant-anvil-villager', 'nether-to-end', 'p00-playbook-intro', 'p01-wood-table', 'p02-stone-furnace', 'p03-food', 'p04-bed', 'p05-iron', 'p06-diamond', 'p07-enchant', 'p08-nether-portal', 'p09-blaze-pearl', 'p10-stronghold-end', 'unverified'] },
 ];
 
+// docs/wiki/<group>.md อัตโนมัติ: หัวข้อ "## <slug> · ชื่อ" → kb/<group>/<slug>.md (ไม่ต้องตั้ง slug ในสคริปต์)
+const WIKI = path.join(DOCS, 'wiki');
+const AUTO = fs.existsSync(WIKI) ? fs.readdirSync(WIKI).filter((f) => f.endsWith('.md')).sort() : [];
+
 // ม็อบ: แยกระดับแถวจากตาราง → 1 ไฟล์/ม็อบ
 const MOBS = {
   zombie: ['zombie'], husk: ['husk'], drowned: ['drowned'], zombie_villager: ['zombie villager', 'z.villager'],
@@ -72,6 +76,18 @@ for (const s of SOURCES) {
     const rel = path.normalize(path.join(s.dir, slug + '.md'));
     emit(rel, c.title, s.file, c.text, { parent: c.parent, preamble });
   });
+}
+
+// ---------- docs/wiki/ อัตโนมัติ ----------
+for (const f of AUTO) {
+  const md = fs.readFileSync(path.join(WIKI, f), 'utf8');
+  const { preamble, chunks: cs } = chunks(md, 2);
+  const group = f.replace(/\.md$/, '');
+  for (const c of cs) {
+    const m = c.title.match(/^([a-z0-9][a-z0-9-]*)\s*·\s*(.+)$/);
+    if (!m) { console.error(`✗ wiki/${f}: หัวข้อต้องเป็น "## slug · ชื่อ" → "${c.title}"`); process.exit(1); }
+    emit(path.join(group, `${m[1]}.md`), m[2], `wiki/${f}`, c.text, { preamble });
+  }
 }
 
 // ---------- ม็อบรายตัว ----------
