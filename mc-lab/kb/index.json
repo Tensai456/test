@@ -3970,6 +3970,161 @@
   "lines": 1
  },
  {
+  "path": "recipes/tools.md",
+  "title": "เครื่องมือ (37 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "tools"
+  ],
+  "lines": 95
+ },
+ {
+  "path": "recipes/weapons.md",
+  "title": "อาวุธ (19 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "weapons"
+  ],
+  "lines": 62
+ },
+ {
+  "path": "recipes/armor.md",
+  "title": "เกราะ (23 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "armor"
+  ],
+  "lines": 29
+ },
+ {
+  "path": "recipes/food.md",
+  "title": "อาหาร (21 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "food"
+  ],
+  "lines": 47
+ },
+ {
+  "path": "recipes/utility.md",
+  "title": "ของใช้/สถานี (73 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "utility"
+  ],
+  "lines": 600
+ },
+ {
+  "path": "recipes/transport.md",
+  "title": "การเดินทาง (46 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "transport"
+  ],
+  "lines": 68
+ },
+ {
+  "path": "recipes/redstone.md",
+  "title": "เรดสโตน (50 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "redstone"
+  ],
+  "lines": 101
+ },
+ {
+  "path": "recipes/metals.md",
+  "title": "แท่ง/บล็อกแร่/เศษ (45 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "metals"
+  ],
+  "lines": 56
+ },
+ {
+  "path": "recipes/dyes.md",
+  "title": "สีย้อม (15 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "dyes"
+  ],
+  "lines": 48
+ },
+ {
+  "path": "recipes/colored.md",
+  "title": "ของมีสี (ขนแกะ/พรม/ป้าย/แก้วสี/คอนกรีต) (137 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "colored"
+  ],
+  "lines": 179
+ },
+ {
+  "path": "recipes/wood.md",
+  "title": "ไม้ (145 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "wood"
+  ],
+  "lines": 151
+ },
+ {
+  "path": "recipes/copper.md",
+  "title": "ทองแดง (84 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "copper"
+  ],
+  "lines": 114
+ },
+ {
+  "path": "recipes/templates.md",
+  "title": "แม่แบบ smithing (19 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "smithing",
+   "recipes",
+   "templates"
+  ],
+  "lines": 26
+ },
+ {
+  "path": "recipes/building.md",
+  "title": "บล็อกก่อสร้าง/อื่น ๆ (173 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "building"
+  ],
+  "lines": 192
+ },
+ {
   "path": "redstone-basics/signal-range.md",
   "title": "ระยะสัญญาณ redstone",
   "group": "redstone-basics",

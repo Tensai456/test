@@ -457,6 +457,23 @@
 - [11. ผลรวม [ไม่แน่ใจ] / ข้อสังเกตข้อมูล](progression/unverified.md) · 4 บรรทัด
 - [2. ไม้ → crafting table → เครื่องมือ (จำนวนสูตร)](progression/wood-tools-recipes.md) · 13 บรรทัด
 
+## recipes (`recipes/`)
+
+- [เกราะ (23 สูตร)](recipes/armor.md) · 29 บรรทัด
+- [บล็อกก่อสร้าง/อื่น ๆ (173 สูตร)](recipes/building.md) · 192 บรรทัด
+- [ของมีสี (ขนแกะ/พรม/ป้าย/แก้วสี/คอนกรีต) (137 สูตร)](recipes/colored.md) · 179 บรรทัด
+- [ทองแดง (84 สูตร)](recipes/copper.md) · 114 บรรทัด
+- [สีย้อม (15 สูตร)](recipes/dyes.md) · 48 บรรทัด
+- [อาหาร (21 สูตร)](recipes/food.md) · 47 บรรทัด
+- [แท่ง/บล็อกแร่/เศษ (45 สูตร)](recipes/metals.md) · 56 บรรทัด
+- [เรดสโตน (50 สูตร)](recipes/redstone.md) · 101 บรรทัด
+- [แม่แบบ smithing (19 สูตร)](recipes/templates.md) · 26 บรรทัด
+- [เครื่องมือ (37 สูตร)](recipes/tools.md) · 95 บรรทัด
+- [การเดินทาง (46 สูตร)](recipes/transport.md) · 68 บรรทัด
+- [ของใช้/สถานี (73 สูตร)](recipes/utility.md) · 600 บรรทัด
+- [อาวุธ (19 สูตร)](recipes/weapons.md) · 62 บรรทัด
+- [ไม้ (145 สูตร)](recipes/wood.md) · 151 บรรทัด
+
 ## redstone-basics (`redstone-basics/`)
 
 - [วงจรง่าย ๆ ที่มีประโยชน์](redstone-basics/builds.md) · 11 บรรทัด
