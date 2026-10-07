@@ -128,4 +128,29 @@ writeMd('_foods.md', [...HEAD(`อาหารทั้งหมด ${foods.leng
 writeMd('_entities.md', [...HEAD(`เอนทิตีทั้งหมด ${entities.length} ชนิด (ขนาดกล่องชน)`), '| เอนทิตี | ประเภท | หมวด | กว้าง | สูง |', '|---|---|---|---|---|', ...entities.map((e) => `| ${e.name} | ${e.type} | ${e.category ?? ''} | ${e.width} | ${e.height} |`)]);
 writeMd('_enchantments.md', [...HEAD(`เอนชานต์ทั้งหมด ${enchants.length} ชนิด`), '| เอนชานต์ | เลเวลสูงสุด | ใช้กับ | treasure | ห้ามคู่กับ |', '|---|---|---|---|---|', ...enchants.map((e) => `| ${e.name} | ${e.maxLevel} | ${e.category ?? ''} | ${e.treasure ? '✓' : ''} | ${(e.exclude || []).join(', ')} |`)]);
 writeMd('_effects.md', [...HEAD(`เอฟเฟกต์ทั้งหมด ${effects.length} ชนิด`), '| เอฟเฟกต์ | ดี/ร้าย |', '|---|---|', ...effects.map((e) => `| ${e.name} | ${e.type === 'good' ? 'ดี' : 'ร้าย'} |`)]);
+// ---------- สูตรคราฟต์ (ข้อมูลเกม — ใช้ตรวจ kb/crafting ที่ค้นจากวิกิ) ----------
+const recipeOf = (rc) => {
+  const cells = rc.inShape ? rc.inShape.flat() : rc.ingredients || [];
+  const cnt = {};
+  for (const c of cells) if (c != null) { const id = typeof c === 'object' ? c.id : c; const n = item(id) ?? String(id); cnt[n] = (cnt[n] || 0) + 1; }
+  const grid = rc.inShape ? (rc.inShape.length <= 2 && rc.inShape.every((r) => r.length <= 2) ? '2x2' : '3x3') : (cells.length <= 4 ? '2x2' : '3x3');
+  return { in: cnt, out: rc.result.count, grid };
+};
+const recipes = {};
+for (const [rid, list] of Object.entries(d.recipes || {})) recipes[item(Number(rid)) ?? rid] = list.map(recipeOf);
+write('recipes.json', recipes);
+const ESSENTIAL = ['oak_planks', 'stick', 'crafting_table', 'chest', 'furnace', 'blast_furnace', 'smoker', 'torch', 'ladder', 'oak_door', 'oak_trapdoor', 'oak_fence', 'oak_fence_gate', 'oak_boat', 'white_bed', 'bucket', 'shears', 'flint_and_steel', 'compass', 'clock', 'map', 'shield', 'bow', 'arrow', 'crossbow', 'fishing_rod',
+  ...['wooden', 'stone', 'copper', 'iron', 'golden', 'diamond'].flatMap((t) => ['pickaxe', 'axe', 'shovel', 'hoe', 'sword', 'spear'].map((f) => `${t}_${f}`)),
+  ...['leather', 'copper', 'iron', 'golden', 'diamond'].flatMap((t) => ['helmet', 'chestplate', 'leggings', 'boots'].map((f) => `${t}_${f}`)),
+  'bread', 'golden_apple', 'glass_bottle', 'bookshelf', 'enchanting_table', 'anvil', 'brewing_stand', 'cauldron', 'hopper', 'iron_bars', 'lantern', 'campfire', 'scaffolding', 'ender_eye', 'blaze_powder', 'smithing_table', 'grindstone', 'lectern', 'lodestone', 'recovery_compass', 'respawn_anchor', 'beacon', 'conduit', 'netherite_ingot', 'mace', 'wind_charge', 'book', 'paper', 'composter', 'minecart', 'rail', 'powered_rail', 'tnt', 'lead', 'saddle', 'spyglass', 'brush'];
+const rmd = HEAD(`สูตรคราฟต์จำเป็น (จากข้อมูลเกม ${ver}) — ใช้แทน/ตรวจ kb/crafting`);
+rmd.push('> ใส่ = จำนวนต่อ 1 ครั้งคราฟต์ · ได้ = จำนวนที่ออก · 2x2 = ทำในช่องกระเป๋าได้ · หลายสูตร (เช่นไม้คนละชนิด) แสดงสูตรแรก · สูตรทั้งหมด 887 รายการ: `data/catalog_' + ver + '/recipes.json`', '', '| ของ | ใส่ | ได้ | ตาราง | จำนวนสูตร |', '|---|---|---|---|---|');
+for (const n of ESSENTIAL) {
+  const l = recipes[n];
+  if (!l) { rmd.push(`| ${n} | ไม่มีสูตรคราฟต์ (หา/หลอม/เทรด) | — | — | 0 |`); continue; }
+  const r0 = l[0];
+  rmd.push(`| ${n} | ${Object.entries(r0.in).map(([k, v]) => `${k}×${v}`).join(', ')} | ${r0.out} | ${r0.grid} | ${l.length} |`);
+}
+writeMd('_recipes.md', rmd);
+
 console.log(`OK ${ver}: blocks ${blocks.length} (${Object.keys(groups).length} กลุ่ม), items ${items.length}, foods ${foods.length}, entities ${entities.length}, enchants ${enchants.length}, effects ${effects.length}`);

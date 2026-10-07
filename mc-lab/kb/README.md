@@ -56,6 +56,7 @@
 - [เอนชานต์ทั้งหมด 43 ชนิด](blocks/_enchantments.md) · 52 บรรทัด
 - [เอนทิตีทั้งหมด 157 ชนิด (ขนาดกล่องชน)](blocks/_entities.md) · 166 บรรทัด
 - [อาหารทั้งหมด 44 ชนิด (เรียงตาม อิ่ม + saturation)](blocks/_foods.md) · 53 บรรทัด
+- [สูตรคราฟต์จำเป็น (จากข้อมูลเกม 26.1) — ใช้แทน/ตรวจ kb/crafting](blocks/_recipes.md) · 130 บรรทัด
 - [บล็อกพิเศษ (อันตราย / ร่วง / ช้า / ลื่น / ปีน / กันตก)](blocks/_special.md) · 15 บรรทัด
 - [บล็อกขุดด้วยขวาน — 285 ชนิด](blocks/axe.md) · 294 บรรทัด
 - [บล็อกขุดด้วยมือ (ไม่มีเครื่องมือที่เร็วกว่า) — 348 ชนิด](blocks/hand.md) · 357 บรรทัด
@@ -97,7 +98,7 @@
 - [Smithing Table + Netherite](crafting/smithing.md) · 9 บรรทัด
 - [เครื่องมือ](crafting/tools.md) · 17 บรรทัด
 - [ขนส่ง](crafting/transport.md) · 3 บรรทัด
-- [ยังไม่ยืนยัน](crafting/unverified.md) · 6 บรรทัด
+- [ยังไม่ยืนยัน](crafting/unverified.md) · 7 บรรทัด
 - [บล็อกใช้งาน](crafting/utility.md) · 19 บรรทัด
 
 ## elytra (`elytra/`)
@@ -124,7 +125,7 @@
 - [โต๊ะตีเหล็ก](enchanting/smithing.md) · 4 บรรทัด
 - [โต๊ะเสริมพลัง + ชั้นหนังสือ](enchanting/table-setup.md) · 10 บรรทัด
 - [เอนชานต์ Treasure และแหล่งที่ได้](enchanting/treasure.md) · 11 บรรทัด
-- [ยังไม่ยืนยัน](enchanting/unverified.md) · 6 บรรทัด
+- [ยังไม่ยืนยัน](enchanting/unverified.md) · 7 บรรทัด
 
 ## experience (`experience/`)
 

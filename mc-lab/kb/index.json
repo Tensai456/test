@@ -2117,7 +2117,7 @@
    "crafting",
    "unverified"
   ],
-  "lines": 6
+  "lines": 7
  },
  {
   "path": "elytra/obtain.md",
@@ -2344,7 +2344,7 @@
    "enchanting",
    "unverified"
   ],
-  "lines": 6
+  "lines": 7
  },
  {
   "path": "experience/xp-orbs.md",
@@ -4611,6 +4611,16 @@
    "foods"
   ],
   "lines": 53
+ },
+ {
+  "path": "blocks/_recipes.md",
+  "title": "สูตรคราฟต์จำเป็น (จากข้อมูลเกม 26.1) — ใช้แทน/ตรวจ kb/crafting",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "recipes"
+  ],
+  "lines": 130
  },
  {
   "path": "blocks/_special.md",
