@@ -479,6 +479,15 @@
 - [เซิร์ฟแล็ก (TPS ตก)](server-tech/tps-low.md) · 4 บรรทัด
 - [ล็อกเวอร์ชัน](server-tech/version-lock.md) · 1 บรรทัด
 
+## shelter (`shelter/`)
+
+- [บล็อกกันระเบิด](shelter/blast-resistance.md) · 8 บรรทัด
+- [ม็อบที่ทุบ/เปลี่ยนบล็อกได้](shelter/block-breakers.md) · 13 บรรทัด
+- [หลบ + หาของจัดการ (ทีละตัว)](shelter/counter-each.md) · 11 บรรทัด
+- [นั่งร้านกันตก ("Follow" = Scaffold)](shelter/scaffold-clutch.md) · 7 บรรทัด
+- [กฎที่หลบ (jing ยืนยัน)](shelter/shelter-rule.md) · 6 บรรทัด
+- [ยังไม่ยืนยัน](shelter/unverified.md) · 1 บรรทัด
+
 ## ตัวจำลอง (`sim/`)
 
 - [4. ข้อจำกัด (ต้องรู้ก่อนใช้ตัดสินใจ)](sim/limitations.md) · 4 บรรทัด

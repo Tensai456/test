@@ -4177,6 +4177,78 @@
   "lines": 1
  },
  {
+  "path": "shelter/shelter-rule.md",
+  "title": "กฎที่หลบ (jing ยืนยัน)",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "jing",
+   "shelter",
+   "rule"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "shelter/block-breakers.md",
+  "title": "ม็อบที่ทุบ/เปลี่ยนบล็อกได้",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "shelter",
+   "block",
+   "breakers"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "shelter/blast-resistance.md",
+  "title": "บล็อกกันระเบิด",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "shelter",
+   "blast",
+   "resistance"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "shelter/counter-each.md",
+  "title": "หลบ + หาของจัดการ (ทีละตัว)",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "shelter",
+   "counter",
+   "each"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "shelter/scaffold-clutch.md",
+  "title": "นั่งร้านกันตก (\"Follow\" = Scaffold)",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "follow",
+   "scaffold",
+   "shelter",
+   "clutch"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "shelter/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "shelter",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
   "path": "spawning/mob-cap.md",
   "title": "เพดานจำนวนมอบต่อประเภท",
   "group": "spawning",
