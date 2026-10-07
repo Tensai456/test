@@ -170,6 +170,8 @@ Object.assign(EVENTS, {
       ['ไกล >6 + มีธนู + ลูกธนู → ต้องยิง', (s) => !(s.wctx.dist > 6 && s.inv.arrow && (s.inv.bow || s.inv.crossbow)) || ['bow', 'crossbow'].includes(s.weapon)]] },
 });
 
+if (process.argv.includes('--list')) { console.log(Object.keys(EVENTS).join(' ')); process.exit(0); }
+
 const GLOBAL = [
   ['ทุกไฟล์ kb ที่ชี้ต้องมีอยู่จริง', (s, d) => (d.mode === 'goal-done' ? [] : d.mode === 'reflex' ? d.rule.kb : d.step.kb).every(kbExists)],
   ['ทุกการตัดสินใจต้องชี้ความรู้ใน kb', (s, d) => d.mode === 'goal-done' || (d.mode === 'reflex' ? d.rule.kb.length : d.step.kb.length) > 0],
