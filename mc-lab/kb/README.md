@@ -4,6 +4,37 @@
 > สร้างโดย `node scripts/split_kb.mjs` (เอกสาร) + `node scripts/gen_catalog.cjs` (บล็อก) — **แก้ที่ docs/ แล้วรันใหม่ ห้ามแก้ kb/ ตรง**
 > ความน่าเชื่อถือ: minecraft-data > วิกิ > เกณฑ์แล็บ > ผลจำลอง
 
+## animals (`animals/`)
+
+- [กฎการผสมพันธุ์ทั่วไป](animals/breeding-rules.md) · 12 บรรทัด
+- [แมว](animals/cat.md) · 6 บรรทัด
+- [ไก่](animals/chicken.md) · 9 บรรทัด
+- [วัว](animals/cow.md) · 9 บรรทัด
+- [ม้า/ลา/ล่อ/อูฐ](animals/equines-camel.md) · 9 บรรทัด
+- [แพะ](animals/goat.md) · 8 บรรทัด
+- [เชือกจูงและรั้ว](animals/leads-fencing.md) · 2 บรรทัด
+- [ลามะ](animals/llama.md) · 8 บรรทัด
+- [นกแก้ว](animals/parrot.md) · 7 บรรทัด
+- [หมู](animals/pig.md) · 9 บรรทัด
+- [กระต่าย](animals/rabbit.md) · 7 บรรทัด
+- [แกะ](animals/sheep.md) · 8 บรรทัด
+- [ยังไม่ยืนยัน](animals/unverified.md) · 5 บรรทัด
+- [หมาป่า](animals/wolf.md) · 7 บรรทัด
+
+## beacon-conduit (`beacon-conduit/`)
+
+- [เอฟเฟกต์ Beacon](beacon-conduit/beacon-effects.md) · 8 บรรทัด
+- [Beacon พีระมิดและบล็อก](beacon-conduit/beacon-pyramid.md) · 9 บรรทัด
+- [Conduit](beacon-conduit/conduit.md) · 10 บรรทัด
+- [Lodestone และ Recovery Compass](beacon-conduit/navigation.md) · 8 บรรทัด
+- [เส้นทาง Netherite](beacon-conduit/netherite-path.md) · 10 บรรทัด
+- [ลำดับหลัง Diamond (เสนอ)](beacon-conduit/priority.md) · 9 บรรทัด
+- [Respawn Anchor (Nether)](beacon-conduit/respawn-anchor.md) · 9 บรรทัด
+- [Shulker Box และ Ender Chest](beacon-conduit/storage.md) · 8 บรรทัด
+- [Totem ผ่าน Raid (Evoker)](beacon-conduit/totem-raid.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](beacon-conduit/unverified.md) · 5 บรรทัด
+- [Wither และ Nether Star](beacon-conduit/wither-nether-star.md) · 9 บรรทัด
+
 ## biomes (`biomes/`)
 
 - [ถ้ำ (dripstone/lush/deep dark), cherry grove, pale garden](biomes/caves-special.md) · 10 บรรทัด
@@ -81,6 +112,19 @@
 - [ความเสี่ยงของบอต](elytra/risks.md) · 9 บรรทัด
 - [จรวดดอกไม้ไฟ](elytra/rocket.md) · 9 บรรทัด
 - [ยังไม่ยืนยัน](elytra/unverified.md) · 5 บรรทัด
+
+## enchanting (`enchanting/`)
+
+- [ทั่ง การรวม และ Too Expensive](enchanting/anvil.md) · 11 บรรทัด
+- [ค่า XP และ Lapis](enchanting/costs.md) · 10 บรรทัด
+- [เอนชานต์ที่ใช้ร่วมกันไม่ได้](enchanting/exclusive.md) · 12 บรรทัด
+- [หินลับ](enchanting/grindstone.md) · 9 บรรทัด
+- [วิธีเลือกข้อเสนอ](enchanting/offers.md) · 9 บรรทัด
+- [ชุดแนะนำต่อไอเท็ม](enchanting/sets.md) · 14 บรรทัด
+- [โต๊ะตีเหล็ก](enchanting/smithing.md) · 4 บรรทัด
+- [โต๊ะเสริมพลัง + ชั้นหนังสือ](enchanting/table-setup.md) · 10 บรรทัด
+- [เอนชานต์ Treasure และแหล่งที่ได้](enchanting/treasure.md) · 11 บรรทัด
+- [ยังไม่ยืนยัน](enchanting/unverified.md) · 6 บรรทัด
 
 ## experience (`experience/`)
 
@@ -422,6 +466,20 @@
 - [ภาพรวม 26.1](version-26x/v26-1-overview.md) · 11 บรรทัด
 - [ภาพรวม 26.2 Chaos Cubed](version-26x/v26-2-overview.md) · 10 บรรทัด
 - [ไทม์ไลน์และเลขเวอร์ชัน](version-26x/version-timeline.md) · 11 บรรทัด
+
+## villagers (`villagers/`)
+
+- [เพาะพันธุ์ชาวบ้าน](villagers/breeding.md) · 8 บรรทัด
+- [แหล่งมรกต](villagers/emerald-sources.md) · 5 บรรทัด
+- [ไอรอนโกเลม](villagers/iron-golem.md) · 7 บรรทัด
+- [บรรณารักษ์ / Mending](villagers/librarian-mending.md) · 7 บรรทัด
+- [อาชีพและ workstation](villagers/professions.md) · 21 บรรทัด
+- [เรด / Bad Omen](villagers/raid.md) · 7 บรรทัด
+- [เติมสต็อก/ส่วนลด/ปลุกซอมบี้](villagers/restock-discount.md) · 9 บรรทัด
+- [ช่างเกราะ/เครื่องมือ/อาวุธ](villagers/smiths.md) · 10 บรรทัด
+- [ระดับการเทรด](villagers/trading-levels.md) · 13 บรรทัด
+- [ยังไม่ยืนยัน](villagers/unverified.md) · 4 บรรทัด
+- [ซอมบี้บุกหมู่บ้าน](villagers/zombie-siege.md) · 7 บรรทัด
 
 ## อาวุธ (`weapons/`)
 

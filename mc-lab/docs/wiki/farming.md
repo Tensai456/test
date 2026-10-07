@@ -97,7 +97,7 @@
 | cocoa โต | 20% ต่อ random tick (~5:41 นาที/stage) | W/Cocoa_Beans |
 | cocoa ผล | stage1–2: 1 เม็ด, stage3: 3 เม็ด | W/Cocoa_Beans |
 
-บอตควร: ใช้ใช้ใช้ปุ่ม use เก็บ berry (bush ไม่ถูกทำลาย) ; cocoa เก็บเมื่อ stage 3 เท่านั้น
+บอตควร: ใช้ปุ่ม use เก็บ berry (bush ไม่ถูกทำลาย) ; cocoa เก็บเมื่อ stage 3 เท่านั้น
 ตัดสินผล: เกณฑ์แล็บ — ผ่านถ้า berry ได้ ≥2 และ bush ยังอยู่; cocoa ได้ 3 เม็ด
 
 ## nether-wart · เนเธอร์วอร์ต
@@ -152,7 +152,7 @@
 | sugar cane | น้ำข้างฐาน+ตัดสูง | W/Sugar_Cane |
 | kelp | ตัดที่ age 25 | W/Kelp |
 | crop | ใช้บอตเก็บเมื่อ age เต็ม + ปลูกซ้ำ | W/Tutorial:Crop_farming |
-| มือ | แปลงน้ำกลาง รัศมี 4 | W/Farmland |
+| แปลงน้ำ | แปลงน้ำกลาง รัศมี 4 | W/Farmland |
 
 บอตควร: เริ่มด้วยแปลง wheat+น้ำ+คบไฟ → composter วนปุ๋ย
 ตัดสินผล: เกณฑ์แล็บ — ผ่านถ้าได้อาหาร ≥X ต่อ 10 นาที (X ตั้งตามงาน)

@@ -11,5 +11,5 @@
 | cocoa โต | 20% ต่อ random tick (~5:41 นาที/stage) | W/Cocoa_Beans |
 | cocoa ผล | stage1–2: 1 เม็ด, stage3: 3 เม็ด | W/Cocoa_Beans |
 
-บอตควร: ใช้ใช้ใช้ปุ่ม use เก็บ berry (bush ไม่ถูกทำลาย) ; cocoa เก็บเมื่อ stage 3 เท่านั้น
+บอตควร: ใช้ปุ่ม use เก็บ berry (bush ไม่ถูกทำลาย) ; cocoa เก็บเมื่อ stage 3 เท่านั้น
 ตัดสินผล: เกณฑ์แล็บ — ผ่านถ้า berry ได้ ≥2 และ bush ยังอยู่; cocoa ได้ 3 เม็ด
