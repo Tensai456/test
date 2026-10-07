@@ -11,6 +11,22 @@ export const DIG = { // วินาที (catalog_26.1)
 export const SPRINT = 5.612;          // m/s (วิกิ)
 export const SMELT = { furnace: 10, blast: 5 };   // วิ/ชิ้น (วิกิ)
 
+// การเกิดแร่เหล็ก 3 ชุด (W/Iron_Ore): ครั้ง/chunk · ช่วง Y · ยอด (สามเหลี่ยม) หรือสม่ำเสมอ · blob สูงสุด
+export const IRON_BATCHES = [
+  { n: 90, lo: 80, hi: 384, peak: 232, blob: 13 },
+  { n: 10, lo: -24, hi: 56, peak: 16, blob: 13 },
+  { n: 10, lo: -64, hi: 72, peak: null, blob: 5 },
+];
+// ความหนาแน่นสัมพัทธ์ของแร่เหล็กที่ระดับ y (ต่อชั้น ต่อ chunk) · ขนาด blob เฉลี่ย = blob/2 (ASSUME)
+export function ironDensity(y) {
+  return IRON_BATCHES.reduce((s, b) => {
+    if (y < b.lo || y > b.hi) return s;
+    const half = (b.hi - b.lo) / 2;
+    const shape = b.peak == null ? 1 / (b.hi - b.lo) : Math.max(0, 1 - Math.abs(y - b.peak) / half) / half;
+    return s + b.n * shape * (b.blob / 2);
+  }, 0);
+}
+
 export const DEFAULTS = {
   targetIngots: 88,          // ชุดเกราะ 24 + 1 stack 64 (เป้าที่ jing ให้)
   logsNeeded: 8,             // โต๊ะ + ไม้ + อีเต้อ/ดาบไม้ + เผื่อ (ASSUME)
@@ -21,6 +37,9 @@ export const DEFAULTS = {
   coalPerIronVein: 1.0,      // สายถ่านที่เจอต่อสายเหล็ก (ASSUME)
   overheadSec: 90,           // คราฟต์ + เดินกลับ + จัดของ (ASSUME)
   pVein: null,               // calibrate
+  baseY: 16,                 // ระดับขุดปกติ (ที่ calibrate pVein)
+  mountainY: 200,            // ระดับขุดในภูเขา (ภูเขาสูงพอ ASSUME)
+  mountainTravelSec: 120,    // เดิน/ปีนถึงหน้าผาภูเขา (ASSUME — ขึ้นกับว่าบ้านไกลภูเขาแค่ไหน)
 };
 
 // strategy: { chop: 'hand'|'wooden'|'stone', spacing: 2|6, ironPickFirst, furnaces, blast, parallelSmelt, miners, choppers, spelunk }
@@ -32,11 +51,13 @@ export function simulate(st, p0 = {}) {
   // หิน: 3 ก้อนด้วยอีเต้อไม้ + หินทำเตา 8/เตา (ขุดระหว่างทางลง — คิดเฉพาะส่วนเกินจากบันได)
   const furnaces = st.furnaces ?? 1;
   b.stone = 3 * (DIG.stone.wooden + 1.5) + Math.max(0, furnaces * 8 + 2 - p.descendBlocks * p.stairDigsPerStep * 0.5) * DIG.stone.stone;
-  b.descend = p.descendBlocks * (p.stairDigsPerStep * DIG.stone.stone + 1 / SPRINT);
+  // mountain: ไม่ต้องลงเหมือง แต่เดินไปภูเขา · แร่ถี่ขึ้นตามสัดส่วนความหนาแน่นที่ Y นั้น (IRON_BATCHES)
+  b.descend = st.mountain ? p.mountainTravelSec : p.descendBlocks * (p.stairDigsPerStep * DIG.stone.stone + 1 / SPRINT);
+  const pVein = p.pVein * (st.mountain ? ironDensity(p.mountainY) / ironDensity(p.baseY) : 1);
   // ขุดหา: แต่ละเมตรขุด 2 บล็อก · เห็นบล็อกใหม่ต่อเมตร: เว้นกิ่ง 6 = 6, เว้น 2 = 4 (ผนังซ้ำ) · spelunk = ไม่ต้องขุด แต่เดินอ้อม (ASSUME ×3 ระยะ)
   const exposure = st.spelunk ? 6 : st.spacing === 6 ? 6 : 4;
   const veinsNeeded = (p.targetIngots + (st.ironPickFirst ? 3 : 0)) / p.veinSize;
-  const metersPerVein = 1 / (exposure * p.pVein);
+  const metersPerVein = 1 / (exposure * pVein);
   const minersN = st.miners ?? 1;
   const pickAt = (i) => (st.ironPickFirst && i * p.veinSize >= 3 ? 'iron' : 'stone');
   let mine = 0;

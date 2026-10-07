@@ -51,3 +51,9 @@ test('mustClutch + canJumpGap', () => {
   assert.equal(canJumpGap(4), 'risky_sprint_jump');
   assert.equal(canJumpGap(5), 'bridge');
 });
+
+test('นั่งร้านชั้นเดียว: ใช้ได้เฉพาะตกไม่สูง (W/Scaffolding)', () => {
+  assert.equal(chooseClutch({ inventory: ['scaffolding'], fallDistance: 15 }), 'scaffolding');
+  assert.equal(chooseClutch({ inventory: ['scaffolding'], fallDistance: 60 }), null);
+  assert.equal(chooseClutch({ inventory: ['scaffolding', 'ender_pearl'], fallDistance: 60 }), 'ender_pearl');
+});

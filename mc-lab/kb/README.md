@@ -96,6 +96,22 @@
 - [บล็อกขุดด้วยพลั่ว — 36 ชนิด](blocks/shovel.md) · 45 บรรทัด
 - [บล็อกขุดด้วยดาบ — 3 ชนิด](blocks/sword.md) · 12 บรรทัด
 
+## breeding (`breeding/`)
+
+- [จัดอันดับฟาร์มอาหารช่วงต้น [คิดเอง]](breeding/best-farm-ranking.md) · 12 บรรทัด
+- [ไก่และไข่](breeding/chicken-eggs.md) · 9 บรรทัด
+- [กฎกลางการผสมพันธุ์](breeding/core-rules.md) · 13 บรรทัด
+- [ดรอปเนื้อและ Looting/ไฟ](breeding/drops-looting.md) · 12 บรรทัด
+- [ม้า/ลา/ล่อ/ลามะ เร่งโต](breeding/equines.md) · 9 บรรทัด
+- [ตารางอาหารผสม + เร่งโต](breeding/food-table.md) · 27 บรรทัด
+- [ค่า hunger/saturation ของผลผลิต](breeding/food-values.md) · 18 บรรทัด
+- [ล่อ จูง ย้าย และออกแบบคอก](breeding/luring-pens.md) · 11 บรรทัด
+- [Mooshroom, ซุป, suspicious stew](breeding/mooshroom.md) · 13 บรรทัด
+- [hoglin และ strider](breeding/nether-animals.md) · 10 บรรทัด
+- [สิ่งใหม่ใน 26.x ที่เกี่ยวกับการผสม](breeding/new-26x.md) · 9 บรรทัด
+- [แกะ ขน และสีลูก](breeding/sheep-wool.md) · 9 บรรทัด
+- [ยังไม่ยืนยัน](breeding/unverified.md) · 9 บรรทัด
+
 ## brewing (`brewing/`)
 
 - [ขวดน้ำ → Awkward → ยา](brewing/base-chain.md) · 9 บรรทัด
@@ -284,6 +300,32 @@
 - [เอฟเฟกต์ Resistance](health/resistance.md) · 7 บรรทัด
 - [โทเท็มแห่งความเป็นอมตะ](health/totem.md) · 14 บรรทัด
 - [ยังไม่ยืนยัน](health/unverified.md) · 6 บรรทัด
+
+## loot (`loot/`)
+
+- [เมืองโบราณ](loot/ancient-city.md) · 15 บรรทัด
+- [ซากบาสชั่น (treasure / bridge / hoglin-stable / housing / generic)](loot/bastion.md) · 24 บรรทัด
+- [อันดับโครงสร้างให้เหล็กเร็วสุด [คิดเอง]](loot/best-loot-for-iron.md) · 13 บรรทัด
+- [ขุมทรัพย์ฝังดิน](loot/buried-treasure.md) · 11 บรรทัด
+- [พีระมิดทะเลทราย](loot/desert-pyramid.md) · 10 บรรทัด
+- [เมืองเอ็นด์](loot/end-city.md) · 11 บรรทัด
+- [อิกลู](loot/igloo.md) · 10 บรรทัด
+- [พีระมิดป่า](loot/jungle-pyramid.md) · 12 บรรทัด
+- [เหมืองร้าง (minecart with chest)](loot/mineshaft.md) · 14 บรรทัด
+- [ห้องมอนสเตอร์](loot/monster-room.md) · 14 บรรทัด
+- [ป้อมเนเธอร์](loot/nether-fortress.md) · 12 บรรทัด
+- [ซากมหาสมุทร (warm/cold)](loot/ocean-ruins.md) · 10 บรรทัด
+- [ด่านผู้ปล้น](loot/pillager-outpost.md) · 13 บรรทัด
+- [พอร์ทัลพัง](loot/ruined-portal.md) · 8 บรรทัด
+- [เรืออับปาง (supply / map / treasure)](loot/shipwreck.md) · 13 บรรทัด
+- [ป้อมปราการ (altar / library / corridor)](loot/stronghold.md) · 15 บรรทัด
+- [ซากเส้นทาง (suspicious gravel)](loot/trail-ruins.md) · 11 บรรทัด
+- [Vault ห้องทดสอบ](loot/trial-vaults.md) · 7 บรรทัด
+- [ยังไม่ยืนยัน](loot/unverified.md) · 9 บรรทัด
+- [หมู่บ้าน: ช่างเกราะ / ช่างเครื่องมือ](loot/village-armorer-toolsmith.md) · 16 บรรทัด
+- [หมู่บ้าน: หีบช่างตีอาวุธ](loot/village-weaponsmith.md) · 13 บรรทัด
+- [กระท่อมแม่มด](loot/witch-hut.md) · 7 บรรทัด
+- [คฤหาสน์ป่า](loot/woodland-mansion.md) · 15 บรรทัด
 
 ## ม็อบ overworld (1 ตัว/ไฟล์) (`mobs/`)
 

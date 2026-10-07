@@ -2147,6 +2147,165 @@
   "lines": 5
  },
  {
+  "path": "breeding/core-rules.md",
+  "title": "กฎกลางการผสมพันธุ์",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "core",
+   "rules"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "breeding/food-table.md",
+  "title": "ตารางอาหารผสม + เร่งโต",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "food",
+   "table"
+  ],
+  "lines": 27
+ },
+ {
+  "path": "breeding/equines.md",
+  "title": "ม้า/ลา/ล่อ/ลามะ เร่งโต",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "equines"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "breeding/food-values.md",
+  "title": "ค่า hunger/saturation ของผลผลิต",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "hunger",
+   "saturation",
+   "breeding",
+   "food",
+   "values"
+  ],
+  "lines": 18
+ },
+ {
+  "path": "breeding/drops-looting.md",
+  "title": "ดรอปเนื้อและ Looting/ไฟ",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "looting",
+   "breeding",
+   "drops"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "breeding/sheep-wool.md",
+  "title": "แกะ ขน และสีลูก",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "sheep",
+   "wool"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "breeding/chicken-eggs.md",
+  "title": "ไก่และไข่",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "chicken",
+   "eggs"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "breeding/mooshroom.md",
+  "title": "Mooshroom, ซุป, suspicious stew",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "mooshroom",
+   "suspicious",
+   "stew",
+   "breeding"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "breeding/nether-animals.md",
+  "title": "hoglin และ strider",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "hoglin",
+   "strider",
+   "breeding",
+   "nether",
+   "animals"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "breeding/luring-pens.md",
+  "title": "ล่อ จูง ย้าย และออกแบบคอก",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "luring",
+   "pens"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "breeding/best-farm-ranking.md",
+  "title": "จัดอันดับฟาร์มอาหารช่วงต้น [คิดเอง]",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "best",
+   "farm",
+   "ranking"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "breeding/new-26x.md",
+  "title": "สิ่งใหม่ใน 26.x ที่เกี่ยวกับการผสม",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "new"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "breeding/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "unverified"
+  ],
+  "lines": 9
+ },
+ {
   "path": "brewing/brewing-stand.md",
   "title": "แท่นต้มยาและเชื้อเพลิง",
   "group": "brewing",
@@ -3643,6 +3802,298 @@
    "unverified"
   ],
   "lines": 6
+ },
+ {
+  "path": "loot/village-weaponsmith.md",
+  "title": "หมู่บ้าน: หีบช่างตีอาวุธ",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "village",
+   "weaponsmith"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "loot/village-armorer-toolsmith.md",
+  "title": "หมู่บ้าน: ช่างเกราะ / ช่างเครื่องมือ",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "village",
+   "armorer",
+   "toolsmith"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "loot/shipwreck.md",
+  "title": "เรืออับปาง (supply / map / treasure)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "supply",
+   "map",
+   "treasure",
+   "loot",
+   "shipwreck"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "loot/buried-treasure.md",
+  "title": "ขุมทรัพย์ฝังดิน",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "buried",
+   "treasure"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "loot/ocean-ruins.md",
+  "title": "ซากมหาสมุทร (warm/cold)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "warm",
+   "cold",
+   "loot",
+   "ocean",
+   "ruins"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "loot/mineshaft.md",
+  "title": "เหมืองร้าง (minecart with chest)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "minecart",
+   "with",
+   "chest",
+   "loot",
+   "mineshaft"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "loot/monster-room.md",
+  "title": "ห้องมอนสเตอร์",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "monster",
+   "room"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "loot/stronghold.md",
+  "title": "ป้อมปราการ (altar / library / corridor)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "altar",
+   "library",
+   "corridor",
+   "loot",
+   "stronghold"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "loot/desert-pyramid.md",
+  "title": "พีระมิดทะเลทราย",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "desert",
+   "pyramid"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "loot/jungle-pyramid.md",
+  "title": "พีระมิดป่า",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "jungle",
+   "pyramid"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "loot/pillager-outpost.md",
+  "title": "ด่านผู้ปล้น",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "pillager",
+   "outpost"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "loot/woodland-mansion.md",
+  "title": "คฤหาสน์ป่า",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "woodland",
+   "mansion"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "loot/igloo.md",
+  "title": "อิกลู",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "igloo"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "loot/ruined-portal.md",
+  "title": "พอร์ทัลพัง",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "ruined",
+   "portal"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "loot/nether-fortress.md",
+  "title": "ป้อมเนเธอร์",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "nether",
+   "fortress"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "loot/bastion.md",
+  "title": "ซากบาสชั่น (treasure / bridge / hoglin-stable / housing / generic)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "treasure",
+   "bridge",
+   "hoglin",
+   "stable",
+   "housing",
+   "generic",
+   "loot",
+   "bastion"
+  ],
+  "lines": 24
+ },
+ {
+  "path": "loot/end-city.md",
+  "title": "เมืองเอ็นด์",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "end",
+   "city"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "loot/ancient-city.md",
+  "title": "เมืองโบราณ",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "ancient",
+   "city"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "loot/trail-ruins.md",
+  "title": "ซากเส้นทาง (suspicious gravel)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "suspicious",
+   "gravel",
+   "loot",
+   "trail",
+   "ruins"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "loot/witch-hut.md",
+  "title": "กระท่อมแม่มด",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "witch",
+   "hut"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "loot/trial-vaults.md",
+  "title": "Vault ห้องทดสอบ",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "vault",
+   "loot",
+   "trial",
+   "vaults"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "loot/best-loot-for-iron.md",
+  "title": "อันดับโครงสร้างให้เหล็กเร็วสุด [คิดเอง]",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "best",
+   "for",
+   "iron"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "loot/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "unverified"
+  ],
+  "lines": 9
  },
  {
   "path": "navigation/coordinates.md",

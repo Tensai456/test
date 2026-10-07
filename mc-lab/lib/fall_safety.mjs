@@ -54,6 +54,9 @@ export function clutchWindow(height, { reach = DEFAULT_REACH, vy0 = 0 } = {}) {
 // เลือก clutch ตามของในกระเป๋า/มิติ/มีผนังข้างตัว · inventory = Set หรือ array ของชื่อไอเทม
 // fallDistance/hp (ถ้าให้มา): ข้ามของที่ลดดาเมจไม่หมด (ฟาง/น้ำผึ้ง เหลือ 20%) ถ้ายังตายได้
 const PARTIAL = { hay_block: 'hay_block', honey_block: 'honey_block' };
+// นั่งร้าน: ต้องย่อตอนลง · ตกสูงมากต้องซ้อน ≥2 ชั้น ชั้นเดียวกันได้เฉพาะความสูงน้อย (W/Scaffolding)
+// ตอนตกวางทันแค่ชั้นเดียว → ใช้ได้ถึงเกณฑ์นี้เท่านั้น · 24 = เกณฑ์แล็บ [ไม่แน่ใจ: วิกิไม่ระบุตัวเลข]
+export const SCAFFOLD_SINGLE_MAX = 24;
 export function chooseClutch({ inventory = [], dimension = 'overworld', wallAdjacent = false, fallDistance = null, hp = 20 } = {}) {
   const inv = new Set(inventory);
   const nether = dimension === 'the_nether' || dimension === 'nether';
@@ -62,6 +65,7 @@ export function chooseClutch({ inventory = [], dimension = 'overworld', wallAdja
     : ['water_bucket', 'slime_block', 'hay_block', 'honey_block', 'oak_boat', 'ladder', 'scaffolding', 'cobweb', 'powder_snow_bucket', 'ender_pearl'];
   for (const item of order) {
     if (item === 'ladder' && !wallAdjacent) continue;
+    if (item === 'scaffolding' && fallDistance != null && fallDistance > SCAFFOLD_SINGLE_MAX) continue;
     if (item === 'oak_boat') {
       const boat = [...inv].find(i => i.endsWith('_boat') || i.endsWith('_raft'));
       if (boat) return boat;
