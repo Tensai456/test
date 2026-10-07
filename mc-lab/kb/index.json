@@ -2494,7 +2494,7 @@
    "sugar",
    "cane"
   ],
-  "lines": 9
+  "lines": 10
  },
  {
   "path": "farming/stem-crops.md",
@@ -2517,7 +2517,7 @@
    "farming",
    "cactus"
   ],
-  "lines": 8
+  "lines": 9
  },
  {
   "path": "farming/bamboo-kelp.md",
@@ -2529,7 +2529,7 @@
    "bamboo",
    "kelp"
   ],
-  "lines": 9
+  "lines": 11
  },
  {
   "path": "farming/sweet-berries-cocoa.md",
@@ -2565,7 +2565,7 @@
    "farming",
    "mushroom"
   ],
-  "lines": 8
+  "lines": 9
  },
  {
   "path": "farming/trees.md",
@@ -2611,7 +2611,7 @@
    "farming",
    "unverified"
   ],
-  "lines": 5
+  "lines": 4
  },
  {
   "path": "fishing/wait-and-bite.md",

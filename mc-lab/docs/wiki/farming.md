@@ -5,7 +5,7 @@
 | รายการ | ค่า | แหล่ง |
 |---|---|---|
 | ระยะโต (wheat) | 8 stage | W/Wheat |
-| แครอท/มันฝรั่ง | 8 stage (texture เปลี่ยน 4 ครั้ง) | W/Carrot, W/Potato |
+| แครอท/มันฝรั่ง | 8 stage, age 0–7 (7 = โตเต็ม; texture เปลี่ยน 4 แบบ: 0–1, 2–3, 4–6, 7) | W/Carrot, W/Potato |
 | แสงขั้นต่ำที่ block พืช | 9 | W/Tutorial:Crop_farming |
 | ความเร็วฐานของ farmland | แห้ง 2 / ชุ่ม 4 | W/Tutorial:Crop_farming |
 | เวลาต่อ stage | ~5 นาที (ดีสุด) ถึง ~35 นาที (แย่สุด) | W/Tutorial:Crop_farming |
@@ -52,8 +52,9 @@
 | เพิ่ม 1 block | เมื่อ top ได้ 16 random tick (เฉลี่ย ~18 นาที Java) | W/Sugar_Cane |
 | น้ำ | ต้องติดข้างๆ โดยตรง (ไม่นับทแยง/ด้านบน) | W/Sugar_Cane |
 | หลุดเมื่อไร้น้ำ | block update/random tick ถัดไป | W/Sugar_Cane |
+| พื้นปลูกได้ | grass block, dirt, coarse dirt, rooted dirt, podzol, mycelium, sand, red sand, suspicious sand, moss/pale moss block, mud, muddy mangrove roots (ต้องติดน้ำ/waterlogged/frosted ice ข้างๆ) หรือบนอ้อยอีกต้น | W/Sugar_Cane |
 
-บอตควร: ปลูกบนทราย/ดินติดน้ำ; ตัด block ที่ 2 ขึ้นไป เหลือฐานไว้ (ชนิดพื้นที่ปลูกได้ [ไม่แน่ใจ] ในสรุปนี้)
+บอตควร: ปลูกบนทราย/ดินติดน้ำ; ตัด block ที่ 2 ขึ้นไป เหลือฐานไว้ (ดูตารางพื้นปลูก)
 ตัดสินผล: เกณฑ์แล็บ — ผ่านถ้าได้ ≥2 อ้อยต่อรอบเก็บโดยฐานยังอยู่
 
 ## stem-crops · ฟักทอง/แตงโม
@@ -73,6 +74,7 @@
 | สูงสุด | 3 block (ต่อ 16 random tick) | W/Cactus |
 | block ข้างเคียง | block ใดๆ ติดข้าง ทำให้ cactus หัก | W/Cactus |
 | ทรายตกทับ | กลายเป็นไอเทม ไม่ทำลายต้น | W/Cactus |
+| พื้นปลูกได้ | sand, red sand, suspicious sand หรือบน cactus อีกต้น | W/Cactus |
 
 บอตควร: อย่าให้มี block ข้างต้น (เว้น 1 ช่องรอบ), เก็บ block ที่ 2–3; ระวังดาเมจจากการชน
 ตัดสินผล: เกณฑ์แล็บ — ผ่านถ้าไม่ได้ดาเมจและเก็บได้ ≥1 ชิ้น/รอบ
@@ -82,6 +84,8 @@
 |---|---|---|
 | ไผ่ ความสูง | 12–16 | W/Bamboo |
 | ไผ่ แสงยอด | ≥9 (ต่ำกว่า 8 ไม่โต) | W/Bamboo |
+| ไผ่ โต | 1/3 ต่อ random tick (เฉลี่ย ~204.8 วินาที ที่ tick speed 3) | W/Bamboo |
+| ไผ่ พื้นปลูกได้ | moss/pale moss block, grass block, dirt, coarse dirt, rooted dirt, gravel, mycelium, podzol, sand, red sand, suspicious sand/gravel, mud, muddy mangrove roots, หรือไผ่ | W/Bamboo |
 | kelp สูงสุด | age 25 หยุดโต; สูง 2–26 | W/Kelp |
 | kelp โอกาสโต | 14% ต่อ random tick (~487.6 วินาทีเฉลี่ย) | W/Kelp |
 
@@ -117,6 +121,7 @@
 |---|---|---|
 | เห็ดน้ำตาลแพร่ | 4% ต่อ tick ถ้า <5 ต้นใน 9×9×3 | W/Brown_Mushroom |
 | แสงที่แพร่ได้ | ≤13 (วางได้ที่ ≤12) | W/Brown_Mushroom |
+| ความสูงเห็ดยักษ์ | 5–7 block; โอกาส 1/12 สูงเป็นสองเท่า −1 (9/11/13); ต้องโล่งเหนือเห็ด ≥5 (7 ให้ขึ้นได้ส่วนใหญ่, 13 ให้เกิดได้ทุกแบบ); bone meal สำเร็จ 40% | W/Huge_Mushroom, W/Red_Mushroom |
 | bone meal → เห็ดยักษ์ | บน mycelium/podzol ทุกแสง; ดิน/หญ้าแสง ≤12; ว่างเหนือหัว 5 block | W/Brown_Mushroom |
 
 บอตควร: เก็บในที่มืด/mycelium; เว้นที่ว่างก่อนใช้ bone meal
@@ -131,7 +136,7 @@
 | dark oak | 3×3 สูง ≥7 เหนือต้นกล้า NW (นับรวม 8) | W/Sapling |
 | cherry | 5×5 สูง 8 (นับรวม 9) | W/Sapling |
 
-บอตควร: โล่งก่อนปลูก, เก็บใบ/ตัดท่อน, ปลูกซ้ำ; dark oak ต้อง 2×2 [ไม่แน่ใจ ยังไม่เห็นในสรุป]
+บอตควร: โล่งก่อนปลูก, เก็บใบ/ตัดท่อน, ปลูกซ้ำ; dark oak ต้องปลูก 4 ต้นเป็น 2×2 (ปลูกต้นเดียวไม่โต; W/Sapling) และต้นกล้า NW ต้องมีที่ว่าง 3×3 เหนือหัว
 ตัดสินผล: เกณฑ์แล็บ — ผ่านถ้าเติบโตเป็นต้นภายในกรอบเวลาที่ตั้ง
 
 ## composter · คอมโพสเตอร์
@@ -159,7 +164,6 @@
 
 ## unverified · ยังไม่ยืนยัน
 - เกณฑ์ "ตัดสินผล" ทั้งหมดเป็น threshold ของแล็บ ไม่ใช่ค่าวิกิ
-- ชนิด block ที่ปลูกอ้อย/กระบองเพชรได้ [ไม่แน่ใจ]
-- ระยะ age ของ potato/carrot ยืนยันแค่ "8 stage" ไม่รู้ age สูงสุด (น่าจะ 7) [ไม่แน่ใจ]
-- ความสูงเห็ดยักษ์ชนิดแดง, รัศมีไผ่/ดินปลูกไผ่ [ไม่แน่ใจ]
+- รัศมีไผ่ (ระยะแพร่/ขอบเขต) [ไม่แน่ใจ]
+- ค่า age สูงสุดของ kelp/ไผ่ในระดับ block state ละเอียด ไม่ได้ตรวจ [ไม่แน่ใจ]
 - อ่านจากสรุปผลค้น ไม่ได้ดึงหน้าเต็ม (fetch ถูกบล็อก)

@@ -141,20 +141,20 @@
 ## farming (`farming/`)
 
 - [ไอเดียฟาร์มอัตโนมัติ (บอตทำได้)](farming/auto-farm-ideas.md) · 10 บรรทัด
-- [ไผ่และสาหร่ายทะเล](farming/bamboo-kelp.md) · 9 บรรทัด
+- [ไผ่และสาหร่ายทะเล](farming/bamboo-kelp.md) · 11 บรรทัด
 - [บีทรูท](farming/beetroot.md) · 8 บรรทัด
 - [ปุ๋ยกระดูก](farming/bone-meal.md) · 9 บรรทัด
-- [กระบองเพชร](farming/cactus.md) · 8 บรรทัด
+- [กระบองเพชร](farming/cactus.md) · 9 บรรทัด
 - [คอมโพสเตอร์](farming/composter.md) · 9 บรรทัด
 - [พืชหลัก (ข้าวสาลี/แครอท/มันฝรั่ง)](farming/crops-wheat.md) · 11 บรรทัด
 - [น้ำและการเหยียบ farmland](farming/hydration-trampling.md) · 8 บรรทัด
-- [เห็ด](farming/mushroom.md) · 8 บรรทัด
+- [เห็ด](farming/mushroom.md) · 9 บรรทัด
 - [เนเธอร์วอร์ต](farming/nether-wart.md) · 10 บรรทัด
 - [ฟักทอง/แตงโม](farming/stem-crops.md) · 9 บรรทัด
-- [อ้อย](farming/sugar-cane.md) · 9 บรรทัด
+- [อ้อย](farming/sugar-cane.md) · 10 บรรทัด
 - [เบอร์รี่หวาน/โกโก้](farming/sweet-berries-cocoa.md) · 10 บรรทัด
 - [ต้นไม้/ต้นกล้า](farming/trees.md) · 10 บรรทัด
-- [ยังไม่ยืนยัน](farming/unverified.md) · 5 บรรทัด
+- [ยังไม่ยืนยัน](farming/unverified.md) · 4 บรรทัด
 
 ## fishing (`fishing/`)
 

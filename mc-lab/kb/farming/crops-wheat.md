@@ -6,7 +6,7 @@
 | รายการ | ค่า | แหล่ง |
 |---|---|---|
 | ระยะโต (wheat) | 8 stage | W/Wheat |
-| แครอท/มันฝรั่ง | 8 stage (texture เปลี่ยน 4 ครั้ง) | W/Carrot, W/Potato |
+| แครอท/มันฝรั่ง | 8 stage, age 0–7 (7 = โตเต็ม; texture เปลี่ยน 4 แบบ: 0–1, 2–3, 4–6, 7) | W/Carrot, W/Potato |
 | แสงขั้นต่ำที่ block พืช | 9 | W/Tutorial:Crop_farming |
 | ความเร็วฐานของ farmland | แห้ง 2 / ชุ่ม 4 | W/Tutorial:Crop_farming |
 | เวลาต่อ stage | ~5 นาที (ดีสุด) ถึง ~35 นาที (แย่สุด) | W/Tutorial:Crop_farming |

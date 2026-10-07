@@ -7,6 +7,8 @@
 |---|---|---|
 | ไผ่ ความสูง | 12–16 | W/Bamboo |
 | ไผ่ แสงยอด | ≥9 (ต่ำกว่า 8 ไม่โต) | W/Bamboo |
+| ไผ่ โต | 1/3 ต่อ random tick (เฉลี่ย ~204.8 วินาที ที่ tick speed 3) | W/Bamboo |
+| ไผ่ พื้นปลูกได้ | moss/pale moss block, grass block, dirt, coarse dirt, rooted dirt, gravel, mycelium, podzol, sand, red sand, suspicious sand/gravel, mud, muddy mangrove roots, หรือไผ่ | W/Bamboo |
 | kelp สูงสุด | age 25 หยุดโต; สูง 2–26 | W/Kelp |
 | kelp โอกาสโต | 14% ต่อ random tick (~487.6 วินาทีเฉลี่ย) | W/Kelp |
 
