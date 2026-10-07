@@ -3445,6 +3445,124 @@
   "lines": 6
  },
  {
+  "path": "ores-world/height-limits.md",
+  "title": "ขีดจำกัดความสูงโลก",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ores",
+   "world",
+   "height",
+   "limits"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "ores-world/iron.md",
+  "title": "เหล็ก (ลำดับความสำคัญสูงสุดของ iron race)",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "iron",
+   "race",
+   "ores",
+   "world"
+  ],
+  "lines": 21
+ },
+ {
+  "path": "ores-world/ore-sizes.md",
+  "title": "ขนาด blob และจำนวนครั้งต่อ chunk",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "blob",
+   "chunk",
+   "ores",
+   "world",
+   "ore",
+   "sizes"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "ores-world/air-exposure.md",
+  "title": "การทิ้งแร่เมื่อติดอากาศ",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ores",
+   "world",
+   "air",
+   "exposure"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "ores-world/ancient-debris.md",
+  "title": "Ancient Debris",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ancient",
+   "debris",
+   "ores",
+   "world"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "ores-world/fortune.md",
+  "title": "ตัวคูณ Fortune",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "fortune",
+   "ores",
+   "world"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "ores-world/caves-aquifers.md",
+  "title": "ถ้ำและ aquifer",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "aquifer",
+   "ores",
+   "world",
+   "caves",
+   "aquifers"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "ores-world/nether-lava.md",
+  "title": "ทะเลลาวาในนรก",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ores",
+   "world",
+   "nether",
+   "lava"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "ores-world/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ores",
+   "world",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
   "path": "piglin/calm.md",
   "title": "ทำให้ไม่โกรธ",
   "group": "piglin",

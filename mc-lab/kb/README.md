@@ -346,6 +346,18 @@
 - [สรุปจุดที่ไม่แน่ใจ](nether-end/unverified.md) · 1 บรรทัด
 - [4. Wither (boss)](nether-end/wither.md) · 12 บรรทัด
 
+## ores-world (`ores-world/`)
+
+- [การทิ้งแร่เมื่อติดอากาศ](ores-world/air-exposure.md) · 8 บรรทัด
+- [Ancient Debris](ores-world/ancient-debris.md) · 11 บรรทัด
+- [ถ้ำและ aquifer](ores-world/caves-aquifers.md) · 11 บรรทัด
+- [ตัวคูณ Fortune](ores-world/fortune.md) · 14 บรรทัด
+- [ขีดจำกัดความสูงโลก](ores-world/height-limits.md) · 9 บรรทัด
+- [เหล็ก (ลำดับความสำคัญสูงสุดของ iron race)](ores-world/iron.md) · 21 บรรทัด
+- [ทะเลลาวาในนรก](ores-world/nether-lava.md) · 9 บรรทัด
+- [ขนาด blob และจำนวนครั้งต่อ chunk](ores-world/ore-sizes.md) · 14 บรรทัด
+- [ยังไม่ยืนยัน](ores-world/unverified.md) · 6 บรรทัด
+
 ## ฟิสิกส์บล็อกพิเศษ (`physics/`)
 
 - [8. สรุปกฎสำหรับบอต (checklist)](physics/bot-checklist.md) · 8 บรรทัด
