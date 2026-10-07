@@ -7,6 +7,7 @@
 //   digging:{block, canHarvest, belowFeet}, idleSeconds, action, effects:[name], freezing }
 import fs from 'node:fs';
 import path from 'node:path';
+import { chooseClutch } from './fall_safety.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const load = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', f), 'utf8'));
@@ -50,6 +51,11 @@ export function test(c, s) {
       lacksAll: () => v.every((it) => count(s, it) === 0),
       flag: () => !!s.flags?.[v],
       notFlag: () => !s.flags?.[v],
+      clutch: () => !!chooseClutch({ inventory: Object.keys(s.inv ?? {}).filter((k) => s.inv[k] > 0), dimension: s.dim, wallAdjacent: !!s.wallAdjacent }) === v,
+      teammateNeeds: () => (s.team ?? []).some((m) => m.hp < v.hpBelow && m.dist <= v.within),
+      selfHpAtLeast: () => s.hp >= v,
+      nearBlock: () => (s.nearBlocks ?? []).some((b) => v.type.includes(b.type) && b.dist <= v.within),
+      woodNearby: () => (s.woodNearby ?? true) === v,
       hasEffect: () => (s.effects ?? []).includes(v),
       freezing: () => !!s.freezing === v,
       digging: () => !!s.digging && Object.entries(v).every(([kk, vv]) => s.digging[kk] === vv),
@@ -79,7 +85,8 @@ export function matchTriggers(state) {
 export function nextStep(goal, state) {
   const steps = CHAINS[goal];
   if (!steps) throw new Error(`ไม่มี chain: ${goal}`);
-  const i = steps.findIndex((st) => !test(st.done, state));
+  // step ที่มี roles ใช้เฉพาะบทบาทนั้น (เช่น อีเต้อเหล็กให้นักขุด 1 ตัว — กฎ jing) · ไม่ระบุ role = ทำทุกขั้น
+  const i = steps.findIndex((st) => !(st.roles && state.role && !st.roles.includes(state.role)) && !test(st.done, state));
   return i < 0 ? null : { goal, index: i, total: steps.length, ...steps[i] };
 }
 

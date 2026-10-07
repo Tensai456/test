@@ -13,7 +13,7 @@ test('ทุกไฟล์ kb ที่ trigger/chain อ้างถึง ม
 });
 
 test('ตกจากที่สูง + มีครีปเปอร์ → clutch มาก่อน', () => {
-  const r = matchTriggers({ hp: 20, food: 20, dim: 'overworld', fallDistance: 12, nearby: [{ type: 'creeper', dist: 2, hostile: true }] });
+  const r = matchTriggers({ hp: 20, food: 20, dim: 'overworld', fallDistance: 12, inv: { water_bucket: 1 }, nearby: [{ type: 'creeper', dist: 2, hostile: true }] });
   assert.equal(r[0].id, 'falling');
   assert.ok(r.some((t) => t.id === 'creeper-fusing'));
 });

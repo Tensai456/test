@@ -1,37 +1,414 @@
 {
  "first_night": [
-  {"id": "logs", "title": "ซุง ≥4", "done": {"hasAny": {"oak_log|spruce_log|birch_log|jungle_log|acacia_log|dark_oak_log|mangrove_log|cherry_log|pale_oak_log": 4}}, "kb": ["progression/p01-wood-table.md", "problems/p04-desert-no-wood.md"]},
-  {"id": "table", "title": "โต๊ะคราฟต์", "done": {"has": {"crafting_table": 1}}, "kb": ["blocks/_recipes.md"]},
-  {"id": "wood-pick", "title": "อีเต้อไม้", "done": {"hasAny": {"wooden_pickaxe|stone_pickaxe|iron_pickaxe|diamond_pickaxe": 1}}, "kb": ["blocks/_recipes.md", "problems/p01-mining-wrong-tool.md"]},
-  {"id": "stone-tools", "title": "อีเต้อหิน + ดาบหิน", "done": {"hasAny": {"stone_pickaxe|iron_pickaxe|diamond_pickaxe": 1, "stone_sword|iron_sword|diamond_sword": 1}}, "kb": ["progression/p02-stone-furnace.md"]},
-  {"id": "food", "title": "อาหารสุก ≥5", "done": {"hasAny": {"cooked_beef|cooked_porkchop|cooked_mutton|cooked_chicken|bread|cooked_cod|cooked_salmon": 5}}, "kb": ["progression/p03-food.md", "animals/breeding-rules.md"]},
-  {"id": "bed", "title": "เตียง", "done": {"hasAnySuffix": {"_bed": 1}}, "kb": ["progression/p04-bed.md", "problems/p10-home-near-hole.md"]},
-  {"id": "torches", "title": "คบเพลิง ≥8", "done": {"has": {"torch": 8}}, "kb": ["blocks/_recipes.md"]}
+  {
+   "id": "logs",
+   "title": "ซุง ≥4",
+   "done": {
+    "hasAny": {
+     "oak_log|spruce_log|birch_log|jungle_log|acacia_log|dark_oak_log|mangrove_log|cherry_log|pale_oak_log": 4
+    }
+   },
+   "kb": [
+    "progression/p01-wood-table.md",
+    "problems/p04-desert-no-wood.md"
+   ]
+  },
+  {
+   "id": "table",
+   "title": "โต๊ะคราฟต์",
+   "done": {
+    "has": {
+     "crafting_table": 1
+    }
+   },
+   "kb": [
+    "blocks/_recipes.md"
+   ]
+  },
+  {
+   "id": "wood-pick",
+   "title": "อีเต้อไม้",
+   "done": {
+    "hasAny": {
+     "wooden_pickaxe|stone_pickaxe|iron_pickaxe|diamond_pickaxe": 1
+    }
+   },
+   "kb": [
+    "blocks/_recipes.md",
+    "problems/p01-mining-wrong-tool.md"
+   ]
+  },
+  {
+   "id": "stone-tools",
+   "title": "อีเต้อหิน + ดาบหิน",
+   "done": {
+    "hasAny": {
+     "stone_pickaxe|iron_pickaxe|diamond_pickaxe": 1,
+     "stone_sword|iron_sword|diamond_sword": 1
+    }
+   },
+   "kb": [
+    "progression/p02-stone-furnace.md"
+   ]
+  },
+  {
+   "id": "food",
+   "title": "อาหารสุก ≥5",
+   "done": {
+    "hasAny": {
+     "cooked_beef|cooked_porkchop|cooked_mutton|cooked_chicken|bread|cooked_cod|cooked_salmon": 5
+    }
+   },
+   "kb": [
+    "progression/p03-food.md",
+    "animals/breeding-rules.md"
+   ]
+  },
+  {
+   "id": "bed",
+   "title": "เตียง",
+   "done": {
+    "hasAnySuffix": {
+     "_bed": 1
+    }
+   },
+   "kb": [
+    "progression/p04-bed.md",
+    "problems/p10-home-near-hole.md"
+   ]
+  },
+  {
+   "id": "torches",
+   "title": "คบเพลิง ≥8",
+   "done": {
+    "has": {
+     "torch": 8
+    }
+   },
+   "kb": [
+    "blocks/_recipes.md"
+   ]
+  }
  ],
  "iron_kit": [
-  {"id": "stone-pick", "title": "อีเต้อหิน", "done": {"hasAny": {"stone_pickaxe|iron_pickaxe|diamond_pickaxe": 1}}, "kb": ["progression/p02-stone-furnace.md"]},
-  {"id": "furnace", "title": "เตา", "done": {"has": {"furnace": 1}}, "kb": ["navigation/smelting-list.md"]},
-  {"id": "iron-pick", "title": "อีเต้อเหล็ก (นักขุด 1 ตัว — กฎ jing)", "done": {"hasAny": {"iron_pickaxe|diamond_pickaxe": 1}}, "kb": ["progression/p05-iron.md", "progression/ores-y-levels.md"]},
-  {"id": "chestplate", "title": "เสื้อเกราะเหล็กก่อน (กฎ jing)", "done": {"hasOrWear": {"iron_chestplate": 1}}, "kb": ["progression/armor.md"]},
-  {"id": "sword", "title": "ดาบเหล็ก", "done": {"has": {"iron_sword": 1}}, "kb": ["weapons/melee.md"]},
-  {"id": "shield", "title": "โล่", "done": {"hasOrWear": {"shield": 1}}, "kb": ["blocks/_recipes.md"]},
-  {"id": "bucket", "title": "ถังน้ำ (clutch)", "done": {"has": {"water_bucket": 1}}, "kb": ["movement/clutch-mlg.md"]},
-  {"id": "armor-rest", "title": "เกราะเหล็กครบ", "done": {"hasOrWear": {"iron_helmet": 1, "iron_leggings": 1, "iron_boots": 1}}, "kb": ["progression/iron-first-set.md"]}
+  {
+   "id": "stone-pick",
+   "title": "อีเต้อหิน",
+   "done": {
+    "hasAny": {
+     "stone_pickaxe|iron_pickaxe|diamond_pickaxe": 1
+    }
+   },
+   "kb": [
+    "progression/p02-stone-furnace.md"
+   ]
+  },
+  {
+   "id": "furnace",
+   "title": "เตา",
+   "done": {
+    "has": {
+     "furnace": 1
+    }
+   },
+   "kb": [
+    "navigation/smelting-list.md"
+   ]
+  },
+  {
+   "id": "iron-pick",
+   "title": "อีเต้อเหล็ก (นักขุด 1 ตัว — กฎ jing)",
+   "done": {
+    "hasAny": {
+     "iron_pickaxe|diamond_pickaxe": 1
+    }
+   },
+   "kb": [
+    "progression/p05-iron.md",
+    "progression/ores-y-levels.md"
+   ],
+   "roles": [
+    "miner"
+   ]
+  },
+  {
+   "id": "chestplate",
+   "title": "เสื้อเกราะเหล็กก่อน (กฎ jing)",
+   "done": {
+    "hasOrWear": {
+     "iron_chestplate": 1
+    }
+   },
+   "kb": [
+    "progression/armor.md"
+   ]
+  },
+  {
+   "id": "sword",
+   "title": "ดาบเหล็ก",
+   "done": {
+    "has": {
+     "iron_sword": 1
+    }
+   },
+   "kb": [
+    "weapons/melee.md"
+   ]
+  },
+  {
+   "id": "shield",
+   "title": "โล่",
+   "done": {
+    "hasOrWear": {
+     "shield": 1
+    }
+   },
+   "kb": [
+    "blocks/_recipes.md"
+   ]
+  },
+  {
+   "id": "bucket",
+   "title": "ถังน้ำ (clutch)",
+   "done": {
+    "has": {
+     "water_bucket": 1
+    }
+   },
+   "kb": [
+    "movement/clutch-mlg.md"
+   ]
+  },
+  {
+   "id": "armor-rest",
+   "title": "เกราะเหล็กครบ",
+   "done": {
+    "hasOrWear": {
+     "iron_helmet": 1,
+     "iron_leggings": 1,
+     "iron_boots": 1
+    }
+   },
+   "kb": [
+    "progression/iron-first-set.md"
+   ]
+  }
  ],
  "nether": [
-  {"id": "diamond-pick", "title": "อีเต้อเพชร (หรือหล่อ obsidian ด้วยถังลาวา)", "done": {"anyOf": [{"has": {"diamond_pickaxe": 1}}, {"has": {"obsidian": 10}}]}, "kb": ["progression/p06-diamond.md", "progression/p08-nether-portal.md"]},
-  {"id": "obsidian", "title": "obsidian ≥10", "done": {"has": {"obsidian": 10}}, "kb": ["nether-end/e1-portal-build.md"]},
-  {"id": "flint-steel", "title": "หินเหล็กไฟ", "done": {"has": {"flint_and_steel": 1}}, "kb": ["blocks/_recipes.md"]},
-  {"id": "gold-boots", "title": "รองเท้าทอง", "done": {"hasOrWear": {"golden_boots": 1}}, "kb": ["nether-end/e7-gold-armor.md"]},
-  {"id": "fire-res", "title": "ยากันไฟ (ถ้ามี) + บล็อกสำรอง ≥64", "done": {"has": {"cobblestone": 64}}, "kb": ["brewing/bot-loadout.md", "nether-end/e3-water-lava.md"]},
-  {"id": "enter", "title": "สร้างประตู + เข้านรก (จดพิกัดประตู)", "done": {"dim": "the_nether"}, "kb": ["nether-end/e1-portal-build.md", "navigation/nether-travel.md", "nether-end/e2-portal-coords-lost.md"]}
+  {
+   "id": "diamond-pick",
+   "title": "อีเต้อเพชร (หรือหล่อ obsidian ด้วยถังลาวา)",
+   "done": {
+    "anyOf": [
+     {
+      "has": {
+       "diamond_pickaxe": 1
+      }
+     },
+     {
+      "has": {
+       "obsidian": 10
+      }
+     }
+    ]
+   },
+   "kb": [
+    "progression/p06-diamond.md",
+    "progression/p08-nether-portal.md"
+   ]
+  },
+  {
+   "id": "obsidian",
+   "title": "obsidian ≥10",
+   "done": {
+    "has": {
+     "obsidian": 10
+    }
+   },
+   "kb": [
+    "nether-end/e1-portal-build.md"
+   ]
+  },
+  {
+   "id": "flint-steel",
+   "title": "หินเหล็กไฟ",
+   "done": {
+    "has": {
+     "flint_and_steel": 1
+    }
+   },
+   "kb": [
+    "blocks/_recipes.md"
+   ]
+  },
+  {
+   "id": "gold-boots",
+   "title": "รองเท้าทอง",
+   "done": {
+    "hasOrWear": {
+     "golden_boots": 1
+    }
+   },
+   "kb": [
+    "nether-end/e7-gold-armor.md"
+   ]
+  },
+  {
+   "id": "fire-res",
+   "title": "ยากันไฟ (ถ้ามี) + บล็อกสำรอง ≥64",
+   "done": {
+    "has": {
+     "cobblestone": 64
+    }
+   },
+   "kb": [
+    "brewing/bot-loadout.md",
+    "nether-end/e3-water-lava.md"
+   ]
+  },
+  {
+   "id": "enter",
+   "title": "สร้างประตู + เข้านรก (จดพิกัดประตู)",
+   "done": {
+    "dim": "the_nether"
+   },
+   "kb": [
+    "nether-end/e1-portal-build.md",
+    "navigation/nether-travel.md",
+    "nether-end/e2-portal-coords-lost.md"
+   ]
+  }
  ],
  "end": [
-  {"id": "blaze-rods", "title": "แท่ง blaze ≥7", "done": {"anyOf": [{"has": {"blaze_rod": 7}}, {"has": {"ender_eye": 12}}]}, "kb": ["nether-end/m2-blaze.md", "progression/p09-blaze-pearl.md"]},
-  {"id": "pearls", "title": "ไข่มุก ≥12", "done": {"anyOf": [{"has": {"ender_pearl": 12}}, {"has": {"ender_eye": 12}}]}, "kb": ["mobs/enderman.md", "villagers/professions.md"]},
-  {"id": "eyes", "title": "ตาเอนเดอร์ ≥12 (+สำรองเพราะตาแตกได้)", "done": {"has": {"ender_eye": 12}}, "kb": ["blocks/_recipes.md"]},
-  {"id": "stronghold", "title": "หาป้อม (สามเหลี่ยม)", "done": {"flag": "strongholdFound"}, "kb": ["navigation/stronghold-triangulation.md", "structures/stronghold.md"]},
-  {"id": "portal", "title": "เปิดประตู End", "done": {"flag": "endPortalActive"}, "kb": ["nether-end/d1-reach-end.md"]},
-  {"id": "enter", "title": "เข้า End", "done": {"dim": "the_end"}, "kb": ["nether-end/d2-end-spawn-void.md", "nether-end/d3-ender-dragon.md"]}
+  {
+   "id": "blaze-rods",
+   "title": "แท่ง blaze ≥7",
+   "done": {
+    "anyOf": [
+     {
+      "has": {
+       "blaze_rod": 7
+      }
+     },
+     {
+      "has": {
+       "ender_eye": 12
+      }
+     }
+    ]
+   },
+   "kb": [
+    "nether-end/m2-blaze.md",
+    "progression/p09-blaze-pearl.md"
+   ]
+  },
+  {
+   "id": "pearls",
+   "title": "ไข่มุก ≥12",
+   "done": {
+    "anyOf": [
+     {
+      "has": {
+       "ender_pearl": 12
+      }
+     },
+     {
+      "has": {
+       "ender_eye": 12
+      }
+     }
+    ]
+   },
+   "kb": [
+    "mobs/enderman.md",
+    "villagers/professions.md"
+   ]
+  },
+  {
+   "id": "eyes",
+   "title": "ตาเอนเดอร์ ≥12 (+สำรองเพราะตาแตกได้)",
+   "done": {
+    "has": {
+     "ender_eye": 12
+    }
+   },
+   "kb": [
+    "blocks/_recipes.md"
+   ]
+  },
+  {
+   "id": "stronghold",
+   "title": "หาป้อม (สามเหลี่ยม)",
+   "done": {
+    "flag": "strongholdFound"
+   },
+   "kb": [
+    "navigation/stronghold-triangulation.md",
+    "structures/stronghold.md"
+   ]
+  },
+  {
+   "id": "portal",
+   "title": "เปิดประตู End",
+   "done": {
+    "flag": "endPortalActive"
+   },
+   "kb": [
+    "nether-end/d1-reach-end.md"
+   ]
+  },
+  {
+   "id": "enter",
+   "title": "เข้า End",
+   "done": {
+    "dim": "the_end"
+   },
+   "kb": [
+    "nether-end/d2-end-spawn-void.md",
+    "nether-end/d3-ender-dragon.md"
+   ]
+  }
+ ],
+ "dragon": [
+  {
+   "id": "safe-spawn",
+   "title": "ออกจากแท่นเกิด ห่างขอบ void (ต่อสะพานถ้าต้อง)",
+   "done": {
+    "flag": "endPlatformSafe"
+   },
+   "kb": [
+    "nether-end/d2-end-spawn-void.md"
+   ]
+  },
+  {
+   "id": "crystals",
+   "title": "ทำลาย end crystal ทุกอัน (ธนู/ปีนเสา — อันในกรงต้องปีนขึ้นไป)",
+   "done": {
+    "flag": "crystalsDestroyed"
+   },
+   "kb": [
+    "nether-end/d3-ender-dragon.md"
+   ]
+  },
+  {
+   "id": "dragon",
+   "title": "ตีหัวมังกรตอนเกาะแท่น · หลบลมหายใจมังกร",
+   "done": {
+    "flag": "dragonDead"
+   },
+   "kb": [
+    "nether-end/d3-ender-dragon.md"
+   ]
+  },
+  {
+   "id": "home",
+   "title": "เข้าประตูกลับ overworld",
+   "done": {
+    "dim": "overworld"
+   },
+   "kb": [
+    "nether-end/d7-return-home.md"
+   ]
+  }
  ]
 }

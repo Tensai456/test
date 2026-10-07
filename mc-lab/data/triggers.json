@@ -29,7 +29,8 @@
   "id": "falling",
   "prio": 95,
   "when": {
-   "fallingOver": 3
+   "fallingOver": 3,
+   "clutch": true
   },
   "do": "chooseClutch → สลับช่อง → มองลง (pitch −90°) → วางทุก tick ที่เข้าระยะ",
   "kb": [
@@ -40,6 +41,22 @@
    "fall_safety.chooseClutch",
    "fall_safety.clutchWindow",
    "fall_safety.mustClutch"
+  ]
+ },
+ {
+  "id": "falling-no-clutch",
+  "prio": 94,
+  "when": {
+   "fallingOver": 3,
+   "clutch": false
+  },
+  "do": "[คิดเอง] ไม่มีของกันตก: บังคับตัวกลางอากาศไปหาน้ำ/ผงหิมะ/ใบไม้/หญ้าแห้งใต้ตัว · ลงพื้นแล้วถอยจากขอบ กินฟื้นเลือด · ขอถังน้ำจากทีม",
+  "kb": [
+   "movement/fall-safe-blocks.md",
+   "movement/clutch-mlg.md"
+  ],
+  "lib": [
+   "fall_safety.fallDamage"
   ]
  },
  {
@@ -126,7 +143,7 @@
     "within": 6
    }
   },
-  "do": "ถอยออกนอกระยะก่อน แล้วกินแอปเปิลทอง/อาหาร · มีโทเท็มให้ถือมือรอง",
+  "do": "ลดโล่ก่อนถอย (ยกโล่เดินช้าเหลือ 20%) → วิ่งออกนอกระยะ → กินแอปเปิลทอง/อาหาร · มีโทเท็มให้ถือมือรอง",
   "kb": [
    "health/healing.md",
    "health/totem.md",
@@ -195,6 +212,24 @@
   "do": "ตีลูกไฟสะท้อนกลับ/ยิงธนู · ยืนหลังบล็อกกันระเบิดสูง (cobblestone) · อย่ายืนขอบลาวา",
   "kb": [
    "nether-end/m1-ghast.md"
+  ]
+ },
+ {
+  "id": "sculk-near",
+  "prio": 76,
+  "when": {
+   "nearBlock": {
+    "type": [
+     "sculk_shrieker",
+     "sculk_sensor",
+     "calibrated_sculk_sensor"
+    ],
+    "within": 8
+   }
+  },
+  "do": "ย่อเดิน (ไม่สั่นสะเทือน) · ห้ามวางบล็อก/ขุดใกล้ shrieker · ถอยออกจาก deep dark",
+  "kb": [
+   "hazards/deep-dark-warden.md"
   ]
  },
  {
@@ -378,6 +413,34 @@
   ]
  },
  {
+  "id": "death-recovery",
+  "prio": 57,
+  "when": {
+   "flag": "justDied"
+  },
+  "do": "กลับไปจุดตายภายใน 5 นาที (ของหายที่ 6000 tick) · ใช้ recovery compass ถ้ามี · ไม่ไปคนเดียวถ้าตายเพราะม็อบฝูง",
+  "kb": [
+   "hazards/death-item-loss.md",
+   "navigation/recovery-compass.md"
+  ]
+ },
+ {
+  "id": "teammate-down",
+  "prio": 56,
+  "when": {
+   "teammateNeeds": {
+    "hpBelow": 6,
+    "within": 16
+   },
+   "selfHpAtLeast": 12
+  },
+  "do": "[คิดเอง] ไปยืนระหว่างเพื่อนกับม็อบ · โยนอาหารให้ · คุ้มกันจนเพื่อนหิว ≥18",
+  "kb": [
+   "health/healing.md",
+   "mobs/_rules.md"
+  ]
+ },
+ {
   "id": "edge",
   "prio": 55,
   "when": {
@@ -386,6 +449,64 @@
   "do": "ย่อ (sneak) ค้างตอนเดินขอบ",
   "kb": [
    "movement/edges-bridging-stuck.md"
+  ]
+ },
+ {
+  "id": "hostile-approach",
+  "prio": 53,
+  "when": {
+   "near": {
+    "hostile": true,
+    "within": 10
+   },
+   "notNear": {
+    "hostile": true,
+    "within": 4
+   }
+  },
+  "do": "หยุดขุด/ทำงาน · หันหน้าหาม็อบ · ถืออาวุธ+โล่ · รอให้เข้ามาในระยะตี",
+  "kb": [
+   "mobs/_rules.md"
+  ],
+  "kbByMob": "mobs/{type}.md"
+ },
+ {
+  "id": "desert-no-wood",
+  "prio": 52,
+  "when": {
+   "woodNearby": false,
+   "lacksAll": [
+    "oak_log",
+    "spruce_log",
+    "birch_log",
+    "jungle_log",
+    "acacia_log",
+    "dark_oak_log",
+    "mangrove_log",
+    "cherry_log",
+    "pale_oak_log"
+   ]
+  },
+  "do": "ทุบพุ่มไม้แห้ง (ได้ไม้ ทำแผ่นไม้ไม่ได้) · หาหมู่บ้าน · เดินตรงทางเดียวจนเจอต้นไม้ จดจุดเกิด",
+  "kb": [
+   "problems/p04-desert-no-wood.md",
+   "biomes/desert-badlands.md"
+  ]
+ },
+ {
+  "id": "recover",
+  "prio": 51,
+  "when": {
+   "hpBelow": 8,
+   "notNear": {
+    "hostile": true,
+    "within": 16
+   }
+  },
+  "do": "[คิดเอง] พักฟื้นที่ปลอดภัย (ไม่ขุด/ไม่สำรวจ) จนเลือด ≥14 · หิว <18 ให้กินก่อน",
+  "kb": [
+   "health/health.md",
+   "problems/p02-low-hp-not-eating.md"
   ]
  },
  {
@@ -399,7 +520,7 @@
    ],
    "sheltered": false
   },
-  "do": "กลับบ้าน/นอน · ไม่มีบ้านคืนแรก: ที่หลบชั่วคราว + คบเพลิง",
+  "do": "กลับบ้าน/นอน · คืนแรกไม่มีบ้าน: เข้าเนินเขา/ที่กำบัง + คบเพลิง — [ต้องให้ jing ยืนยัน: กฎห้ามก่อกำแพงรอบตัว] ทางเลือกที่ไม่ขังตัว [คิดเอง]: ยืนในที่สว่าง (คบเพลิงรอบรัศมี) ใกล้ทีม หันหลังชนผนัง",
   "kb": [
    "problems/p11-first-night.md",
    "time-weather/sleeping.md"

@@ -12,7 +12,7 @@ const mob = (type, dist, hostile = true) => ({ type, dist, hostile });
 // [หมวด, สถานการณ์, state, goal, คาดว่า (rule id หรือ 'plan:<step id>')]
 const CASES = [
   ['ตก', 'ตกจากหน้าผา 20 บล็อก มีถังน้ำ', S({ fallDistance: 20, inv: { water_bucket: 1 } }), 'first_night', 'falling'],
-  ['ตก', 'ตก 20 บล็อก ในนรก มีแค่ถังน้ำ', S({ dim: 'the_nether', fallDistance: 20, inv: { water_bucket: 1, golden_boots: 1 } }), 'end', 'falling'],
+  ['ตก', 'ตก 20 บล็อก ในนรก มีแค่ถังน้ำ', S({ dim: 'the_nether', fallDistance: 20, inv: { water_bucket: 1, golden_boots: 1 } }), 'end', 'falling-no-clutch'],
   ['ตก', 'เดินขอบหน้าผาลึก 10', S({ edgeDepth: 10 }), 'iron_kit', 'edge'],
   ['ลาวา', 'ตกลงลาวา', S({ inLava: true, onFire: true }), 'iron_kit', 'in-lava'],
   ['ไฟ', 'ติดไฟ (โดนลูกไฟ)', S({ onFire: true }), 'iron_kit', 'on-fire'],
@@ -47,6 +47,20 @@ const CASES = [
   ['แผน', 'มีซุง 4 ยังไม่มีโต๊ะ', S({ inv: { oak_log: 4 } }), 'first_night', 'plan:table'],
   ['แผน', 'มีอีเต้อเหล็ก+เตา ยังไม่มีเกราะ', S({ inv: { iron_pickaxe: 1, furnace: 1 } }), 'iron_kit', 'plan:chestplate'],
   ['แผน', 'ชุดเหล็กครบ จะไปนรก มีเพชร 1 อัน', S({ inv: { diamond_pickaxe: 1 } }), 'nether', 'plan:obsidian'],
+  // ---- รอบ 2: หลายมุม ----
+  ['ซ้อน', 'ตกลงลาวาตอนมีครีปเปอร์ใกล้', S({ inLava: true, nearby: [mob('creeper', 2)] }), 'iron_kit', 'in-lava'],
+  ['ซ้อน', 'เลือด 6 กลางคืน โครงกระดูกยิงจาก 12', S({ hp: 6, food: 15, time: 15000, sheltered: false, inv: { bread: 3 }, nearby: [mob('skeleton', 12)] }), 'iron_kit', 'skeleton-open'],
+  ['ซ้อน', 'ตก + ติดไฟพร้อมกัน มีถังน้ำ', S({ fallDistance: 15, onFire: true, inv: { water_bucket: 1 } }), 'iron_kit', 'falling'],
+  ['ซ้อน', 'จมน้ำ + drowned ห่าง 3', S({ air: 2, nearby: [mob('drowned', 3)] }), 'iron_kit', 'drowning'],
+  ['ไม่มีของ', 'ตก 20 ไม่มีของกันตกเลย', S({ fallDistance: 20 }), 'first_night', 'falling-no-clutch'],
+  ['ไม่มีของ', 'ตก 20 ชิดกำแพง มีบันได', S({ fallDistance: 20, wallAdjacent: true, inv: { ladder: 4 } }), 'iron_kit', 'falling'],
+  ['ไม่มีของ', 'ตก 20 ในนรก มีฟาง', S({ dim: 'the_nether', fallDistance: 20, inv: { hay_block: 2, golden_boots: 1 } }), 'end', 'falling'],
+  ['biome', 'เกิดในทะเลทราย ไม่มีต้นไม้', S({ woodNearby: false }), 'first_night', 'desert-no-wood'],
+  ['biome', 'deep dark เจอ shrieker ห่าง 5', S({ nearBlocks: [{ type: 'sculk_shrieker', dist: 5 }] }), 'iron_kit', 'sculk-near'],
+  ['ทีม', 'เพื่อนเลือด 4 ห่าง 10 ตัวเองเลือดเต็ม', S({ team: [{ name: 'Fable', hp: 4, dist: 10 }] }), 'iron_kit', 'teammate-down'],
+  ['ทีม', 'เพื่อนเลือดต่ำ แต่ตัวเองเลือด 8', S({ hp: 8, team: [{ name: 'Fable', hp: 4, dist: 10 }] }), 'iron_kit', 'plan:stone-pick'],
+  ['ทีม', 'นักสู้ (ไม่ใช่นักขุด) ได้เหล็กแล้ว', S({ role: 'fighter', inv: { stone_pickaxe: 1, furnace: 1 } }), 'iron_kit', 'plan:chestplate'],
+  ['ทีม', 'นักขุดได้เหล็กแล้ว', S({ role: 'miner', inv: { stone_pickaxe: 1, furnace: 1 } }), 'iron_kit', 'plan:iron-pick'],
   ['แผน', 'มีตา 12 ยังไม่เจอป้อม', S({ inv: { ender_eye: 12 } }), 'end', 'plan:stronghold'],
 ];
 
