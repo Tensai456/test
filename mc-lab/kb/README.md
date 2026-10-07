@@ -222,6 +222,31 @@
 - [2. ผล PvP (n=400 สลับฝั่ง, ping 10–50, เกราะเหล็กทั้งคู่)](sim/pvp-results.md) · 22 บรรทัด
 - [3. ผลเอาชีวิตรอด (n=300, Normal)](sim/survival-results.md) · 20 บรรทัด
 
+## structures (`structures/`)
+
+- [เมืองโบราณ](structures/ancient-city.md) · 7 บรรทัด
+- [ซากบาสชั่น](structures/bastion-remnant.md) · 7 บรรทัด
+- [ขุมทรัพย์ฝังดิน](structures/buried-treasure.md) · 7 บรรทัด
+- [พีระมิดทะเลทราย](structures/desert-pyramid.md) · 7 บรรทัด
+- [เมืองเอ็นด์](structures/end-city.md) · 7 บรรทัด
+- [อิกลู](structures/igloo.md) · 7 บรรทัด
+- [พีระมิดป่า](structures/jungle-pyramid.md) · 7 บรรทัด
+- [เหมืองร้าง](structures/mineshaft.md) · 7 บรรทัด
+- [ห้องมอนสเตอร์ (ดันเจี้ยน)](structures/monster-room.md) · 7 บรรทัด
+- [ป้อมเนเธอร์](structures/nether-fortress.md) · 7 บรรทัด
+- [วิหารมหาสมุทร](structures/ocean-monument.md) · 7 บรรทัด
+- [ซากปรักหักพังมหาสมุทร](structures/ocean-ruins.md) · 7 บรรทัด
+- [ด่านผู้ปล้น](structures/pillager-outpost.md) · 7 บรรทัด
+- [พอร์ทัลพัง](structures/ruined-portal.md) · 7 บรรทัด
+- [เรืออับปาง](structures/shipwreck.md) · 7 บรรทัด
+- [ป้อมปราการ](structures/stronghold.md) · 7 บรรทัด
+- [ซากเส้นทาง](structures/trail-ruins.md) · 7 บรรทัด
+- [ห้องทดสอบ (สรุปสั้น)](structures/trial-chambers.md) · 7 บรรทัด
+- [ยังไม่ยืนยัน](structures/unverified.md) · 6 บรรทัด
+- [หมู่บ้าน](structures/village.md) · 7 บรรทัด
+- [กระท่อมแม่มด](structures/witch-hut.md) · 7 บรรทัด
+- [คฤหาสน์ป่า](structures/woodland-mansion.md) · 7 บรรทัด
+
 ## version-26x (`version-26x/`)
 
 - [1.21.9 Copper Age](version-26x/copper-age-1-21-9.md) · 8 บรรทัด

@@ -1686,6 +1686,264 @@
   "lines": 6
  },
  {
+  "path": "structures/village.md",
+  "title": "หมู่บ้าน",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "village"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/desert-pyramid.md",
+  "title": "พีระมิดทะเลทราย",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "desert",
+   "pyramid"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/jungle-pyramid.md",
+  "title": "พีระมิดป่า",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "jungle",
+   "pyramid"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/igloo.md",
+  "title": "อิกลู",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "igloo"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/witch-hut.md",
+  "title": "กระท่อมแม่มด",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "witch",
+   "hut"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/pillager-outpost.md",
+  "title": "ด่านผู้ปล้น",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "pillager",
+   "outpost"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/woodland-mansion.md",
+  "title": "คฤหาสน์ป่า",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "woodland",
+   "mansion"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/ocean-ruins.md",
+  "title": "ซากปรักหักพังมหาสมุทร",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "ocean",
+   "ruins"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/shipwreck.md",
+  "title": "เรืออับปาง",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "shipwreck"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/buried-treasure.md",
+  "title": "ขุมทรัพย์ฝังดิน",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "buried",
+   "treasure"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/ocean-monument.md",
+  "title": "วิหารมหาสมุทร",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "ocean",
+   "monument"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/ruined-portal.md",
+  "title": "พอร์ทัลพัง",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "ruined",
+   "portal"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/mineshaft.md",
+  "title": "เหมืองร้าง",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "mineshaft"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/monster-room.md",
+  "title": "ห้องมอนสเตอร์ (ดันเจี้ยน)",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "monster",
+   "room"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/stronghold.md",
+  "title": "ป้อมปราการ",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "stronghold"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/ancient-city.md",
+  "title": "เมืองโบราณ",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "ancient",
+   "city"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/trail-ruins.md",
+  "title": "ซากเส้นทาง",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "trail",
+   "ruins"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/trial-chambers.md",
+  "title": "ห้องทดสอบ (สรุปสั้น)",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "trial",
+   "chambers"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/nether-fortress.md",
+  "title": "ป้อมเนเธอร์",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "nether",
+   "fortress"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/bastion-remnant.md",
+  "title": "ซากบาสชั่น",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "bastion",
+   "remnant"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/end-city.md",
+  "title": "เมืองเอ็นด์",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "end",
+   "city"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
   "path": "version-26x/version-timeline.md",
   "title": "ไทม์ไลน์และเลขเวอร์ชัน",
   "group": "version-26x",
