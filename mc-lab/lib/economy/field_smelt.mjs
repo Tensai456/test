@@ -10,10 +10,14 @@ const PLANK_ITEMS = 1.5, LOG_ITEMS = 1.5;   // ซุง = เผาได้ 1.
 // ของที่ต้องเผาถึงจะใช้ได้ · เพชร/ถ่าน/เรดสโตน/ลาพิส/มรกต ขุดแล้วได้ของเลย → ห้ามเผา (เปลืองเชื้อเพลิง)
 export const NEEDS_SMELT = { raw_iron: 'iron_ingot', raw_gold: 'gold_ingot', raw_copper: 'copper_ingot', ancient_debris: 'netherite_scrap', iron_ore: 'iron_ingot', deepslate_iron_ore: 'iron_ingot', gold_ore: 'gold_ingot', copper_ore: 'copper_ingot' };
 export const NO_SMELT = ['diamond', 'coal', 'redstone', 'lapis_lazuli', 'emerald', 'raw_diamond'];
-// ความเร็วตะเวน (เดิน+มอง+เก็บ) ≈ ช้ากว่าวิ่งมาก (ASSUME) · ขุดในเหมืองช้ากว่าอีก (ASSUME)
+// ความเร็วตะเวน (เดิน+มอง+เก็บ) ≈ ช้ากว่าเดินปกติ 4.317 m/s (W/Walking) มาก (ASSUME) · ขุดในเหมืองช้ากว่าอีก (ASSUME)
 export const ROAM_SPEED = { surface: 1.5, mine: 0.6, home: 0 };
 export const ROAM_CAP = 50;          // กติกา jing: ออกหาไม้/อาหารรอบเตา ≈50 บล็อก
-export const FOOD_MIN_POINTS = 20;   // อาหารพกติดตัวขั้นต่ำนอกบ้าน = หลอดหิวเต็ม 1 หลอด (เกณฑ์แล็บ [ไม่แน่ใจ])
+// เตาหยุดเผาเมื่อชังก์ไม่โหลด (W/Smelting) → รัศมีต้องอยู่ในระยะจำลองของเซิร์ฟ (simulation-distance × 16) เผื่อ 1 ชังก์
+export const DEFAULT_SIM_CHUNKS = 10;   // ค่าเริ่ม server.properties [ไม่แน่ใจ: ค่าที่เซิร์ฟ s39 ตั้ง]
+// อาหารขั้นต่ำนอกบ้าน = หลอดหิวเต็ม 1 หลอด (เกณฑ์แล็บ) · การตะเวนเองกินน้อยมาก: เดิน 0 · วิ่ง 0.1/ม. · ขุด 0.025/บล็อก
+// · ครบ 4 exhaustion = หิว/อิ่มแฝงลด 1 (W/Hunger) → วิ่ง 100 ม. ≈ 2.5 แต้ม · ที่กินจริงคือการฟื้นเลือดและการสู้ → เผื่อ 20
+export const FOOD_MIN_POINTS = 20;
 import fs from 'node:fs';
 import path from 'node:path';
 const FOODS = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(path.dirname(new URL(import.meta.url).pathname), '..', '..', 'data', 'catalog_26.1', 'foods.json'), 'utf8')).map((f) => [f.name, f.food]));
@@ -35,7 +39,7 @@ export function fuelCapacity(inv = {}) {
 }
 
 // แผน: { smelt:[{item,n}], items, sec, fuelNeed, fuelHave, logsToChop, wait, roamRadius, returnAtSec }
-export function smeltPlan({ inv = {}, location = 'surface', furnace = 'furnace', need = { iron: Infinity, gold: Infinity, copper: 0 }, woodNearby = true } = {}) {
+export function smeltPlan({ inv = {}, location = 'surface', furnace = 'furnace', need = { iron: Infinity, gold: Infinity, copper: 0 }, woodNearby = true, simChunks = DEFAULT_SIM_CHUNKS } = {}) {
   const want = { iron_ingot: need.iron ?? Infinity, gold_ingot: need.gold ?? Infinity, copper_ingot: need.copper ?? 0, netherite_scrap: Infinity };
   const smelt = [];
   for (const [k, v] of Object.entries(inv)) {
@@ -51,7 +55,7 @@ export function smeltPlan({ inv = {}, location = 'surface', furnace = 'furnace',
   const short = Math.max(0, items - fuelHave);
   const logsToChop = Math.ceil(short / (LOG_ITEMS * 4));
   // ตะเวน: ไป-กลับให้ทันเผาเสร็จ → รัศมี ≤ เวลา × ความเร็ว ÷ 2 · ไม่เกิน 50 · ในบ้าน = รอ
-  const roamRadius = location === 'home' ? 0 : Math.min(ROAM_CAP, Math.floor((sec * ROAM_SPEED[location]) / 2));
+  const roamRadius = location === 'home' ? 0 : Math.min(ROAM_CAP, (simChunks - 1) * 16, Math.floor((sec * ROAM_SPEED[location]) / 2));
   return {
     smelt, items, sec, fuelHave, fuelNeed: items, logsToChop,
     fuelAction: short === 0 ? 'ok' : woodNearby ? 'chop-nearby' : location === 'mine' ? 'use-mined-coal' : `search-wood-${ROAM_CAP}`,

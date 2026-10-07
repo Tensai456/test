@@ -3676,7 +3676,7 @@
    "smelting",
    "locations"
   ],
-  "lines": 9
+  "lines": 10
  },
  {
   "path": "field-smelting/what-to-smelt.md",
@@ -3715,7 +3715,7 @@
    "food",
    "sourcing"
   ],
-  "lines": 3
+  "lines": 5
  },
  {
   "path": "field-smelting/roam-radius.md",
@@ -3754,6 +3754,19 @@
    "unverified"
   ],
   "lines": 1
+ },
+ {
+  "path": "field-smelting/furnace-safety.md",
+  "title": "เตานอกบ้านปลอดภัยแค่ไหน",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "furnace",
+   "safety"
+  ],
+  "lines": 2
  },
  {
   "path": "fishing/wait-and-bite.md",

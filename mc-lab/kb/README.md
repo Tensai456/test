@@ -262,9 +262,10 @@
 
 ## field-smelting (`field-smelting/`)
 
-- [อาหารไม่พอ (นอกบ้าน)](field-smelting/food-sourcing.md) · 3 บรรทัด
+- [อาหารไม่พอ (นอกบ้าน)](field-smelting/food-sourcing.md) · 5 บรรทัด
 - [เชื้อเพลิงไม่พอ](field-smelting/fuel-sourcing.md) · 3 บรรทัด
-- [ตั้งเตาที่ไหน ทำอะไรระหว่างรอ](field-smelting/locations.md) · 9 บรรทัด
+- [เตานอกบ้านปลอดภัยแค่ไหน](field-smelting/furnace-safety.md) · 2 บรรทัด
+- [ตั้งเตาที่ไหน ทำอะไรระหว่างรอ](field-smelting/locations.md) · 10 บรรทัด
 - [จำทางกลับ](field-smelting/return-trail.md) · 5 บรรทัด
 - [เกินรัศมีตะเวน](field-smelting/roam-radius.md) · 1 บรรทัด
 - [ยังไม่ยืนยัน](field-smelting/unverified.md) · 1 บรรทัด
