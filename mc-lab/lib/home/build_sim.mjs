@@ -47,6 +47,14 @@ export function simulateBuild(design, { maxPillar = 8 } = {}) {
         if (occupied.has(key(s.x, feet + 1, s.z)) && placed.has(key(s.x, feet + 1, s.z))) continue;
         if (!s.outside && !placed.has(key(s.x, 0, s.z))) continue;
         if (s.x === b.x && s.z === b.z && (b.y === feet || b.y === feet + 1)) continue;   // ห้ามวางทับตัวเอง
+        // บันได: ทิศที่หัน = ทิศที่บอตมองตอนวาง → ต้องยืนฝั่งตรงข้ามทิศ facing และมองตามแกนนั้นเป็นหลัก (mineflayer generic_place มองจุดที่คลิก)
+        const f = b.props?.facing;
+        if (b.name.endsWith('_stairs') && f) {
+          const dx = b.x - s.x, dz = b.z - s.z;
+          const ok = f === 'east' ? dx > 0 && Math.abs(dx) >= Math.abs(dz) : f === 'west' ? dx < 0 && Math.abs(dx) >= Math.abs(dz)
+            : f === 'south' ? dz > 0 && Math.abs(dz) >= Math.abs(dx) : dz < 0 && Math.abs(dz) >= Math.abs(dx);
+          if (!ok) continue;
+        }
         const d = dist(s, feet, b);
         if (d > REACH) continue;
         const walk = Math.hypot(s.x - pos.x, s.z - pos.z);

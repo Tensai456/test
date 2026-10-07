@@ -37,3 +37,18 @@ drowning (กระโดดค้าง) · creeper-fusing / charged-creeper (�
 - ค่า metadata ติดไฟ (bit 0x01) ผ่าน ViaVersion 26.1 · ระยะตกจากตัวติดตาม Y สูงสุด เทียบความเสียหายจริง
 - `team`/`flags` ต้องมีโค้ดฝั่งบอตส่งให้ (ตอนนี้ปลั๊กอินไม่รู้เองว่าอยู่ในฐาน/ใกล้หมู่บ้าน)
 - นับเวลาตอบสนอง: decide ~ไมโครวินาที/ครั้ง (fuzz 200k สถานะ ≈ 10–20 วิ รวมสุ่ม) → ไม่ใช่คอขวด
+
+## 5. สร้างบ้านตามแบบ (lib/home)
+```js
+import { cottage } from './mc-lab/lib/home/house_design.mjs';
+import { simulateBuild } from './mc-lab/lib/home/build_sim.mjs';
+import { planActions, runBuild } from './mc-lab/lib/home/build_exec.mjs';
+const design = cottage({ W: 9, L: 11 });
+const actions = planActions(design, simulateBuild(design), origin);   // origin = มุมบ้านในโลก (พื้นเรียบ — chooseFarmSite/tidyPlan)
+const io = { goto: (x, y, z) => bot.pathfinder.goto(new goals.GoalBlock(x, y, z)), pillar: towerUp, unpillar: digDown, vec: (x, y, z) => new Vec3(x, y, z) };
+let r = await runBuild(bot, actions, io);            // หยุดเองเมื่อมีภัย/ของไม่พอ/veto → r.at, r.reason
+while (!r.done) { /* ให้สมองจัดการภัย / ไปหาของ */ r = await runBuild(bot, actions, io, { from: r.at }); }
+bot.brain.snapshotHouse({ x0, y0, z0, x1, y1, z1 });  // จำแบบบ้านหลังสร้างเสร็จ
+```
+- วางด้วย `bot._placeBlockWithOptions(ref, face, { half })` (มีใน 4.39) · บันไดหลังคา: ยืนฝั่งตรงข้ามทิศ facing ให้หันถูกทาง (ตัวจำลองบังคับแล้ว)
+- `towerUp`/`digDown` = โค้ดบอต (กระโดด+วางใต้เท้า / ขุดลง) — ใช้ดินหรือหินกรวด
