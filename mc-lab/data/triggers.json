@@ -10,7 +10,8 @@
   "kb": [
    "problems/p12-bed-nether-end.md",
    "nether-end/e4-bed-anchor.md"
-  ]
+  ],
+  "veto": true
  },
  {
   "id": "in-lava",
@@ -180,7 +181,8 @@
   "kb": [
    "problems/p06-dig-down-lava.md",
    "hazards/caves-lava.md"
-  ]
+  ],
+  "veto": true
  },
  {
   "id": "brute-near",
@@ -282,6 +284,39 @@
   "do": "เข้าประชิดเร็ว (ยาสาดระยะไกล) · มีนมไว้ล้างพิษ · ฆ่าก่อนมันดื่มยารักษา",
   "kb": [
    "mobs/witch.md"
+  ]
+ },
+ {
+  "id": "blaze-ranged",
+  "prio": 73,
+  "when": {
+   "near": {
+    "type": [
+     "blaze"
+    ],
+    "within": 16
+   }
+  },
+  "do": "blaze ยิงลูกไฟระยะไกล: เข้าประชิดหลังที่กำบัง หรือใช้ธนู/ก้อนหิมะ · ดื่มยากันไฟ · ห้ามยืนรอ",
+  "kb": [
+   "nether-end/m2-blaze.md"
+  ]
+ },
+ {
+  "id": "breeze-ranged",
+  "prio": 73,
+  "when": {
+   "near": {
+    "type": [
+     "breeze"
+    ],
+    "within": 16
+   }
+  },
+  "do": "breeze ยิงลมผลัก: อยู่ห่างขอบ/หลุม · เข้าประชิดเร็ว · หลบหลังเสา",
+  "kb": [
+   "mobs/breeze.md",
+   "trial-chambers/breeze.md"
   ]
  },
  {

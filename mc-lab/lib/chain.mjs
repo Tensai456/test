@@ -90,9 +90,13 @@ export function nextStep(goal, state) {
   return i < 0 ? null : { goal, index: i, total: steps.length, ...steps[i] };
 }
 
+// veto = "ห้ามทำ" (เช่น นอนในนรก, ขุดลงตรง) — บังคับใช้เสมอ แต่ไม่แย่งลำดับกับ reflex ที่ต้องทำ (เช่น หนีลาวา)
 export function decide(state, goal) {
-  const reflex = matchTriggers(state);
-  if (reflex.length && reflex[0].prio >= REFLEX_MIN) return { mode: 'reflex', rule: reflex[0], also: reflex.slice(1, 3) };
+  const all = matchTriggers(state);
+  const vetoes = all.filter((t) => t.veto);
+  const reflex = all.filter((t) => !t.veto);
+  if (reflex.length && reflex[0].prio >= REFLEX_MIN) return { mode: 'reflex', rule: reflex[0], also: reflex.slice(1, 3), vetoes };
+  if (vetoes.length) return { mode: 'reflex', rule: vetoes[0], also: reflex.slice(0, 2), vetoes };
   const step = nextStep(goal, state);
-  return step ? { mode: 'plan', step, minor: reflex } : { mode: 'goal-done', goal, minor: reflex };
+  return step ? { mode: 'plan', step, minor: reflex, vetoes } : { mode: 'goal-done', goal, minor: reflex, vetoes };
 }
