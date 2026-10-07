@@ -76,3 +76,13 @@ test('ตาย→เกิด: หยุด pathfinder · ช่วงพัก
   assert.equal(bot.brain.think().d.rule.id, 'death-recovery');
   bot.brain.clearDeath();
 });
+
+test('จำแบบบ้าน → เจอบล็อกมั่ว', () => {
+  const bot = fakeBot(); bot.loadPlugin(brainPlugin({}));
+  let placed = false;
+  bot.blockAt = (p) => (placed && p.x === 1 && p.y === 64 && p.z === 1 ? { name: 'cobblestone', boundingBox: 'block' } : { name: 'air', boundingBox: 'empty' });
+  bot.brain.snapshotHouse({ x0: 0, y0: 64, z0: 0, x1: 2, y1: 65, z1: 2 });
+  assert.equal(bot.brain.houseCheck().clean, true);
+  placed = true;
+  assert.deepEqual(bot.brain.houseCheck().stray.map((s) => s.block), ['cobblestone']);
+});

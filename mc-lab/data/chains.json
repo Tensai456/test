@@ -413,6 +413,16 @@
  ],
  "home_keep": [
   {
+   "id": "house-clean",
+   "title": "เก็บกวาดในบ้าน: ขุดบล็อกมั่ว · ซ่อมผนัง · เก็บของตกพื้น (bot.brain.houseCheck)",
+   "done": {
+    "flag": "houseClean"
+   },
+   "kb": [
+    "home-keeping/house-clean.md"
+   ]
+  },
+  {
    "id": "stash",
    "title": "ฝากของเข้าหีบ (เว้นของขุด/อาวุธ/อาหาร)",
    "done": {

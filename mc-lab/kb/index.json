@@ -4089,6 +4089,20 @@
   "lines": 7
  },
  {
+  "path": "home-keeping/house-clean.md",
+  "title": "เก็บกวาดในบ้าน (บล็อกที่บอตวางมั่ว + ของทิ้งพื้น — กติกา jing)",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "jing",
+   "home",
+   "keeping",
+   "house",
+   "clean"
+  ],
+  "lines": 7
+ },
+ {
   "path": "home-keeping/passages.md",
   "title": "ทางเดินขึ้นบ้าน + ปากประตูต้องโล่งตลอด (กติกา jing)",
   "group": "home-keeping",

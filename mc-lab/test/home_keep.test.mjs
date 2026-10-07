@@ -57,3 +57,14 @@ test('ทางเดินขึ้นบ้าน (house-passage) ไม่ถ
   const keep = [{ x0: 1, z0: 1, x1: 3, z1: 1, why: 'house-passage' }];
   assert.equal(tidyPlan(h, 64, { keep }).actions.length, 0);
 });
+
+test('เก็บกวาดในบ้าน: บล็อกมั่วต้องขุด · ผนังหายต้องซ่อม · คบเพลิง/หีบที่เพิ่มไม่นับ · ของตกพื้นต้องเก็บ', async () => {
+  const { houseDiff, floorItems } = await import('../lib/home/home_keep.mjs');
+  const bp = new Map([['0,64,0', 'air'], ['1,64,0', 'air'], ['2,64,0', 'oak_planks'], ['3,64,0', 'air']]);
+  const now = new Map([['0,64,0', 'dirt'], ['1,64,0', 'torch'], ['2,64,0', 'air'], ['3,64,0', 'air']]);
+  const d = houseDiff(bp, now);
+  assert.deepEqual(d.stray.map((s) => s.block), ['dirt']);
+  assert.deepEqual(d.missing.map((s) => s.block), ['oak_planks']);
+  const items = floorItems([{ name: 'item', position: { x: 1, y: 64, z: 1 } }, { name: 'item', position: { x: 50, y: 64, z: 1 } }, { name: 'zombie', position: { x: 1, y: 64, z: 1 } }], { x0: 0, y0: 63, z0: 0, x1: 5, y1: 67, z1: 5 });
+  assert.equal(items.length, 1);
+});

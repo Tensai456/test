@@ -11,7 +11,7 @@ import { createTracker, toState } from './mineflayer_state.mjs';
 import { decide } from '../chain.mjs';
 import { chooseClutch } from '../fall_safety.mjs';
 import { NO_SMELT } from '../economy/field_smelt.mjs';
-import { passageBlocked, isPassageCell } from '../home/home_keep.mjs';
+import { passageBlocked, isPassageCell, houseDiff, floorItems } from '../home/home_keep.mjs';
 
 const HOSTILE_HINT = new Set(['zombie', 'skeleton', 'creeper', 'spider', 'witch', 'pillager', 'vindicator', 'blaze', 'ghast', 'wither_skeleton', 'piglin_brute', 'warden']);
 const key = (d) => (d.mode === 'reflex' ? `reflex:${d.rule.id}` : d.mode === 'plan' ? `plan:${d.step.id}` : d.mode);
@@ -111,7 +111,19 @@ export function brainPlugin(opts = {}) {
     bot.brain.startSmelt = (pos, plan) => { smelt = { pos, roamRadius: plan.roamRadius, readyAt: (bot.time?.age ?? 0) + plan.sec * 20, fuelShort: plan.fuelAction !== 'ok', foodShort: plan.foodAction !== 'ok' && plan.foodAction !== 'eat-from-chest', trail: [pos] }; };
     bot.brain.endSmelt = () => { smelt = null; };
     bot.brain.setPassages = (cells) => { passages = cells; };
-    bot.brain.clearDeath = () => { justDied = false; };   // เรียกเมื่อเก็บของคืนแล้ว/เลิกตามของ
+    bot.brain.clearDeath = () => { justDied = false; };
+    // แบบบ้าน: จำตอนบ้านเรียบร้อย → เทียบภายหลัง (บล็อกมั่ว/ผนังหาย/ของตกพื้น) · box = {x0,y0,z0,x1,y1,z1}
+    let house = null;
+    const scanBox = (box) => { const m = new Map(); const p = bot.entity.position.clone();
+      for (let x = box.x0; x <= box.x1; x++) for (let y = box.y0; y <= box.y1; y++) for (let z = box.z0; z <= box.z1; z++) { p.x = x; p.y = y; p.z = z; const b = bot.blockAt(p); if (b) m.set(`${x},${y},${z}`, b.boundingBox === 'empty' && !/torch|sign|carpet/.test(b.name) ? 'air' : b.name); }
+      return m; };
+    bot.brain.snapshotHouse = (box) => { house = { box, blueprint: scanBox(box) }; return house.blueprint.size; };
+    bot.brain.houseCheck = () => {
+      if (!house) return null;
+      const d = houseDiff(house.blueprint, scanBox(house.box));
+      const items = floorItems(Object.values(bot.entities ?? {}), house.box);
+      return { ...d, items, clean: d.clean && !items.length };
+    };   // เรียกเมื่อเก็บของคืนแล้ว/เลิกตามของ
     bot.brain.blockedPassage = () => blocked;
     bot.brain.trailBack = () => (smelt ? [...smelt.trail].reverse() : []);   // จุดทางกลับ (ส่งให้ pathfinder ทีละจุด)
 

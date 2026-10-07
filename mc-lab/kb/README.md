@@ -328,6 +328,7 @@
 ## home-keeping (`home-keeping/`)
 
 - [13 หมวด (ป้ายไม้ 13 สีติดหน้าหีบ ไม่ต้องเขียน)](home-keeping/categories.md) · 20 บรรทัด
+- [เก็บกวาดในบ้าน (บล็อกที่บอตวางมั่ว + ของทิ้งพื้น — กติกา jing)](home-keeping/house-clean.md) · 7 บรรทัด
 - [วัดผลช่วงรอ](home-keeping/measure.md) · 3 บรรทัด
 - [ทางเดินขึ้นบ้าน + ปากประตูต้องโล่งตลอด (กติกา jing)](home-keeping/passages.md) · 7 บรรทัด
 - [ฝากของ: อะไรเว้นไว้ติดตัว](home-keeping/stash.md) · 3 บรรทัด

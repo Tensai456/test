@@ -180,3 +180,25 @@ export function passageBlocked(cells, blockAt) {
   return bad;
 }
 export const isPassageCell = (cells, p) => cells.some((c) => c.x === p.x && c.z === p.z && (p.y === c.y || p.y === c.y + 1));
+
+// ---------- เก็บกวาดในบ้าน: บล็อกที่บอตวางมั่ว + ของตกพื้น ----------
+// แบบบ้าน (blueprint) = ภาพจำตอนบ้านเรียบร้อย: Map "x,y,z" → ชื่อบล็อก (อากาศ = 'air') ในกล่องบ้าน
+// เทียบกับตอนนี้ → stray (มีบล็อกเกินมาในที่ที่ควรว่าง → ขุดออกเก็บเข้าหีบ) · missing (ผนัง/พื้นหาย → ซ่อม)
+// · ทางเดิน/ประตู (passages) นับเป็นที่ต้องว่างเสมอ · คบเพลิง/หีบ/เตาที่เพิ่มเอง ไม่นับว่ามั่ว (ของใช้)
+const OK_ADDED = /(torch|lantern|chest|barrel|furnace|smoker|crafting_table|bed$|sign|item_frame|carpet|flower_pot)$/;
+export function houseDiff(blueprint, current) {
+  const stray = [], missing = [];
+  for (const [k, want] of blueprint) {
+    const now = current.get(k) ?? 'air';
+    if (now === want) continue;
+    const [x, y, z] = k.split(',').map(Number);
+    if (want === 'air' && now !== 'air' && !OK_ADDED.test(now)) stray.push({ x, y, z, block: now });
+    else if (want !== 'air' && now === 'air') missing.push({ x, y, z, block: want });
+  }
+  return { stray, missing, clean: !stray.length && !missing.length };
+}
+// ของตกพื้นในกล่องบ้าน (entity ชนิด item) → เก็บแล้วส่งเข้า sortPlan · box = {x0,y0,z0,x1,y1,z1}
+export function floorItems(entities, box) {
+  return entities.filter((e) => (e.name === 'item' || e.type === 'object' && e.objectType === 'Item' || e.entityType === 'item') && e.position
+    && e.position.x >= box.x0 && e.position.x <= box.x1 + 1 && e.position.y >= box.y0 && e.position.y <= box.y1 + 1 && e.position.z >= box.z0 && e.position.z <= box.z1 + 1);
+}
