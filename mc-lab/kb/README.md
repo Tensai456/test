@@ -125,14 +125,14 @@
 
 - [ทั่ง การรวม และ Too Expensive](enchanting/anvil.md) · 14 บรรทัด
 - [ค่า XP และ Lapis](enchanting/costs.md) · 10 บรรทัด
-- [เอนชานต์ที่ใช้ร่วมกันไม่ได้](enchanting/exclusive.md) · 12 บรรทัด
+- [เอนชานต์ที่ใช้ร่วมกันไม่ได้](enchanting/exclusive.md) · 17 บรรทัด
 - [หินลับ](enchanting/grindstone.md) · 9 บรรทัด
 - [วิธีเลือกข้อเสนอ](enchanting/offers.md) · 9 บรรทัด
-- [ชุดแนะนำต่อไอเท็ม](enchanting/sets.md) · 14 บรรทัด
+- [ชุดแนะนำต่อไอเท็ม](enchanting/sets.md) · 19 บรรทัด
 - [โต๊ะตีเหล็ก](enchanting/smithing.md) · 8 บรรทัด
 - [โต๊ะเสริมพลัง + ชั้นหนังสือ](enchanting/table-setup.md) · 10 บรรทัด
 - [เอนชานต์ Treasure และแหล่งที่ได้](enchanting/treasure.md) · 11 บรรทัด
-- [ยังไม่ยืนยัน](enchanting/unverified.md) · 7 บรรทัด
+- [ยังไม่ยืนยัน](enchanting/unverified.md) · 6 บรรทัด
 
 ## experience (`experience/`)
 
@@ -267,17 +267,17 @@
 
 ## navigation (`navigation/`)
 
-- [ชังก์และระยะมองเห็น](navigation/chunks.md) · 7 บรรทัด
+- [ชังก์และระยะมองเห็น](navigation/chunks.md) · 8 บรรทัด
 - [นาฬิกา ดวงอาทิตย์ และดวงจันทร์](navigation/clock-sun.md) · 12 บรรทัด
 - [เข็มทิศ](navigation/compass.md) · 6 บรรทัด
-- [ระบบพิกัด](navigation/coordinates.md) · 11 บรรทัด
+- [ระบบพิกัด](navigation/coordinates.md) · 12 บรรทัด
 - [ขีดจำกัดความสูง](navigation/height-limits.md) · 8 บรรทัด
 - [เข็มทิศ Lodestone](navigation/lodestone.md) · 6 บรรทัด
 - [แผนที่และ explorer map](navigation/maps.md) · 12 บรรทัด
 - [เดินทางผ่าน Nether 1:8](navigation/nether-travel.md) · 6 บรรทัด
 - [เข็มทิศกู้คืน](navigation/recovery-compass.md) · 6 บรรทัด
 - [กลับบ้านหลังกลางคืน/ตาย](navigation/return-home.md) · 8 บรรทัด
-- [ยังไม่ยืนยัน](navigation/unverified.md) · 5 บรรทัด
+- [ยังไม่ยืนยัน](navigation/unverified.md) · 6 บรรทัด
 - [แผนจุดอ้างอิงสำหรับทีมบอต](navigation/waypoints.md) · 11 บรรทัด
 
 ## นรก / End / บอส (`nether-end/`)

@@ -5,7 +5,8 @@
 
 - chunk = 16×16 บล็อกแนวนอน (W/Chunk)
 - render distance โหลดเป็นทรงกระบอก (W/Chunk); simulation distance คือขอบเขตที่ entity ทำงาน: side = min(2s+1, 63) chunk (W/Chunk)
-- spawn chunk รัศมีค่าเริ่มต้น 2 (ลดจาก 10) (W/Chunk, ตามสรุปค้นหา)
+- spawn chunk: เกม rule spawnChunkRadius เพิ่มใน 1.20.5 (ค่าเริ่มต้น 2) แต่ spawn chunks และ rule นี้ถูกลบใน Java 1.21.9 (W/Spawn_chunk) → ใน 1.21.9+ ห้ามพึ่ง spawn chunk
+- ค่าเริ่มต้น server.properties: view-distance = 10, simulation-distance = 10 (W/Server.properties)
 - นอก simulation distance แต่ในระยะ render: mob ไม่ทำงานเต็ม (W/Chunk)
 
 บอตควร: ถือว่าเมื่ออยู่ไกล > ระยะ simulation สิ่งรอบข้างไม่ขยับ/ไอเทมไม่ despawn; คำนวณตำแหน่งชังก์ด้วย floor(x/16)

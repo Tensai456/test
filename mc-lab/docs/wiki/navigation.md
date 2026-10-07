@@ -9,7 +9,8 @@
 | +Z | ใต้ (south) | W/Coordinates |
 | -Z | เหนือ (north) | W/Coordinates |
 | Y | ขึ้นบน (เพิ่ม = สูงขึ้น) | W/Coordinates |
-- yaw: เหนือ = 180°, ตะวันออก = -90° (W/Rotation, ตามสรุปค้นหา; ตรวจกับ mineflayer ก่อนใช้)
+- yaw ใน F3 (Java): เหนือ = ±180°, ตะวันออก = -90°, ใต้ = 0°, ตะวันตก = +90°; pitch + = มองลง (W/Rotation, W/Debug_screen); ช่วง F3: เหนือ 135.0..-135.1, ใต้ -45.0..44.9, ตะวันออก -135.0..-45.1, ตะวันตก 45.0..134.9
+- หมายเหตุ: mineflayer ใช้หน่วยเรเดียนและนิยาม yaw ต่างจาก F3 ได้ → [ไม่แน่ใจ] ต้องทดสอบก่อนใช้
 
 บอตควร: เก็บพิกัดเป็น (x,y,z)+dimension เสมอ; แปลงทิศด้วยตาราง ห้ามเดา
 ตัดสินผล: (เกณฑ์แล็บ) ทดสอบเดินไป -Z 10 บล็อก แล้ว z ต้องลดลง; ผ่าน = z ลด ±1
@@ -35,7 +36,7 @@
 ## lodestone · เข็มทิศ Lodestone
 - ใช้ compass กับ lodestone → ชี้ตำแหน่งแนวนอนของ lodestone นั้น ใช้ได้ใน Nether/End (W/Lodestone, W/Compass)
 - หมุนมั่วถ้า lodestone อยู่คนละ dimension หรือถูกทุบ (W/Compass)
-- สูตรคราฟต์ lodestone: [ไม่แน่ใจ]
+- สูตรคราฟต์ lodestone (Java 1.21.5+): chiseled stone bricks + iron ingot (W/Lodestone); เดิม (1.16) ใช้ chiseled stone bricks 8 + netherite ingot 1 — เปลี่ยนเป็น iron ใน 1.21.5 ให้ renewable; จำนวน chiseled stone bricks ต่อสูตรใหม่: [ไม่แน่ใจ]
 
 บอตควร: ตั้ง lodestone ที่ฐานแต่ละ dimension เป็นจุด home
 ตัดสินผล: (เกณฑ์แล็บ) เข็มหมุนมั่ว = lodestone หาย/คนละ dimension → ใช้ waypoint ที่บันทึกแทน
@@ -45,7 +46,7 @@
 - ชี้จุดตายล่าสุด เมื่อถืออยู่ ผู้เล่นเคยตาย และอยู่ dimension เดียวกัน; ไม่เข้าเงื่อนไข = หมุนมั่ว (W/Recovery_Compass)
 - ค่าเก็บเป็น LastDeathLocation (W/Recovery_Compass)
 
-บอตควร: บอตสำรวจพก 1 อัน (หายากจาก ancient city — [ไม่แน่ใจ]) หรือบันทึกพิกัดจุดตายเองจาก event death
+บอตควร: บอตสำรวจพก 1 อัน (echo shard พบเฉพาะใน ancient city: ในหีบ 1–3 ชิ้น โอกาส 30.4% ต่อหีบ (W/Echo_Shard) ใช้ทำ recovery compass เท่านั้น) หรือบันทึกพิกัดจุดตายเองจาก event death
 ตัดสินผล: (เกณฑ์แล็บ) ตายแล้วต้องมีพิกัดจุดตายบันทึกใน log 100%
 
 ## maps · แผนที่และ explorer map
@@ -110,15 +111,17 @@
 ## chunks · ชังก์และระยะมองเห็น
 - chunk = 16×16 บล็อกแนวนอน (W/Chunk)
 - render distance โหลดเป็นทรงกระบอก (W/Chunk); simulation distance คือขอบเขตที่ entity ทำงาน: side = min(2s+1, 63) chunk (W/Chunk)
-- spawn chunk รัศมีค่าเริ่มต้น 2 (ลดจาก 10) (W/Chunk, ตามสรุปค้นหา)
+- spawn chunk: เกม rule spawnChunkRadius เพิ่มใน 1.20.5 (ค่าเริ่มต้น 2) แต่ spawn chunks และ rule นี้ถูกลบใน Java 1.21.9 (W/Spawn_chunk) → ใน 1.21.9+ ห้ามพึ่ง spawn chunk
+- ค่าเริ่มต้น server.properties: view-distance = 10, simulation-distance = 10 (W/Server.properties)
 - นอก simulation distance แต่ในระยะ render: mob ไม่ทำงานเต็ม (W/Chunk)
 
 บอตควร: ถือว่าเมื่ออยู่ไกล > ระยะ simulation สิ่งรอบข้างไม่ขยับ/ไอเทมไม่ despawn; คำนวณตำแหน่งชังก์ด้วย floor(x/16)
 ตัดสินผล: (เกณฑ์แล็บ) ตรวจ view/simulation distance ของเซิร์ฟเวอร์ก่อนวางแผนระยะ; ไม่ทราบ = [ไม่แน่ใจ]
 
 ## unverified · ยังไม่ยืนยัน
-- ค่าเริ่มต้น render distance/simulation distance ของเซิร์ฟเวอร์: [ไม่แน่ใจ]
-- สูตรคราฟต์ lodestone, แหล่งพบ recovery compass/echo shard: [ไม่แน่ใจ] (โควต้าค้นหาหมด)
-- รัศมี world spawn/ที่เกิดสุ่ม, world border เริ่มต้น, ข้อมูล F3: [ไม่แน่ใจ]
-- ค่า yaw (เหนือ 180°, ตะวันออก -90°) ได้จากสรุปค้นหา ควรทดสอบจริง
+- ค่าที่ตรวจแล้ว (จาก snippet): view/simulation-distance default 10 (W/Server.properties); lodestone = chiseled stone bricks + iron ingot (1.21.5+) (W/Lodestone); echo shard 1–3 ชิ้น 30.4%/หีบ ancient city (W/Echo_Shard); world border เริ่มต้น 59,999,968 (±29,999,984) (W/World_border); spawn area 21×21 ปรับด้วย respawn_radius, ผู้เล่นเกิดสุ่มใน 20×20 รอบ spawn (W/World_spawn); F3 yaw/ทิศ (W/Debug_screen)
+- ค่า server จริงอาจต่างจาก default (เจ้าของเซิร์ฟเวอร์แก้ได้): ต้องอ่านจากเซิร์ฟเวอร์ — [ไม่แน่ใจ]
+- จำนวน chiseled stone bricks ในสูตร lodestone ใหม่, ค่า yaw ใน mineflayer: [ไม่แน่ใจ]
+- ระยะ stronghold ใกล้สุด: wiki snippet ให้ทั้ง 1,280 (วงแรก 1,280–2,816) และ "ไม่ใกล้กว่า 1,400" → [ไม่แน่ใจ] ใช้ 1,280 แบบระวัง
+- XP ต่อชิ้นของอาหารทุกชนิด (mutton, pork, rabbit ฯลฯ) ยืนยันเฉพาะ beef/chicken/cod/salmon/potato = 0.35 → ที่เหลือ [ไม่แน่ใจ]
 - ข้อมูลทั้งหมดมาจากสรุปผลค้นหา ไม่ได้เปิดอ่านหน้าเต็ม

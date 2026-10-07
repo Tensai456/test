@@ -2388,7 +2388,7 @@
    "enchanting",
    "exclusive"
   ],
-  "lines": 12
+  "lines": 17
  },
  {
   "path": "enchanting/sets.md",
@@ -2399,7 +2399,7 @@
    "enchanting",
    "sets"
   ],
-  "lines": 14
+  "lines": 19
  },
  {
   "path": "enchanting/treasure.md",
@@ -2421,7 +2421,7 @@
    "enchanting",
    "unverified"
   ],
-  "lines": 7
+  "lines": 6
  },
  {
   "path": "experience/xp-orbs.md",
@@ -2931,7 +2931,7 @@
    "navigation",
    "coordinates"
   ],
-  "lines": 11
+  "lines": 12
  },
  {
   "path": "navigation/height-limits.md",
@@ -3048,7 +3048,7 @@
    "navigation",
    "chunks"
   ],
-  "lines": 7
+  "lines": 8
  },
  {
   "path": "navigation/unverified.md",
@@ -3059,7 +3059,7 @@
    "navigation",
    "unverified"
   ],
-  "lines": 5
+  "lines": 6
  },
  {
   "path": "redstone-basics/signal-range.md",

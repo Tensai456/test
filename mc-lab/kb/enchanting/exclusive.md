@@ -5,13 +5,18 @@
 
 | กลุ่ม | สมาชิกที่ยืนยัน | แหล่ง |
 |---|---|---|
-| ความเสียหาย | Sharpness ขัดกับ Smite, Bane of Arthropods, Cleaving | W/Sharpness |
-| ความเสียหาย | Smite ขัดกับ Sharpness, Bane, Density, Breach, Cleaving | W/Smite |
-| คฑา | Density ขัดกับ Breach, Smite, Bane of Arthropods | W/Wind_Burst (snippet) |
-| เกราะ | Protection / Fire / Blast / Projectile Protection ใช้ร่วมกันไม่ได้ | W/Protection |
-| รองเท้า | Frost Walker ขัดกับ Depth Strider | W/Frost_Walker |
-| กางเกง | Swift Sneak ใช้กับ leggings เท่านั้น (snippet อ้างว่าขัดกับ Frost Walker/Depth Strider/Soul Speed แต่ไม่ใช่ leggings จึงน่าสงสัย) | W/Swift_Sneak [ไม่แน่ใจ] |
+ยึดตาม kb/blocks/_enchantments.md (ข้อมูลเกม 26.1)
+| กลุ่ม | สมาชิกที่ขัดกัน | แหล่ง |
+|---|---|---|
+| ความเสียหายอาวุธ/คฑา/ตรีศูล | Sharpness, Smite, Bane of Arthropods, Breach, Density, Impaling ขัดกันหมด (ไม่มี Cleaving) | kb |
+| เกราะ | Protection / Fire / Blast / Projectile Protection | kb |
+| รองเท้า | Frost Walker ขัดกับ Depth Strider เท่านั้น | kb |
+| ขุด | Silk Touch ขัดกับ Fortune | kb |
+| หน้าไม้ | Multishot ขัดกับ Piercing | kb |
+| ธนู/ซ่อม | Infinity ขัดกับ Mending | kb |
+| ตรีศูล | Riptide ขัดกับ Loyalty และ Channeling | kb |
+| กางเกง | Swift Sneak ไม่ขัดกับอะไร | kb |
 | การรวมใน anvil | ถ้าขัดกัน enchant ฝั่งอัปเกรดถูกลบ แล้วเอาฝั่งสังเวยแทน (ตามที่ snippet ระบุ) | W/Protection |
 
 บอตควร: เลือกกลุ่มละ 1 ตัวต่อชิ้น (Protection IV หรือแบบเฉพาะทาง); ตรวจตารางก่อนรวม
-ตัดสินผล: คู่ที่ขัดกัน → เลือกตามบทบาท; ดูกลุ่มอื่น (Silk/Fortune, Multishot/Piercing, Infinity/Mending, Loyalty/Riptide) ใน unverified
+ตัดสินผล: คู่ที่ขัดกัน → เลือกตามบทบาท (Mending มาก่อน Infinity; Fortune III สำหรับแร่ / Silk Touch สำหรับเก็บบล็อก)

@@ -5,7 +5,7 @@
 
 - ใช้ compass กับ lodestone → ชี้ตำแหน่งแนวนอนของ lodestone นั้น ใช้ได้ใน Nether/End (W/Lodestone, W/Compass)
 - หมุนมั่วถ้า lodestone อยู่คนละ dimension หรือถูกทุบ (W/Compass)
-- สูตรคราฟต์ lodestone: [ไม่แน่ใจ]
+- สูตรคราฟต์ lodestone (Java 1.21.5+): chiseled stone bricks + iron ingot (W/Lodestone); เดิม (1.16) ใช้ chiseled stone bricks 8 + netherite ingot 1 — เปลี่ยนเป็น iron ใน 1.21.5 ให้ renewable; จำนวน chiseled stone bricks ต่อสูตรใหม่: [ไม่แน่ใจ]
 
 บอตควร: ตั้ง lodestone ที่ฐานแต่ละ dimension เป็นจุด home
 ตัดสินผล: (เกณฑ์แล็บ) เข็มหมุนมั่ว = lodestone หาย/คนละ dimension → ใช้ waypoint ที่บันทึกแทน

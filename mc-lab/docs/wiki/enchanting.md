@@ -76,19 +76,24 @@
 ## exclusive · เอนชานต์ที่ใช้ร่วมกันไม่ได้
 | กลุ่ม | สมาชิกที่ยืนยัน | แหล่ง |
 |---|---|---|
-| ความเสียหาย | Sharpness ขัดกับ Smite, Bane of Arthropods, Cleaving | W/Sharpness |
-| ความเสียหาย | Smite ขัดกับ Sharpness, Bane, Density, Breach, Cleaving | W/Smite |
-| คฑา | Density ขัดกับ Breach, Smite, Bane of Arthropods | W/Wind_Burst (snippet) |
-| เกราะ | Protection / Fire / Blast / Projectile Protection ใช้ร่วมกันไม่ได้ | W/Protection |
-| รองเท้า | Frost Walker ขัดกับ Depth Strider | W/Frost_Walker |
-| กางเกง | Swift Sneak ใช้กับ leggings เท่านั้น (snippet อ้างว่าขัดกับ Frost Walker/Depth Strider/Soul Speed แต่ไม่ใช่ leggings จึงน่าสงสัย) | W/Swift_Sneak [ไม่แน่ใจ] |
+ยึดตาม kb/blocks/_enchantments.md (ข้อมูลเกม 26.1)
+| กลุ่ม | สมาชิกที่ขัดกัน | แหล่ง |
+|---|---|---|
+| ความเสียหายอาวุธ/คฑา/ตรีศูล | Sharpness, Smite, Bane of Arthropods, Breach, Density, Impaling ขัดกันหมด (ไม่มี Cleaving) | kb |
+| เกราะ | Protection / Fire / Blast / Projectile Protection | kb |
+| รองเท้า | Frost Walker ขัดกับ Depth Strider เท่านั้น | kb |
+| ขุด | Silk Touch ขัดกับ Fortune | kb |
+| หน้าไม้ | Multishot ขัดกับ Piercing | kb |
+| ธนู/ซ่อม | Infinity ขัดกับ Mending | kb |
+| ตรีศูล | Riptide ขัดกับ Loyalty และ Channeling | kb |
+| กางเกง | Swift Sneak ไม่ขัดกับอะไร | kb |
 | การรวมใน anvil | ถ้าขัดกัน enchant ฝั่งอัปเกรดถูกลบ แล้วเอาฝั่งสังเวยแทน (ตามที่ snippet ระบุ) | W/Protection |
 
 บอตควร: เลือกกลุ่มละ 1 ตัวต่อชิ้น (Protection IV หรือแบบเฉพาะทาง); ตรวจตารางก่อนรวม
-ตัดสินผล: คู่ที่ขัดกัน → เลือกตามบทบาท; ดูกลุ่มอื่น (Silk/Fortune, Multishot/Piercing, Infinity/Mending, Loyalty/Riptide) ใน unverified
+ตัดสินผล: คู่ที่ขัดกัน → เลือกตามบทบาท (Mending มาก่อน Infinity; Fortune III สำหรับแร่ / Silk Touch สำหรับเก็บบล็อก)
 
 ## sets · ชุดแนะนำต่อไอเท็ม
-ตามหน้า W/Tutorial:Best_enchantments_guide (จาก snippet; ค่าเลเวลที่ไม่ปรากฏ = ไม่ระบุ)
+ตามหน้า W/Tutorial:Best_enchantments_guide (จาก snippet; ค่าเลเวลที่ไม่ปรากฏ = ไม่ระบุ; เลเวลสูงสุดยึด kb)
 | ไอเท็ม | ชุดที่แนะนำ |
 |---|---|
 | ขวาน | Sharpness V, Efficiency V, Mending |
@@ -97,7 +102,12 @@
 | ตรีศูล | Loyalty III + Channeling + Impaling V หรือ Riptide + Impaling V, Unbreaking III, Mending |
 | คฑา | Density V หรือ Breach IV + Wind Burst III, Fire Aspect II, Unbreaking III, Mending |
 | หอก | Smite V, (Lunge III), Looting III, Fire Aspect II, Knockback II, Unbreaking III, Mending |
-| ดาบ / พิคแอ็กซ์ / เกราะ / รองเท้า / หมวก | [ไม่แน่ใจ] ไม่ได้ยืนยันจาก snippet (ทั่วไป: Sharpness, Efficiency, Protection, Unbreaking, Mending ตามความรู้ ไม่ใช่ wiki) |
+| ดาบ | Sharpness V (หรือ Smite V ต่ออันเดด), Unbreaking III, Mending; เสริม: Sweeping Edge III, Knockback II |
+| พิคแอ็กซ์ | Unbreaking III, Mending, Fortune III (หรือ Silk Touch แทน), Efficiency V |
+| เกราะทั่วไป | Protection IV, Unbreaking III, Mending |
+| หมวก | Mending, Protection IV, Unbreaking III, Respiration III, Aqua Affinity; เสริม Thorns III |
+| กางเกง | Mending, Protection IV, Unbreaking III; เสริม Swift Sneak III, Thorns III |
+| รองเท้า | Mending, Protection IV, Feather Falling IV, Unbreaking III, Depth Strider III หรือ Frost Walker II (นิยม Depth Strider) |
 Lunge III: ใช้ hunger 1/2/3 ต่อเลเวล, ต้อง ≥7 hunger point (W/Lunge)
 
 บอตควร: ใช้ตารางนี้เป็นลำดับความสำคัญ; Mending ทุกชิ้นที่หาได้
@@ -117,10 +127,9 @@ Lunge III: ใช้ hunger 1/2/3 ต่อเลเวล, ต้อง ≥7 hu
 ตัดสินผล: ไม่มีแหล่งในระยะ → ข้ามเอนชานต์นั้น ไม่รอ
 
 ## unverified · ยังไม่ยืนยัน
-- งบ WebSearch หมดก่อนค้นหัวข้อเหล่านี้: smithing table (การคงเอนชานต์ตอนอัปเกรด), Silk Touch/Fortune, Multishot/Piercing, Infinity/Mending (ตามเวอร์ชันปัจจุบัน), Loyalty/Riptide, ชุดแนะนำดาบ/พิคแอ็กซ์/เกราะ/รองเท้า/หมวก [ไม่แน่ใจ]
-- lapis/XP ของช่อง 1 และ 2 [ไม่แน่ใจ]
-- ตารางตัวคูณ anvil ครบทุก enchant (ยืนยันเพียง 1 ถึง 8 และ Silk Touch/Infinity=8 จาก snippet)
-- ตัวเลขเลเวล max ของเอนชานต์ส่วนใหญ่ และ Swift Sneak ขัดกับ Frost Walker (น่าสงสัย)
+- ตัวคูณ anvil ของ enchant ที่เหลือ (ยืนยันแล้ว: Protection, Sharpness, Efficiency, Unbreaking, Mending, Fortune, Looting, Thorns, Silk Touch, Infinity) [ไม่แน่ใจ]
+- ชุดแนะนำดาบ/พิคแอ็กซ์ ไม่ระบุ Looting/Fire Aspect (snippet ไม่กล่าว) [ไม่แน่ใจ]
+- **แก้แล้วในรอบนี้:** smithing (คง enchant ไม่เสีย XP), ช่อง 1/2 = 1/2 เลเวล+lapis, ชุดดาบ/พิคแอ็กซ์/เกราะ/รองเท้า/หมวก/กางเกง, Cleaving ลบออก (ไม่มีใน kb)
 - **ตรวจกับข้อมูลเกม 26.1 แล้ว:** เลเวลสูงสุดและคู่ที่ห้ามใส่ด้วยกันของทุกเอนชานต์อยู่ใน `kb/blocks/_enchantments.md` (ยึดตามนั้น) · Swift Sneak **ไม่ขัด**กับ Frost Walker (Frost Walker ขัดกับ Depth Strider เท่านั้น)
 - Villager Trade Rebalance (experimental) เปลี่ยนการค้า Mending: ไม่ใช่ค่าเริ่มต้น
 - คำสั่ง "เวอร์ชันปัจจุบัน" ไม่ได้ตรวจเลขเวอร์ชันโดยตรง (snippet พบเนื้อหา 1.21.11 เช่น Lunge/Spear)
