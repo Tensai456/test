@@ -25,3 +25,13 @@
 | 18 | `redstone-basics` | ประตู, แผ่นกด, คันโยก, ลูกสูบ — เท่าที่บอตต้องใช้/ระวัง | ✅ เติมแล้ว |
 | 19 | `trial-chambers` | trial chamber: spawner, กุญแจ, vault, ominous | ✅ เติมแล้ว |
 | 20 | `beacon-conduit` | บีคอน, คอนดูอิท, ของปลายเกม | ✅ เติมแล้ว |
+| 21 | `piglin` | piglin: โกรธ/สงบ, แลกทอง | ✅ |
+| 22 | `advanced` | กลไกลึก (ตรวจ Gemini): sculk/ขนแกะ, ominous, tick/TPS, random tick, regional difficulty, update suppression, 26.3, AABB | ✅ |
+| 23 | `team` | ทีม 4 บอต: แบ่งอาหาร, รับบทแทน, จองสายแร่, นอนพร้อมกัน, กฎ PvP แล็บ | ✅ |
+| 24 | `server-tech` | moved too quickly, ชังก์ไม่โหลด, TPS ต่ำ, ping สูง, ล็อกเวอร์ชัน | ✅ |
+| 25 | `gear-inventory` | เครื่องมือ/เกราะใกล้พัง, กระเป๋าเต็ม | ✅ |
+| 26 | `combat-events` | raid (ระฆัง/evoker/ravager), ครีปเปอร์ชาร์จ, ลมหายใจมังกร, กับดัก | ✅ |
+| 27 | `spawning` | กฎการเกิด/หายของม็อบ, mob cap, กันม็อบเกิด, การเกิดเฉพาะโครงสร้าง | 🔄 |
+| 28 | `ores-world` | แร่ตามระดับ Y, สายแร่ใหญ่, ประเภทถ้ำ, ความสูงโลก | 🔄 |
+| 29 | `combat-ai` | โล่/sweep/knockback ละเอียด + พฤติกรรม AI ม็อบทุกตัว | 🔄 |
+| 30 | `endgame-modes` | มังกร/Wither ละเอียด, End city, โหมดเกม/gamerule, ม็อบใหม่ 26.x, เสียงเตือน | 🔄 |
