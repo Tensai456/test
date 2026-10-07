@@ -1,5 +1,5 @@
 # คำสั่งแอดมินสำหรับทดสอบบอท (Java vanilla)
-> W = https://minecraft.wiki/w/ · ยืนยันจากผลค้นหา wiki เท่านั้น · งบค้นหาหมดก่อนครบทุกคำสั่ง ดูท้ายไฟล์ · ต้องเป็น OP (permission level 2)
+> W = https://minecraft.wiki/w/ · ยืนยันจากผลค้นหา wiki เท่านั้น · รายการค้างดูท้ายไฟล์ · ต้องเป็น OP (permission level 2)
 
 ## summon · เรียกม็อบ (+NBT)
 - ไวยากรณ์: `summon <entity> [<pos>] [<nbt>]` (W/Commands/summon)
@@ -86,16 +86,60 @@
 - `locate structure <structure>` (Java): รับ resource location หรือ tag ของ registry `worldgen/structure` (W/Commands/locate)
 - ตัวอย่าง: `/locate structure #village` (tag = หมู่บ้านทุกชนิด); ชื่อเดี่ยว เช่น `mansion` เป็นตัวอย่างฝั่งวิกิ ตรวจชื่อ id ที่แน่ชัดใน W/Structure [ไม่แน่ใจ]
 
+## fill-setblock · วางบล็อก (fill / setblock)
+- `fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]` หรือ `fill <from> <to> <block> replace <filter> [outline|hollow|destroy|strict]` (W/Commands/fill)
+- โหมด: `replace` (ค่าเริ่มต้น, ไม่ดรอป) · `destroy` (ดรอปเหมือนขุด) · `keep` (เปลี่ยนเฉพาะอากาศ) · `outline` (เฉพาะผิวนอก) · `hollow` (ผิวนอก + ข้างในเป็นอากาศ) · `strict` (ไม่ trigger block update)
+- ตั้งแต่ 1.21.5 `replace` ต่อด้วยออปชันอื่นได้ (W/Java_Edition_1.21.5)
+- `setblock <pos> <block> [destroy|keep|replace|strict]` ค่าเริ่มต้น replace (W/Commands/setblock)
+- ตัวอย่าง: `/fill ~-10 ~ ~-10 ~10 ~ ~10 minecraft:stone`, `/setblock ~ ~1 ~ minecraft:air`
+- ขีดจำกัดจำนวนบล็อกต่อคำสั่ง = [ไม่แน่ใจ]
+
+## spawn-border · spawnpoint / spreadplayers / worldborder
+- `spawnpoint [<targets>] [<pos>] [<angle>]` ไม่ใส่ = ผู้รัน/ตำแหน่งที่รัน; level 2 (W/Commands/spawnpoint)
+- `spreadplayers <spreadDistance> <maxRange> <respectTeams> <targets>` และรูป `... <maxRange> under <maxHeight> <respectTeams> <targets>`; maxRange = ระยะต่อแกนจากจุดกลาง (พื้นที่เป็นสี่เหลี่ยม) (W/Commands/spreadplayers)
+- ตำแหน่งอาร์กิวเมนต์จุดศูนย์กลาง (x z) ในรูป Java: ผลค้นหาพูดถึงแต่ไม่แสดงลำดับ = [ไม่แน่ใจ] (ถ้าจะใช้ ตรวจหน้า wiki; ชุดรีเซ็ตด้านล่างใช้ `/tp` แทน)
+- `worldborder center <pos>` (2D, เริ่มต้น 0 0) · `worldborder set <distance> [<time>]` · `worldborder damage amount <v>` (เริ่มต้น 0.2/วินาที/บล็อก) · `worldborder damage buffer <v>` (เริ่มต้น 5 บล็อก) (W/Commands/worldborder)
+- ตัวอย่าง: `/worldborder center 0 0`, `/worldborder set 60`
+
+## data-score-execute · data get / scoreboard / execute
+- `data get entity <target> [<path>] [<scale>]` (W/Commands/data); ตัวอย่าง `/data get entity Bot1 Health` (path `Health` อ่านจาก NBT มาตรฐาน; ไม่ได้ยืนยันชื่อ path จากผลค้นหารอบนี้ [ไม่แน่ใจ])
+- นับตาย: `/scoreboard objectives add Deaths deathCount` (W/Scoreboard, W/Commands/scoreboard)
+- `scoreboard players get <target> <objective>` · `players set <targets> <objective> <score>` · `players reset <targets> [<objective>]` (W/Commands/scoreboard)
+- เช็ค: `/execute if entity @a[scores={Deaths=1..}]` (W/Scoreboard)
+- execute: `as` เปลี่ยนผู้รัน · `at` เปลี่ยนตำแหน่ง/ทิศ/มิติตามเอนทิตี · `positioned` ตั้งตำแหน่ง · `if|unless entity|block` เงื่อนไข · `run <command>` (W/Commands/execute)
+- ตัวอย่างวิกิ: `execute as @e[type=sheep] at @s run tp ^ ^ ^1`
+
+## arena-reset · รีเซ็ตสนาม PvP
+- สมมติสนามกลาง `0 64 0` ยืนบนพื้น Y=64 ขนาด 41x41; ปรับพิกัดเอง; บอท `Bot1`, `Bot2` (ชื่อสมมติ) (W/Commands/fill, W/Commands/setblock)
+- ระบบ/มิติ: ใช้ชื่อกฎใหม่ (Java ≥ 1.21.11) (W/Game_rule)
+```
+/gamerule advance_time false
+/gamerule spawn_mobs false
+/gamerule keep_inventory true
+/gamerule fall_damage false
+/time set noon
+/weather clear
+/kill @e[type=!minecraft:player]
+/clear @a
+/effect clear @a
+/fill -20 63 -20 20 63 20 minecraft:stone
+/fill -20 64 -20 20 70 20 minecraft:air
+/fill -20 64 -20 20 67 20 minecraft:glass outline
+/worldborder center 0 0
+/worldborder set 45
+/tp Bot1 -10 64 0
+/tp Bot2 10 64 0
+/give @a minecraft:iron_sword
+```
+- หมายเหตุ: `@e[type=!minecraft:player]` ลบทุกเอนทิตีที่ไม่ใช่ผู้เล่น (ตัวเลือก selector W/Target_selectors); `/fill` ใหญ่เกินอาจติดขีดจำกัด [ไม่แน่ใจ]
+- `fill ... outline` สร้างผิวนอกเฉพาะ; ถ้าอยากกำแพงกระจกกลวงทั้งก้อนใช้ `hollow` แต่ข้างในจะเป็นอากาศ
+- ทางเลือกสุ่มจุด: `spreadplayers` (ดู spawn-border ก่อน ลำดับจุดกลางไม่แน่ใจ)
+
 ## unverified · ยังไม่ยืนยัน
-งบ WebSearch หมดกลางทาง ยังไม่ได้ยืนยันกับ wiki และห้ามเดา; ต้องอ่านหน้าเหล่านี้ก่อนใช้:
-- `fill` (โหมด replace/destroy/keep/hollow/outline) → W/Commands/fill
-- `setblock` → W/Commands/setblock
-- `spreadplayers` → W/Commands/spreadplayers
-- `spawnpoint` → W/Commands/spawnpoint
-- `worldborder` → W/Commands/worldborder
-- `data get entity <target> <path>` (อ่าน Health) → W/Commands/data
-- `scoreboard` นับตาย (criteria `deathCount`) → W/Commands/scoreboard, W/Scoreboard
-- `execute` พื้นฐาน → W/Commands/execute
-- `locate structure`, ชื่อกฎใหม่ของ playersSleepingPercentage / fallDamage / naturalRegeneration (ยืนยันแค่ natural_health_regeneration), `/gamerule` ต้องใส่ prefix `minecraft:` หรือไม่
-- สูตรดาเมจตก และผลของ /time บนรุ่น 26.1 (world clock)
-- สคริปต์รีเซ็ต PvP arena เต็มรูปแบบ (ต้องใช้ fill/setblock/spreadplayers) → ใช้ชุด verified ไปก่อน: `/clear`, `/effect clear`, `/kill`, `/tp`, `/give`
+รอบนี้ยืนยันกับ wiki แล้ว: fill, setblock, spreadplayers (ยกเว้นลำดับจุดกลาง), spawnpoint, worldborder, data get entity, deathCount, execute พื้นฐาน, locate structure, ชื่อกฎใหม่ (players_sleeping_percentage, fall_damage, natural_health_regeneration), /time บน 26.1, damage type fall. ที่ยังไม่แน่ใจ:
+- ลำดับ/รูปเต็มของจุดกลางใน `spreadplayers` (Java) → W/Commands/spreadplayers
+- ชื่อ path อื่นนอกจาก `Health` ใน `data get entity` → W/Entity_format
+- `/gamerule` ต้องใส่ `minecraft:` หรือไม่ (หลักทั่วไป: ไม่ต้อง) → W/Commands/gamerule
+- สูตรปัดเศษดาเมจตกและค่า `fall_damage_multiplier` ต่อม็อบ → W/Damage
+- ขีดจำกัดจำนวนบล็อกของ /fill; ความสัมพันธ์ `time pause` กับ `advance_time` บน 26.1
+- ชื่อ id โครงสร้างที่แน่ชัดสำหรับ `locate structure` → W/Structure

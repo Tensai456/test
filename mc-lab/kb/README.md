@@ -412,17 +412,21 @@
 
 ## test-commands (`test-commands/`)
 
+- [รีเซ็ตสนาม PvP](test-commands/arena-reset.md) · 24 บรรทัด
 - [แอตทริบิวต์](test-commands/attribute.md) · 4 บรรทัด
 - [ทำดาเมจ](test-commands/damage.md) · 5 บรรทัด
+- [data get / scoreboard / execute](test-commands/data-score-execute.md) · 6 บรรทัด
 - [ความยาก / kill / clear](test-commands/difficulty-kill-clear.md) · 4 บรรทัด
 - [เอฟเฟกต์](test-commands/effect.md) · 6 บรรทัด
+- [วางบล็อก (fill / setblock)](test-commands/fill-setblock.md) · 6 บรรทัด
 - [กฎเกม (เปลี่ยนชื่อแล้ว!)](test-commands/gamerule.md) · 9 บรรทัด
 - [ให้ไอเทม (item components)](test-commands/give.md) · 6 บรรทัด
 - [หาโครงสร้าง/ไบโอม](test-commands/locate.md) · 4 บรรทัด
+- [spawnpoint / spreadplayers / worldborder](test-commands/spawn-border.md) · 5 บรรทัด
 - [เรียกม็อบ (+NBT)](test-commands/summon.md) · 6 บรรทัด
 - [เวลา](test-commands/time.md) · 7 บรรทัด
 - [เทเลพอร์ต (/tp = /teleport)](test-commands/tp.md) · 10 บรรทัด
-- [ยังไม่ยืนยัน](test-commands/unverified.md) · 12 บรรทัด
+- [ยังไม่ยืนยัน](test-commands/unverified.md) · 7 บรรทัด
 - [อากาศ](test-commands/weather.md) · 2 บรรทัด
 
 ## time-weather (`time-weather/`)

@@ -1,7 +1,7 @@
 # เทเลพอร์ต (/tp = /teleport)
 
 <!-- สร้างอัตโนมัติโดย scripts/split_kb.mjs จาก docs/wiki/test-commands.md · ห้ามแก้มือ -->
-> W = https://minecraft.wiki/w/ · ยืนยันจากผลค้นหา wiki เท่านั้น · งบค้นหาหมดก่อนครบทุกคำสั่ง ดูท้ายไฟล์ · ต้องเป็น OP (permission level 2)
+> W = https://minecraft.wiki/w/ · ยืนยันจากผลค้นหา wiki เท่านั้น · รายการค้างดูท้ายไฟล์ · ต้องเป็น OP (permission level 2)
 
 - รูปแบบ (W/Commands/teleport): `teleport <destination>` · `teleport <targets> <destination>` · `teleport <location>` · `teleport <targets> <location>` · `teleport <targets> <location> <rotation>` · `... facing <facingLocation>`
 - ตัวอย่าง: `/tp @s 100 ~3 100`, `/tp Bot1 @s`
