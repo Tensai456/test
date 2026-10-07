@@ -329,6 +329,7 @@
 
 - [13 หมวด (ป้ายไม้ 13 สีติดหน้าหีบ ไม่ต้องเขียน)](home-keeping/categories.md) · 20 บรรทัด
 - [วัดผลช่วงรอ](home-keeping/measure.md) · 3 บรรทัด
+- [ทางเดินขึ้นบ้าน + ปากประตูต้องโล่งตลอด (กติกา jing)](home-keeping/passages.md) · 7 บรรทัด
 - [ฝากของ: อะไรเว้นไว้ติดตัว](home-keeping/stash.md) · 3 บรรทัด
 - [ความจุ](home-keeping/storage-facts.md) · 2 บรรทัด
 - [ปรับพื้นรอบบ้าน/ในบ้านให้เรียบ](home-keeping/tidy-area.md) · 7 บรรทัด

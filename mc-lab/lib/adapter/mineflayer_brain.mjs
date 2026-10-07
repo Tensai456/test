@@ -11,6 +11,7 @@ import { createTracker, toState } from './mineflayer_state.mjs';
 import { decide } from '../chain.mjs';
 import { chooseClutch } from '../fall_safety.mjs';
 import { NO_SMELT } from '../economy/field_smelt.mjs';
+import { passageBlocked, isPassageCell } from '../home/home_keep.mjs';
 
 const HOSTILE_HINT = new Set(['zombie', 'skeleton', 'creeper', 'spider', 'witch', 'pillager', 'vindicator', 'blaze', 'ghast', 'wither_skeleton', 'piglin_brute', 'warden']);
 const key = (d) => (d.mode === 'reflex' ? `reflex:${d.rule.id}` : d.mode === 'plan' ? `plan:${d.step.id}` : d.mode);
@@ -69,7 +70,10 @@ export function brainPlugin(opts = {}) {
       const done = (bot.time?.age ?? 0) >= smelt.readyAt;
       return { furnaceDist: dist, roamRadius: smelt.roamRadius, roamExcess: dist - smelt.roamRadius, flags: { smelting: true, ...(done ? { furnaceDone: true } : {}), ...(smelt.fuelShort ? { fuelShort: true } : {}), ...(smelt.foodShort ? { foodShort: true } : {}) } };
     };
-    const extra = (more = {}) => { const sm = smeltState(); return { role: opts.role, enemyNames: opts.enemyNames ?? [], team: opts.team?.() ?? [], ...sm, ...more, flags: { ...(opts.flags?.() ?? {}), ...(sm.flags ?? {}), ...(more.flags ?? {}) } }; };
+    // ทางเดินขึ้นบ้าน + ปากประตู: ลงทะเบียนด้วย bot.brain.setPassages([{x,y,z}]) · เช็กทุก 20 tick
+    let passages = [], blocked = [];
+    const extra0 = () => (blocked.length ? { passageBlocked: blocked, flags: { entranceBlocked: true } } : {});
+    const extra = (more = {}) => { const sm = { ...smeltState(), ...extra0(), flags: { ...(smeltState().flags ?? {}), ...(extra0().flags ?? {}) } }; return { role: opts.role, enemyNames: opts.enemyNames ?? [], team: opts.team?.() ?? [], ...sm, ...more, flags: { ...(opts.flags?.() ?? {}), ...(sm.flags ?? {}), ...(more.flags ?? {}) } }; };
     let tick = 0, lastKey = null, busy = false;
 
     // ม็อบเป็นกลางโกรธ: เราตีมัน หรือมันตีเรา (entityHurt(entity, source) — mineflayer 4.39)
@@ -88,6 +92,7 @@ export function brainPlugin(opts = {}) {
       think: () => think(),
       // ถามก่อนทำ: action = 'sleep' | 'attack' | 'drop_weapon' | 'wall_in' | 'mine_ore' | 'open_container' | ...
       allowed(action, more = {}) {
+        if (action === 'place_block' && more.pos && isPassageCell(passages, more.pos)) more = { ...more, flags: { ...(more.flags ?? {}), targetInPassage: true } };
         if (action === 'smelt' && more.item && NO_SMELT.includes(more.item)) more = { ...more, flags: { ...(more.flags ?? {}), noSmeltItem: true } };
         const { d } = think({ action, ...more });
         return { ok: d.vetoes.length === 0, vetoes: d.vetoes.map((v) => ({ id: v.id, why: v.do })) };
@@ -97,10 +102,15 @@ export function brainPlugin(opts = {}) {
     // เริ่มเผา: plan = ผลจาก smeltPlan() (lib/economy/field_smelt.mjs) · pos = ตำแหน่งเตา
     bot.brain.startSmelt = (pos, plan) => { smelt = { pos, roamRadius: plan.roamRadius, readyAt: (bot.time?.age ?? 0) + plan.sec * 20, fuelShort: plan.fuelAction !== 'ok', foodShort: plan.foodAction !== 'ok' && plan.foodAction !== 'eat-from-chest', trail: [pos] }; };
     bot.brain.endSmelt = () => { smelt = null; };
+    bot.brain.setPassages = (cells) => { passages = cells; };
+    bot.brain.blockedPassage = () => blocked;
     bot.brain.trailBack = () => (smelt ? [...smelt.trail].reverse() : []);   // จุดทางกลับ (ส่งให้ pathfinder ทีละจุด)
 
     bot.on('physicsTick', async () => {
       if (smelt && bot.entity) { const last = smelt.trail.at(-1); if (bot.entity.position.distanceTo(last) >= 4 && smelt.trail.length < 500) smelt.trail.push(bot.entity.position.clone ? bot.entity.position.clone() : bot.entity.position); }
+      if (passages.length && tick % 20 === 0 && bot.blockAt) {
+        blocked = passageBlocked(passages, (x, y, z) => { const p = bot.entity.position.clone(); p.x = x; p.y = y; p.z = z; return bot.blockAt(p); });   // clone Vec3 แล้วตั้งค่า (ไม่ต้อง import vec3)
+      }
       if (++tick % every || !bot.entity) return;
       const { s, d } = think();
       bot.brain.state = s; bot.brain.last = d;

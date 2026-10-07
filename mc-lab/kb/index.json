@@ -4089,6 +4089,19 @@
   "lines": 7
  },
  {
+  "path": "home-keeping/passages.md",
+  "title": "ทางเดินขึ้นบ้าน + ปากประตูต้องโล่งตลอด (กติกา jing)",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "jing",
+   "home",
+   "keeping",
+   "passages"
+  ],
+  "lines": 7
+ },
+ {
   "path": "home-keeping/torches.md",
   "title": "ปักคบเพลิงเพื่อไม่ให้ม็อบเกิด (กติกา jing)",
   "group": "home-keeping",

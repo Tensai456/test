@@ -1637,5 +1637,33 @@
   "kb": [
    "field-smelting/food-sourcing.md"
   ]
+ },
+ {
+  "id": "entrance-blocked",
+  "prio": 58,
+  "when": {
+   "flag": "entranceBlocked",
+   "notNear": {
+    "hostile": true,
+    "within": 8
+   }
+  },
+  "do": "ทางขึ้นบ้าน/ปากประตูถูกขวาง → ขุดบล็อกที่ขวางออก (ดู bot.brain.blockedPassage()) ก่อนทำงานอื่น",
+  "kb": [
+   "home-keeping/passages.md"
+  ]
+ },
+ {
+  "id": "no-block-in-passage",
+  "prio": 72,
+  "veto": true,
+  "when": {
+   "action": "place_block",
+   "flag": "targetInPassage"
+  },
+  "do": "ห้ามวางบล็อกบนทางเดินขึ้นบ้าน/ปากประตู (ทีมออกไม่ได้)",
+  "kb": [
+   "home-keeping/passages.md"
+  ]
  }
 ]

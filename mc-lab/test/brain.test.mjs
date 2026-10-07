@@ -52,3 +52,14 @@ test('เผาไปตะเวนไป: จำรอยเท้า + เก
   assert.equal(bot.brain.think().d.rule.id, 'smelt-roam-too-far');
   assert.equal(bot.brain.allowed('smelt', { item: 'diamond' }).ok, false);
 });
+
+test('ทางขึ้นบ้าน: วางบล็อกบนทาง = veto · ถูกขวาง = ต้องเคลียร์', () => {
+  const bot = fakeBot(); bot.loadPlugin(brainPlugin({ goal: 'iron_kit' }));
+  bot.brain.setPassages([{ x: 5, y: 64, z: 5 }]);
+  assert.equal(bot.brain.allowed('place_block', { pos: { x: 5, y: 65, z: 5 } }).ok, false);
+  assert.equal(bot.brain.allowed('place_block', { pos: { x: 9, y: 64, z: 9 } }).ok, true);
+  bot.blockAt = (p) => (p.x === 5 && p.y === 64 ? { name: 'dirt', boundingBox: 'block' } : { name: 'air', boundingBox: 'empty' });
+  for (let i = 0; i < 20; i++) bot.emit('physicsTick');
+  assert.equal(bot.brain.blockedPassage()[0].block, 'dirt');
+  assert.equal(bot.brain.think().d.rule.id, 'entrance-blocked');
+});

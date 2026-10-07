@@ -165,3 +165,18 @@ export function torchPlan(heights, floorY, { torches = [], keep = [], center = n
   for (const c of cells) if (!covered(c.x, c.z, yAt(c.x, c.z)) && !inKeep(c.x, c.z)) put(c.x, c.z);
   return { place, total: lit.length };
 }
+
+// ---------- ทางเดินขึ้นบ้าน + ปากประตู ต้องโล่งเสมอ ----------
+// กติกา jing: บอตวางของ/บล็อกขวางทางแล้วออกไม่ได้ → ต้องเช็กตลอด · cells = ช่องที่ต้องโล่ง [{x,y,z}] (เท้า) — ต้องว่าง 2 ช่อง (เท้า+หัว)
+// blockAt(x,y,z) → { name, boundingBox } (mineflayer) · ผ่านได้: อากาศ/ไม่มีกล่องชน/ประตู/ประตูกล/ประตูรั้ว/บันได/นั่งร้าน/คบเพลิง
+const PASSABLE = /(door|fence_gate|ladder|scaffolding|torch|carpet|pressure_plate|button|sign|vine|rail)$/;
+export function passageBlocked(cells, blockAt) {
+  const bad = [];
+  for (const c of cells) for (const dy of [0, 1]) {
+    const b = blockAt(c.x, c.y + dy, c.z);
+    if (b === null) continue;                                  // ชังก์ไม่โหลด = ไม่รู้ ข้าม
+    if (b && b.boundingBox === 'block' && !PASSABLE.test(b.name)) bad.push({ x: c.x, y: c.y + dy, z: c.z, block: b.name });
+  }
+  return bad;
+}
+export const isPassageCell = (cells, p) => cells.some((c) => c.x === p.x && c.z === p.z && (p.y === c.y || p.y === c.y + 1));

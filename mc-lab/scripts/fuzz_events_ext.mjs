@@ -87,4 +87,9 @@ export const EXT_EVENTS = {
       ['เผาเสร็จ + ห่างเตา >6 → ห้ามแผน', (s, d) => !(s.flags.furnaceDone && s.furnaceDist > 6) || d.mode === 'reflex'],
       ['เผาเพชร/ถ่าน ฯลฯ → veto', (s, d) => !(s.action === 'smelt' && s.flags.noSmeltItem) || hasVeto(d, 'smelt-no-need')],
       ['ไม้/อาหารไม่พอ + ไม่มีศัตรู ≤16 → ห้ามแผน', (s, d) => !((s.flags.fuelShort || s.flags.foodShort) && !near(s, (e) => e.hostile && e.dist <= 16).length) || d.mode === 'reflex']] },
+  homeKeep: { gen: (s, r) => { const f = flags(s); f.inBase = true; if (r() < 0.5) f.entranceBlocked = true;
+      if (r() < 0.4) { s.action = 'place_block'; if (r() < 0.6) f.targetInPassage = true; } },
+    inv: [['ทางขึ้นบ้าน/ประตูถูกขวาง + ไม่มีศัตรู ≤8 → ห้ามแผน (ต้องเคลียร์)', (s, d) => !(s.flags.entranceBlocked && !near(s, (e) => e.hostile && e.dist <= 8).length) || d.mode === 'reflex'],
+      ['วางบล็อกบนทางเดินขึ้นบ้าน → veto', (s, d) => !(s.action === 'place_block' && s.flags.targetInPassage) || hasVeto(d, 'no-block-in-passage')]] },
 };
+
