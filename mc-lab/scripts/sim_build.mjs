@@ -1,7 +1,7 @@
 // sim_build.mjs — ออกแบบบ้าน + จำลองบอตวางทุกบล็อกจนเสร็จ → docs/HOUSE_BUILD.md · node scripts/sim_build.mjs [W] [L]
 import fs from 'node:fs';
 import path from 'node:path';
-import { cottage, countBlocks, rawMaterials } from '../lib/home/house_design.mjs';
+import { cottage, countBlocks, rawMaterials, DESIGNS } from '../lib/home/house_design.mjs';
 import { simulateBuild, layers } from '../lib/home/build_sim.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -12,8 +12,9 @@ const raw = rawMaterials(items);
 const sim = simulateBuild(h);
 const logs = Object.entries(raw.need).filter(([k]) => k.endsWith('_log')).reduce((a, [, v]) => a + v, 0);
 // ตัวแปรทดลอง: ขนาดอื่น
-const sizes = [[7, 9], [9, 11], [11, 13]].map(([w, l]) => { const d = cottage({ W: w, L: l }); const r = simulateBuild(d); const m = rawMaterials(countBlocks(d.blocks)).need;
-  return `| ${w}×${l} | ${d.blocks.length} | ${r.done ? '✅' : `❌ ${r.problems.length}`} | ${(r.timeSec / 60).toFixed(1)} | ${r.scaffoldBlocks} (สูงสุด ${r.maxScaffold}) | ${Object.entries(m).filter(([k]) => k.endsWith('_log')).reduce((a, [, v]) => a + v, 0)} |`; });
+const row = (label, d) => { const r = simulateBuild(d); const m = rawMaterials(countBlocks(d.blocks)).need;
+  return `| ${label} | ${d.blocks.length} | ${r.done ? '✅' : `❌ ${r.problems.length}`} | ${(r.timeSec / 60).toFixed(1)} | ${r.scaffoldBlocks} (สูงสุด ${r.maxScaffold}) | ${Object.entries(m).filter(([k]) => k.endsWith('_log')).reduce((a, [, v]) => a + v, 0)} | ${m.cobblestone ?? 0} | ${m.iron_ingot ?? 0} |`; };
+const sizes = [...[[7, 9], [9, 11], [11, 13]].map(([w, l]) => row(`ไม้ ${w}×${l}`, cottage({ W: w, L: l }))), row('ไม้ 2 ชั้น 9×11', DESIGNS.twoStory()), row('หิน 9×11 (กันระเบิด + ประตูเหล็ก)', DESIGNS.stone())];
 
 const md = [`# HOUSE_BUILD — ${h.name}: ออกแบบเอง + จำลองวางทุกบล็อก`, '',
   '> สร้างโดย `node scripts/sim_build.mjs` · แบบ: `lib/home/house_design.mjs` · ตัวจำลอง: `lib/home/build_sim.mjs` · **ยืนยันระดับจำลอง** (ยังไม่ได้วางจริงในเซิร์ฟ)',
@@ -32,7 +33,9 @@ const md = [`# HOUSE_BUILD — ${h.name}: ออกแบบเอง + จำ�
   ...(sim.problems.length ? ['### บล็อกที่มีปัญหา', ...sim.problems.slice(0, 20).map((p) => `- ${p.name} @${p.x},${p.y},${p.z} — ${p.why}`), ''] : []),
   '## 3. ของที่ต้องใช้', '', '| ไอเทม | จำนวน |', '|---|---|', ...Object.entries(items).sort((a, b) => b[1] - a[1]).map(([k, v]) => `| ${k} | ${v} |`), '',
   `**วัตถุดิบดิบ (ไล่สูตรจาก recipes.json):** ${Object.entries(raw.need).map(([k, v]) => `${k} ${v}`).join(' · ')} → **ซุงรวม ≈${logs} ท่อน**`, '',
-  '## 4. ขนาดอื่น (จำลองเหมือนกัน)', '', '| ขนาด | บล็อก | วางครบ | นาที | นั่งร้าน | ซุง |', '|---|---|---|---|---|---|', ...sizes, '',
+  '## 4. แบบอื่น/ขนาดอื่น (จำลองเหมือนกัน)', '', '| แบบ | บล็อก | วางครบ | นาที | นั่งร้าน | ซุง | หินกรวด | เหล็ก |', '|---|---|---|---|---|---|---|---|', ...sizes, '',
+  '- **บ้านหิน:** ผนัง/หลังคาหินกรวด + พื้นอิฐหิน (ต้านระเบิด 6 เท่ากัน ดีกว่าไม้ 3 — kb/shelter/blast-resistance) · ประตูเหล็ก + ปุ่มหินใน/นอก (ซอมบี้ Hard พังประตูไม้ได้) · ใช้ไม้น้อยมาก เหมาะช่วงต้นที่หินเยอะ',
+  '- **บ้าน 2 ชั้น:** พื้นชั้นบนแผ่นไม้ + บันไดลิงชิดผนังหน้า · เตียงชั้นบน · ⚠ หลังคาแถวบน 35 ก้อนต้องนั่งร้านนอกบ้านสูง 6–8 ชั้น (ยืนฝั่งต่ำของบันไดให้หันถูก) → พกถังน้ำ + ทำตอนกลางวันเท่านั้น · ทางเลือก: ยืนบนหลังคา (คนทำ) ยังไม่ได้ใส่ในตัวจำลอง',
   '## 5. ลำดับวาง (20 ก้อนแรก / 10 ก้อนสุดท้าย)', '', '| # | บล็อก | ที่ | ยืนที่ (x,เท้า,z) | นั่งร้าน | ระยะ |', '|---|---|---|---|---|---|',
   ...[...sim.steps.slice(0, 20), ...sim.steps.slice(-10)].map((s) => `| ${s.i} | ${s.block} | ${s.at.join(',')} | ${s.stand.join(',')} | ${s.scaffold} | ${s.reach} |`), '',
   '## 6. แผนผังทีละชั้น (มองจากบน · แถวบน = หลังบ้าน)', '',

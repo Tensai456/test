@@ -86,3 +86,12 @@ test('จำแบบบ้าน → เจอบล็อกมั่ว', () 
   placed = true;
   assert.deepEqual(bot.brain.houseCheck().stray.map((s) => s.block), ['cobblestone']);
 });
+
+test('แก้ knockback 1.21.9+: ความเร็วตัวบอตใช้ค่า lpVec3 ตรง ๆ (ไม่หาร 8000)', () => {
+  const bot = fakeBot(); const client = new EventEmitter(); bot._client = client;
+  bot.entity.id = 5; bot.entity.velocity = { x: 0, y: 0, z: 0, set(x, y, z) { this.x = x; this.y = y; this.z = z; } };
+  bot.registry.version = { '>=': (v) => v === '1.21.9' };
+  bot.loadPlugin(brainPlugin({}));
+  client.emit('entity_velocity', { entityId: 5, velocity: { x: 0.4, y: 0.36, z: 0 } });
+  assert.equal(bot.entity.velocity.y, 0.36);
+});

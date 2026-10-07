@@ -25,7 +25,7 @@ export function simulateBuild(design, { maxPillar = 8 } = {}) {
     const inside = x > box.x0 && x < box.x1 && z > box.z0 && z < box.z1;
     const ring = x < box.x0 || x > box.x1 || z < box.z0 || z > box.z1;
     if (ring) stands.push({ x, z, feet: 0, outside: true });
-    else if (inside) stands.push({ x, z, feet: 1, outside: false });
+    else if (inside) for (const fy of design.floors ?? [0]) stands.push({ x, z, feet: fy + 1, outside: false, floorY: fy });   // ยืนได้ทุกชั้น (ถ้าพื้นชั้นนั้นวางแล้ว)
   }
   const dist = (s, feet, b) => Math.hypot(s.x + 0.5 - (b.x + 0.5), feet + EYE - (b.y + 0.5), s.z + 0.5 - (b.z + 0.5)) - 0.5;
   const steps = [], problems = [];
@@ -45,7 +45,10 @@ export function simulateBuild(design, { maxPillar = 8 } = {}) {
         const feet = s.feet + h;
         if (occupied.has(key(s.x, feet, s.z)) && placed.has(key(s.x, feet, s.z))) continue;
         if (occupied.has(key(s.x, feet + 1, s.z)) && placed.has(key(s.x, feet + 1, s.z))) continue;
-        if (!s.outside && !placed.has(key(s.x, 0, s.z))) continue;
+        if (!s.outside && !placed.has(key(s.x, s.floorY, s.z))) continue;
+        let blocked = false;                                          // นั่งร้านห้ามทะลุบล็อกที่วางแล้ว (เช่น พื้นชั้นบน)
+        for (let py = s.feet; py < feet + 2 && !blocked; py++) if (placed.has(key(s.x, py, s.z))) blocked = true;
+        if (blocked) continue;
         if (s.x === b.x && s.z === b.z && (b.y === feet || b.y === feet + 1)) continue;   // ห้ามวางทับตัวเอง
         // บันได: ทิศที่หัน = ทิศที่บอตมองตอนวาง → ต้องยืนฝั่งตรงข้ามทิศ facing และมองตามแกนนั้นเป็นหลัก (mineflayer generic_place มองจุดที่คลิก)
         const f = b.props?.facing;

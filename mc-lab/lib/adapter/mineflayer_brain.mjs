@@ -83,6 +83,12 @@ export function brainPlugin(opts = {}) {
     });
     bot.on('entityGone', (e) => tr.provoked.delete(e.id));
 
+    // แก้บั๊ก knockback 1.21.9+ (26.x): โปรโตคอลส่ง entity_velocity เป็น lpVec3 (ถอดเป็นบล็อก/tick แล้ว — minecraft-protocol lpVec3.js)
+    // แต่ mineflayer 4.39 ยังคูณ 1/8000 (entities.js 'entity_velocity' → conversions.fromNotchVelocity) → แรงผลักแทบเป็น 0
+    // ตัวนี้ลงทะเบียนหลัง mineflayer → เขียนทับความเร็วของตัวบอตด้วยค่าที่ถูก · ปิดได้ด้วย fixVelocity: false [ไม่แน่ใจ: ยังไม่ได้ลองกับเซิร์ฟจริง]
+    const lp = opts.fixVelocity !== false && (() => { try { return bot.registry?.version?.['>=']?.('1.21.9'); } catch { return false; } })();
+    if (lp && bot._client) bot._client.on('entity_velocity', (p) => { if (bot.entity && p.entityId === bot.entity.id && p.velocity) bot.entity.velocity.set(p.velocity.x, p.velocity.y, p.velocity.z); });
+
     // ตาย → เกิดใหม่ (แก้บั๊ก "เกิดปุ๊บวางบล็อก" ที่ jing เจอ):
     //  · mineflayer 4.39 ส่ง 'spawn' ซ้ำทุกครั้งที่เกิดใหม่ (health.js) → โค้ดเริ่มต้นที่ผูก bot.on('spawn') จะรันซ้ำ
     //  · mineflayer-pathfinder 2.4.5 ไม่ล้าง goal ตอนตาย → เกิดใหม่แล้ววางแผนไปเป้าเดิม + allow1by1towers/สะพาน = วางบล็อก (ชังก์ยังโหลดไม่ครบ ใต้เท้าดูเป็นอากาศ)
