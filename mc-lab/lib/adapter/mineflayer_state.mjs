@@ -6,7 +6,7 @@ const ARMOR_SLOTS = [5, 6, 7, 8];                                   // หมว
 const DIM = (d) => String(d ?? 'overworld').replace(/^minecraft:/, '');
 
 export function createTracker() {
-  return { airborneFromY: null, lastPos: null, idleSince: null, lastInv: '', provoked: new Set() };
+  return { airborneFromY: null, lastPos: null, idleSince: null, lastInv: '', provoked: new Set(), tpsMark: null };
 }
 
 // ระยะตก: mineflayer ไม่มี fallDistance ตรง ๆ [ตรวจ] → จำ Y สูงสุดตั้งแต่ลอย แล้วคิด (สูงสุด − ปัจจุบัน) ตอนกำลังตก
@@ -38,6 +38,12 @@ export function toState(bot, tr = createTracker(), extra = {}) {
   const moved = !tr.lastPos || tr.lastPos.distanceTo(me) > 1 || invSig !== tr.lastInv;
   if (moved) { tr.lastPos = me.clone ? me.clone() : me; tr.lastInv = invSig; tr.idleSince = now; }
   const below = bot.blockAt?.(me.offset(0, -1, 0));
+  // TPS โดยประมาณ: tick เกมที่เดิน ÷ วินาทีจริง (เทียบทุก ≥5 วิ) [คิดเอง]
+  const wall = Date.now(), age = bot.time?.age != null ? Number(bot.time.age) : null;
+  if (age != null) { if (!tr.tpsMark || wall - tr.tpsMark.wall >= 5000) { if (tr.tpsMark) tr.tps = Math.min(20, ((age - tr.tpsMark.age) * 1000) / (wall - tr.tpsMark.wall)); tr.tpsMark = { wall, age }; } }
+  // ผู้เล่น/บอตศัตรู: ส่งรายชื่อมาเองใน extra.enemyNames (กติกาทีม) → ใส่ใน nearby เป็น type 'player'
+  const enemies = Object.values(bot.players ?? {}).filter((p) => p.entity && (extra.enemyNames ?? []).includes(p.username))
+    .map((p) => ({ type: 'player', name: p.username, dist: Math.round(me.distanceTo(p.entity.position) * 10) / 10, hostile: true }));
   const head = bot.blockAt?.(me.offset(0, 1.62, 0));
   return {
     hp: bot.health, food: bot.food, dim: DIM(bot.game?.dimension), time: bot.time?.timeOfDay ?? 0,
@@ -46,6 +52,10 @@ export function toState(bot, tr = createTracker(), extra = {}) {
     fallDistance: fallDistance(e, tr), suffocating: !!(head && head.boundingBox === 'block'),
     standingOn: below?.name, nearby, inv, worn, effects,
     idleSeconds: (now - (tr.idleSince ?? now)) / 1000,
+    ping: bot.player?.ping, tps: tr.tps,                                                  // [ตรวจ] ชื่อฟิลด์ ping
     ...extra,
+    nearby: [...nearby, ...enemies, ...(extra.nearby ?? [])],
+    // flags: elytraFlying [ตรวจ] · ใต้เท้า null = ชังก์ยังไม่โหลด [ตรวจ]
+    flags: { ...(e.elytraFlying ? { gliding: true } : {}), ...(bot.blockAt && below === null ? { chunkUnloaded: true } : {}), ...(extra.flags ?? {}) },
   };
 }

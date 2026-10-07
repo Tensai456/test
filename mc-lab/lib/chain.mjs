@@ -37,7 +37,7 @@ const count = (s, item) => (s.inv?.[item] ?? 0) + ((s.worn ?? []).includes(item)
 const sumAny = (s, alts) => alts.split('|').reduce((n, it) => n + count(s, it), 0);
 
 function nearMatch(s, q) {
-  return (s.nearby ?? []).some((e) => e.dist <= q.within && (!q.type || q.type.includes(e.type)) && (!q.hostile || e.hostile) && (!q.provoked || e.provoked) && (!q.notType || !q.notType.includes(e.type)));
+  return (s.nearby ?? []).some((e) => e.dist <= q.within && (!q.type || q.type.includes(e.type)) && (!q.hostile || e.hostile) && (!q.provoked || e.provoked) && (!q.notType || !q.notType.includes(e.type)) && (!q.charged || e.charged) && (!q.armored || e.armored));
 }
 
 // เงื่อนไขทุก key ต้องจริง (AND) · anyOf = OR
@@ -70,8 +70,13 @@ export function test(c, s) {
       notFlag: () => !s.flags?.[v],
       clutch: () => !!chooseClutch({ inventory: Object.keys(s.inv ?? {}).filter((k) => s.inv[k] > 0), dimension: s.dim, wallAdjacent: !!s.wallAdjacent, fallDistance: s.fallDistance ?? null, hp: s.hp ?? 20 }) === v,
       teammateNeeds: () => (s.team ?? []).some((m) => m.hp < v.hpBelow && m.dist <= v.within),
+      teamAny: () => (s.team ?? []).some((m) => m.dist <= (v.within ?? 1e9) && (v.hpBelow == null || m.hp < v.hpBelow) && (v.foodBelow == null || (m.food ?? 20) < v.foodBelow)),
+      over: () => Object.entries(v).every(([kk, vv]) => s[kk] != null && s[kk] > vv),
+      under: () => Object.entries(v).every(([kk, vv]) => s[kk] != null && s[kk] < vv),
+      flagAny: () => v.some((f) => !!s.flags?.[f]),
+      nearBlockAll: () => v.every((q) => (s.nearBlocks ?? []).some((b) => q.type.includes(b.type) && b.dist <= q.within)),
       selfHpAtLeast: () => s.hp >= v,
-      countNear: () => (s.nearby ?? []).filter((e) => e.dist <= v.within && (!v.hostile || e.hostile) && (!v.provoked || e.provoked)).length >= v.atLeast,
+      countNear: () => (s.nearby ?? []).filter((e) => e.dist <= v.within && (!v.hostile || e.hostile) && (!v.provoked || e.provoked) && (!v.armored || e.armored)).length >= v.atLeast,
       nearBlock: () => (s.nearBlocks ?? []).some((b) => v.type.includes(b.type) && b.dist <= v.within),
       woodNearby: () => (s.woodNearby ?? true) === v,
       inWater: () => !!s.inWater === v,

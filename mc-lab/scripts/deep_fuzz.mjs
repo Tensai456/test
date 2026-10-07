@@ -8,6 +8,7 @@ import { bestWeapon } from '../lib/pvp/best_weapon.mjs';
 import { WEAPONS } from '../lib/pvp/weapons.mjs';
 import { tactic } from '../lib/pvp/weapon_tactics.mjs';
 import { chooseClutch, clutchWindow, fallDamage } from '../lib/fall_safety.mjs';
+import { EXT_EVENTS } from './fuzz_events_ext.mjs';
 
 const KB = path.join(ROOT0(), 'kb');
 function ROOT0() { return path.resolve(path.dirname(new URL(import.meta.url).pathname), '..'); }
@@ -173,6 +174,7 @@ Object.assign(EVENTS, {
       ['ไกล >6 + มีธนู + ลูกธนู → ต้องยิง', (s) => !(s.wctx.dist > 6 && s.inv.arrow && (s.inv.bow || s.inv.crossbow)) || ['bow', 'crossbow'].includes(s.weapon)]] },
 });
 
+Object.assign(EVENTS, EXT_EVENTS);   // ชุด 2: 12 หมวด (scripts/fuzz_events_ext.mjs)
 if (process.argv.includes('--list')) { console.log(Object.keys(EVENTS).join(' ')); process.exit(0); }
 
 const GLOBAL = [
@@ -199,7 +201,7 @@ for (const [ev, E] of Object.entries(EVENTS)) {
       const key = `${name} | ${tk}`;
       const g = groups.get(key) ?? { n: 0, ex: [] };
       g.n++;
-      if (g.ex.length < 3) g.ex.push(JSON.stringify({ hp: s.hp, food: s.food, dim: s.dim, nearby: s.nearby, eff: s.effects, fall: s.fallDistance, air: s.air, edge: s.edgeDepth, lava: s.inLava, fire: s.onFire, act: s.action, inv: Object.keys(s.inv) }));
+      if (g.ex.length < 3) g.ex.push(JSON.stringify({ hp: s.hp, food: s.food, dim: s.dim, nearby: s.nearby, eff: s.effects, fall: s.fallDistance, air: s.air, edge: s.edgeDepth, lava: s.inLava, fire: s.onFire, act: s.action, inv: Object.keys(s.inv), flags: s.flags, nb: s.nearBlocks }));
       groups.set(key, g);
     }
   }
