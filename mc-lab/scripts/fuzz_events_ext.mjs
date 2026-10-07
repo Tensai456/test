@@ -80,4 +80,11 @@ export const EXT_EVENTS = {
       ['มีหินกรวด ≥20 แต่สร้างด้วยดิน → veto', (s, d) => !(s.action === 'build_shelter' && s.flags?.shelterDirt && (s.inv.cobblestone ?? 0) >= 20) || hasVeto(d, 'shelter-dirt')]] },
   oldWorld: { gen: (s, r) => { for (let i = 0, k = 1 + Math.floor(r() * 5); i < k; i++) s.nearby.push(mob(r, pick(r, ['zombie', 'husk', 'skeleton', 'stray', 'drowned']), 10, { armored: r() < 0.7 })); },
     inv: [['ม็อบใส่เกราะ ≥2 ≤6 + เลือด <16 → ห้ามยืนแลก', (s, d) => !(near(s, (e) => e.armored && e.dist <= 6).length >= 2 && s.hp < 16) || top(d) !== 'hostile-close']] },
+  fieldSmelt: { gen: (s, r) => { const f = flags(s); f.smelting = true; if (r() < 0.5) f.furnaceDone = true; if (r() < 0.3) f.fuelShort = true; if (r() < 0.3) f.foodShort = true;
+      s.furnaceDist = Math.floor(r() * 80); s.roamRadius = pick(r, [0, 24, 50]); s.roamExcess = s.furnaceDist - s.roamRadius;
+      if (r() < 0.25) { s.action = 'smelt'; if (r() < 0.5) f.noSmeltItem = true; } },
+    inv: [['เกินรัศมีตะเวน → ห้ามแผน (หันกลับ หรือภัยที่ด่วนกว่า)', (s, d) => !(s.roamExcess > 0) || d.mode === 'reflex'],
+      ['เผาเสร็จ + ห่างเตา >6 → ห้ามแผน', (s, d) => !(s.flags.furnaceDone && s.furnaceDist > 6) || d.mode === 'reflex'],
+      ['เผาเพชร/ถ่าน ฯลฯ → veto', (s, d) => !(s.action === 'smelt' && s.flags.noSmeltItem) || hasVeto(d, 'smelt-no-need')],
+      ['ไม้/อาหารไม่พอ + ไม่มีศัตรู ≤16 → ห้ามแผน', (s, d) => !((s.flags.fuelShort || s.flags.foodShort) && !near(s, (e) => e.hostile && e.dist <= 16).length) || d.mode === 'reflex']] },
 };

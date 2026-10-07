@@ -42,3 +42,13 @@ test('entityHurt: เราตี golem → golem นับว่าโกรธ
   assert.ok(bot.brain.tracker.provoked.has(7));
   assert.equal(bot.brain.think().d.rule.id, 'provoked-flee');
 });
+
+test('เผาไปตะเวนไป: จำรอยเท้า + เกินรัศมีต้องหันกลับ', () => {
+  const bot = fakeBot(); bot.loadPlugin(brainPlugin({ goal: 'iron_kit' }));
+  bot.brain.startSmelt(V(0, 64, 0), { roamRadius: 10, sec: 80, fuelAction: 'ok', foodAction: 'ok' });
+  for (const x of [5, 10, 15, 20]) { bot.entity.position = V(x, 64, 0); bot.emit('physicsTick'); }
+  assert.equal(bot.brain.trailBack().length, 5);
+  assert.equal(bot.brain.trailBack()[0].x, 20);
+  assert.equal(bot.brain.think().d.rule.id, 'smelt-roam-too-far');
+  assert.equal(bot.brain.allowed('smelt', { item: 'diamond' }).ok, false);
+});

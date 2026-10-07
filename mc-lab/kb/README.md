@@ -260,6 +260,16 @@
 - [ต้นไม้/ต้นกล้า](farming/trees.md) · 10 บรรทัด
 - [ยังไม่ยืนยัน](farming/unverified.md) · 4 บรรทัด
 
+## field-smelting (`field-smelting/`)
+
+- [อาหารไม่พอ (นอกบ้าน)](field-smelting/food-sourcing.md) · 3 บรรทัด
+- [เชื้อเพลิงไม่พอ](field-smelting/fuel-sourcing.md) · 3 บรรทัด
+- [ตั้งเตาที่ไหน ทำอะไรระหว่างรอ](field-smelting/locations.md) · 9 บรรทัด
+- [จำทางกลับ](field-smelting/return-trail.md) · 5 บรรทัด
+- [เกินรัศมีตะเวน](field-smelting/roam-radius.md) · 1 บรรทัด
+- [ยังไม่ยืนยัน](field-smelting/unverified.md) · 1 บรรทัด
+- [เผาอะไร (ไม่เผาอะไร)](field-smelting/what-to-smelt.md) · 3 บรรทัด
+
 ## fishing (`fishing/`)
 
 - [การตรวจจับการกัดสำหรับบอต](fishing/bite-detection.md) · 9 บรรทัด

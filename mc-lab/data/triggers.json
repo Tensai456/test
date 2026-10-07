@@ -1566,5 +1566,76 @@
    "advanced/regional-difficulty.md",
    "combat-ai/zombie-ai.md"
   ]
+ },
+ {
+  "id": "smelt-roam-too-far",
+  "prio": 53,
+  "when": {
+   "flag": "smelting",
+   "over": {
+    "roamExcess": 0
+   }
+  },
+  "do": "เกินรัศมีตะเวน (คิดจากเวลาเผา, ≤50) → หันกลับทางเตาตามรอย (bot.brain.trailBack)",
+  "kb": [
+   "field-smelting/roam-radius.md"
+  ]
+ },
+ {
+  "id": "smelt-done-return",
+  "prio": 52,
+  "when": {
+   "flag": "furnaceDone",
+   "over": {
+    "furnaceDist": 6
+   }
+  },
+  "do": "เผาเสร็จ → เดินกลับตามรอยไปเก็บของจากเตา (เก็บเตาคืนถ้าอยู่นอกบ้าน)",
+  "kb": [
+   "field-smelting/return-trail.md"
+  ]
+ },
+ {
+  "id": "smelt-fuel-short",
+  "prio": 51,
+  "when": {
+   "flag": "fuelShort",
+   "notNear": {
+    "hostile": true,
+    "within": 16
+   }
+  },
+  "do": "เชื้อเพลิงไม่พอ → ผิวดิน: ตัดไม้ใกล้ ถ้าไม่มีหา ≤50 บล็อก · ในเหมือง: ใช้ถ่านที่ขุดได้",
+  "kb": [
+   "field-smelting/fuel-sourcing.md"
+  ]
+ },
+ {
+  "id": "smelt-no-need",
+  "prio": 65,
+  "veto": true,
+  "when": {
+   "action": "smelt",
+   "flag": "noSmeltItem"
+  },
+  "do": "ห้ามเผาเพชร/ถ่าน/เรดสโตน/ลาพิส/มรกต (ได้ของแล้ว เปลืองเชื้อเพลิง)",
+  "kb": [
+   "field-smelting/what-to-smelt.md"
+  ]
+ },
+ {
+  "id": "smelt-food-short",
+  "prio": 51,
+  "when": {
+   "flag": "foodShort",
+   "notNear": {
+    "hostile": true,
+    "within": 16
+   }
+  },
+  "do": "อาหารไม่พอ (<20 แต้ม) นอกบ้าน → ล่าสัตว์/เก็บพืชรอบเตา ≤50 บล็อก แล้วเผาในเตาเดียวกัน",
+  "kb": [
+   "field-smelting/food-sourcing.md"
+  ]
  }
 ]

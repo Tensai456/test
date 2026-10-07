@@ -3667,6 +3667,95 @@
   "lines": 4
  },
  {
+  "path": "field-smelting/locations.md",
+  "title": "ตั้งเตาที่ไหน ทำอะไรระหว่างรอ",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "locations"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "field-smelting/what-to-smelt.md",
+  "title": "เผาอะไร (ไม่เผาอะไร)",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "what",
+   "smelt"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "field-smelting/fuel-sourcing.md",
+  "title": "เชื้อเพลิงไม่พอ",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "fuel",
+   "sourcing"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "field-smelting/food-sourcing.md",
+  "title": "อาหารไม่พอ (นอกบ้าน)",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "food",
+   "sourcing"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "field-smelting/roam-radius.md",
+  "title": "เกินรัศมีตะเวน",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "roam",
+   "radius"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "field-smelting/return-trail.md",
+  "title": "จำทางกลับ",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "return",
+   "trail"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "field-smelting/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
   "path": "fishing/wait-and-bite.md",
   "title": "เวลารอและการกัดเบ็ด",
   "group": "fishing",
