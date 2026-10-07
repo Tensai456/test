@@ -128,3 +128,39 @@ export function stashPlan(inv = {}, { keepFoodPoints = 20, keepBlocks = 64 } = {
   }
   return { keep, deposit };
 }
+
+// ---------- ปักคบเพลิงกันม็อบเกิดรอบบ้าน ----------
+// คบเพลิงแสง 14 ลดลง 1 ต่อบล็อก (ระยะ taxicab รวมแนวตั้ง) → ครอบคลุม ≤13 · ม็อบศัตรูเกิดที่ block light 0 (W/Light, W/Mob_spawning, W/Tutorial:Spawn-proofing)
+// heights/keep เหมือน tidyPlan · torches: [{x, z, y?}] ที่มีอยู่ (ห้ามรื้อ) · คืนจุดปักใหม่ (ใกล้บ้านก่อน, greedy)
+export const TORCH_REACH = 13;
+export function torchPlan(heights, floorY, { torches = [], keep = [], center = null } = {}) {
+  const H = heights.length, W = heights[0]?.length ?? 0, r = TORCH_REACH;
+  const cz = center?.[0] ?? Math.floor(H / 2), cx = center?.[1] ?? Math.floor(W / 2);
+  const yAt = (x, z) => heights[z]?.[x] ?? floorY;
+  const inKeep = (x, z) => keep.some((k) => x >= k.x0 && x <= k.x1 && z >= k.z0 && z <= k.z1);
+  const lit = torches.map((t) => ({ x: t.x, z: t.z, y: t.y ?? yAt(t.x, t.z) }));
+  const covered = (x, z, y) => lit.some((t) => Math.abs(t.x - x) + Math.abs(t.z - z) + Math.abs(t.y - y) <= r);
+  const place = [];
+  const put = (x, z) => { const p = { x, z, y: yAt(x, z) }; lit.push(p); place.push(p); };
+  // 1) ตาข่ายเพชร: ส่วนครอบ |dx|+|dz|≤13 ปูเต็มระนาบพอดีด้วยเวกเตอร์ (13,14),(14,−13) (365 ช่อง/ดวง) → ใช้คบเพลิงน้อยสุดบนพื้นเรียบ
+  const n = Math.ceil(Math.max(H, W) / r) + 2;
+  for (let a = -n; a <= n; a++) for (let b = -n; b <= n; b++) {
+    const x = cx + a * r + b * (r + 1), z = cz + a * (r + 1) - b * r;
+    if (x < -r || z < -r || x >= W + r || z >= H + r) continue;
+    const px = Math.max(0, Math.min(W - 1, x)), pz = Math.max(0, Math.min(H - 1, z));
+    if (inKeep(px, pz)) continue;
+    // ข้ามถ้าทุกช่องในส่วนครอบของจุดนี้ (ในพื้นที่) มีแสงจากดวงเดิมแล้ว
+    let need = false;
+    for (let dz = -r; dz <= r && !need; dz++) for (let dx = -(r - Math.abs(dz)); dx <= r - Math.abs(dz); dx++) {
+      const qx = x + dx, qz = z + dz;
+      if (qx >= 0 && qz >= 0 && qx < W && qz < H && !covered(qx, qz, yAt(qx, qz))) { need = true; break; }
+    }
+    if (need) put(px, pz);
+  }
+  // 2) เก็บตก: ช่องที่ยังมืด (ขอบ/พื้นต่างระดับ/พื้นที่เว้น) → ปักตรงนั้น ใกล้บ้านก่อน
+  const cells = [];
+  for (let z = 0; z < H; z++) for (let x = 0; x < W; x++) cells.push({ x, z, d: Math.abs(x - cx) + Math.abs(z - cz) });
+  cells.sort((p, q) => p.d - q.d);
+  for (const c of cells) if (!covered(c.x, c.z, yAt(c.x, c.z)) && !inKeep(c.x, c.z)) put(c.x, c.z);
+  return { place, total: lit.length };
+}

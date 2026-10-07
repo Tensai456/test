@@ -41,3 +41,19 @@ test('ฝากของ: เครื่องมือขุด/คบเพ�
   assert.equal(keep.cobblestone, 64); assert.equal(deposit.cobblestone, 136);
   assert.ok(deposit.raw_iron && deposit.rotten_flesh);
 });
+
+test('คบเพลิง: ทุกช่องต้องอยู่ ≤13 จากคบเพลิงสักดวง · ดวงเดิมไม่รื้อ', async () => {
+  const { torchPlan } = await import('../lib/home/home_keep.mjs');
+  const h = Array.from({ length: 41 }, () => Array(41).fill(64));
+  const { place, total } = torchPlan(h, 64, { torches: [{ x: 20, z: 20 }] });
+  const all = [{ x: 20, z: 20, y: 64 }, ...place];
+  for (let z = 0; z < 41; z++) for (let x = 0; x < 41; x++) assert.ok(all.some((t) => Math.abs(t.x - x) + Math.abs(t.z - z) <= 13), `${x},${z}`);
+  assert.equal(total, place.length + 1);
+  assert.ok(place.length <= 12, `ใช้ ${place.length} ดวง`);
+});
+
+test('ทางเดินขึ้นบ้าน (house-passage) ไม่ถูกถม/ขุด', () => {
+  const h = [[64, 64, 64, 64], [64, 60, 61, 62], [64, 64, 64, 64]];   // บันไดจากเหมืองขึ้นบ้าน
+  const keep = [{ x0: 1, z0: 1, x1: 3, z1: 1, why: 'house-passage' }];
+  assert.equal(tidyPlan(h, 64, { keep }).actions.length, 0);
+});

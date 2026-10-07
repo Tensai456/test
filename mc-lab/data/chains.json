@@ -434,6 +434,16 @@
    ]
   },
   {
+   "id": "light-area",
+   "title": "ปักคบเพลิงรอบบ้าน/ในบ้าน กันม็อบเกิด",
+   "done": {
+    "flag": "areaLit"
+   },
+   "kb": [
+    "home-keeping/torches.md"
+   ]
+  },
+  {
    "id": "tidy-area",
    "title": "ปรับพื้นรอบบ้าน/ในบ้านให้เรียบ (เว้นที่ขุด)",
    "done": {
