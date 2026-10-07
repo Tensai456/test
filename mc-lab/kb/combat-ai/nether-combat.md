@@ -11,7 +11,7 @@
 | Wither Skeleton | ตีโดน = Wither 10 วิ (ลด 1 HP ทุก 2 วิ ฆ่าได้ ต่างจาก Poison); HP 20 | W/Wither_Skeleton |
 | Hoglin | หนี warped fungus ระยะ 7 บล็อก (วางบนบล็อก/กระถาง); ดาเมจกลาง knockback สูง; ต้านknockback 60% | W/Hoglin |
 | Piglin | เป็นศัตรูถ้าไม่ใส่เกราะทอง ≥ 1 ชิ้น; ตรวจทองแท่งแล้ว "ตรวจ" 6 วิ แล้วดรอปของ; เบบี้ไม่ให้ของ | W/Piglin |
-| Zombified piglin | piglin ในโอเวอร์เวิลด์/ดิ ENDแปลงภายใน 15 วิ | W/Piglin |
+| Zombified piglin | piglin ในโอเวอร์เวิลด์/ดิเอนด์แปลงภายใน 15 วิ | W/Piglin |
 
 เสริม: ตารางของแลก piglin ดู kb/piglin/barter.md.
 บอตควร: ตี fireball ด้วยดาบ/ธนูหันหน้าสู่ ghast; ใส่เกราะทอง 1 ชิ้นก่อนเข้าเนเธอร์/ bastion; ถือ warped fungus กันฮอกลิน; Wither Skeleton ต้องกินนมแก้ Wither.
