@@ -1481,7 +1481,7 @@
    "animals",
    "goat"
   ],
-  "lines": 8
+  "lines": 9
  },
  {
   "path": "animals/equines-camel.md",
@@ -1493,7 +1493,7 @@
    "equines",
    "camel"
   ],
-  "lines": 9
+  "lines": 12
  },
  {
   "path": "animals/llama.md",
@@ -1540,6 +1540,83 @@
   "lines": 7
  },
  {
+  "path": "animals/fox.md",
+  "title": "จิ้งจอก",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "fox"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "animals/turtle.md",
+  "title": "เต่า",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "turtle"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "animals/frog.md",
+  "title": "กบ",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "frog"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "animals/armadillo.md",
+  "title": "อาร์มาดิลโล",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "armadillo"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "animals/sniffer.md",
+  "title": "สนิฟเฟอร์",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "sniffer"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "animals/bee.md",
+  "title": "ผึ้ง",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "bee"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "animals/axolotl.md",
+  "title": "แอกโซลอเติล",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "axolotl"
+  ],
+  "lines": 8
+ },
+ {
   "path": "animals/leads-fencing.md",
   "title": "เชือกจูงและรั้ว",
   "group": "animals",
@@ -1549,7 +1626,7 @@
    "leads",
    "fencing"
   ],
-  "lines": 2
+  "lines": 8
  },
  {
   "path": "animals/unverified.md",

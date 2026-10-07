@@ -6,18 +6,25 @@
 
 ## animals (`animals/`)
 
+- [อาร์มาดิลโล](animals/armadillo.md) · 7 บรรทัด
+- [แอกโซลอเติล](animals/axolotl.md) · 8 บรรทัด
+- [ผึ้ง](animals/bee.md) · 8 บรรทัด
 - [กฎการผสมพันธุ์ทั่วไป](animals/breeding-rules.md) · 12 บรรทัด
 - [แมว](animals/cat.md) · 6 บรรทัด
 - [ไก่](animals/chicken.md) · 9 บรรทัด
 - [วัว](animals/cow.md) · 9 บรรทัด
-- [ม้า/ลา/ล่อ/อูฐ](animals/equines-camel.md) · 9 บรรทัด
-- [แพะ](animals/goat.md) · 8 บรรทัด
-- [เชือกจูงและรั้ว](animals/leads-fencing.md) · 2 บรรทัด
+- [ม้า/ลา/ล่อ/อูฐ](animals/equines-camel.md) · 12 บรรทัด
+- [จิ้งจอก](animals/fox.md) · 8 บรรทัด
+- [กบ](animals/frog.md) · 9 บรรทัด
+- [แพะ](animals/goat.md) · 9 บรรทัด
+- [เชือกจูงและรั้ว](animals/leads-fencing.md) · 8 บรรทัด
 - [ลามะ](animals/llama.md) · 8 บรรทัด
 - [นกแก้ว](animals/parrot.md) · 7 บรรทัด
 - [หมู](animals/pig.md) · 9 บรรทัด
 - [กระต่าย](animals/rabbit.md) · 7 บรรทัด
 - [แกะ](animals/sheep.md) · 8 บรรทัด
+- [สนิฟเฟอร์](animals/sniffer.md) · 9 บรรทัด
+- [เต่า](animals/turtle.md) · 7 บรรทัด
 - [ยังไม่ยืนยัน](animals/unverified.md) · 5 บรรทัด
 - [หมาป่า](animals/wolf.md) · 7 บรรทัด
 
