@@ -24,12 +24,55 @@
 | Nether quartz ore | 2–5 | W/Experience |
 | Diamond / Emerald ore | 3–7 | W/Experience |
 | Bottle o' Enchanting | 3–11 (เฉลี่ย 7.0) | W/Bottle_o'_Enchanting |
-| Smelting | ต่อไอเท็ม: cactus 1.0 (สูงสุด), potato ~0.35 | W/Experience |
-| Breeding / Fishing | ดรอป 1 ออร์บค่าสุ่มในช่วง (ช่วงตัวเลข [ไม่แน่ใจ]) | W/Experience |
+| Smelting | ต่อไอเท็ม ดูหัวข้อ smelting-xp (ancient debris 2 สูงสุด) | W/Experience |
+| Breeding | 1–7 (1 ออร์บค่าสุ่ม; ชาวบ้านเพาะพันธุ์ไม่ได้ XP) | W/Experience |
+| Fishing | 1–6 (1 ออร์บค่าสุ่ม) | W/Experience |
+| ค้าขายชาวบ้านสำเร็จ | 3–6 (ถ้าพร้อมเพาะพันธุ์ 8–11); ตามเลเวลชาวบ้านราว 1–2 (Novice) ถึงสูงสุด 30 ต่อดีล [ไม่แน่ใจ ช่วงกลาง] | W/Experience, W/Villager |
 
 ขุดแร่: ได้ XP เฉพาะแร่ที่ดรอปของ (ไม่ใช่ raw metal); Silk Touch = ไม่ได้ XP (W/Experience, W/Ore)
 บอตควร: ห้ามใช้ Silk Touch เมื่อต้องการ XP; เลือกฟาร์ม Blaze (10 XP/ตัว) มากกว่ามอนทั่วไป
 ตัดสินผล: (เกณฑ์แล็บ) ขุด diamond 1 ก้อนต้องได้ XP 3–7; นอกช่วง = fail
+
+## smelting-xp · XP จากการหลอม
+| ไอเท็มต้นทาง | XP ต่อชิ้น | แหล่ง |
+|---|---|---|
+| Ancient debris | 2 | W/Experience, W/Ancient_Debris |
+| Cactus, Diamond ore, Emerald ore, Gold ore, Nether gold ore, Raw gold | 1 | W/Experience |
+| Iron ore, Raw iron, Copper ore, Raw copper, Redstone ore | 0.7 | W/Experience |
+| Clay (บล็อก), Potato, เนื้อดิบ (beef/chicken/cod/mutton/porkchop/rabbit/salmon) | 0.35 | W/Experience |
+| Clay ball / Brick | 0.3 | W/Experience |
+| Lapis ore, Nether quartz ore | 0.2 | W/Experience |
+| ไม้/ท่อน/ไม้ที่ปอกเปลือก | 0.15 | W/Experience |
+| Coal ore, Sand | 0.1 (snippet ไม่ชัด) [ไม่แน่ใจ] | W/Experience |
+เศษส่วน: XP × จำนวนชิ้น ตัดจำนวนเต็ม เศษที่เหลือเป็นโอกาสได้ 1 XP เพิ่ม (W/Experience) · ได้ XP เมื่อหยิบของออกจากช่อง output
+บอตควร: หยิบของออกจากเตาเอง (ไม่ใช่ hopper) เพื่อรับ XP; ไม่คาดหวังค่าตายตัวของไอเท็มเศษส่วน
+ตัดสินผล: (เกณฑ์แล็บ) หลอม 8 iron → XP เฉลี่ย 5.6 (ยอมรับ 5–6)
+
+## mob-xp-extra · XP มอนอื่น
+| มอน | XP | แหล่ง |
+|---|---|---|
+| Wither | 50 | W/Experience, W/Wither |
+| Elder Guardian | 10 | W/Elder_Guardian |
+| Evoker | 10 | W/Experience |
+| Ravager | 20 | W/Experience |
+| Piglin Brute | 20 | W/Piglin_Brute |
+| Piglin (ตัวโต) / ลูก Java | 5 / 5 (Bedrock ลูก 1) | W/Piglin |
+| Ghast, Hoglin, Warden | 5 | W/Ghast, W/Hoglin, W/Warden |
+| Wither skeleton, Witch, Phantom, Shulker | 5 + 1–3 ต่อชิ้นอุปกรณ์ที่ไม่ดรอป | W/Experience |
+| Guardian | [ไม่แน่ใจ] (snippet ขัดกัน 10 หรือ 5+1–3) | W/Experience |
+| Zombified piglin, Magma cube, Slime, Endermite ฯลฯ | [ไม่แน่ใจ] | — |
+บอตควร: ฟาร์ม Wither/Elder Guardian เฉพาะเมื่อพร้อม; XP นับเมื่อผู้เล่นหรือหมาป่าเชื่องฆ่าเท่านั้น
+ตัดสินผล: (เกณฑ์แล็บ) ฆ่า Wither ด้วยบอต → XP +50
+
+## orb-behavior · พฤติกรรมออร์บ
+| รายการ | ค่า | แหล่ง |
+|---|---|---|
+| ระยะดูดเข้าหาผู้เล่น | 7.25 บล็อก (จากกลางเท้าถึงกลางออร์บ) | W/Experience |
+| เวลา despawn | 5 นาทีหลังเกิด | W/Experience |
+| อัตราเก็บ | ทีละลูก 10 ลูก/วินาที | W/Experience |
+| อุปสรรค | ใยแมงมุมช่วยหน่วง; กระแสน้ำดึงออร์บได้ | W/Experience |
+บอตควร: เข้าไปใกล้ออร์บภายใน 7 บล็อกและเก็บภายใน 5 นาที
+ตัดสินผล: (เกณฑ์แล็บ) ออร์บที่ทิ้งเกิน 5 นาที = นับว่าสูญเสีย
 
 ## level-formula · สูตรเลเวล
 | ช่วงเลเวล | XP ที่ต้องใช้เลื่อนเลเวลถัดไป | แหล่ง |
