@@ -1480,6 +1480,57 @@
   "lines": 5
  },
  {
+  "path": "advanced/ticks-tps.md",
+  "title": "tick และเซิร์ฟแล็ก",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "tick",
+   "advanced",
+   "ticks",
+   "tps"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/random-tick.md",
+  "title": "การโตของพืช (random tick)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "random",
+   "tick",
+   "advanced"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/regional-difficulty.md",
+  "title": "ความยากตามพื้นที่ (โลกยิ่งเก่า ม็อบยิ่งโหด)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "regional",
+   "difficulty"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "advanced/data-driven.md",
+  "title": "ข้อมูลเกมแบบ JSON (data pack)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "json",
+   "data",
+   "pack",
+   "advanced",
+   "driven"
+  ],
+  "lines": 5
+ },
+ {
   "path": "advanced/unverified.md",
   "title": "ยังไม่ยืนยัน",
   "group": "advanced",

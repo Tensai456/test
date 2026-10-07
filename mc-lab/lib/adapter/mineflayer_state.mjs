@@ -32,7 +32,8 @@ export function toState(bot, tr = createTracker(), extra = {}) {
   // effects: mineflayer เก็บเป็น { [id]: {amplifier, duration} } [ตรวจ] → แปลงชื่อด้วย bot.registry
   const effects = Object.keys(e.effects ?? {}).map((id) => bot.registry?.effects?.[id]?.name?.replace(/([a-z])([A-Z])/g, '$1_$2').toLowerCase()).filter(Boolean);
   // idle: ตำแหน่ง+กระเป๋าไม่เปลี่ยน
-  const now = extra.now ?? Date.now();
+  // เวลา: ใช้ tick เกม (bot.time.age) ถ้ามี — เซิร์ฟแล็กแล้วนาฬิกาเครื่องจะเพี้ยน · 1 tick = 50 ms
+  const now = extra.now ?? (bot.time?.age != null ? Number(bot.time.age) * 50 : Date.now());
   const invSig = JSON.stringify(inv);
   const moved = !tr.lastPos || tr.lastPos.distanceTo(me) > 1 || invSig !== tr.lastInv;
   if (moved) { tr.lastPos = me.clone ? me.clone() : me; tr.lastInv = invSig; tr.idleSince = now; }

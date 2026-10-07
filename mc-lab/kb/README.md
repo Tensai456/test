@@ -7,10 +7,14 @@
 ## advanced (`advanced/`)
 
 - [ส่วนลดจากการรักษาซอมบี้ชาวบ้าน (แก้ข้อมูลผิด)](advanced/cure-discount.md) · 7 บรรทัด
+- [ข้อมูลเกมแบบ JSON (data pack)](advanced/data-driven.md) · 5 บรรทัด
 - [ฟาร์ม iron golem (แหล่งเหล็ก)](advanced/golem-farm.md) · 8 บรรทัด
 - [แม่แบบอัปเกรด netherite](advanced/netherite-template.md) · 7 บรรทัด
 - [ขวด Ominous (เข้า trial แบบยาก)](advanced/ominous-bottle.md) · 8 บรรทัด
+- [การโตของพืช (random tick)](advanced/random-tick.md) · 8 บรรทัด
 - [เรดสโตนขั้นสูง (ความรู้เสริม ไม่ใช่เอาชีวิตรอด)](advanced/redstone-advanced.md) · 5 บรรทัด
+- [ความยากตามพื้นที่ (โลกยิ่งเก่า ม็อบยิ่งโหด)](advanced/regional-difficulty.md) · 10 บรรทัด
+- [tick และเซิร์ฟแล็ก](advanced/ticks-tps.md) · 8 บรรทัด
 - [ยังไม่ยืนยัน](advanced/unverified.md) · 1 บรรทัด
 - [ขนแกะกันแรงสั่น sculk](advanced/wool-vibration.md) · 8 บรรทัด
 
