@@ -8,7 +8,8 @@
 | ชุดบน (mountain) | 90 ครั้ง/chunk, size 9, Y 80..384 แบบสามเหลี่ยม ชุกสุด Y 232 | W/Ore_(feature), W/Iron_Ore |
 | ชุดกลาง | 10 ครั้ง/chunk, size 9, Y -24..56 แบบสามเหลี่ยม ชุกสุด Y 16 | W/Ore_(feature) |
 | ชุดเล็ก (deep/small) | 10 ครั้ง/chunk, blob 0..5, สม่ำเสมอ Y -64..72 | W/Ore_(feature) |
-| ขัดแย้งใน snippet | อีกสรุปว่า upper Y 112..384, middle -24..56, deep -64..-32 และอีกสรุปว่า peak Y=18 | W/Iron_Ore · [ไม่แน่ใจ] (อาจเป็นตัวเลขเก่า/อีกเวอร์ชัน) |
+| ยืนยันซ้ำ (หลักรอบ 2) | 3 ชุดข้างบนตรงกับ W/Iron_Ore: ชุดบน 90 ครั้ง/chunk Y 80..384 ชุกสุด 232 · ชุดกลาง 10 ครั้ง Y -24..56 ชุกสุด 16 · ชุดเล็ก 10 ครั้ง blob 0..5 Y -64..72 — ตัวเลขอื่น (112..384, peak 18) ถือว่าเก่า | W/Iron_Ore |
+| ⚠ สำคัญต่อ iron race | ชุดบนพยายามเกิด **9 เท่า** ของชุดกลาง (90 vs 10 ครั้ง/chunk) → ภูเขาสูง (Y >80) = แหล่งเหล็กผิวดินหนาแน่นที่สุด | W/Iron_Ore (การเทียบ 9 เท่า = คำนวณจากตัวเลขวิกิ) |
 | Large iron vein | Y -60..-8, ใหญ่สุด Y -40..-28, มี iron ore + raw iron block + tuff เป็น filler; เส้นเลื้อยแตกกิ่งแบบ spaghetti cave; ขนาดไม่จำกัด บางเส้นเกิน 2,000 บล็อกแร่ | W/Ore_vein, W/Tutorial:Mining/Ore_veins |
 | Large copper vein | Y 0..50, หนาสุด Y 20..30, copper ore + raw copper (raw copper block แทน ore 2% เหนือ Y 0), filler granite | W/Ore_vein |
 | ขุด | hardness 3, ต้อง stone pickaxe ขึ้นไป; ดรอป raw iron 1; Fortune I/II/III = สูงสุด 2/3/4 (ค่าเฉลี่ย ×1.33/×1.75/×2.2); Silk Touch ได้ ore (ไม่ใช้คู่ Fortune) | W/Iron_Ore, W/Fortune |

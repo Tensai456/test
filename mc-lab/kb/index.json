@@ -3831,7 +3831,7 @@
    "ores",
    "world"
   ],
-  "lines": 21
+  "lines": 22
  },
  {
   "path": "ores-world/ore-sizes.md",
@@ -4175,6 +4175,193 @@
    "lock"
   ],
   "lines": 1
+ },
+ {
+  "path": "spawning/mob-cap.md",
+  "title": "เพดานจำนวนมอบต่อประเภท",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "mob",
+   "cap"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "spawning/spawn-distance.md",
+  "title": "ระยะเกิด",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "spawn",
+   "distance"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "spawning/despawn.md",
+  "title": "การหายไปของมอบ",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "despawn"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "spawning/spawn-proofing.md",
+  "title": "กันมอนสเตอร์เกิด",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "spawn",
+   "proofing"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "spawning/slime.md",
+  "title": "สไลม์",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "slime"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "spawning/structure-spawns.md",
+  "title": "เกิดเฉพาะโครงสร้าง",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "structure",
+   "spawns"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "spawning/patrol.md",
+  "title": "ทีมลาดตระเวนผู้ปล้น",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "patrol"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "spawning/phantom.md",
+  "title": "แฟนทอม (เพิ่มจาก kb/time-weather/phantom.md)",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "time",
+   "weather",
+   "phantom",
+   "spawning"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "spawning/drowned.md",
+  "title": "ดราวน์และการแปลง",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "drowned"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "spawning/zombie-reinforce.md",
+  "title": "ซอมบี้เรียกพวก",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "zombie",
+   "reinforce"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "spawning/jockeys.md",
+  "title": "จ็อกกี้",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "jockeys"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "spawning/skeleton-trap.md",
+  "title": "ม้าโครงกระดูกกับดัก",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "skeleton",
+   "trap"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "spawning/nether-spawns.md",
+  "title": "เกิดในเนเธอร์ตามไบโอม",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "nether",
+   "spawns"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "spawning/end-spawns.md",
+  "title": "เกิดใน End",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "end",
+   "spawning",
+   "spawns"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "spawning/monster-spawner.md",
+  "title": "กลไก spawner",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawner",
+   "spawning",
+   "monster"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "spawning/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "unverified"
+  ],
+  "lines": 7
  },
  {
   "path": "structures/village.md",

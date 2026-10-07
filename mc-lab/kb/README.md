@@ -389,7 +389,7 @@
 - [ถ้ำและ aquifer](ores-world/caves-aquifers.md) · 11 บรรทัด
 - [ตัวคูณ Fortune](ores-world/fortune.md) · 14 บรรทัด
 - [ขีดจำกัดความสูงโลก](ores-world/height-limits.md) · 9 บรรทัด
-- [เหล็ก (ลำดับความสำคัญสูงสุดของ iron race)](ores-world/iron.md) · 21 บรรทัด
+- [เหล็ก (ลำดับความสำคัญสูงสุดของ iron race)](ores-world/iron.md) · 22 บรรทัด
 - [ทะเลลาวาในนรก](ores-world/nether-lava.md) · 9 บรรทัด
 - [ขนาด blob และจำนวนครั้งต่อ chunk](ores-world/ore-sizes.md) · 14 บรรทัด
 - [ยังไม่ยืนยัน](ores-world/unverified.md) · 6 บรรทัด
@@ -485,6 +485,25 @@
 - [1. ฟิสิกส์ (`lib/pvp/physics.mjs`) — เทียบกับวิกิ](sim/physics-validation.md) · 10 บรรทัด
 - [2. ผล PvP (n=400 สลับฝั่ง, ping 10–50, เกราะเหล็กทั้งคู่)](sim/pvp-results.md) · 22 บรรทัด
 - [3. ผลเอาชีวิตรอด (n=300, Normal)](sim/survival-results.md) · 20 บรรทัด
+
+## spawning (`spawning/`)
+
+- [การหายไปของมอบ](spawning/despawn.md) · 12 บรรทัด
+- [ดราวน์และการแปลง](spawning/drowned.md) · 8 บรรทัด
+- [เกิดใน End](spawning/end-spawns.md) · 7 บรรทัด
+- [จ็อกกี้](spawning/jockeys.md) · 7 บรรทัด
+- [เพดานจำนวนมอบต่อประเภท](spawning/mob-cap.md) · 15 บรรทัด
+- [กลไก spawner](spawning/monster-spawner.md) · 11 บรรทัด
+- [เกิดในเนเธอร์ตามไบโอม](spawning/nether-spawns.md) · 11 บรรทัด
+- [ทีมลาดตระเวนผู้ปล้น](spawning/patrol.md) · 9 บรรทัด
+- [แฟนทอม (เพิ่มจาก kb/time-weather/phantom.md)](spawning/phantom.md) · 7 บรรทัด
+- [ม้าโครงกระดูกกับดัก](spawning/skeleton-trap.md) · 8 บรรทัด
+- [สไลม์](spawning/slime.md) · 9 บรรทัด
+- [ระยะเกิด](spawning/spawn-distance.md) · 9 บรรทัด
+- [กันมอนสเตอร์เกิด](spawning/spawn-proofing.md) · 11 บรรทัด
+- [เกิดเฉพาะโครงสร้าง](spawning/structure-spawns.md) · 12 บรรทัด
+- [ยังไม่ยืนยัน](spawning/unverified.md) · 7 บรรทัด
+- [ซอมบี้เรียกพวก](spawning/zombie-reinforce.md) · 10 บรรทัด
 
 ## structures (`structures/`)
 
