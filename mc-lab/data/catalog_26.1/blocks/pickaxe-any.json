@@ -1,0 +1,1879 @@
+[
+ {
+  "name": "powered_rail",
+  "display": "Powered Rail",
+  "hardness": 0.7,
+  "blastRes": 0.7,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.05,
+   "wooden": 0.55,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "powered_rail"
+  ]
+ },
+ {
+  "name": "detector_rail",
+  "display": "Detector Rail",
+  "hardness": 0.7,
+  "blastRes": 0.7,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.05,
+   "wooden": 0.55,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "detector_rail"
+  ]
+ },
+ {
+  "name": "sticky_piston",
+  "display": "Sticky Piston",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "sticky_piston"
+  ]
+ },
+ {
+  "name": "piston",
+  "display": "Piston",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "piston"
+  ]
+ },
+ {
+  "name": "piston_head",
+  "display": "Piston Head",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "rail",
+  "display": "Rail",
+  "hardness": 0.7,
+  "blastRes": 0.7,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.05,
+   "wooden": 0.55,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "rail"
+  ]
+ },
+ {
+  "name": "stone_pressure_plate",
+  "display": "Stone Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "stone_pressure_plate"
+  ]
+ },
+ {
+  "name": "iron_door",
+  "display": "Iron Door",
+  "hardness": 5,
+  "blastRes": 5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 7.5,
+   "wooden": 3.75,
+   "stone": 1.9,
+   "iron": 1.25,
+   "diamond": 0.95,
+   "netherite": 0.85
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "iron_door"
+  ]
+ },
+ {
+  "name": "stone_button",
+  "display": "Stone Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "stone_button"
+  ]
+ },
+ {
+  "name": "ice",
+  "display": "Ice",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "slippery"
+  ],
+  "drops": []
+ },
+ {
+  "name": "packed_mud",
+  "display": "Packed Mud",
+  "hardness": 1,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "packed_mud"
+  ]
+ },
+ {
+  "name": "infested_stone",
+  "display": "Infested Stone",
+  "hardness": 0.75,
+  "blastRes": 0.75,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.15,
+   "wooden": 0.6,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "infested_cobblestone",
+  "display": "Infested Cobblestone",
+  "hardness": 1,
+  "blastRes": 0.75,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "infested_stone_bricks",
+  "display": "Infested Stone Bricks",
+  "hardness": 0.75,
+  "blastRes": 0.75,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.15,
+   "wooden": 0.6,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "infested_mossy_stone_bricks",
+  "display": "Infested Mossy Stone Bricks",
+  "hardness": 0.75,
+  "blastRes": 0.75,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.15,
+   "wooden": 0.6,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "infested_cracked_stone_bricks",
+  "display": "Infested Cracked Stone Bricks",
+  "hardness": 0.75,
+  "blastRes": 0.75,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.15,
+   "wooden": 0.6,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "infested_chiseled_stone_bricks",
+  "display": "Infested Chiseled Stone Bricks",
+  "hardness": 0.75,
+  "blastRes": 0.75,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.15,
+   "wooden": 0.6,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "brewing_stand",
+  "display": "Brewing Stand",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 1,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "brewing_stand"
+  ]
+ },
+ {
+  "name": "ender_chest",
+  "display": "Ender Chest",
+  "hardness": 22.5,
+  "blastRes": 600,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 33.75,
+   "wooden": 16.9,
+   "stone": 8.45,
+   "iron": 5.65,
+   "diamond": 4.25,
+   "netherite": 3.75
+  },
+  "light": 7,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "obsidian"
+  ]
+ },
+ {
+  "name": "light_weighted_pressure_plate",
+  "display": "Light Weighted Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "light_weighted_pressure_plate"
+  ]
+ },
+ {
+  "name": "heavy_weighted_pressure_plate",
+  "display": "Heavy Weighted Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "heavy_weighted_pressure_plate"
+  ]
+ },
+ {
+  "name": "activator_rail",
+  "display": "Activator Rail",
+  "hardness": 0.7,
+  "blastRes": 0.7,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.05,
+   "wooden": 0.55,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "activator_rail"
+  ]
+ },
+ {
+  "name": "packed_ice",
+  "display": "Packed Ice",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "slippery"
+  ],
+  "drops": []
+ },
+ {
+  "name": "shulker_box",
+  "display": "Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "shulker_box"
+  ]
+ },
+ {
+  "name": "white_shulker_box",
+  "display": "White Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "white_shulker_box"
+  ]
+ },
+ {
+  "name": "orange_shulker_box",
+  "display": "Orange Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "orange_shulker_box"
+  ]
+ },
+ {
+  "name": "magenta_shulker_box",
+  "display": "Magenta Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "magenta_shulker_box"
+  ]
+ },
+ {
+  "name": "light_blue_shulker_box",
+  "display": "Light Blue Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_blue_shulker_box"
+  ]
+ },
+ {
+  "name": "yellow_shulker_box",
+  "display": "Yellow Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "yellow_shulker_box"
+  ]
+ },
+ {
+  "name": "lime_shulker_box",
+  "display": "Lime Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lime_shulker_box"
+  ]
+ },
+ {
+  "name": "pink_shulker_box",
+  "display": "Pink Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pink_shulker_box"
+  ]
+ },
+ {
+  "name": "gray_shulker_box",
+  "display": "Gray Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "gray_shulker_box"
+  ]
+ },
+ {
+  "name": "light_gray_shulker_box",
+  "display": "Light Gray Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "light_gray_shulker_box"
+  ]
+ },
+ {
+  "name": "cyan_shulker_box",
+  "display": "Cyan Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cyan_shulker_box"
+  ]
+ },
+ {
+  "name": "purple_shulker_box",
+  "display": "Purple Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "purple_shulker_box"
+  ]
+ },
+ {
+  "name": "blue_shulker_box",
+  "display": "Blue Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "blue_shulker_box"
+  ]
+ },
+ {
+  "name": "brown_shulker_box",
+  "display": "Brown Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "brown_shulker_box"
+  ]
+ },
+ {
+  "name": "green_shulker_box",
+  "display": "Green Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "green_shulker_box"
+  ]
+ },
+ {
+  "name": "red_shulker_box",
+  "display": "Red Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "red_shulker_box"
+  ]
+ },
+ {
+  "name": "black_shulker_box",
+  "display": "Black Shulker Box",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "black_shulker_box"
+  ]
+ },
+ {
+  "name": "blue_ice",
+  "display": "Blue Ice",
+  "hardness": 2.8,
+  "blastRes": 2.8,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.2,
+   "wooden": 2.1,
+   "stone": 1.05,
+   "iron": 0.7,
+   "diamond": 0.55,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "slippery"
+  ],
+  "drops": []
+ },
+ {
+  "name": "conduit",
+  "display": "Conduit",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "conduit"
+  ]
+ },
+ {
+  "name": "bell",
+  "display": "Bell",
+  "hardness": 5,
+  "blastRes": 5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 7.5,
+   "wooden": 3.75,
+   "stone": 1.9,
+   "iron": 1.25,
+   "diamond": 0.95,
+   "netherite": 0.85
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bell"
+  ]
+ },
+ {
+  "name": "lantern",
+  "display": "Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lantern"
+  ]
+ },
+ {
+  "name": "soul_lantern",
+  "display": "Soul Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 10,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "soul_lantern"
+  ]
+ },
+ {
+  "name": "copper_lantern",
+  "display": "Copper Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "copper_lantern"
+  ]
+ },
+ {
+  "name": "exposed_copper_lantern",
+  "display": "Exposed Copper Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_copper_lantern"
+  ]
+ },
+ {
+  "name": "weathered_copper_lantern",
+  "display": "Weathered Copper Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_copper_lantern"
+  ]
+ },
+ {
+  "name": "oxidized_copper_lantern",
+  "display": "Oxidized Copper Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_copper_lantern"
+  ]
+ },
+ {
+  "name": "waxed_copper_lantern",
+  "display": "Waxed Copper Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_copper_lantern"
+  ]
+ },
+ {
+  "name": "waxed_exposed_copper_lantern",
+  "display": "Waxed Exposed Copper Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_copper_lantern"
+  ]
+ },
+ {
+  "name": "waxed_weathered_copper_lantern",
+  "display": "Waxed Weathered Copper Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_copper_lantern"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_copper_lantern",
+  "display": "Waxed Oxidized Copper Lantern",
+  "hardness": 3.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 5.3,
+   "wooden": 2.65,
+   "stone": 1.35,
+   "iron": 0.9,
+   "diamond": 0.7,
+   "netherite": 0.6
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_copper_lantern"
+  ]
+ },
+ {
+  "name": "polished_blackstone_pressure_plate",
+  "display": "Polished Blackstone Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "polished_blackstone_pressure_plate"
+  ]
+ },
+ {
+  "name": "polished_blackstone_button",
+  "display": "Polished Blackstone Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "polished_blackstone_button"
+  ]
+ },
+ {
+  "name": "amethyst_cluster",
+  "display": "Amethyst Cluster",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 5,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "amethyst_shard"
+  ]
+ },
+ {
+  "name": "large_amethyst_bud",
+  "display": "Large Amethyst Bud",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 4,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "medium_amethyst_bud",
+  "display": "Medium Amethyst Bud",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 2,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "small_amethyst_bud",
+  "display": "Small Amethyst Bud",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 1,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "copper_door",
+  "display": "Copper Door",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "copper_door"
+  ]
+ },
+ {
+  "name": "exposed_copper_door",
+  "display": "Exposed Copper Door",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_copper_door"
+  ]
+ },
+ {
+  "name": "oxidized_copper_door",
+  "display": "Oxidized Copper Door",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_copper_door"
+  ]
+ },
+ {
+  "name": "weathered_copper_door",
+  "display": "Weathered Copper Door",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_copper_door"
+  ]
+ },
+ {
+  "name": "waxed_copper_door",
+  "display": "Waxed Copper Door",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_copper_door"
+  ]
+ },
+ {
+  "name": "waxed_exposed_copper_door",
+  "display": "Waxed Exposed Copper Door",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_copper_door"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_copper_door",
+  "display": "Waxed Oxidized Copper Door",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_copper_door"
+  ]
+ },
+ {
+  "name": "waxed_weathered_copper_door",
+  "display": "Waxed Weathered Copper Door",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_copper_door"
+  ]
+ },
+ {
+  "name": "copper_golem_statue",
+  "display": "Copper Golem Statue",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "copper_golem_statue"
+  ]
+ },
+ {
+  "name": "exposed_copper_golem_statue",
+  "display": "Exposed Copper Golem Statue",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "exposed_copper_golem_statue"
+  ]
+ },
+ {
+  "name": "weathered_copper_golem_statue",
+  "display": "Weathered Copper Golem Statue",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "weathered_copper_golem_statue"
+  ]
+ },
+ {
+  "name": "oxidized_copper_golem_statue",
+  "display": "Oxidized Copper Golem Statue",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oxidized_copper_golem_statue"
+  ]
+ },
+ {
+  "name": "waxed_copper_golem_statue",
+  "display": "Waxed Copper Golem Statue",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_copper_golem_statue"
+  ]
+ },
+ {
+  "name": "waxed_exposed_copper_golem_statue",
+  "display": "Waxed Exposed Copper Golem Statue",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_exposed_copper_golem_statue"
+  ]
+ },
+ {
+  "name": "waxed_weathered_copper_golem_statue",
+  "display": "Waxed Weathered Copper Golem Statue",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_weathered_copper_golem_statue"
+  ]
+ },
+ {
+  "name": "waxed_oxidized_copper_golem_statue",
+  "display": "Waxed Oxidized Copper Golem Statue",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "waxed_oxidized_copper_golem_statue"
+  ]
+ },
+ {
+  "name": "pointed_dripstone",
+  "display": "Pointed Dripstone",
+  "hardness": 1.5,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "danger",
+   "gravity"
+  ],
+  "drops": [
+   "pointed_dripstone"
+  ]
+ },
+ {
+  "name": "infested_deepslate",
+  "display": "Infested Deepslate",
+  "hardness": 1.5,
+  "blastRes": 0.75,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "crafter",
+  "display": "Crafter",
+  "hardness": 1.5,
+  "blastRes": 3.5,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crafter"
+  ]
+ },
+ {
+  "name": "heavy_core",
+  "display": "Heavy Core",
+  "hardness": 10,
+  "blastRes": 1200,
+  "tool": "pickaxe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 3.75,
+   "iron": 2.5,
+   "diamond": 1.9,
+   "netherite": 1.7
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "heavy_core"
+  ]
+ }
+]

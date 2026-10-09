@@ -1,0 +1,6840 @@
+[
+ {
+  "name": "oak_planks",
+  "display": "Oak Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_planks"
+  ]
+ },
+ {
+  "name": "spruce_planks",
+  "display": "Spruce Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_planks"
+  ]
+ },
+ {
+  "name": "birch_planks",
+  "display": "Birch Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_planks"
+  ]
+ },
+ {
+  "name": "jungle_planks",
+  "display": "Jungle Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_planks"
+  ]
+ },
+ {
+  "name": "acacia_planks",
+  "display": "Acacia Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_planks"
+  ]
+ },
+ {
+  "name": "cherry_planks",
+  "display": "Cherry Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_planks"
+  ]
+ },
+ {
+  "name": "dark_oak_planks",
+  "display": "Dark Oak Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_planks"
+  ]
+ },
+ {
+  "name": "pale_oak_wood",
+  "display": "Pale Oak Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_wood"
+  ]
+ },
+ {
+  "name": "pale_oak_planks",
+  "display": "Pale Oak Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_planks"
+  ]
+ },
+ {
+  "name": "mangrove_planks",
+  "display": "Mangrove Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_planks"
+  ]
+ },
+ {
+  "name": "bamboo_planks",
+  "display": "Bamboo Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_planks"
+  ]
+ },
+ {
+  "name": "bamboo_mosaic",
+  "display": "Bamboo Mosaic",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_mosaic"
+  ]
+ },
+ {
+  "name": "oak_log",
+  "display": "Oak Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_log"
+  ]
+ },
+ {
+  "name": "spruce_log",
+  "display": "Spruce Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_log"
+  ]
+ },
+ {
+  "name": "birch_log",
+  "display": "Birch Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_log"
+  ]
+ },
+ {
+  "name": "jungle_log",
+  "display": "Jungle Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_log"
+  ]
+ },
+ {
+  "name": "acacia_log",
+  "display": "Acacia Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_log"
+  ]
+ },
+ {
+  "name": "cherry_log",
+  "display": "Cherry Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_log"
+  ]
+ },
+ {
+  "name": "dark_oak_log",
+  "display": "Dark Oak Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_log"
+  ]
+ },
+ {
+  "name": "pale_oak_log",
+  "display": "Pale Oak Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_log"
+  ]
+ },
+ {
+  "name": "mangrove_log",
+  "display": "Mangrove Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_log"
+  ]
+ },
+ {
+  "name": "mangrove_roots",
+  "display": "Mangrove Roots",
+  "hardness": 0.7,
+  "blastRes": 0.7,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.05,
+   "wooden": 0.55,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_roots"
+  ]
+ },
+ {
+  "name": "bamboo_block",
+  "display": "Block of Bamboo",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_block"
+  ]
+ },
+ {
+  "name": "stripped_spruce_log",
+  "display": "Stripped Spruce Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_spruce_log"
+  ]
+ },
+ {
+  "name": "stripped_birch_log",
+  "display": "Stripped Birch Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_birch_log"
+  ]
+ },
+ {
+  "name": "stripped_jungle_log",
+  "display": "Stripped Jungle Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_jungle_log"
+  ]
+ },
+ {
+  "name": "stripped_acacia_log",
+  "display": "Stripped Acacia Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_acacia_log"
+  ]
+ },
+ {
+  "name": "stripped_cherry_log",
+  "display": "Stripped Cherry Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_cherry_log"
+  ]
+ },
+ {
+  "name": "stripped_dark_oak_log",
+  "display": "Stripped Dark Oak Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_dark_oak_log"
+  ]
+ },
+ {
+  "name": "stripped_pale_oak_log",
+  "display": "Stripped Pale Oak Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_pale_oak_log"
+  ]
+ },
+ {
+  "name": "stripped_oak_log",
+  "display": "Stripped Oak Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_oak_log"
+  ]
+ },
+ {
+  "name": "stripped_mangrove_log",
+  "display": "Stripped Mangrove Log",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_mangrove_log"
+  ]
+ },
+ {
+  "name": "stripped_bamboo_block",
+  "display": "Block of Stripped Bamboo",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_bamboo_block"
+  ]
+ },
+ {
+  "name": "oak_wood",
+  "display": "Oak Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_wood"
+  ]
+ },
+ {
+  "name": "spruce_wood",
+  "display": "Spruce Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_wood"
+  ]
+ },
+ {
+  "name": "birch_wood",
+  "display": "Birch Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_wood"
+  ]
+ },
+ {
+  "name": "jungle_wood",
+  "display": "Jungle Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_wood"
+  ]
+ },
+ {
+  "name": "acacia_wood",
+  "display": "Acacia Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_wood"
+  ]
+ },
+ {
+  "name": "cherry_wood",
+  "display": "Cherry Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_wood"
+  ]
+ },
+ {
+  "name": "dark_oak_wood",
+  "display": "Dark Oak Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_wood"
+  ]
+ },
+ {
+  "name": "mangrove_wood",
+  "display": "Mangrove Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_wood"
+  ]
+ },
+ {
+  "name": "stripped_oak_wood",
+  "display": "Stripped Oak Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_oak_wood"
+  ]
+ },
+ {
+  "name": "stripped_spruce_wood",
+  "display": "Stripped Spruce Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_spruce_wood"
+  ]
+ },
+ {
+  "name": "stripped_birch_wood",
+  "display": "Stripped Birch Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_birch_wood"
+  ]
+ },
+ {
+  "name": "stripped_jungle_wood",
+  "display": "Stripped Jungle Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_jungle_wood"
+  ]
+ },
+ {
+  "name": "stripped_acacia_wood",
+  "display": "Stripped Acacia Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_acacia_wood"
+  ]
+ },
+ {
+  "name": "stripped_cherry_wood",
+  "display": "Stripped Cherry Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_cherry_wood"
+  ]
+ },
+ {
+  "name": "stripped_dark_oak_wood",
+  "display": "Stripped Dark Oak Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_dark_oak_wood"
+  ]
+ },
+ {
+  "name": "stripped_pale_oak_wood",
+  "display": "Stripped Pale Oak Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_pale_oak_wood"
+  ]
+ },
+ {
+  "name": "stripped_mangrove_wood",
+  "display": "Stripped Mangrove Wood",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_mangrove_wood"
+  ]
+ },
+ {
+  "name": "note_block",
+  "display": "Note Block",
+  "hardness": 0.8,
+  "blastRes": 0.8,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.2,
+   "wooden": 0.6,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "note_block"
+  ]
+ },
+ {
+  "name": "bookshelf",
+  "display": "Bookshelf",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "book"
+  ]
+ },
+ {
+  "name": "chiseled_bookshelf",
+  "display": "Chiseled Bookshelf",
+  "hardness": 1.5,
+  "blastRes": 1.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 2.3,
+   "wooden": 1.15,
+   "stone": 0.6,
+   "iron": 0.4,
+   "diamond": 0.3,
+   "netherite": 0.25
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "acacia_shelf",
+  "display": "Acacia Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_shelf"
+  ]
+ },
+ {
+  "name": "bamboo_shelf",
+  "display": "Bamboo Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_shelf"
+  ]
+ },
+ {
+  "name": "birch_shelf",
+  "display": "Birch Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_shelf"
+  ]
+ },
+ {
+  "name": "cherry_shelf",
+  "display": "Cherry Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_shelf"
+  ]
+ },
+ {
+  "name": "crimson_shelf",
+  "display": "Crimson Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_shelf"
+  ]
+ },
+ {
+  "name": "dark_oak_shelf",
+  "display": "Dark Oak Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_shelf"
+  ]
+ },
+ {
+  "name": "jungle_shelf",
+  "display": "Jungle Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_shelf"
+  ]
+ },
+ {
+  "name": "mangrove_shelf",
+  "display": "Mangrove Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_shelf"
+  ]
+ },
+ {
+  "name": "oak_shelf",
+  "display": "Oak Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_shelf"
+  ]
+ },
+ {
+  "name": "pale_oak_shelf",
+  "display": "Pale Oak Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_shelf"
+  ]
+ },
+ {
+  "name": "spruce_shelf",
+  "display": "Spruce Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_shelf"
+  ]
+ },
+ {
+  "name": "warped_shelf",
+  "display": "Warped Shelf",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_shelf"
+  ]
+ },
+ {
+  "name": "creaking_heart",
+  "display": "Creaking Heart",
+  "hardness": 10,
+  "blastRes": 10,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 3.75,
+   "iron": 2.5,
+   "diamond": 1.9,
+   "netherite": 1.7
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "resin_clump"
+  ]
+ },
+ {
+  "name": "oak_stairs",
+  "display": "Oak Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_stairs"
+  ]
+ },
+ {
+  "name": "chest",
+  "display": "Chest",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "chest"
+  ]
+ },
+ {
+  "name": "crafting_table",
+  "display": "Crafting Table",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crafting_table"
+  ]
+ },
+ {
+  "name": "oak_sign",
+  "display": "Oak Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "oak_sign"
+  ]
+ },
+ {
+  "name": "spruce_sign",
+  "display": "Spruce Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "spruce_sign"
+  ]
+ },
+ {
+  "name": "birch_sign",
+  "display": "Birch Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "birch_sign"
+  ]
+ },
+ {
+  "name": "acacia_sign",
+  "display": "Acacia Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "acacia_sign"
+  ]
+ },
+ {
+  "name": "cherry_sign",
+  "display": "Cherry Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cherry_sign"
+  ]
+ },
+ {
+  "name": "jungle_sign",
+  "display": "Jungle Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "jungle_sign"
+  ]
+ },
+ {
+  "name": "dark_oak_sign",
+  "display": "Dark Oak Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "dark_oak_sign"
+  ]
+ },
+ {
+  "name": "pale_oak_sign",
+  "display": "Pale Oak Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pale_oak_sign"
+  ]
+ },
+ {
+  "name": "mangrove_sign",
+  "display": "Mangrove Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "mangrove_sign"
+  ]
+ },
+ {
+  "name": "bamboo_sign",
+  "display": "Bamboo Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "bamboo_sign"
+  ]
+ },
+ {
+  "name": "oak_door",
+  "display": "Oak Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_door"
+  ]
+ },
+ {
+  "name": "ladder",
+  "display": "Ladder",
+  "hardness": 0.4,
+  "blastRes": 0.4,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.6,
+   "wooden": 0.3,
+   "stone": 0.15,
+   "iron": 0.1,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "climbable",
+   "fallSafe"
+  ],
+  "drops": [
+   "ladder"
+  ]
+ },
+ {
+  "name": "oak_wall_sign",
+  "display": "Oak Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "oak_sign"
+  ]
+ },
+ {
+  "name": "spruce_wall_sign",
+  "display": "Spruce Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "spruce_sign"
+  ]
+ },
+ {
+  "name": "birch_wall_sign",
+  "display": "Birch Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "birch_sign"
+  ]
+ },
+ {
+  "name": "acacia_wall_sign",
+  "display": "Acacia Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "acacia_sign"
+  ]
+ },
+ {
+  "name": "cherry_wall_sign",
+  "display": "Cherry Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cherry_sign"
+  ]
+ },
+ {
+  "name": "jungle_wall_sign",
+  "display": "Jungle Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "jungle_sign"
+  ]
+ },
+ {
+  "name": "dark_oak_wall_sign",
+  "display": "Dark Oak Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "dark_oak_sign"
+  ]
+ },
+ {
+  "name": "pale_oak_wall_sign",
+  "display": "Pale Oak Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pale_oak_sign"
+  ]
+ },
+ {
+  "name": "mangrove_wall_sign",
+  "display": "Mangrove Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "mangrove_sign"
+  ]
+ },
+ {
+  "name": "bamboo_wall_sign",
+  "display": "Bamboo Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "bamboo_sign"
+  ]
+ },
+ {
+  "name": "oak_hanging_sign",
+  "display": "Oak Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "oak_hanging_sign"
+  ]
+ },
+ {
+  "name": "spruce_hanging_sign",
+  "display": "Spruce Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "spruce_hanging_sign"
+  ]
+ },
+ {
+  "name": "birch_hanging_sign",
+  "display": "Birch Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "birch_hanging_sign"
+  ]
+ },
+ {
+  "name": "acacia_hanging_sign",
+  "display": "Acacia Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "acacia_hanging_sign"
+  ]
+ },
+ {
+  "name": "cherry_hanging_sign",
+  "display": "Cherry Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cherry_hanging_sign"
+  ]
+ },
+ {
+  "name": "jungle_hanging_sign",
+  "display": "Jungle Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "jungle_hanging_sign"
+  ]
+ },
+ {
+  "name": "dark_oak_hanging_sign",
+  "display": "Dark Oak Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "dark_oak_hanging_sign"
+  ]
+ },
+ {
+  "name": "pale_oak_hanging_sign",
+  "display": "Pale Oak Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pale_oak_hanging_sign"
+  ]
+ },
+ {
+  "name": "crimson_hanging_sign",
+  "display": "Crimson Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "crimson_hanging_sign"
+  ]
+ },
+ {
+  "name": "warped_hanging_sign",
+  "display": "Warped Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "warped_hanging_sign"
+  ]
+ },
+ {
+  "name": "mangrove_hanging_sign",
+  "display": "Mangrove Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "mangrove_hanging_sign"
+  ]
+ },
+ {
+  "name": "bamboo_hanging_sign",
+  "display": "Bamboo Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "bamboo_hanging_sign"
+  ]
+ },
+ {
+  "name": "oak_wall_hanging_sign",
+  "display": "Oak Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_hanging_sign"
+  ]
+ },
+ {
+  "name": "spruce_wall_hanging_sign",
+  "display": "Spruce Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_hanging_sign"
+  ]
+ },
+ {
+  "name": "birch_wall_hanging_sign",
+  "display": "Birch Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_hanging_sign"
+  ]
+ },
+ {
+  "name": "acacia_wall_hanging_sign",
+  "display": "Acacia Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_hanging_sign"
+  ]
+ },
+ {
+  "name": "cherry_wall_hanging_sign",
+  "display": "Cherry Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_hanging_sign"
+  ]
+ },
+ {
+  "name": "jungle_wall_hanging_sign",
+  "display": "Jungle Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_hanging_sign"
+  ]
+ },
+ {
+  "name": "dark_oak_wall_hanging_sign",
+  "display": "Dark Oak Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_hanging_sign"
+  ]
+ },
+ {
+  "name": "pale_oak_wall_hanging_sign",
+  "display": "Pale Oak Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_hanging_sign"
+  ]
+ },
+ {
+  "name": "mangrove_wall_hanging_sign",
+  "display": "Mangrove Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_hanging_sign"
+  ]
+ },
+ {
+  "name": "crimson_wall_hanging_sign",
+  "display": "Crimson Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_hanging_sign"
+  ]
+ },
+ {
+  "name": "warped_wall_hanging_sign",
+  "display": "Warped Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_hanging_sign"
+  ]
+ },
+ {
+  "name": "bamboo_wall_hanging_sign",
+  "display": "Bamboo Hanging Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_hanging_sign"
+  ]
+ },
+ {
+  "name": "oak_pressure_plate",
+  "display": "Oak Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "oak_pressure_plate"
+  ]
+ },
+ {
+  "name": "spruce_pressure_plate",
+  "display": "Spruce Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "spruce_pressure_plate"
+  ]
+ },
+ {
+  "name": "birch_pressure_plate",
+  "display": "Birch Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "birch_pressure_plate"
+  ]
+ },
+ {
+  "name": "jungle_pressure_plate",
+  "display": "Jungle Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "jungle_pressure_plate"
+  ]
+ },
+ {
+  "name": "acacia_pressure_plate",
+  "display": "Acacia Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "acacia_pressure_plate"
+  ]
+ },
+ {
+  "name": "cherry_pressure_plate",
+  "display": "Cherry Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cherry_pressure_plate"
+  ]
+ },
+ {
+  "name": "dark_oak_pressure_plate",
+  "display": "Dark Oak Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "dark_oak_pressure_plate"
+  ]
+ },
+ {
+  "name": "pale_oak_pressure_plate",
+  "display": "Pale Oak Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pale_oak_pressure_plate"
+  ]
+ },
+ {
+  "name": "mangrove_pressure_plate",
+  "display": "Mangrove Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "mangrove_pressure_plate"
+  ]
+ },
+ {
+  "name": "bamboo_pressure_plate",
+  "display": "Bamboo Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "bamboo_pressure_plate"
+  ]
+ },
+ {
+  "name": "jukebox",
+  "display": "Jukebox",
+  "hardness": 2,
+  "blastRes": 6,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jukebox"
+  ]
+ },
+ {
+  "name": "oak_fence",
+  "display": "Oak Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_fence"
+  ]
+ },
+ {
+  "name": "carved_pumpkin",
+  "display": "Carved Pumpkin",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "carved_pumpkin"
+  ]
+ },
+ {
+  "name": "jack_o_lantern",
+  "display": "Jack o'Lantern",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 15,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jack_o_lantern"
+  ]
+ },
+ {
+  "name": "oak_trapdoor",
+  "display": "Oak Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_trapdoor"
+  ]
+ },
+ {
+  "name": "spruce_trapdoor",
+  "display": "Spruce Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_trapdoor"
+  ]
+ },
+ {
+  "name": "birch_trapdoor",
+  "display": "Birch Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_trapdoor"
+  ]
+ },
+ {
+  "name": "jungle_trapdoor",
+  "display": "Jungle Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_trapdoor"
+  ]
+ },
+ {
+  "name": "acacia_trapdoor",
+  "display": "Acacia Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_trapdoor"
+  ]
+ },
+ {
+  "name": "cherry_trapdoor",
+  "display": "Cherry Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_trapdoor"
+  ]
+ },
+ {
+  "name": "dark_oak_trapdoor",
+  "display": "Dark Oak Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_trapdoor"
+  ]
+ },
+ {
+  "name": "pale_oak_trapdoor",
+  "display": "Pale Oak Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_trapdoor"
+  ]
+ },
+ {
+  "name": "mangrove_trapdoor",
+  "display": "Mangrove Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_trapdoor"
+  ]
+ },
+ {
+  "name": "bamboo_trapdoor",
+  "display": "Bamboo Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_trapdoor"
+  ]
+ },
+ {
+  "name": "brown_mushroom_block",
+  "display": "Brown Mushroom Block",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.15,
+   "stone": 0.1,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "air"
+  ]
+ },
+ {
+  "name": "red_mushroom_block",
+  "display": "Red Mushroom Block",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.15,
+   "stone": 0.1,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "air"
+  ]
+ },
+ {
+  "name": "mushroom_stem",
+  "display": "Mushroom Stem",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.15,
+   "stone": 0.1,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "pumpkin",
+  "display": "Pumpkin",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pumpkin"
+  ]
+ },
+ {
+  "name": "melon",
+  "display": "Melon",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "melon_slice"
+  ]
+ },
+ {
+  "name": "vine",
+  "display": "Vines",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.15,
+   "stone": 0.1,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [
+   "climbable",
+   "fallSafe"
+  ],
+  "drops": []
+ },
+ {
+  "name": "glow_lichen",
+  "display": "Glow Lichen",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.15,
+   "stone": 0.1,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "oak_fence_gate",
+  "display": "Oak Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_fence_gate"
+  ]
+ },
+ {
+  "name": "cocoa",
+  "display": "Cocoa",
+  "hardness": 0.2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.15,
+   "stone": 0.1,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cocoa_beans"
+  ]
+ },
+ {
+  "name": "spruce_stairs",
+  "display": "Spruce Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_stairs"
+  ]
+ },
+ {
+  "name": "birch_stairs",
+  "display": "Birch Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_stairs"
+  ]
+ },
+ {
+  "name": "jungle_stairs",
+  "display": "Jungle Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_stairs"
+  ]
+ },
+ {
+  "name": "oak_button",
+  "display": "Oak Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "oak_button"
+  ]
+ },
+ {
+  "name": "spruce_button",
+  "display": "Spruce Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "spruce_button"
+  ]
+ },
+ {
+  "name": "birch_button",
+  "display": "Birch Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "birch_button"
+  ]
+ },
+ {
+  "name": "jungle_button",
+  "display": "Jungle Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "jungle_button"
+  ]
+ },
+ {
+  "name": "acacia_button",
+  "display": "Acacia Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "acacia_button"
+  ]
+ },
+ {
+  "name": "cherry_button",
+  "display": "Cherry Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cherry_button"
+  ]
+ },
+ {
+  "name": "dark_oak_button",
+  "display": "Dark Oak Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "dark_oak_button"
+  ]
+ },
+ {
+  "name": "pale_oak_button",
+  "display": "Pale Oak Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pale_oak_button"
+  ]
+ },
+ {
+  "name": "mangrove_button",
+  "display": "Mangrove Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "mangrove_button"
+  ]
+ },
+ {
+  "name": "bamboo_button",
+  "display": "Bamboo Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "bamboo_button"
+  ]
+ },
+ {
+  "name": "trapped_chest",
+  "display": "Trapped Chest",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "trapped_chest"
+  ]
+ },
+ {
+  "name": "daylight_detector",
+  "display": "Daylight Detector",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.3,
+   "wooden": 0.15,
+   "stone": 0.1,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "daylight_detector"
+  ]
+ },
+ {
+  "name": "acacia_stairs",
+  "display": "Acacia Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_stairs"
+  ]
+ },
+ {
+  "name": "cherry_stairs",
+  "display": "Cherry Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_stairs"
+  ]
+ },
+ {
+  "name": "dark_oak_stairs",
+  "display": "Dark Oak Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_stairs"
+  ]
+ },
+ {
+  "name": "pale_oak_stairs",
+  "display": "Pale Oak Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_stairs"
+  ]
+ },
+ {
+  "name": "mangrove_stairs",
+  "display": "Mangrove Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_stairs"
+  ]
+ },
+ {
+  "name": "bamboo_stairs",
+  "display": "Bamboo Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_stairs"
+  ]
+ },
+ {
+  "name": "bamboo_mosaic_stairs",
+  "display": "Bamboo Mosaic Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_mosaic_stairs"
+  ]
+ },
+ {
+  "name": "white_banner",
+  "display": "White Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "white_banner"
+  ]
+ },
+ {
+  "name": "orange_banner",
+  "display": "Orange Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "orange_banner"
+  ]
+ },
+ {
+  "name": "magenta_banner",
+  "display": "Magenta Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "magenta_banner"
+  ]
+ },
+ {
+  "name": "light_blue_banner",
+  "display": "Light Blue Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "light_blue_banner"
+  ]
+ },
+ {
+  "name": "yellow_banner",
+  "display": "Yellow Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "yellow_banner"
+  ]
+ },
+ {
+  "name": "lime_banner",
+  "display": "Lime Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "lime_banner"
+  ]
+ },
+ {
+  "name": "pink_banner",
+  "display": "Pink Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pink_banner"
+  ]
+ },
+ {
+  "name": "gray_banner",
+  "display": "Gray Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "gray_banner"
+  ]
+ },
+ {
+  "name": "light_gray_banner",
+  "display": "Light Gray Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "light_gray_banner"
+  ]
+ },
+ {
+  "name": "cyan_banner",
+  "display": "Cyan Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cyan_banner"
+  ]
+ },
+ {
+  "name": "purple_banner",
+  "display": "Purple Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "purple_banner"
+  ]
+ },
+ {
+  "name": "blue_banner",
+  "display": "Blue Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "blue_banner"
+  ]
+ },
+ {
+  "name": "brown_banner",
+  "display": "Brown Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "brown_banner"
+  ]
+ },
+ {
+  "name": "green_banner",
+  "display": "Green Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "green_banner"
+  ]
+ },
+ {
+  "name": "red_banner",
+  "display": "Red Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "red_banner"
+  ]
+ },
+ {
+  "name": "black_banner",
+  "display": "Black Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "black_banner"
+  ]
+ },
+ {
+  "name": "white_wall_banner",
+  "display": "White Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "white_banner"
+  ]
+ },
+ {
+  "name": "orange_wall_banner",
+  "display": "Orange Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "orange_banner"
+  ]
+ },
+ {
+  "name": "magenta_wall_banner",
+  "display": "Magenta Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "magenta_banner"
+  ]
+ },
+ {
+  "name": "light_blue_wall_banner",
+  "display": "Light Blue Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "light_blue_banner"
+  ]
+ },
+ {
+  "name": "yellow_wall_banner",
+  "display": "Yellow Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "yellow_banner"
+  ]
+ },
+ {
+  "name": "lime_wall_banner",
+  "display": "Lime Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "lime_banner"
+  ]
+ },
+ {
+  "name": "pink_wall_banner",
+  "display": "Pink Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "pink_banner"
+  ]
+ },
+ {
+  "name": "gray_wall_banner",
+  "display": "Gray Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "gray_banner"
+  ]
+ },
+ {
+  "name": "light_gray_wall_banner",
+  "display": "Light Gray Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "light_gray_banner"
+  ]
+ },
+ {
+  "name": "cyan_wall_banner",
+  "display": "Cyan Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "cyan_banner"
+  ]
+ },
+ {
+  "name": "purple_wall_banner",
+  "display": "Purple Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "purple_banner"
+  ]
+ },
+ {
+  "name": "blue_wall_banner",
+  "display": "Blue Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "blue_banner"
+  ]
+ },
+ {
+  "name": "brown_wall_banner",
+  "display": "Brown Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "brown_banner"
+  ]
+ },
+ {
+  "name": "green_wall_banner",
+  "display": "Green Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "green_banner"
+  ]
+ },
+ {
+  "name": "red_wall_banner",
+  "display": "Red Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "red_banner"
+  ]
+ },
+ {
+  "name": "black_wall_banner",
+  "display": "Black Banner",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "black_banner"
+  ]
+ },
+ {
+  "name": "oak_slab",
+  "display": "Oak Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "oak_slab"
+  ]
+ },
+ {
+  "name": "spruce_slab",
+  "display": "Spruce Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_slab"
+  ]
+ },
+ {
+  "name": "birch_slab",
+  "display": "Birch Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_slab"
+  ]
+ },
+ {
+  "name": "jungle_slab",
+  "display": "Jungle Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_slab"
+  ]
+ },
+ {
+  "name": "acacia_slab",
+  "display": "Acacia Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_slab"
+  ]
+ },
+ {
+  "name": "cherry_slab",
+  "display": "Cherry Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_slab"
+  ]
+ },
+ {
+  "name": "dark_oak_slab",
+  "display": "Dark Oak Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_slab"
+  ]
+ },
+ {
+  "name": "pale_oak_slab",
+  "display": "Pale Oak Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_slab"
+  ]
+ },
+ {
+  "name": "mangrove_slab",
+  "display": "Mangrove Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_slab"
+  ]
+ },
+ {
+  "name": "bamboo_slab",
+  "display": "Bamboo Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_slab"
+  ]
+ },
+ {
+  "name": "bamboo_mosaic_slab",
+  "display": "Bamboo Mosaic Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_mosaic_slab"
+  ]
+ },
+ {
+  "name": "spruce_fence_gate",
+  "display": "Spruce Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_fence_gate"
+  ]
+ },
+ {
+  "name": "birch_fence_gate",
+  "display": "Birch Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_fence_gate"
+  ]
+ },
+ {
+  "name": "jungle_fence_gate",
+  "display": "Jungle Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_fence_gate"
+  ]
+ },
+ {
+  "name": "acacia_fence_gate",
+  "display": "Acacia Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_fence_gate"
+  ]
+ },
+ {
+  "name": "cherry_fence_gate",
+  "display": "Cherry Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_fence_gate"
+  ]
+ },
+ {
+  "name": "dark_oak_fence_gate",
+  "display": "Dark Oak Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_fence_gate"
+  ]
+ },
+ {
+  "name": "pale_oak_fence_gate",
+  "display": "Pale Oak Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_fence_gate"
+  ]
+ },
+ {
+  "name": "mangrove_fence_gate",
+  "display": "Mangrove Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_fence_gate"
+  ]
+ },
+ {
+  "name": "bamboo_fence_gate",
+  "display": "Bamboo Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_fence_gate"
+  ]
+ },
+ {
+  "name": "spruce_fence",
+  "display": "Spruce Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_fence"
+  ]
+ },
+ {
+  "name": "birch_fence",
+  "display": "Birch Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_fence"
+  ]
+ },
+ {
+  "name": "jungle_fence",
+  "display": "Jungle Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_fence"
+  ]
+ },
+ {
+  "name": "acacia_fence",
+  "display": "Acacia Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_fence"
+  ]
+ },
+ {
+  "name": "cherry_fence",
+  "display": "Cherry Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_fence"
+  ]
+ },
+ {
+  "name": "dark_oak_fence",
+  "display": "Dark Oak Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_fence"
+  ]
+ },
+ {
+  "name": "pale_oak_fence",
+  "display": "Pale Oak Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_fence"
+  ]
+ },
+ {
+  "name": "mangrove_fence",
+  "display": "Mangrove Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_fence"
+  ]
+ },
+ {
+  "name": "bamboo_fence",
+  "display": "Bamboo Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_fence"
+  ]
+ },
+ {
+  "name": "spruce_door",
+  "display": "Spruce Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "spruce_door"
+  ]
+ },
+ {
+  "name": "birch_door",
+  "display": "Birch Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "birch_door"
+  ]
+ },
+ {
+  "name": "jungle_door",
+  "display": "Jungle Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "jungle_door"
+  ]
+ },
+ {
+  "name": "acacia_door",
+  "display": "Acacia Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "acacia_door"
+  ]
+ },
+ {
+  "name": "cherry_door",
+  "display": "Cherry Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cherry_door"
+  ]
+ },
+ {
+  "name": "dark_oak_door",
+  "display": "Dark Oak Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dark_oak_door"
+  ]
+ },
+ {
+  "name": "pale_oak_door",
+  "display": "Pale Oak Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "pale_oak_door"
+  ]
+ },
+ {
+  "name": "mangrove_door",
+  "display": "Mangrove Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "mangrove_door"
+  ]
+ },
+ {
+  "name": "bamboo_door",
+  "display": "Bamboo Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "bamboo_door"
+  ]
+ },
+ {
+  "name": "chorus_plant",
+  "display": "Chorus Plant",
+  "hardness": 0.4,
+  "blastRes": 0.4,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.6,
+   "wooden": 0.3,
+   "stone": 0.15,
+   "iron": 0.1,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "chorus_fruit"
+  ]
+ },
+ {
+  "name": "chorus_flower",
+  "display": "Chorus Flower",
+  "hardness": 0.4,
+  "blastRes": 0.4,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.6,
+   "wooden": 0.3,
+   "stone": 0.15,
+   "iron": 0.1,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "loom",
+  "display": "Loom",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "loom"
+  ]
+ },
+ {
+  "name": "barrel",
+  "display": "Barrel",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "barrel"
+  ]
+ },
+ {
+  "name": "cartography_table",
+  "display": "Cartography Table",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "cartography_table"
+  ]
+ },
+ {
+  "name": "fletching_table",
+  "display": "Fletching Table",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "fletching_table"
+  ]
+ },
+ {
+  "name": "lectern",
+  "display": "Lectern",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "lectern"
+  ]
+ },
+ {
+  "name": "smithing_table",
+  "display": "Smithing Table",
+  "hardness": 2.5,
+  "blastRes": 2.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3.75,
+   "wooden": 1.9,
+   "stone": 0.95,
+   "iron": 0.65,
+   "diamond": 0.5,
+   "netherite": 0.45
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "smithing_table"
+  ]
+ },
+ {
+  "name": "campfire",
+  "display": "Campfire",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 15,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "danger"
+  ],
+  "drops": [
+   "charcoal"
+  ]
+ },
+ {
+  "name": "soul_campfire",
+  "display": "Soul Campfire",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 10,
+  "transparent": true,
+  "collision": "block",
+  "tags": [
+   "danger"
+  ],
+  "drops": [
+   "soul_soil"
+  ]
+ },
+ {
+  "name": "warped_stem",
+  "display": "Warped Stem",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_stem"
+  ]
+ },
+ {
+  "name": "stripped_warped_stem",
+  "display": "Stripped Warped Stem",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_warped_stem"
+  ]
+ },
+ {
+  "name": "warped_hyphae",
+  "display": "Warped Hyphae",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_hyphae"
+  ]
+ },
+ {
+  "name": "stripped_warped_hyphae",
+  "display": "Stripped Warped Hyphae",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_warped_hyphae"
+  ]
+ },
+ {
+  "name": "crimson_stem",
+  "display": "Crimson Stem",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_stem"
+  ]
+ },
+ {
+  "name": "stripped_crimson_stem",
+  "display": "Stripped Crimson Stem",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_crimson_stem"
+  ]
+ },
+ {
+  "name": "crimson_hyphae",
+  "display": "Crimson Hyphae",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_hyphae"
+  ]
+ },
+ {
+  "name": "stripped_crimson_hyphae",
+  "display": "Stripped Crimson Hyphae",
+  "hardness": 2,
+  "blastRes": 2,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "stripped_crimson_hyphae"
+  ]
+ },
+ {
+  "name": "crimson_planks",
+  "display": "Crimson Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_planks"
+  ]
+ },
+ {
+  "name": "warped_planks",
+  "display": "Warped Planks",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_planks"
+  ]
+ },
+ {
+  "name": "crimson_slab",
+  "display": "Crimson Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_slab"
+  ]
+ },
+ {
+  "name": "warped_slab",
+  "display": "Warped Slab",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_slab"
+  ]
+ },
+ {
+  "name": "crimson_pressure_plate",
+  "display": "Crimson Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "crimson_pressure_plate"
+  ]
+ },
+ {
+  "name": "warped_pressure_plate",
+  "display": "Warped Pressure Plate",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "warped_pressure_plate"
+  ]
+ },
+ {
+  "name": "crimson_fence",
+  "display": "Crimson Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_fence"
+  ]
+ },
+ {
+  "name": "warped_fence",
+  "display": "Warped Fence",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_fence"
+  ]
+ },
+ {
+  "name": "crimson_trapdoor",
+  "display": "Crimson Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_trapdoor"
+  ]
+ },
+ {
+  "name": "warped_trapdoor",
+  "display": "Warped Trapdoor",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_trapdoor"
+  ]
+ },
+ {
+  "name": "crimson_fence_gate",
+  "display": "Crimson Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_fence_gate"
+  ]
+ },
+ {
+  "name": "warped_fence_gate",
+  "display": "Warped Fence Gate",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_fence_gate"
+  ]
+ },
+ {
+  "name": "crimson_stairs",
+  "display": "Crimson Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_stairs"
+  ]
+ },
+ {
+  "name": "warped_stairs",
+  "display": "Warped Stairs",
+  "hardness": 2,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 3,
+   "wooden": 1.5,
+   "stone": 0.75,
+   "iron": 0.5,
+   "diamond": 0.4,
+   "netherite": 0.35
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_stairs"
+  ]
+ },
+ {
+  "name": "crimson_button",
+  "display": "Crimson Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "crimson_button"
+  ]
+ },
+ {
+  "name": "warped_button",
+  "display": "Warped Button",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "warped_button"
+  ]
+ },
+ {
+  "name": "crimson_door",
+  "display": "Crimson Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "crimson_door"
+  ]
+ },
+ {
+  "name": "warped_door",
+  "display": "Warped Door",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 4.55,
+   "wooden": 2.3,
+   "stone": 1.15,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "warped_door"
+  ]
+ },
+ {
+  "name": "crimson_sign",
+  "display": "Crimson Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "crimson_sign"
+  ]
+ },
+ {
+  "name": "warped_sign",
+  "display": "Warped Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "warped_sign"
+  ]
+ },
+ {
+  "name": "crimson_wall_sign",
+  "display": "Crimson Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "crimson_sign"
+  ]
+ },
+ {
+  "name": "warped_wall_sign",
+  "display": "Warped Sign",
+  "hardness": 1,
+  "blastRes": 1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.5,
+   "wooden": 0.75,
+   "stone": 0.4,
+   "iron": 0.25,
+   "diamond": 0.2,
+   "netherite": 0.2
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "warped_sign"
+  ]
+ },
+ {
+  "name": "composter",
+  "display": "Composter",
+  "hardness": 0.6,
+  "blastRes": 0.6,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.9,
+   "wooden": 0.45,
+   "stone": 0.25,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "composter"
+  ]
+ },
+ {
+  "name": "bee_nest",
+  "display": "Bee Nest",
+  "hardness": 0.3,
+  "blastRes": 0.3,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.45,
+   "wooden": 0.25,
+   "stone": 0.15,
+   "iron": 0.1,
+   "diamond": 0.1,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "beehive",
+  "display": "Beehive",
+  "hardness": 0.6,
+  "blastRes": 0.6,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.9,
+   "wooden": 0.45,
+   "stone": 0.25,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "beehive"
+  ]
+ },
+ {
+  "name": "big_dripleaf",
+  "display": "Big Dripleaf",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.1,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "big_dripleaf"
+  ]
+ },
+ {
+  "name": "big_dripleaf_stem",
+  "display": "Big Dripleaf Stem",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "axe",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.15,
+   "wooden": 0.1,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": true,
+  "collision": "empty",
+  "tags": [],
+  "drops": [
+   "big_dripleaf"
+  ]
+ }
+]

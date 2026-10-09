@@ -1,0 +1,906 @@
+[
+ {
+  "name": "grass_block",
+  "display": "Grass Block",
+  "hardness": 0.6,
+  "blastRes": 0.6,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.9,
+   "wooden": 0.45,
+   "stone": 0.25,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dirt"
+  ]
+ },
+ {
+  "name": "dirt",
+  "display": "Dirt",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dirt"
+  ]
+ },
+ {
+  "name": "coarse_dirt",
+  "display": "Coarse Dirt",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "coarse_dirt"
+  ]
+ },
+ {
+  "name": "podzol",
+  "display": "Podzol",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dirt"
+  ]
+ },
+ {
+  "name": "sand",
+  "display": "Sand",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "sand"
+  ]
+ },
+ {
+  "name": "suspicious_sand",
+  "display": "Suspicious Sand",
+  "hardness": 0.25,
+  "blastRes": 0.25,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.4,
+   "wooden": 0.2,
+   "stone": 0.1,
+   "iron": 0.1,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": []
+ },
+ {
+  "name": "red_sand",
+  "display": "Red Sand",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "red_sand"
+  ]
+ },
+ {
+  "name": "gravel",
+  "display": "Gravel",
+  "hardness": 0.6,
+  "blastRes": 0.6,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.9,
+   "wooden": 0.45,
+   "stone": 0.25,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "gravel"
+  ]
+ },
+ {
+  "name": "suspicious_gravel",
+  "display": "Suspicious Gravel",
+  "hardness": 0.25,
+  "blastRes": 0.25,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.4,
+   "wooden": 0.2,
+   "stone": 0.1,
+   "iron": 0.1,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": []
+ },
+ {
+  "name": "muddy_mangrove_roots",
+  "display": "Muddy Mangrove Roots",
+  "hardness": 0.7,
+  "blastRes": 0.7,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1.05,
+   "wooden": 0.55,
+   "stone": 0.3,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "muddy_mangrove_roots"
+  ]
+ },
+ {
+  "name": "farmland",
+  "display": "Farmland",
+  "hardness": 0.6,
+  "blastRes": 0.6,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.9,
+   "wooden": 0.45,
+   "stone": 0.25,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dirt"
+  ]
+ },
+ {
+  "name": "snow",
+  "display": "Snow",
+  "hardness": 0.1,
+  "blastRes": 0.1,
+  "tool": "shovel",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 0.5,
+   "wooden": 0.1,
+   "stone": 0,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "empty",
+  "tags": [],
+  "drops": []
+ },
+ {
+  "name": "snow_block",
+  "display": "Snow Block",
+  "hardness": 0.2,
+  "blastRes": 0.2,
+  "tool": "shovel",
+  "minTier": "wooden",
+  "needsTool": true,
+  "time": {
+   "hand": 1,
+   "wooden": 0.15,
+   "stone": 0.1,
+   "iron": 0,
+   "diamond": 0,
+   "netherite": 0
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "snowball"
+  ]
+ },
+ {
+  "name": "clay",
+  "display": "Clay",
+  "hardness": 0.6,
+  "blastRes": 0.6,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.9,
+   "wooden": 0.45,
+   "stone": 0.25,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "clay_ball"
+  ]
+ },
+ {
+  "name": "soul_sand",
+  "display": "Soul Sand",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "slows"
+  ],
+  "drops": [
+   "soul_sand"
+  ]
+ },
+ {
+  "name": "soul_soil",
+  "display": "Soul Soil",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "soul_soil"
+  ]
+ },
+ {
+  "name": "mycelium",
+  "display": "Mycelium",
+  "hardness": 0.6,
+  "blastRes": 0.6,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.9,
+   "wooden": 0.45,
+   "stone": 0.25,
+   "iron": 0.15,
+   "diamond": 0.15,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dirt"
+  ]
+ },
+ {
+  "name": "dirt_path",
+  "display": "Dirt Path",
+  "hardness": 0.65,
+  "blastRes": 0.65,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 1,
+   "wooden": 0.5,
+   "stone": 0.25,
+   "iron": 0.2,
+   "diamond": 0.15,
+   "netherite": 0.15
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "dirt"
+  ]
+ },
+ {
+  "name": "white_concrete_powder",
+  "display": "White Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "white_concrete_powder"
+  ]
+ },
+ {
+  "name": "orange_concrete_powder",
+  "display": "Orange Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "orange_concrete_powder"
+  ]
+ },
+ {
+  "name": "magenta_concrete_powder",
+  "display": "Magenta Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "magenta_concrete_powder"
+  ]
+ },
+ {
+  "name": "light_blue_concrete_powder",
+  "display": "Light Blue Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "light_blue_concrete_powder"
+  ]
+ },
+ {
+  "name": "yellow_concrete_powder",
+  "display": "Yellow Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "yellow_concrete_powder"
+  ]
+ },
+ {
+  "name": "lime_concrete_powder",
+  "display": "Lime Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "lime_concrete_powder"
+  ]
+ },
+ {
+  "name": "pink_concrete_powder",
+  "display": "Pink Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "pink_concrete_powder"
+  ]
+ },
+ {
+  "name": "gray_concrete_powder",
+  "display": "Gray Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "gray_concrete_powder"
+  ]
+ },
+ {
+  "name": "light_gray_concrete_powder",
+  "display": "Light Gray Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "light_gray_concrete_powder"
+  ]
+ },
+ {
+  "name": "cyan_concrete_powder",
+  "display": "Cyan Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "cyan_concrete_powder"
+  ]
+ },
+ {
+  "name": "purple_concrete_powder",
+  "display": "Purple Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "purple_concrete_powder"
+  ]
+ },
+ {
+  "name": "blue_concrete_powder",
+  "display": "Blue Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "blue_concrete_powder"
+  ]
+ },
+ {
+  "name": "brown_concrete_powder",
+  "display": "Brown Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "brown_concrete_powder"
+  ]
+ },
+ {
+  "name": "green_concrete_powder",
+  "display": "Green Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "green_concrete_powder"
+  ]
+ },
+ {
+  "name": "red_concrete_powder",
+  "display": "Red Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "red_concrete_powder"
+  ]
+ },
+ {
+  "name": "black_concrete_powder",
+  "display": "Black Concrete Powder",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "gravity"
+  ],
+  "drops": [
+   "black_concrete_powder"
+  ]
+ },
+ {
+  "name": "rooted_dirt",
+  "display": "Rooted Dirt",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "rooted_dirt"
+  ]
+ },
+ {
+  "name": "mud",
+  "display": "Mud",
+  "hardness": 0.5,
+  "blastRes": 0.5,
+  "tool": "shovel",
+  "minTier": "any",
+  "needsTool": false,
+  "time": {
+   "hand": 0.75,
+   "wooden": 0.4,
+   "stone": 0.2,
+   "iron": 0.15,
+   "diamond": 0.1,
+   "netherite": 0.1
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [
+   "slows"
+  ],
+  "drops": [
+   "mud"
+  ]
+ }
+]

@@ -1,0 +1,290 @@
+[
+ {
+  "name": "gold_ore",
+  "display": "Gold Ore",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 3.75,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_gold"
+  ]
+ },
+ {
+  "name": "deepslate_gold_ore",
+  "display": "Deepslate Gold Ore",
+  "hardness": 4.5,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 22.5,
+   "wooden": 11.25,
+   "stone": 5.65,
+   "iron": 1.15,
+   "diamond": 0.85,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_gold"
+  ]
+ },
+ {
+  "name": "gold_block",
+  "display": "Block of Gold",
+  "hardness": 3,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 3.75,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "gold_block"
+  ]
+ },
+ {
+  "name": "diamond_ore",
+  "display": "Diamond Ore",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 3.75,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "diamond"
+  ]
+ },
+ {
+  "name": "deepslate_diamond_ore",
+  "display": "Deepslate Diamond Ore",
+  "hardness": 4.5,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 22.5,
+   "wooden": 11.25,
+   "stone": 5.65,
+   "iron": 1.15,
+   "diamond": 0.85,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "diamond"
+  ]
+ },
+ {
+  "name": "diamond_block",
+  "display": "Block of Diamond",
+  "hardness": 5,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 25,
+   "wooden": 12.5,
+   "stone": 6.25,
+   "iron": 1.25,
+   "diamond": 0.95,
+   "netherite": 0.85
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "diamond_block"
+  ]
+ },
+ {
+  "name": "redstone_ore",
+  "display": "Redstone Ore",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 3.75,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "redstone"
+  ]
+ },
+ {
+  "name": "deepslate_redstone_ore",
+  "display": "Deepslate Redstone Ore",
+  "hardness": 4.5,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 22.5,
+   "wooden": 11.25,
+   "stone": 5.65,
+   "iron": 1.15,
+   "diamond": 0.85,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "redstone"
+  ]
+ },
+ {
+  "name": "emerald_ore",
+  "display": "Emerald Ore",
+  "hardness": 3,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 15,
+   "wooden": 7.5,
+   "stone": 3.75,
+   "iron": 0.75,
+   "diamond": 0.6,
+   "netherite": 0.5
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "emerald"
+  ]
+ },
+ {
+  "name": "deepslate_emerald_ore",
+  "display": "Deepslate Emerald Ore",
+  "hardness": 4.5,
+  "blastRes": 3,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 22.5,
+   "wooden": 11.25,
+   "stone": 5.65,
+   "iron": 1.15,
+   "diamond": 0.85,
+   "netherite": 0.75
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "emerald"
+  ]
+ },
+ {
+  "name": "emerald_block",
+  "display": "Block of Emerald",
+  "hardness": 5,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 25,
+   "wooden": 12.5,
+   "stone": 6.25,
+   "iron": 1.25,
+   "diamond": 0.95,
+   "netherite": 0.85
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "emerald_block"
+  ]
+ },
+ {
+  "name": "raw_gold_block",
+  "display": "Block of Raw Gold",
+  "hardness": 5,
+  "blastRes": 6,
+  "tool": "pickaxe",
+  "minTier": "iron",
+  "needsTool": true,
+  "time": {
+   "hand": 25,
+   "wooden": 12.5,
+   "stone": 6.25,
+   "iron": 1.25,
+   "diamond": 0.95,
+   "netherite": 0.85
+  },
+  "light": 0,
+  "transparent": false,
+  "collision": "block",
+  "tags": [],
+  "drops": [
+   "raw_gold_block"
+  ]
+ }
+]

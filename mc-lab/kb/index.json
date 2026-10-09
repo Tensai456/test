@@ -1,0 +1,7187 @@
+[
+ {
+  "path": "core/numbers.md",
+  "title": "ตัวเลขกลางที่ใช้บ่อย",
+  "group": "core",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "core",
+   "numbers"
+  ],
+  "lines": 24
+ },
+ {
+  "path": "problems/p01-mining-wrong-tool.md",
+  "title": "P1 ขุดมือเปล่า / ใช้เครื่องมือผิด",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p01",
+   "mining",
+   "wrong",
+   "tool"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p02-low-hp-not-eating.md",
+  "title": "P2 เลือดต่ำแต่ไม่กิน / กินผิดจังหวะ",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p02",
+   "low",
+   "not",
+   "eating"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p03-team-food-zero.md",
+  "title": "P3 อาหารทีม = 0 (เคยเกิดใน s20)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "s20",
+   "problems",
+   "p03",
+   "team",
+   "food",
+   "zero"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p04-desert-no-wood.md",
+  "title": "P4 เกิดในทะเลทราย ไม่มีไม้ (เคยเกิดใน s22)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "s22",
+   "problems",
+   "p04",
+   "desert",
+   "wood"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "problems/p05-fall-death.md",
+  "title": "P5 ตกที่สูงตาย",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p05",
+   "fall",
+   "death"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p06-dig-down-lava.md",
+  "title": "P6 ขุดลงตรง / ลาวา",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p06",
+   "dig",
+   "down",
+   "lava"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "problems/p07-drowning.md",
+  "title": "P7 จมน้ำ",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p07",
+   "drowning"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "problems/p08-stuck-suffocation.md",
+  "title": "P8 ติดบล็อก / ทรายหรือกรวดร่วงทับ",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "p08",
+   "stuck",
+   "suffocation"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "problems/p09-afk-idle.md",
+  "title": "P9 ยืนนิ่ง AFK (ตรรกะบอต ไม่ใช่กลไกเกม)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "afk",
+   "problems",
+   "p09",
+   "idle"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p10-home-near-hole.md",
+  "title": "P10 บ้าน/เตียงข้างหลุม (s37) · บ้านไม่ปลอดภัย",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "p10",
+   "s37",
+   "problems",
+   "home",
+   "near",
+   "hole"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p11-first-night.md",
+  "title": "P11 คืนแรกไม่มีที่หลบ",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "p11",
+   "problems",
+   "first",
+   "night"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "problems/p12-bed-nether-end.md",
+  "title": "P12 นอนในนรก/End",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "p12",
+   "end",
+   "problems",
+   "bed",
+   "nether"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "problems/mobs-summary.md",
+  "title": "D. ม็อบ (สรุป — รายละเอียดเต็มรอ MOB_TACTICS)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "mob_tactics",
+   "problems",
+   "mobs",
+   "summary"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "problems/pvp-hypotheses.md",
+  "title": "E. PvP (สมมติฐานจากวิกิ + ตัวจำลอง → ต้องเทส)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "pvp",
+   "problems",
+   "hypotheses"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "problems/test-checklist.md",
+  "title": "F. เช็กลิสต์เทสจริง (อีก ~3 วัน)",
+  "group": "problems",
+  "source": "PROBLEM_PLAYBOOK.md",
+  "keywords": [
+   "problems",
+   "test",
+   "checklist"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "movement/speed-jump.md",
+  "title": "1. ความเร็ว/การกระโดด (ตัวเลขฐาน)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "movement",
+   "speed",
+   "jump"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "movement/fall-damage.md",
+  "title": "2. การตก (Fall damage)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "fall",
+   "damage",
+   "movement"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "movement/fall-safe-blocks.md",
+  "title": "2.1 พื้นที่ลด/กันดาเมจตก",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "movement",
+   "fall",
+   "safe",
+   "blocks"
+  ],
+  "lines": 25
+ },
+ {
+  "path": "movement/clutch-mlg.md",
+  "title": "2.2 Clutch / MLG — วิธีทำ (แปลงเป็นขั้นตอนบอต)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "clutch",
+   "mlg",
+   "movement"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "movement/edges-bridging-stuck.md",
+  "title": "3. ขอบ/รอบตัว/ติดบล็อก",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "movement",
+   "edges",
+   "bridging",
+   "stuck"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "movement/parkour-dropper-camera.md",
+  "title": "4. Parkour / Dropper / มุมกล้อง",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "parkour",
+   "dropper",
+   "movement",
+   "camera"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "movement/pvp-movement.md",
+  "title": "5. PvP — ส่วนที่เกี่ยวกับการเคลื่อนที่ (รายละเอียดเต็มอยู่ใน PVP_PLAYBOOK)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "pvp",
+   "pvp_playbook",
+   "movement"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "movement/bot-rules.md",
+  "title": "6. ตารางกฎสำหรับบอต (พร้อมโค้ด)",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "movement",
+   "bot",
+   "rules"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "movement/youtube-pending.md",
+  "title": "7. เทคนิคจาก YouTube — **ยังว่าง (รอข้อมูล)**",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "youtube",
+   "movement",
+   "pending"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "movement/unverified.md",
+  "title": "8. ยังไม่ได้ verify",
+  "group": "movement",
+  "source": "VANILLA_MOVEMENT.md",
+  "keywords": [
+   "verify",
+   "movement",
+   "unverified"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "weapons/melee.md",
+  "title": "1. อาวุธระยะประชิด",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "melee"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "weapons/ranged-thrown.md",
+  "title": "2. ยิงไกล/ขว้าง",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "ranged",
+   "thrown"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "weapons/explosive-fire-potion.md",
+  "title": "3. ระเบิด/ไฟ/ยา/สิ่งแวดล้อม",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "explosive",
+   "fire",
+   "potion"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "weapons/enchantments-damage.md",
+  "title": "4. เอนชานต์ที่มีผลต่อดาเมจ",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "enchantments",
+   "damage"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "weapons/bot-notes.md",
+  "title": "5. ข้อสังเกตสำหรับบอต",
+  "group": "weapons",
+  "source": "WEAPON_CATALOG.md",
+  "keywords": [
+   "weapons",
+   "bot",
+   "notes"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "sim/physics-validation.md",
+  "title": "1. ฟิสิกส์ (`lib/pvp/physics.mjs`) — เทียบกับวิกิ",
+  "group": "sim",
+  "source": "SIM_RESULTS.md",
+  "keywords": [
+   "lib",
+   "pvp",
+   "physics",
+   "mjs",
+   "sim",
+   "validation"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "sim/pvp-results.md",
+  "title": "2. ผล PvP (n=400 สลับฝั่ง, ping 10–50, เกราะเหล็กทั้งคู่)",
+  "group": "sim",
+  "source": "SIM_RESULTS.md",
+  "keywords": [
+   "pvp",
+   "ping",
+   "sim",
+   "results"
+  ],
+  "lines": 22
+ },
+ {
+  "path": "sim/survival-results.md",
+  "title": "3. ผลเอาชีวิตรอด (n=300, Normal)",
+  "group": "sim",
+  "source": "SIM_RESULTS.md",
+  "keywords": [
+   "normal",
+   "sim",
+   "survival",
+   "results"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "sim/limitations.md",
+  "title": "4. ข้อจำกัด (ต้องรู้ก่อนใช้ตัดสินใจ)",
+  "group": "sim",
+  "source": "SIM_RESULTS.md",
+  "keywords": [
+   "sim",
+   "limitations"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "physics/player-entity-constants.md",
+  "title": "0. ค่าพื้นฐานผู้เล่น/เอนทิตี",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "player",
+   "entity",
+   "constants"
+  ],
+  "lines": 23
+ },
+ {
+  "path": "physics/slippery.md",
+  "title": "1. พื้นลื่น (Slipperiness)",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "slipperiness",
+   "physics",
+   "slippery"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "physics/speed-modifiers.md",
+  "title": "2. ตัวหน่วง/เปลี่ยนความเร็ว",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "speed",
+   "modifiers"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "physics/bounce-fall.md",
+  "title": "3. การเด้ง / ดาเมจตก",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "bounce",
+   "fall"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "physics/climbable.md",
+  "title": "4. ปีนได้ (Climbable)",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "climbable",
+   "physics"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "physics/collision-shapes.md",
+  "title": "5. Collision shape ที่ดัก/สะดุด",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "collision",
+   "shape",
+   "physics",
+   "shapes"
+  ],
+  "lines": 22
+ },
+ {
+  "path": "physics/fluids.md",
+  "title": "6. ของเหลว",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "fluids"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "physics/gravity-blocks.md",
+  "title": "7. Gravity blocks",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "gravity",
+   "blocks",
+   "physics"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "physics/bot-checklist.md",
+  "title": "8. สรุปกฎสำหรับบอต (checklist)",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "checklist",
+   "physics",
+   "bot"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "physics/unverified.md",
+  "title": "9. ยังไม่ยืนยัน [ไม่แน่ใจ]",
+  "group": "physics",
+  "source": "playbook/BLOCK_PHYSICS.md",
+  "keywords": [
+   "physics",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "hazards/hunger-exhaustion.md",
+  "title": "1. หิว / Exhaustion / Starvation",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "exhaustion",
+   "starvation",
+   "hazards",
+   "hunger"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "hazards/food-poisoning.md",
+  "title": "2. อาหารพิษ",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "food",
+   "poisoning"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "hazards/status-effects.md",
+  "title": "3. Status effects",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "status",
+   "effects",
+   "hazards"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "hazards/powder-snow-freezing.md",
+  "title": "4. ความหนาว (Powder snow)",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "powder",
+   "snow",
+   "hazards",
+   "freezing"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/damage-blocks.md",
+  "title": "5. บล็อกทำร้าย",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "damage",
+   "blocks"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "hazards/fire-lightning.md",
+  "title": "6. ไฟลาม, ฟ้าผ่า",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "fire",
+   "lightning"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "hazards/drowning.md",
+  "title": "7. จมน้ำ",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "drowning"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/fall-void.md",
+  "title": "8. ตกจากที่สูง / Void",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "void",
+   "hazards",
+   "fall"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/falling-blocks.md",
+  "title": "9. บล็อกตก",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "falling",
+   "blocks"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/caves-lava.md",
+  "title": "10. ถ้ำ/ Cave-in / ลาวา",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "cave",
+   "hazards",
+   "caves",
+   "lava"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "hazards/deep-dark-warden.md",
+  "title": "11. Deep Dark / Warden",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "deep",
+   "dark",
+   "warden",
+   "hazards"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "hazards/night-lost-phantom.md",
+  "title": "12. กลางคืน / หลงทาง / Phantom",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "phantom",
+   "hazards",
+   "night",
+   "lost"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "hazards/raid.md",
+  "title": "13. Raid",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "raid",
+   "hazards"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "hazards/structure-traps.md",
+  "title": "14. กับดักโครงสร้าง",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "structure",
+   "traps"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "hazards/boat-ice.md",
+  "title": "15. เรือ / น้ำแข็ง",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "boat",
+   "ice"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "hazards/death-item-loss.md",
+  "title": "16. ไอเท็มหาย / ตาย",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "death",
+   "item",
+   "loss"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "hazards/durability.md",
+  "title": "17. ความทนทาน (Durability)",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "durability",
+   "hazards"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "hazards/reflex-priority.md",
+  "title": "ตารางดับเพลิงด่วน (bot reflex priority)",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "bot",
+   "reflex",
+   "priority",
+   "hazards"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "hazards/source-notes.md",
+  "title": "ข้อควรระวังด้านแหล่งข้อมูล",
+  "group": "hazards",
+  "source": "playbook/HAZARDS.md",
+  "keywords": [
+   "hazards",
+   "source",
+   "notes"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "nether-end/nether-mobs-table.md",
+  "title": "1. ตารางมอนสเตอร์ Nether (Normal)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "nether",
+   "normal",
+   "end",
+   "mobs",
+   "table"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "nether-end/m1-ghast.md",
+  "title": "Entry M1: ถูก Ghast ยิง (HP หายเป็นก้อน, มี projectile fireball เข้า)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "ghast",
+   "projectile",
+   "fireball",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/m2-blaze.md",
+  "title": "Entry M2: Blaze ในป้อม",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "blaze",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/m3-zombified-piglin.md",
+  "title": "Entry M3: Zombified Piglin ทั้งฝูงเข้าตี",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "zombified",
+   "piglin",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/m4-piglin-brute.md",
+  "title": "Entry M4: Piglin / Brute ใน bastion",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "piglin",
+   "brute",
+   "bastion",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/m5-hoglin-zoglin.md",
+  "title": "Entry M5: Hoglin / Zoglin",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "hoglin",
+   "zoglin",
+   "nether",
+   "end"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "nether-end/m6-magma-cube-strider.md",
+  "title": "Entry M6: Magma Cube / Strider",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "magma",
+   "cube",
+   "strider",
+   "nether",
+   "end"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "nether-end/e1-portal-build.md",
+  "title": "Entry E1: สร้างและจุด portal",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "portal",
+   "nether",
+   "end",
+   "build"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e2-portal-coords-lost.md",
+  "title": "Entry E2: พิกัดและจุดกลับ portal (หลงทาง)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "portal",
+   "nether",
+   "end",
+   "coords",
+   "lost"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e3-water-lava.md",
+  "title": "Entry E3: น้ำ / ลาวา / การตกลาวา",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "nether",
+   "end",
+   "water",
+   "lava"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e4-bed-anchor.md",
+  "title": "Entry E4: นอนเตียง / respawn anchor ผิดมิติ",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "respawn",
+   "anchor",
+   "nether",
+   "end",
+   "bed"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e5-ground-fire.md",
+  "title": "Entry E5: ผิวพื้น/ไฟ/อันตรายอื่น",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "nether",
+   "end",
+   "ground",
+   "fire"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "nether-end/e6-ghast-breaks-portal.md",
+  "title": "Entry E6: Ghast ทำลายพอร์ทัล (ติดอยู่ใน Nether)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "ghast",
+   "nether",
+   "end",
+   "breaks",
+   "portal"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/e7-gold-armor.md",
+  "title": "Entry E7: กฎเกราะทอง",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "nether",
+   "end",
+   "gold",
+   "armor"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "nether-end/d1-reach-end.md",
+  "title": "Entry D1: ไปถึง End",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "end",
+   "nether",
+   "reach"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d2-end-spawn-void.md",
+  "title": "Entry D2: ถึง End แล้ว - spawn และ void",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "end",
+   "spawn",
+   "void",
+   "nether"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d3-ender-dragon.md",
+  "title": "Entry D3: Ender Dragon",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "ender",
+   "dragon",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d4-end-enderman.md",
+  "title": "Entry D4: Enderman ใน End",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "enderman",
+   "end",
+   "nether"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d5-shulker-levitation.md",
+  "title": "Entry D5: Shulker + Levitation",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "shulker",
+   "levitation",
+   "nether",
+   "end"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "nether-end/d6-gateway-elytra.md",
+  "title": "Entry D6: End gateway / เกาะนอก / elytra",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "end",
+   "gateway",
+   "elytra",
+   "nether"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "nether-end/d7-return-home.md",
+  "title": "Entry D7: กลับบ้านจาก End",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "entry",
+   "end",
+   "nether",
+   "return",
+   "home"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "nether-end/wither.md",
+  "title": "4. Wither (boss)",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "wither",
+   "boss",
+   "nether",
+   "end"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "nether-end/unverified.md",
+  "title": "สรุปจุดที่ไม่แน่ใจ",
+  "group": "nether-end",
+  "source": "playbook/NETHER_END.md",
+  "keywords": [
+   "nether",
+   "end",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "progression/milestones.md",
+  "title": "1. ตารางไมล์สโตน (สิ่งที่ต้องนับใน inventory)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "inventory",
+   "progression",
+   "milestones"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "progression/wood-tools-recipes.md",
+  "title": "2. ไม้ → crafting table → เครื่องมือ (จำนวนสูตร)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "crafting",
+   "table",
+   "progression",
+   "wood",
+   "tools",
+   "recipes"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "progression/tool-durability.md",
+  "title": "Durability เครื่องมือ (ใช้ได้กี่ครั้ง; ทุกชนิด pickaxe/axe/shovel/sword/hoe ตาม snippet)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "durability",
+   "pickaxe",
+   "axe",
+   "shovel",
+   "sword",
+   "hoe",
+   "snippet",
+   "progression",
+   "tool"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "progression/armor.md",
+  "title": "3. เกราะ (durability ต่อชิ้น / armor points ต่อชิ้น)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "durability",
+   "armor",
+   "points",
+   "progression"
+  ],
+  "lines": 18
+ },
+ {
+  "path": "progression/ores-y-levels.md",
+  "title": "4. แร่: ระดับ Y, ตำแหน่งขุดที่ดี, pickaxe ที่ต้องใช้ (Java 1.18+)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "pickaxe",
+   "java",
+   "progression",
+   "ores",
+   "levels"
+  ],
+  "lines": 27
+ },
+ {
+  "path": "progression/smelting-fuel.md",
+  "title": "5. Smelting และเชื้อเพลิง",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "smelting",
+   "progression",
+   "fuel"
+  ],
+  "lines": 28
+ },
+ {
+  "path": "progression/food.md",
+  "title": "6. อาหาร",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "progression",
+   "food"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "progression/iron-first-set.md",
+  "title": "7. ชุดเหล็กชุดแรก: iron รวม",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "iron",
+   "progression",
+   "first",
+   "set"
+  ],
+  "lines": 24
+ },
+ {
+  "path": "progression/enchant-anvil-villager.md",
+  "title": "8. Enchant / Anvil / Villager",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "enchant",
+   "anvil",
+   "villager",
+   "progression"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "progression/nether-to-end.md",
+  "title": "9. Nether → End",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "nether",
+   "end",
+   "progression"
+  ],
+  "lines": 25
+ },
+ {
+  "path": "progression/p00-playbook-intro.md",
+  "title": "10. Playbook รายไมล์สโตน (อาการ → สาเหตุ → แก้ → ตัวเลข+แหล่ง → ตัดสินผล → เทสจริง)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "playbook",
+   "progression",
+   "p00",
+   "intro"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "progression/p01-wood-table.md",
+  "title": "P1 ไม้ / table / เครื่องมือไม้",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "table",
+   "progression",
+   "p01",
+   "wood"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "progression/p02-stone-furnace.md",
+  "title": "P2 stone tools + furnace",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "stone",
+   "tools",
+   "furnace",
+   "progression",
+   "p02"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p03-food.md",
+  "title": "P3 อาหาร",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "progression",
+   "p03",
+   "food"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p04-bed.md",
+  "title": "P4 เตียง (wool)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "wool",
+   "progression",
+   "p04",
+   "bed"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p05-iron.md",
+  "title": "P5 เหล็ก (ชุดแรก 36 ingot)",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "ingot",
+   "progression",
+   "p05",
+   "iron"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "progression/p06-diamond.md",
+  "title": "P6 เพชร",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "progression",
+   "p06",
+   "diamond"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p07-enchant.md",
+  "title": "P7 Enchant",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "enchant",
+   "progression",
+   "p07"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p08-nether-portal.md",
+  "title": "P8 Nether portal",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "nether",
+   "portal",
+   "progression",
+   "p08"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "progression/p09-blaze-pearl.md",
+  "title": "P9 blaze rod + pearl",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "blaze",
+   "rod",
+   "pearl",
+   "progression",
+   "p09"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "progression/p10-stronghold-end.md",
+  "title": "P10 stronghold + End",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "p10",
+   "stronghold",
+   "end",
+   "progression"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "progression/unverified.md",
+  "title": "11. ผลรวม [ไม่แน่ใจ] / ข้อสังเกตข้อมูล",
+  "group": "progression",
+  "source": "playbook/PROGRESSION.md",
+  "keywords": [
+   "progression",
+   "unverified"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "advanced/wool-vibration.md",
+  "title": "ขนแกะกันแรงสั่น sculk",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "sculk",
+   "advanced",
+   "wool",
+   "vibration"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/ominous-bottle.md",
+  "title": "ขวด Ominous (เข้า trial แบบยาก)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "ominous",
+   "trial",
+   "advanced",
+   "bottle"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/cure-discount.md",
+  "title": "ส่วนลดจากการรักษาซอมบี้ชาวบ้าน (แก้ข้อมูลผิด)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "cure",
+   "discount"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "advanced/golem-farm.md",
+  "title": "ฟาร์ม iron golem (แหล่งเหล็ก)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "iron",
+   "golem",
+   "advanced",
+   "farm"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/netherite-template.md",
+  "title": "แม่แบบอัปเกรด netherite",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "netherite",
+   "advanced",
+   "template"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "advanced/redstone-advanced.md",
+  "title": "เรดสโตนขั้นสูง (ความรู้เสริม ไม่ใช่เอาชีวิตรอด)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "redstone"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "advanced/ticks-tps.md",
+  "title": "tick และเซิร์ฟแล็ก",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "tick",
+   "advanced",
+   "ticks",
+   "tps"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/random-tick.md",
+  "title": "การโตของพืช (random tick)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "random",
+   "tick",
+   "advanced"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/regional-difficulty.md",
+  "title": "ความยากตามพื้นที่ (โลกยิ่งเก่า ม็อบยิ่งโหด)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "regional",
+   "difficulty"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "advanced/data-driven.md",
+  "title": "ข้อมูลเกมแบบ JSON (data pack)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "json",
+   "data",
+   "pack",
+   "advanced",
+   "driven"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "advanced/main-thread.md",
+  "title": "เธรดหลักและ tick skip",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "tick",
+   "skip",
+   "advanced",
+   "main",
+   "thread"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "advanced/update-suppression.md",
+  "title": "การกดการอัปเดตบล็อก (exploit — ห้ามใช้)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "exploit",
+   "advanced",
+   "update",
+   "suppression"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "advanced/vulkan.md",
+  "title": "Vulkan (ฝั่งจอ — ไม่เกี่ยวบอต)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "vulkan",
+   "advanced"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "advanced/version-26-3.md",
+  "title": "เวอร์ชันล่าสุด 26.3",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "version"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "advanced/seedcracking.md",
+  "title": "ย้อนหา seed (ไม่ใช้)",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "seed",
+   "advanced",
+   "seedcracking"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "advanced/aabb-collision.md",
+  "title": "กล่องชนและการทะลุ",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "aabb",
+   "collision"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "advanced/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "advanced",
+  "source": "wiki/advanced.md",
+  "keywords": [
+   "advanced",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "animals/breeding-rules.md",
+  "title": "กฎการผสมพันธุ์ทั่วไป",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "breeding",
+   "rules"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "animals/cow.md",
+  "title": "วัว",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "cow"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "animals/pig.md",
+  "title": "หมู",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "pig"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "animals/sheep.md",
+  "title": "แกะ",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "sheep"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "animals/chicken.md",
+  "title": "ไก่",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "chicken"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "animals/rabbit.md",
+  "title": "กระต่าย",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "rabbit"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "animals/goat.md",
+  "title": "แพะ",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "goat"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "animals/equines-camel.md",
+  "title": "ม้า/ลา/ล่อ/อูฐ",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "equines",
+   "camel"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "animals/llama.md",
+  "title": "ลามะ",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "llama"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "animals/wolf.md",
+  "title": "หมาป่า",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "wolf"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "animals/cat.md",
+  "title": "แมว",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "cat"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "animals/parrot.md",
+  "title": "นกแก้ว",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "parrot"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "animals/fox.md",
+  "title": "จิ้งจอก",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "fox"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "animals/turtle.md",
+  "title": "เต่า",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "turtle"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "animals/frog.md",
+  "title": "กบ",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "frog"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "animals/armadillo.md",
+  "title": "อาร์มาดิลโล",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "armadillo"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "animals/sniffer.md",
+  "title": "สนิฟเฟอร์",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "sniffer"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "animals/bee.md",
+  "title": "ผึ้ง",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "bee"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "animals/axolotl.md",
+  "title": "แอกโซลอเติล",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "axolotl"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "animals/leads-fencing.md",
+  "title": "เชือกจูงและรั้ว",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "leads",
+   "fencing"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "animals/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "animals",
+  "source": "wiki/animals.md",
+  "keywords": [
+   "animals",
+   "unverified"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "beacon-conduit/wither-nether-star.md",
+  "title": "Wither และ Nether Star",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "wither",
+   "nether",
+   "star",
+   "beacon",
+   "conduit"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "beacon-conduit/beacon-pyramid.md",
+  "title": "Beacon พีระมิดและบล็อก",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "beacon",
+   "conduit",
+   "pyramid"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "beacon-conduit/beacon-effects.md",
+  "title": "เอฟเฟกต์ Beacon",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "beacon",
+   "conduit",
+   "effects"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "beacon-conduit/conduit.md",
+  "title": "Conduit",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "conduit",
+   "beacon"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "beacon-conduit/totem-raid.md",
+  "title": "Totem ผ่าน Raid (Evoker)",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "totem",
+   "raid",
+   "evoker",
+   "beacon",
+   "conduit"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "beacon-conduit/storage.md",
+  "title": "Shulker Box และ Ender Chest",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "shulker",
+   "box",
+   "ender",
+   "chest",
+   "beacon",
+   "conduit",
+   "storage"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "beacon-conduit/respawn-anchor.md",
+  "title": "Respawn Anchor (Nether)",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "respawn",
+   "anchor",
+   "nether",
+   "beacon",
+   "conduit"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "beacon-conduit/netherite-path.md",
+  "title": "เส้นทาง Netherite",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "netherite",
+   "beacon",
+   "conduit",
+   "path"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "beacon-conduit/navigation.md",
+  "title": "Lodestone และ Recovery Compass",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "lodestone",
+   "recovery",
+   "compass",
+   "beacon",
+   "conduit",
+   "navigation"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "beacon-conduit/priority.md",
+  "title": "ลำดับหลัง Diamond (เสนอ)",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "diamond",
+   "beacon",
+   "conduit",
+   "priority"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "beacon-conduit/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "beacon-conduit",
+  "source": "wiki/beacon-conduit.md",
+  "keywords": [
+   "beacon",
+   "conduit",
+   "unverified"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "biomes/plains-forest.md",
+  "title": "ที่ราบ/ป่า (plains, forest, birch, dark forest)",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "plains",
+   "forest",
+   "birch",
+   "dark",
+   "biomes"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "biomes/taiga-snowy.md",
+  "title": "ไทกา/หิมะ (snowy taiga, grove, snowy slopes)",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "snowy",
+   "taiga",
+   "grove",
+   "slopes",
+   "biomes"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "biomes/desert-badlands.md",
+  "title": "ทะเลทราย/เมซา",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "desert",
+   "badlands"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "biomes/jungle.md",
+  "title": "จังเกิล",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "jungle"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "biomes/savanna.md",
+  "title": "ซาวันนา",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "savanna"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "biomes/swamp-mangrove.md",
+  "title": "หนองน้ำ/โกงกาง",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "swamp",
+   "mangrove"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "biomes/mountains-peaks.md",
+  "title": "ภูเขา/ยอดเขา/ทุ่งหญ้าบนเขา",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "mountains",
+   "peaks"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "biomes/water-shore.md",
+  "title": "มหาสมุทร/แม่น้ำ/ชายหาด",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "water",
+   "shore"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "biomes/mushroom-fields.md",
+  "title": "ทุ่งเห็ด",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "mushroom",
+   "fields"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "biomes/caves-special.md",
+  "title": "ถ้ำ (dripstone/lush/deep dark), cherry grove, pale garden",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "dripstone",
+   "lush",
+   "deep",
+   "dark",
+   "cherry",
+   "grove",
+   "pale",
+   "garden",
+   "biomes",
+   "caves",
+   "special"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "biomes/nether.md",
+  "title": "เนเธอร์",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "nether"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "biomes/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "biomes",
+  "source": "wiki/biomes.md",
+  "keywords": [
+   "biomes",
+   "unverified"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "bot-api/brewing-slots.md",
+  "title": "ช่องแท่นปรุงยา (Gemini ผิด)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "gemini",
+   "bot",
+   "api",
+   "brewing",
+   "slots"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "bot-api/brewing-gemini-check.md",
+  "title": "ข้อความปรุงยาอื่นของ Gemini",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "gemini",
+   "bot",
+   "api",
+   "brewing",
+   "check"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "bot-api/furnace-api.md",
+  "title": "เตา (API มีจริง)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "api",
+   "bot",
+   "furnace"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "bot-api/craft-api.md",
+  "title": "คราฟต์",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "bot",
+   "api",
+   "craft"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "bot-api/food-values.md",
+  "title": "ค่าอาหาร (ตรวจกับ minecraft-data)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "minecraft",
+   "data",
+   "bot",
+   "api",
+   "food",
+   "values"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "bot-api/support-health.md",
+  "title": "อ่านเลือดเพื่อน (Gemini โค้ดใช้ไม่ได้)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "gemini",
+   "bot",
+   "api",
+   "support",
+   "health"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "bot-api/gemini-code-bugs.md",
+  "title": "จุดผิดอื่นในโค้ดตัวอย่าง Gemini",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "gemini",
+   "bot",
+   "api",
+   "code",
+   "bugs"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "bot-api/plugins.md",
+  "title": "ปลั๊กอินเสริม (เวอร์ชันล่าสุดบน npm 7 ต.ค. 2026)",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "npm",
+   "bot",
+   "api",
+   "plugins"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "bot-api/support-role.md",
+  "title": "บทบาทซัพพอร์ตในทีม 4 ตัว",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "bot",
+   "api",
+   "support",
+   "role"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "bot-api/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "bot-api",
+  "source": "wiki/bot-api.md",
+  "keywords": [
+   "bot",
+   "api",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "breeding/core-rules.md",
+  "title": "กฎกลางการผสมพันธุ์",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "core",
+   "rules"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "breeding/food-table.md",
+  "title": "ตารางอาหารผสม + เร่งโต",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "food",
+   "table"
+  ],
+  "lines": 27
+ },
+ {
+  "path": "breeding/equines.md",
+  "title": "ม้า/ลา/ล่อ/ลามะ เร่งโต",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "equines"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "breeding/food-values.md",
+  "title": "ค่า hunger/saturation ของผลผลิต",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "hunger",
+   "saturation",
+   "breeding",
+   "food",
+   "values"
+  ],
+  "lines": 18
+ },
+ {
+  "path": "breeding/drops-looting.md",
+  "title": "ดรอปเนื้อและ Looting/ไฟ",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "looting",
+   "breeding",
+   "drops"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "breeding/sheep-wool.md",
+  "title": "แกะ ขน และสีลูก",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "sheep",
+   "wool"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "breeding/chicken-eggs.md",
+  "title": "ไก่และไข่",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "chicken",
+   "eggs"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "breeding/mooshroom.md",
+  "title": "Mooshroom, ซุป, suspicious stew",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "mooshroom",
+   "suspicious",
+   "stew",
+   "breeding"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "breeding/nether-animals.md",
+  "title": "hoglin และ strider",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "hoglin",
+   "strider",
+   "breeding",
+   "nether",
+   "animals"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "breeding/luring-pens.md",
+  "title": "ล่อ จูง ย้าย และออกแบบคอก",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "luring",
+   "pens"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "breeding/best-farm-ranking.md",
+  "title": "จัดอันดับฟาร์มอาหารช่วงต้น [คิดเอง]",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "best",
+   "farm",
+   "ranking"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "breeding/new-26x.md",
+  "title": "สิ่งใหม่ใน 26.x ที่เกี่ยวกับการผสม",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "new"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "breeding/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "breeding",
+  "source": "wiki/breeding.md",
+  "keywords": [
+   "breeding",
+   "unverified"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "brewing/brewing-stand.md",
+  "title": "แท่นต้มยาและเชื้อเพลิง",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "brewing",
+   "stand"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "brewing/base-chain.md",
+  "title": "ขวดน้ำ → Awkward → ยา",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "awkward",
+   "brewing",
+   "base",
+   "chain"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "brewing/recipes.md",
+  "title": "สูตรยาแต่ละชนิด (ส่วนผสม + Awkward)",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "awkward",
+   "brewing",
+   "recipes"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "brewing/modifiers.md",
+  "title": "redstone / glowstone",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "redstone",
+   "glowstone",
+   "brewing",
+   "modifiers"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "brewing/durations.md",
+  "title": "ระยะเวลายา (ดื่ม, Java)",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "java",
+   "brewing",
+   "durations"
+  ],
+  "lines": 22
+ },
+ {
+  "path": "brewing/corruption.md",
+  "title": "Fermented spider eye",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "fermented",
+   "spider",
+   "eye",
+   "brewing",
+   "corruption"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "brewing/splash-lingering-arrow.md",
+  "title": "Splash / Lingering / Tipped Arrow",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "splash",
+   "lingering",
+   "tipped",
+   "arrow",
+   "brewing"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "brewing/bot-loadout.md",
+  "title": "ยาที่ควรพก",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "brewing",
+   "bot",
+   "loadout"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "brewing/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "brewing",
+  "source": "wiki/brewing.md",
+  "keywords": [
+   "brewing",
+   "unverified"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-ai/shield.md",
+  "title": "โล่",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "shield"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "combat-ai/sweep-knockback.md",
+  "title": "Sweep และ Knockback",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "sweep",
+   "knockback",
+   "combat"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "combat-ai/attack-speed.md",
+  "title": "ความเร็วโจมตีตามอาวุธ",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "attack",
+   "speed"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "combat-ai/immunity.md",
+  "title": "i-frame และการลดดาเมจ",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "frame",
+   "combat",
+   "immunity"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "combat-ai/breach-density.md",
+  "title": "Breach/Density (mace)",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "breach",
+   "density",
+   "mace",
+   "combat"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "combat-ai/ranged-weapons.md",
+  "title": "ธนูและ Crossbow",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "crossbow",
+   "combat",
+   "ranged",
+   "weapons"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "combat-ai/totem.md",
+  "title": "โทเท็มกันตาย",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "totem"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "combat-ai/damage-difficulty.md",
+  "title": "ดาเมจตามความยาก (ม็อบ)",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "damage",
+   "difficulty"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "combat-ai/zombie-ai.md",
+  "title": "ซอมบี้",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "zombie"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "combat-ai/skeleton-ai.md",
+  "title": "สเกเลตัน สเตรย์ บ็อกก์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "skeleton"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "combat-ai/spider-ai.md",
+  "title": "แมงมุม",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "spider"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "combat-ai/creeper-ai.md",
+  "title": "ครีปเปอร์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "creeper"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "combat-ai/phantom-enderman.md",
+  "title": "แฟนทอมและเอนเดอร์แมน",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "phantom",
+   "enderman"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "combat-ai/witch-ai.md",
+  "title": "แม่มด",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "witch"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "combat-ai/drowned-ai.md",
+  "title": "ดราวน์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "drowned"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "combat-ai/illagers.md",
+  "title": "พิลเลเจอร์ วินดิเคเตอร์ อีโวเกอร์ ราเวเจอร์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "illagers"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "combat-ai/slime-split.md",
+  "title": "สไลม์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "slime",
+   "split"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "combat-ai/nether-combat.md",
+  "title": "ม็อบเนเธอร์",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "nether"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "combat-ai/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "combat-ai",
+  "source": "wiki/combat-ai.md",
+  "keywords": [
+   "combat",
+   "unverified"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "combat-events/raid-bell.md",
+  "title": "ระฆังหมู่บ้าน",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "combat",
+   "events",
+   "raid",
+   "bell"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "combat-events/evoker-vex.md",
+  "title": "evoker และ vex",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "evoker",
+   "vex",
+   "combat",
+   "events"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-events/ravager-door.md",
+  "title": "ravager",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "ravager",
+   "combat",
+   "events",
+   "door"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-events/charged-creeper.md",
+  "title": "ครีปเปอร์ชาร์จ",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "combat",
+   "events",
+   "charged",
+   "creeper"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-events/dragon-breath.md",
+  "title": "ลมหายใจมังกร",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "combat",
+   "events",
+   "dragon",
+   "breath"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "combat-events/traps.md",
+  "title": "กับดักโครงสร้าง",
+  "group": "combat-events",
+  "source": "wiki/combat-events.md",
+  "keywords": [
+   "combat",
+   "events",
+   "traps"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "crafting/grid-rule.md",
+  "title": "กฎช่อง 2x2 vs 3x3",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "grid",
+   "rule"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "crafting/basics.md",
+  "title": "พื้นฐาน",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "basics"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "crafting/tools.md",
+  "title": "เครื่องมือ",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "tools"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "crafting/armor.md",
+  "title": "เกราะ",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "armor"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "crafting/smithing.md",
+  "title": "Smithing Table + Netherite",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "smithing",
+   "table",
+   "netherite",
+   "crafting"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "crafting/utility.md",
+  "title": "บล็อกใช้งาน",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "utility"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "crafting/combat.md",
+  "title": "อาวุธระยะไกล",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "combat"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "crafting/food.md",
+  "title": "อาหาร",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "food"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "crafting/magic.md",
+  "title": "เวทมนตร์/Brewing",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "brewing",
+   "crafting",
+   "magic"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "crafting/navigation.md",
+  "title": "นำทาง",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "navigation"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "crafting/transport.md",
+  "title": "ขนส่ง",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "transport"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "crafting/planning.md",
+  "title": "วัตถุดิบรวม",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "planning"
+  ],
+  "lines": 28
+ },
+ {
+  "path": "crafting/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "crafting",
+  "source": "wiki/crafting.md",
+  "keywords": [
+   "crafting",
+   "unverified"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "elytra/obtain.md",
+  "title": "การได้มา",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "elytra",
+   "obtain"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "elytra/durability.md",
+  "title": "ความทนทานและซ่อม",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "elytra",
+   "durability"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "elytra/activate.md",
+  "title": "การเปิดใช้งาน",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "elytra",
+   "activate"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "elytra/glide.md",
+  "title": "ความเร็ว/พิทช์",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "elytra",
+   "glide"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "elytra/rocket.md",
+  "title": "จรวดดอกไม้ไฟ",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "elytra",
+   "rocket"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "elytra/kinetic.md",
+  "title": "ความเสียหายชนผนัง",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "elytra",
+   "kinetic"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "elytra/landing.md",
+  "title": "การลงจอดและ fall damage",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "fall",
+   "damage",
+   "elytra",
+   "landing"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "elytra/combat.md",
+  "title": "ต่อสู้ (mace)",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "mace",
+   "elytra",
+   "combat"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "elytra/risks.md",
+  "title": "ความเสี่ยงของบอต",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "elytra",
+   "risks"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "elytra/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "elytra",
+  "source": "wiki/elytra.md",
+  "keywords": [
+   "elytra",
+   "unverified"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "enchanting/table-setup.md",
+  "title": "โต๊ะเสริมพลัง + ชั้นหนังสือ",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "enchanting",
+   "table",
+   "setup"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "enchanting/costs.md",
+  "title": "ค่า XP และ Lapis",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "lapis",
+   "enchanting",
+   "costs"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "enchanting/offers.md",
+  "title": "วิธีเลือกข้อเสนอ",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "enchanting",
+   "offers"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "enchanting/anvil.md",
+  "title": "ทั่ง การรวม และ Too Expensive",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "too",
+   "expensive",
+   "enchanting",
+   "anvil"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "enchanting/grindstone.md",
+  "title": "หินลับ",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "enchanting",
+   "grindstone"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "enchanting/smithing.md",
+  "title": "โต๊ะตีเหล็ก",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "enchanting",
+   "smithing"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "enchanting/exclusive.md",
+  "title": "เอนชานต์ที่ใช้ร่วมกันไม่ได้",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "enchanting",
+   "exclusive"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "enchanting/sets.md",
+  "title": "ชุดแนะนำต่อไอเท็ม",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "enchanting",
+   "sets"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "enchanting/treasure.md",
+  "title": "เอนชานต์ Treasure และแหล่งที่ได้",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "treasure",
+   "enchanting"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "enchanting/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "enchanting",
+  "source": "wiki/enchanting.md",
+  "keywords": [
+   "enchanting",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "endgame-modes/dragon-crystals.md",
+  "title": "End crystal และการฟื้น HP มังกร",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "end",
+   "crystal",
+   "endgame",
+   "modes",
+   "dragon",
+   "crystals"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "endgame-modes/dragon-phases.md",
+  "title": "เฟสการบินและ perching",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "perching",
+   "endgame",
+   "modes",
+   "dragon",
+   "phases"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "endgame-modes/dragon-damage.md",
+  "title": "ดาเมจที่มังกรทำ และดาเมจที่มังกรรับ",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "dragon",
+   "damage"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "endgame-modes/dragon-after.md",
+  "title": "หลังมังกรตาย",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "dragon",
+   "after"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "endgame-modes/wither-summon.md",
+  "title": "Wither: เกิด เฟส และการต่อสู้",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "wither",
+   "endgame",
+   "modes",
+   "summon"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "endgame-modes/end-city.md",
+  "title": "End city, shulker, เรือ",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "end",
+   "city",
+   "shulker",
+   "endgame",
+   "modes"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "endgame-modes/hardcore-modes.md",
+  "title": "Hardcore และโหมดเกม",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "hardcore",
+   "endgame",
+   "modes"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "endgame-modes/gamerules.md",
+  "title": "ชื่อ gamerule ใน 26.x",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "gamerule",
+   "endgame",
+   "modes",
+   "gamerules"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "endgame-modes/new-mobs-26x.md",
+  "title": "มอบ/ไอเท็มใหม่ที่ยืนยันแล้ว",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "new",
+   "mobs"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "endgame-modes/sounds.md",
+  "title": "เสียงที่ยืนยัน",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "sounds"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "endgame-modes/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "endgame-modes",
+  "source": "wiki/endgame-modes.md",
+  "keywords": [
+   "endgame",
+   "modes",
+   "unverified"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "experience/xp-orbs.md",
+  "title": "ออร์บ XP",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "orbs"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "experience/sources.md",
+  "title": "แหล่ง XP และปริมาณ",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "sources"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "experience/smelting-xp.md",
+  "title": "XP จากการหลอม",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "smelting"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "experience/mob-xp-extra.md",
+  "title": "XP มอนอื่น",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "mob",
+   "extra"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "experience/orb-behavior.md",
+  "title": "พฤติกรรมออร์บ",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "orb",
+   "behavior"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "experience/level-formula.md",
+  "title": "สูตรเลเวล",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "level",
+   "formula"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "experience/death-loss.md",
+  "title": "XP เมื่อตาย",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "death",
+   "loss"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "experience/mending.md",
+  "title": "Mending",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "mending",
+   "experience"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "experience/xp-farms.md",
+  "title": "ฟาร์ม XP เบื้องต้น",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "farms"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "experience/lvl30.md",
+  "title": "XP ถึงเลเวล 30",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "lvl30"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "experience/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "experience",
+  "source": "wiki/experience.md",
+  "keywords": [
+   "experience",
+   "unverified"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "farm-build/order.md",
+  "title": "ลำดับ (กติกา jing: ไม่ทำทันที)",
+  "group": "farm-build",
+  "source": "wiki/farm-build.md",
+  "keywords": [
+   "jing",
+   "farm",
+   "build",
+   "order"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "farm-build/layout.md",
+  "title": "ผังแปลง",
+  "group": "farm-build",
+  "source": "wiki/farm-build.md",
+  "keywords": [
+   "farm",
+   "build",
+   "layout"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "farm-build/fence.md",
+  "title": "รั้ว",
+  "group": "farm-build",
+  "source": "wiki/farm-build.md",
+  "keywords": [
+   "farm",
+   "build",
+   "fence"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "farm-build/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "farm-build",
+  "source": "wiki/farm-build.md",
+  "keywords": [
+   "farm",
+   "build",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "farming/crops-wheat.md",
+  "title": "พืชหลัก (ข้าวสาลี/แครอท/มันฝรั่ง)",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "crops",
+   "wheat"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "farming/beetroot.md",
+  "title": "บีทรูท",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "beetroot"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "farming/hydration-trampling.md",
+  "title": "น้ำและการเหยียบ farmland",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farmland",
+   "farming",
+   "hydration",
+   "trampling"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "farming/bone-meal.md",
+  "title": "ปุ๋ยกระดูก",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "bone",
+   "meal"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "farming/sugar-cane.md",
+  "title": "อ้อย",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "sugar",
+   "cane"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "farming/stem-crops.md",
+  "title": "ฟักทอง/แตงโม",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "stem",
+   "crops"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "farming/cactus.md",
+  "title": "กระบองเพชร",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "cactus"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "farming/bamboo-kelp.md",
+  "title": "ไผ่และสาหร่ายทะเล",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "bamboo",
+   "kelp"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "farming/sweet-berries-cocoa.md",
+  "title": "เบอร์รี่หวาน/โกโก้",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "sweet",
+   "berries",
+   "cocoa"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "farming/nether-wart.md",
+  "title": "เนเธอร์วอร์ต",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "nether",
+   "wart"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "farming/mushroom.md",
+  "title": "เห็ด",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "mushroom"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "farming/trees.md",
+  "title": "ต้นไม้/ต้นกล้า",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "trees"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "farming/composter.md",
+  "title": "คอมโพสเตอร์",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "composter"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "farming/auto-farm-ideas.md",
+  "title": "ไอเดียฟาร์มอัตโนมัติ (บอตทำได้)",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "auto",
+   "farm",
+   "ideas"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "farming/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "farming",
+  "source": "wiki/farming.md",
+  "keywords": [
+   "farming",
+   "unverified"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "field-smelting/locations.md",
+  "title": "ตั้งเตาที่ไหน ทำอะไรระหว่างรอ",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "locations"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "field-smelting/what-to-smelt.md",
+  "title": "เผาอะไร (ไม่เผาอะไร)",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "what",
+   "smelt"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "field-smelting/fuel-sourcing.md",
+  "title": "เชื้อเพลิงไม่พอ",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "fuel",
+   "sourcing"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "field-smelting/food-sourcing.md",
+  "title": "อาหารไม่พอ (นอกบ้าน)",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "food",
+   "sourcing"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "field-smelting/roam-radius.md",
+  "title": "เกินรัศมีตะเวน",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "roam",
+   "radius"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "field-smelting/return-trail.md",
+  "title": "จำทางกลับ",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "return",
+   "trail"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "field-smelting/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "field-smelting/furnace-safety.md",
+  "title": "เตานอกบ้านปลอดภัยแค่ไหน",
+  "group": "field-smelting",
+  "source": "wiki/field-smelting.md",
+  "keywords": [
+   "field",
+   "smelting",
+   "furnace",
+   "safety"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "fishing/wait-and-bite.md",
+  "title": "เวลารอและการกัดเบ็ด",
+  "group": "fishing",
+  "source": "wiki/fishing.md",
+  "keywords": [
+   "fishing",
+   "wait",
+   "and",
+   "bite"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "fishing/bite-detection.md",
+  "title": "การตรวจจับการกัดสำหรับบอต",
+  "group": "fishing",
+  "source": "wiki/fishing.md",
+  "keywords": [
+   "fishing",
+   "bite",
+   "detection"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "fishing/loot-table.md",
+  "title": "ตารางของที่ตกได้",
+  "group": "fishing",
+  "source": "wiki/fishing.md",
+  "keywords": [
+   "fishing",
+   "loot",
+   "table"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "fishing/open-water.md",
+  "title": "เงื่อนไขน้ำเปิดสำหรับสมบัติ",
+  "group": "fishing",
+  "source": "wiki/fishing.md",
+  "keywords": [
+   "fishing",
+   "open",
+   "water"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "fishing/enchants-rain.md",
+  "title": "Lure, Luck of the Sea, ฝน",
+  "group": "fishing",
+  "source": "wiki/fishing.md",
+  "keywords": [
+   "lure",
+   "luck",
+   "the",
+   "sea",
+   "fishing",
+   "enchants",
+   "rain"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "fishing/food.md",
+  "title": "ปลาเป็นอาหาร",
+  "group": "fishing",
+  "source": "wiki/fishing.md",
+  "keywords": [
+   "fishing",
+   "food"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "fishing/durability-hooks.md",
+  "title": "ความทนทานและการเกี่ยวเอนทิตี",
+  "group": "fishing",
+  "source": "wiki/fishing.md",
+  "keywords": [
+   "fishing",
+   "durability",
+   "hooks"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "fishing/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "fishing",
+  "source": "wiki/fishing.md",
+  "keywords": [
+   "fishing",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "gear-inventory/tool-breaking.md",
+  "title": "เครื่องมือใกล้พัง",
+  "group": "gear-inventory",
+  "source": "wiki/gear-inventory.md",
+  "keywords": [
+   "gear",
+   "inventory",
+   "tool",
+   "breaking"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "gear-inventory/armor-breaking.md",
+  "title": "เกราะใกล้พัง",
+  "group": "gear-inventory",
+  "source": "wiki/gear-inventory.md",
+  "keywords": [
+   "gear",
+   "inventory",
+   "armor",
+   "breaking"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "gear-inventory/inventory-full.md",
+  "title": "กระเป๋าเต็ม",
+  "group": "gear-inventory",
+  "source": "wiki/gear-inventory.md",
+  "keywords": [
+   "gear",
+   "inventory",
+   "full"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "health/health.md",
+  "title": "เลือดและการฟื้นเลือดธรรมชาติ",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "health/healing.md",
+  "title": "ไอเท็มฟื้นเลือด",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "healing"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "health/absorption.md",
+  "title": "Absorption",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "absorption",
+   "health"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "health/totem.md",
+  "title": "โทเท็มแห่งความเป็นอมตะ",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "totem"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "health/damage-types.md",
+  "title": "ชนิดความเสียหายและสิ่งที่ลดได้",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "damage",
+   "types"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "health/armor.md",
+  "title": "เกราะและ Toughness",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "toughness",
+   "health",
+   "armor"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "health/enchant.md",
+  "title": "มนตร์ลดดาเมจ",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "enchant"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "health/resistance.md",
+  "title": "เอฟเฟกต์ Resistance",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "resistance",
+   "health"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "health/difficulty.md",
+  "title": "ระดับความยาก",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "difficulty"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "health/invuln.md",
+  "title": "ช่วงอมตะหลังโดนดาเมจ",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "invuln"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "health/death.md",
+  "title": "ความตายและเกิดใหม่",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "death"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "health/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "health",
+  "source": "wiki/health.md",
+  "keywords": [
+   "health",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "home-keeping/storage-facts.md",
+  "title": "ความจุ",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "storage",
+   "facts"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "home-keeping/categories.md",
+  "title": "13 หมวด (ป้ายไม้ 13 สีติดหน้าหีบ ไม่ต้องเขียน)",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "categories"
+  ],
+  "lines": 20
+ },
+ {
+  "path": "home-keeping/stash.md",
+  "title": "ฝากของ: อะไรเว้นไว้ติดตัว",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "stash"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "home-keeping/tidy-area.md",
+  "title": "ปรับพื้นรอบบ้าน/ในบ้านให้เรียบ",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "tidy",
+   "area"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "home-keeping/house-clean.md",
+  "title": "เก็บกวาดในบ้าน (บล็อกที่บอตวางมั่ว + ของทิ้งพื้น — กติกา jing)",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "jing",
+   "home",
+   "keeping",
+   "house",
+   "clean"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "home-keeping/passages.md",
+  "title": "ทางเดินขึ้นบ้าน + ปากประตูต้องโล่งตลอด (กติกา jing)",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "jing",
+   "home",
+   "keeping",
+   "passages"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "home-keeping/torches.md",
+  "title": "ปักคบเพลิงเพื่อไม่ให้ม็อบเกิด (กติกา jing)",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "jing",
+   "home",
+   "keeping",
+   "torches"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "home-keeping/measure.md",
+  "title": "วัดผลช่วงรอ",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "measure"
+  ],
+  "lines": 3
+ },
+ {
+  "path": "home-keeping/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "home-keeping",
+  "source": "wiki/home-keeping.md",
+  "keywords": [
+   "home",
+   "keeping",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "loot/village-weaponsmith.md",
+  "title": "หมู่บ้าน: หีบช่างตีอาวุธ",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "village",
+   "weaponsmith"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "loot/village-armorer-toolsmith.md",
+  "title": "หมู่บ้าน: ช่างเกราะ / ช่างเครื่องมือ",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "village",
+   "armorer",
+   "toolsmith"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "loot/shipwreck.md",
+  "title": "เรืออับปาง (supply / map / treasure)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "supply",
+   "map",
+   "treasure",
+   "loot",
+   "shipwreck"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "loot/buried-treasure.md",
+  "title": "ขุมทรัพย์ฝังดิน",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "buried",
+   "treasure"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "loot/ocean-ruins.md",
+  "title": "ซากมหาสมุทร (warm/cold)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "warm",
+   "cold",
+   "loot",
+   "ocean",
+   "ruins"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "loot/mineshaft.md",
+  "title": "เหมืองร้าง (minecart with chest)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "minecart",
+   "with",
+   "chest",
+   "loot",
+   "mineshaft"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "loot/monster-room.md",
+  "title": "ห้องมอนสเตอร์",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "monster",
+   "room"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "loot/stronghold.md",
+  "title": "ป้อมปราการ (altar / library / corridor)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "altar",
+   "library",
+   "corridor",
+   "loot",
+   "stronghold"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "loot/desert-pyramid.md",
+  "title": "พีระมิดทะเลทราย",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "desert",
+   "pyramid"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "loot/jungle-pyramid.md",
+  "title": "พีระมิดป่า",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "jungle",
+   "pyramid"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "loot/pillager-outpost.md",
+  "title": "ด่านผู้ปล้น",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "pillager",
+   "outpost"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "loot/woodland-mansion.md",
+  "title": "คฤหาสน์ป่า",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "woodland",
+   "mansion"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "loot/igloo.md",
+  "title": "อิกลู",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "igloo"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "loot/ruined-portal.md",
+  "title": "พอร์ทัลพัง",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "ruined",
+   "portal"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "loot/nether-fortress.md",
+  "title": "ป้อมเนเธอร์",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "nether",
+   "fortress"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "loot/bastion.md",
+  "title": "ซากบาสชั่น (treasure / bridge / hoglin-stable / housing / generic)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "treasure",
+   "bridge",
+   "hoglin",
+   "stable",
+   "housing",
+   "generic",
+   "loot",
+   "bastion"
+  ],
+  "lines": 24
+ },
+ {
+  "path": "loot/end-city.md",
+  "title": "เมืองเอ็นด์",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "end",
+   "city"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "loot/ancient-city.md",
+  "title": "เมืองโบราณ",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "ancient",
+   "city"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "loot/trail-ruins.md",
+  "title": "ซากเส้นทาง (suspicious gravel)",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "suspicious",
+   "gravel",
+   "loot",
+   "trail",
+   "ruins"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "loot/witch-hut.md",
+  "title": "กระท่อมแม่มด",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "witch",
+   "hut"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "loot/trial-vaults.md",
+  "title": "Vault ห้องทดสอบ",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "vault",
+   "loot",
+   "trial",
+   "vaults"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "loot/best-loot-for-iron.md",
+  "title": "อันดับโครงสร้างให้เหล็กเร็วสุด [คิดเอง]",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "best",
+   "for",
+   "iron"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "loot/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "loot",
+  "source": "wiki/loot.md",
+  "keywords": [
+   "loot",
+   "unverified"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "navigation/coordinates.md",
+  "title": "ระบบพิกัด",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "coordinates"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "navigation/height-limits.md",
+  "title": "ขีดจำกัดความสูง",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "height",
+   "limits"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "navigation/compass.md",
+  "title": "เข็มทิศ",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "compass"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "navigation/lodestone.md",
+  "title": "เข็มทิศ Lodestone",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "lodestone",
+   "navigation"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "navigation/recovery-compass.md",
+  "title": "เข็มทิศกู้คืน",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "recovery",
+   "compass"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "navigation/maps.md",
+  "title": "แผนที่และ explorer map",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "explorer",
+   "map",
+   "navigation",
+   "maps"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "navigation/clock-sun.md",
+  "title": "นาฬิกา ดวงอาทิตย์ และดวงจันทร์",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "clock",
+   "sun"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "navigation/nether-travel.md",
+  "title": "เดินทางผ่าน Nether 1:8",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "nether",
+   "navigation",
+   "travel"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "navigation/waypoints.md",
+  "title": "แผนจุดอ้างอิงสำหรับทีมบอต",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "waypoints"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "navigation/return-home.md",
+  "title": "กลับบ้านหลังกลางคืน/ตาย",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "return",
+   "home"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "navigation/chunks.md",
+  "title": "ชังก์และระยะมองเห็น",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "chunks"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "navigation/stronghold-triangulation.md",
+  "title": "หาป้อมด้วยวิธีสามเหลี่ยม",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "stronghold",
+   "triangulation"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "navigation/smelting-list.md",
+  "title": "สูตรหลอมที่จำเป็น",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "smelting",
+   "list"
+  ],
+  "lines": 26
+ },
+ {
+  "path": "navigation/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "navigation",
+  "source": "wiki/navigation.md",
+  "keywords": [
+   "navigation",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "ores-world/height-limits.md",
+  "title": "ขีดจำกัดความสูงโลก",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ores",
+   "world",
+   "height",
+   "limits"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "ores-world/iron.md",
+  "title": "เหล็ก (ลำดับความสำคัญสูงสุดของ iron race)",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "iron",
+   "race",
+   "ores",
+   "world"
+  ],
+  "lines": 22
+ },
+ {
+  "path": "ores-world/ore-sizes.md",
+  "title": "ขนาด blob และจำนวนครั้งต่อ chunk",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "blob",
+   "chunk",
+   "ores",
+   "world",
+   "ore",
+   "sizes"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "ores-world/air-exposure.md",
+  "title": "การทิ้งแร่เมื่อติดอากาศ",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ores",
+   "world",
+   "air",
+   "exposure"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "ores-world/ancient-debris.md",
+  "title": "Ancient Debris",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ancient",
+   "debris",
+   "ores",
+   "world"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "ores-world/fortune.md",
+  "title": "ตัวคูณ Fortune",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "fortune",
+   "ores",
+   "world"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "ores-world/caves-aquifers.md",
+  "title": "ถ้ำและ aquifer",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "aquifer",
+   "ores",
+   "world",
+   "caves",
+   "aquifers"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "ores-world/nether-lava.md",
+  "title": "ทะเลลาวาในนรก",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ores",
+   "world",
+   "nether",
+   "lava"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "ores-world/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "ores-world",
+  "source": "wiki/ores-world.md",
+  "keywords": [
+   "ores",
+   "world",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "piglin/calm.md",
+  "title": "ทำให้ไม่โกรธ",
+  "group": "piglin",
+  "source": "wiki/piglin.md",
+  "keywords": [
+   "piglin",
+   "calm"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "piglin/anger.md",
+  "title": "อะไรทำให้โกรธ",
+  "group": "piglin",
+  "source": "wiki/piglin.md",
+  "keywords": [
+   "piglin",
+   "anger"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "piglin/barter.md",
+  "title": "แลกของด้วยทอง",
+  "group": "piglin",
+  "source": "wiki/piglin.md",
+  "keywords": [
+   "piglin",
+   "barter"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "piglin/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "piglin",
+  "source": "wiki/piglin.md",
+  "keywords": [
+   "piglin",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "recipes/tools.md",
+  "title": "เครื่องมือ (37 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "tools"
+  ],
+  "lines": 95
+ },
+ {
+  "path": "recipes/weapons.md",
+  "title": "อาวุธ (19 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "weapons"
+  ],
+  "lines": 62
+ },
+ {
+  "path": "recipes/armor.md",
+  "title": "เกราะ (23 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "armor"
+  ],
+  "lines": 29
+ },
+ {
+  "path": "recipes/food.md",
+  "title": "อาหาร (21 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "food"
+  ],
+  "lines": 47
+ },
+ {
+  "path": "recipes/utility.md",
+  "title": "ของใช้/สถานี (73 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "utility"
+  ],
+  "lines": 600
+ },
+ {
+  "path": "recipes/transport.md",
+  "title": "การเดินทาง (46 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "transport"
+  ],
+  "lines": 68
+ },
+ {
+  "path": "recipes/redstone.md",
+  "title": "เรดสโตน (50 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "redstone"
+  ],
+  "lines": 101
+ },
+ {
+  "path": "recipes/metals.md",
+  "title": "แท่ง/บล็อกแร่/เศษ (45 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "metals"
+  ],
+  "lines": 56
+ },
+ {
+  "path": "recipes/dyes.md",
+  "title": "สีย้อม (15 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "dyes"
+  ],
+  "lines": 48
+ },
+ {
+  "path": "recipes/colored.md",
+  "title": "ของมีสี (ขนแกะ/พรม/ป้าย/แก้วสี/คอนกรีต) (137 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "colored"
+  ],
+  "lines": 179
+ },
+ {
+  "path": "recipes/wood.md",
+  "title": "ไม้ (145 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "wood"
+  ],
+  "lines": 151
+ },
+ {
+  "path": "recipes/copper.md",
+  "title": "ทองแดง (84 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "copper"
+  ],
+  "lines": 114
+ },
+ {
+  "path": "recipes/templates.md",
+  "title": "แม่แบบ smithing (19 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "smithing",
+   "recipes",
+   "templates"
+  ],
+  "lines": 26
+ },
+ {
+  "path": "recipes/building.md",
+  "title": "บล็อกก่อสร้าง/อื่น ๆ (173 สูตร)",
+  "group": "recipes",
+  "source": "wiki/recipes.md",
+  "keywords": [
+   "recipes",
+   "building"
+  ],
+  "lines": 192
+ },
+ {
+  "path": "redstone-basics/signal-range.md",
+  "title": "ระยะสัญญาณ redstone",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "redstone",
+   "basics",
+   "signal",
+   "range"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "redstone-basics/doors.md",
+  "title": "ประตูไม้ vs เหล็ก, trapdoor, fence gate",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "trapdoor",
+   "fence",
+   "gate",
+   "redstone",
+   "basics",
+   "doors"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "redstone-basics/switches.md",
+  "title": "ปุ่ม คันโยก",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "redstone",
+   "basics",
+   "switches"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "redstone-basics/plates.md",
+  "title": "แผ่นกด (mob ใดกดได้)",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "mob",
+   "redstone",
+   "basics",
+   "plates"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "redstone-basics/tripwire.md",
+  "title": "สายสะดุด",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "redstone",
+   "basics",
+   "tripwire"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "redstone-basics/observer-hopper.md",
+  "title": "observer, hopper",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "observer",
+   "hopper",
+   "redstone",
+   "basics"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "redstone-basics/pistons.md",
+  "title": "piston / sticky piston",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "piston",
+   "sticky",
+   "redstone",
+   "basics",
+   "pistons"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "redstone-basics/dispenser.md",
+  "title": "dispenser / dropper",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "dispenser",
+   "dropper",
+   "redstone",
+   "basics"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "redstone-basics/tnt.md",
+  "title": "TNT",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "tnt",
+   "redstone",
+   "basics"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "redstone-basics/builds.md",
+  "title": "วงจรง่าย ๆ ที่มีประโยชน์",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "redstone",
+   "basics",
+   "builds"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "redstone-basics/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "redstone-basics",
+  "source": "wiki/redstone-basics.md",
+  "keywords": [
+   "redstone",
+   "basics",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "server-tech/moved-too-quickly.md",
+  "title": "โดนดึงกลับ/เตะ \"moved too quickly\"",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "moved",
+   "too",
+   "quickly",
+   "server",
+   "tech"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "server-tech/chunk-unloaded.md",
+  "title": "ชังก์ยังไม่โหลด",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "server",
+   "tech",
+   "chunk",
+   "unloaded"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "server-tech/tps-low.md",
+  "title": "เซิร์ฟแล็ก (TPS ตก)",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "tps",
+   "server",
+   "tech",
+   "low"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "server-tech/high-ping.md",
+  "title": "ping สูง",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "ping",
+   "server",
+   "tech",
+   "high"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "server-tech/respawn-place.md",
+  "title": "บั๊ก \"ตายแล้วเกิดปุ๊บวางบล็อก\" (jing เจอจริง 7 ต.ค. 2026)",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "jing",
+   "server",
+   "tech",
+   "respawn",
+   "place"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "server-tech/version-lock.md",
+  "title": "ล็อกเวอร์ชัน",
+  "group": "server-tech",
+  "source": "wiki/server-tech.md",
+  "keywords": [
+   "server",
+   "tech",
+   "version",
+   "lock"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "shelter/shelter-rule.md",
+  "title": "กฎที่หลบ (jing ยืนยัน)",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "jing",
+   "shelter",
+   "rule"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "shelter/block-breakers.md",
+  "title": "ม็อบที่ทุบ/เปลี่ยนบล็อกได้",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "shelter",
+   "block",
+   "breakers"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "shelter/blast-resistance.md",
+  "title": "บล็อกกันระเบิด",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "shelter",
+   "blast",
+   "resistance"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "shelter/counter-each.md",
+  "title": "หลบ + หาของจัดการ (ทีละตัว)",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "shelter",
+   "counter",
+   "each"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "shelter/scaffold-clutch.md",
+  "title": "นั่งร้านกันตก (\"Follow\" = Scaffold)",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "follow",
+   "scaffold",
+   "shelter",
+   "clutch"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "shelter/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "shelter",
+  "source": "wiki/shelter.md",
+  "keywords": [
+   "shelter",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "spawning/mob-cap.md",
+  "title": "เพดานจำนวนมอบต่อประเภท",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "mob",
+   "cap"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "spawning/spawn-distance.md",
+  "title": "ระยะเกิด",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "spawn",
+   "distance"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "spawning/despawn.md",
+  "title": "การหายไปของมอบ",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "despawn"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "spawning/spawn-proofing.md",
+  "title": "กันมอนสเตอร์เกิด",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "spawn",
+   "proofing"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "spawning/slime.md",
+  "title": "สไลม์",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "slime"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "spawning/structure-spawns.md",
+  "title": "เกิดเฉพาะโครงสร้าง",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "structure",
+   "spawns"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "spawning/patrol.md",
+  "title": "ทีมลาดตระเวนผู้ปล้น",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "patrol"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "spawning/phantom.md",
+  "title": "แฟนทอม (เพิ่มจาก kb/time-weather/phantom.md)",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "time",
+   "weather",
+   "phantom",
+   "spawning"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "spawning/drowned.md",
+  "title": "ดราวน์และการแปลง",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "drowned"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "spawning/zombie-reinforce.md",
+  "title": "ซอมบี้เรียกพวก",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "zombie",
+   "reinforce"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "spawning/jockeys.md",
+  "title": "จ็อกกี้",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "jockeys"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "spawning/skeleton-trap.md",
+  "title": "ม้าโครงกระดูกกับดัก",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "skeleton",
+   "trap"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "spawning/nether-spawns.md",
+  "title": "เกิดในเนเธอร์ตามไบโอม",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "nether",
+   "spawns"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "spawning/end-spawns.md",
+  "title": "เกิดใน End",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "end",
+   "spawning",
+   "spawns"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "spawning/monster-spawner.md",
+  "title": "กลไก spawner",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawner",
+   "spawning",
+   "monster"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "spawning/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "spawning",
+  "source": "wiki/spawning.md",
+  "keywords": [
+   "spawning",
+   "unverified"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/village.md",
+  "title": "หมู่บ้าน",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "village"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/desert-pyramid.md",
+  "title": "พีระมิดทะเลทราย",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "desert",
+   "pyramid"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/jungle-pyramid.md",
+  "title": "พีระมิดป่า",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "jungle",
+   "pyramid"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/igloo.md",
+  "title": "อิกลู",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "igloo"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/witch-hut.md",
+  "title": "กระท่อมแม่มด",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "witch",
+   "hut"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/pillager-outpost.md",
+  "title": "ด่านผู้ปล้น",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "pillager",
+   "outpost"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/woodland-mansion.md",
+  "title": "คฤหาสน์ป่า",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "woodland",
+   "mansion"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/ocean-ruins.md",
+  "title": "ซากปรักหักพังมหาสมุทร",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "ocean",
+   "ruins"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/shipwreck.md",
+  "title": "เรืออับปาง",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "shipwreck"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/buried-treasure.md",
+  "title": "ขุมทรัพย์ฝังดิน",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "buried",
+   "treasure"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/ocean-monument.md",
+  "title": "วิหารมหาสมุทร",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "ocean",
+   "monument"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/ruined-portal.md",
+  "title": "พอร์ทัลพัง",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "ruined",
+   "portal"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/mineshaft.md",
+  "title": "เหมืองร้าง",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "mineshaft"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/monster-room.md",
+  "title": "ห้องมอนสเตอร์ (ดันเจี้ยน)",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "monster",
+   "room"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/stronghold.md",
+  "title": "ป้อมปราการ",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "stronghold"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/ancient-city.md",
+  "title": "เมืองโบราณ",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "ancient",
+   "city"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/trail-ruins.md",
+  "title": "ซากเส้นทาง",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "trail",
+   "ruins"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/trial-chambers.md",
+  "title": "ห้องทดสอบ (สรุปสั้น)",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "trial",
+   "chambers"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/nether-fortress.md",
+  "title": "ป้อมเนเธอร์",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "nether",
+   "fortress"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/bastion-remnant.md",
+  "title": "ซากบาสชั่น",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "bastion",
+   "remnant"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/end-city.md",
+  "title": "เมืองเอ็นด์",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "end",
+   "city"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "structures/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "structures",
+  "source": "wiki/structures.md",
+  "keywords": [
+   "structures",
+   "unverified"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "team/food-share.md",
+  "title": "แบ่งอาหาร",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "team",
+   "food",
+   "share"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "team/role-swap.md",
+  "title": "เพื่อนตาย → รับบทแทน",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "team",
+   "role",
+   "swap"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "team/ore-claim.md",
+  "title": "แย่งแร่สายเดียวกัน",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "team",
+   "ore",
+   "claim"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "team/team-sleep.md",
+  "title": "นอนพร้อมกัน",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "team",
+   "sleep"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "team/pvp-bots.md",
+  "title": "PvP ระหว่างบอต (กฎแล็บ jing)",
+  "group": "team",
+  "source": "wiki/team.md",
+  "keywords": [
+   "pvp",
+   "jing",
+   "team",
+   "bots"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "test-commands/summon.md",
+  "title": "เรียกม็อบ (+NBT)",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "nbt",
+   "test",
+   "commands",
+   "summon"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "test-commands/tp.md",
+  "title": "เทเลพอร์ต (/tp = /teleport)",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "teleport",
+   "test",
+   "commands"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "test-commands/give.md",
+  "title": "ให้ไอเทม (item components)",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "item",
+   "components",
+   "test",
+   "commands",
+   "give"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "test-commands/effect.md",
+  "title": "เอฟเฟกต์",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "test",
+   "commands",
+   "effect"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "test-commands/gamerule.md",
+  "title": "กฎเกม (เปลี่ยนชื่อแล้ว!)",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "test",
+   "commands",
+   "gamerule"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "test-commands/time.md",
+  "title": "เวลา",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "test",
+   "commands",
+   "time"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "test-commands/weather.md",
+  "title": "อากาศ",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "test",
+   "commands",
+   "weather"
+  ],
+  "lines": 2
+ },
+ {
+  "path": "test-commands/difficulty-kill-clear.md",
+  "title": "ความยาก / kill / clear",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "kill",
+   "clear",
+   "test",
+   "commands",
+   "difficulty"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "test-commands/damage.md",
+  "title": "ทำดาเมจ",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "test",
+   "commands",
+   "damage"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "test-commands/attribute.md",
+  "title": "แอตทริบิวต์",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "test",
+   "commands",
+   "attribute"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "test-commands/locate.md",
+  "title": "หาโครงสร้าง/ไบโอม",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "test",
+   "commands",
+   "locate"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "test-commands/fill-setblock.md",
+  "title": "วางบล็อก (fill / setblock)",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "fill",
+   "setblock",
+   "test",
+   "commands"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "test-commands/spawn-border.md",
+  "title": "spawnpoint / spreadplayers / worldborder",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "spawnpoint",
+   "spreadplayers",
+   "worldborder",
+   "test",
+   "commands",
+   "spawn",
+   "border"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "test-commands/data-score-execute.md",
+  "title": "data get / scoreboard / execute",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "data",
+   "get",
+   "scoreboard",
+   "execute",
+   "test",
+   "commands",
+   "score"
+  ],
+  "lines": 6
+ },
+ {
+  "path": "test-commands/arena-reset.md",
+  "title": "รีเซ็ตสนาม PvP",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "pvp",
+   "test",
+   "commands",
+   "arena",
+   "reset"
+  ],
+  "lines": 24
+ },
+ {
+  "path": "test-commands/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "test-commands",
+  "source": "wiki/test-commands.md",
+  "keywords": [
+   "test",
+   "commands",
+   "unverified"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "time-weather/daylight-cycle.md",
+  "title": "วัฏจักรกลางวัน-กลางคืน",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather",
+   "daylight",
+   "cycle"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "time-weather/sleeping.md",
+  "title": "การนอนและข้ามคืน",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather",
+   "sleeping"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "time-weather/spawn-point.md",
+  "title": "จุดเกิดใหม่ (เตียง/anchor)",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "anchor",
+   "time",
+   "weather",
+   "spawn",
+   "point"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "time-weather/moon-slime.md",
+  "title": "ข้างขึ้นข้างแรมและสไลม์",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather",
+   "moon",
+   "slime"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "time-weather/weather.md",
+  "title": "ฝน/พายุ",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "time-weather/lightning.md",
+  "title": "ฟ้าผ่าและกับดัก",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather",
+   "lightning"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "time-weather/light-levels.md",
+  "title": "ระดับแสง",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather",
+   "light",
+   "levels"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "time-weather/sun-burn.md",
+  "title": "ไหม้แดด",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather",
+   "sun",
+   "burn"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "time-weather/phantom.md",
+  "title": "อาการนอนไม่หลับ",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather",
+   "phantom"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "time-weather/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "time-weather",
+  "source": "wiki/time-weather.md",
+  "keywords": [
+   "time",
+   "weather",
+   "unverified"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "travel/boats.md",
+  "title": "เรือ แพ และเรือบรรทุกหีบ",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "boats"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "travel/minecart.md",
+  "title": "รถรางและราง",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "minecart"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "travel/horse.md",
+  "title": "ม้า (สถิติ ทามม์ อุปกรณ์)",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "horse"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "travel/camel.md",
+  "title": "อูฐ",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "camel"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "travel/donkey-mule-llama.md",
+  "title": "ลา ล่อ ลามะ",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "donkey",
+   "mule",
+   "llama"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "travel/strider.md",
+  "title": "สไตรเดอร์บนลาวา",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "strider"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "travel/pig.md",
+  "title": "หมู + carrot on a stick",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "carrot",
+   "stick",
+   "travel",
+   "pig"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "travel/happy-ghast.md",
+  "title": "แฮปปี้แกสต์",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "happy",
+   "ghast"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "travel/walking-hunger.md",
+  "title": "เดิน วิ่ง และค่า hunger",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "hunger",
+   "travel",
+   "walking"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "travel/nether-highway.md",
+  "title": "ทางด่วน Nether",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "nether",
+   "travel",
+   "highway"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "travel/selection.md",
+  "title": "เลือกพาหนะ (สรุปเกณฑ์แล็บ)",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "selection"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "travel/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "travel",
+  "source": "wiki/travel.md",
+  "keywords": [
+   "travel",
+   "unverified"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "trial-chambers/generation.md",
+  "title": "การเกิดโครงสร้าง",
+  "group": "trial-chambers",
+  "source": "wiki/trial-chambers.md",
+  "keywords": [
+   "trial",
+   "chambers",
+   "generation"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "trial-chambers/trial-spawner.md",
+  "title": "กลไก Trial Spawner",
+  "group": "trial-chambers",
+  "source": "wiki/trial-chambers.md",
+  "keywords": [
+   "trial",
+   "spawner",
+   "chambers"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "trial-chambers/mobs.md",
+  "title": "ชุดมอบ",
+  "group": "trial-chambers",
+  "source": "wiki/trial-chambers.md",
+  "keywords": [
+   "trial",
+   "chambers",
+   "mobs"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "trial-chambers/breeze.md",
+  "title": "Breeze และกลยุทธ์",
+  "group": "trial-chambers",
+  "source": "wiki/trial-chambers.md",
+  "keywords": [
+   "breeze",
+   "trial",
+   "chambers"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "trial-chambers/keys-vault.md",
+  "title": "กุญแจและ Vault",
+  "group": "trial-chambers",
+  "source": "wiki/trial-chambers.md",
+  "keywords": [
+   "vault",
+   "trial",
+   "chambers",
+   "keys"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "trial-chambers/ominous.md",
+  "title": "Trial Omen / Ominous Trial",
+  "group": "trial-chambers",
+  "source": "wiki/trial-chambers.md",
+  "keywords": [
+   "trial",
+   "omen",
+   "ominous",
+   "chambers"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "trial-chambers/bot-plan.md",
+  "title": "แผนบอตเคลียร์",
+  "group": "trial-chambers",
+  "source": "wiki/trial-chambers.md",
+  "keywords": [
+   "trial",
+   "chambers",
+   "bot",
+   "plan"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "trial-chambers/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "trial-chambers",
+  "source": "wiki/trial-chambers.md",
+  "keywords": [
+   "trial",
+   "chambers",
+   "unverified"
+  ],
+  "lines": 4
+ },
+ {
+  "path": "version-26x/version-timeline.md",
+  "title": "ไทม์ไลน์และเลขเวอร์ชัน",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "timeline"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "version-26x/v26-1-overview.md",
+  "title": "ภาพรวม 26.1",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "v26",
+   "overview"
+  ],
+  "lines": 19
+ },
+ {
+  "path": "version-26x/v26-2-overview.md",
+  "title": "ภาพรวม 26.2 Chaos Cubed",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "chaos",
+   "cubed",
+   "version",
+   "v26",
+   "overview"
+  ],
+  "lines": 18
+ },
+ {
+  "path": "version-26x/spear.md",
+  "title": "หอก (1.21.11)",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "spear"
+  ],
+  "lines": 24
+ },
+ {
+  "path": "version-26x/mobs-1-21-11.md",
+  "title": "มอบใหม่ 1.21.11",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "mobs"
+  ],
+  "lines": 18
+ },
+ {
+  "path": "version-26x/items-armor.md",
+  "title": "ไอเทมและเกราะ",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "items",
+   "armor"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "version-26x/copper-age-1-21-9.md",
+  "title": "1.21.9 Copper Age",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "copper",
+   "age",
+   "version"
+  ],
+  "lines": 16
+ },
+ {
+  "path": "version-26x/sulfur-cube.md",
+  "title": "sulfur cube (26.2)",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "sulfur",
+   "cube",
+   "version"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "version-26x/game-rules-tech.md",
+  "title": "กฎเกม/เทคนิค",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "game",
+   "rules",
+   "tech"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "version-26x/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "version-26x",
+  "source": "wiki/version-26x.md",
+  "keywords": [
+   "version",
+   "unverified"
+  ],
+  "lines": 8
+ },
+ {
+  "path": "villagers/professions.md",
+  "title": "อาชีพและ workstation",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "workstation",
+   "villagers",
+   "professions"
+  ],
+  "lines": 21
+ },
+ {
+  "path": "villagers/trading-levels.md",
+  "title": "ระดับการเทรด",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "villagers",
+   "trading",
+   "levels"
+  ],
+  "lines": 13
+ },
+ {
+  "path": "villagers/librarian-mending.md",
+  "title": "บรรณารักษ์ / Mending",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "mending",
+   "villagers",
+   "librarian"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "villagers/smiths.md",
+  "title": "ช่างเกราะ/เครื่องมือ/อาวุธ",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "villagers",
+   "smiths"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "villagers/emerald-sources.md",
+  "title": "แหล่งมรกต",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "villagers",
+   "emerald",
+   "sources"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "villagers/restock-discount.md",
+  "title": "เติมสต็อก/ส่วนลด/ปลุกซอมบี้",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "villagers",
+   "restock",
+   "discount"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "villagers/breeding.md",
+  "title": "เพาะพันธุ์ชาวบ้าน",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "villagers",
+   "breeding"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "villagers/iron-golem.md",
+  "title": "ไอรอนโกเลม",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "villagers",
+   "iron",
+   "golem"
+  ],
+  "lines": 10
+ },
+ {
+  "path": "villagers/zombie-siege.md",
+  "title": "ซอมบี้บุกหมู่บ้าน",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "villagers",
+   "zombie",
+   "siege"
+  ],
+  "lines": 9
+ },
+ {
+  "path": "villagers/raid.md",
+  "title": "เรด / Bad Omen",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "bad",
+   "omen",
+   "villagers",
+   "raid"
+  ],
+  "lines": 7
+ },
+ {
+  "path": "villagers/unverified.md",
+  "title": "ยังไม่ยืนยัน",
+  "group": "villagers",
+  "source": "wiki/villagers.md",
+  "keywords": [
+   "villagers",
+   "unverified"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "mobs/_rules.md",
+  "title": "0. กฎแล็บ (บังคับ)",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "mobs",
+   "rules"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "mobs/_unverified.md",
+  "title": "4. ที่ยังไม่ยืนยัน",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "mobs",
+   "unverified"
+  ],
+  "lines": 1
+ },
+ {
+  "path": "mobs/zombie.md",
+  "title": "zombie",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "zombie",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/husk.md",
+  "title": "husk",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "husk",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/drowned.md",
+  "title": "drowned",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "drowned",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/zombie_villager.md",
+  "title": "zombie villager",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "zombie",
+   "villager",
+   "mobs",
+   "zombie_villager"
+  ],
+  "lines": 12
+ },
+ {
+  "path": "mobs/skeleton.md",
+  "title": "skeleton",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "skeleton",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/stray.md",
+  "title": "stray",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "stray",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/bogged.md",
+  "title": "bogged",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "bogged",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/parched.md",
+  "title": "parched",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "parched",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/creeper.md",
+  "title": "creeper",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "creeper",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/spider.md",
+  "title": "spider",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "spider",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/cave_spider.md",
+  "title": "cave spider",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "cave",
+   "spider",
+   "mobs",
+   "cave_spider"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/enderman.md",
+  "title": "enderman",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "enderman",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/witch.md",
+  "title": "witch",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "witch",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/slime.md",
+  "title": "slime",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "slime",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/phantom.md",
+  "title": "phantom",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "phantom",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/silverfish.md",
+  "title": "silverfish",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "silverfish",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/pillager.md",
+  "title": "pillager",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "pillager",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/vindicator.md",
+  "title": "vindicator",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "vindicator",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/evoker.md",
+  "title": "evoker",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "evoker",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/vex.md",
+  "title": "vex",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "vex",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/ravager.md",
+  "title": "ravager",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "ravager",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/illusioner.md",
+  "title": "illusioner",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "illusioner",
+   "mobs"
+  ],
+  "lines": 5
+ },
+ {
+  "path": "mobs/guardian.md",
+  "title": "guardian",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "guardian",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/elder_guardian.md",
+  "title": "elder guardian",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "elder",
+   "guardian",
+   "mobs",
+   "elder_guardian"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/warden.md",
+  "title": "warden",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "warden",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/breeze.md",
+  "title": "breeze",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "breeze",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/creaking.md",
+  "title": "creaking",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "creaking",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/wolf.md",
+  "title": "wolf",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "wolf",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/bee.md",
+  "title": "bee",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "bee",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/polar_bear.md",
+  "title": "polar bear",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "polar",
+   "bear",
+   "mobs",
+   "polar_bear"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/llama.md",
+  "title": "llama",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "llama",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/goat.md",
+  "title": "goat",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "goat",
+   "mobs"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/iron_golem.md",
+  "title": "iron golem",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "iron",
+   "golem",
+   "mobs",
+   "iron_golem"
+  ],
+  "lines": 17
+ },
+ {
+  "path": "mobs/pufferfish.md",
+  "title": "pufferfish",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "pufferfish",
+   "mobs"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "mobs/dolphin.md",
+  "title": "dolphin",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "dolphin",
+   "mobs"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "mobs/endermite.md",
+  "title": "endermite",
+  "group": "mobs",
+  "source": "playbook/MOB_TACTICS.md",
+  "keywords": [
+   "endermite",
+   "mobs"
+  ],
+  "lines": 11
+ },
+ {
+  "path": "blocks/_effects.md",
+  "title": "เอฟเฟกต์ทั้งหมด 40 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "effects"
+  ],
+  "lines": 49
+ },
+ {
+  "path": "blocks/_enchantments.md",
+  "title": "เอนชานต์ทั้งหมด 43 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "enchantments"
+  ],
+  "lines": 52
+ },
+ {
+  "path": "blocks/_entities.md",
+  "title": "เอนทิตีทั้งหมด 157 ชนิด (ขนาดกล่องชน)",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "entities"
+  ],
+  "lines": 166
+ },
+ {
+  "path": "blocks/_foods.md",
+  "title": "อาหารทั้งหมด 44 ชนิด (เรียงตาม อิ่ม + saturation)",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "foods"
+  ],
+  "lines": 53
+ },
+ {
+  "path": "blocks/_recipes.md",
+  "title": "สูตรคราฟต์จำเป็น (จากข้อมูลเกม 26.1) — ใช้แทน/ตรวจ kb/crafting",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "recipes"
+  ],
+  "lines": 130
+ },
+ {
+  "path": "blocks/_special.md",
+  "title": "บล็อกพิเศษ (อันตราย / ร่วง / ช้า / ลื่น / ปีน / กันตก)",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "special"
+  ],
+  "lines": 15
+ },
+ {
+  "path": "blocks/axe.md",
+  "title": "บล็อกขุดด้วยขวาน — 285 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "axe"
+  ],
+  "lines": 294
+ },
+ {
+  "path": "blocks/hand.md",
+  "title": "บล็อกขุดด้วยมือ (ไม่มีเครื่องมือที่เร็วกว่า) — 348 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "hand"
+  ],
+  "lines": 357
+ },
+ {
+  "path": "blocks/hoe.md",
+  "title": "บล็อกขุดด้วยจอบ — 29 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "hoe"
+  ],
+  "lines": 38
+ },
+ {
+  "path": "blocks/pickaxe-any.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ขั้นไหนก็ได้ของ) — 79 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "any"
+  ],
+  "lines": 88
+ },
+ {
+  "path": "blocks/pickaxe-diamond.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ต้องขั้น diamond ขึ้นไป) — 5 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "diamond"
+  ],
+  "lines": 14
+ },
+ {
+  "path": "blocks/pickaxe-iron.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ต้องขั้น iron ขึ้นไป) — 12 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "iron"
+  ],
+  "lines": 21
+ },
+ {
+  "path": "blocks/pickaxe-stone.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ต้องขั้น stone ขึ้นไป) — 90 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "stone"
+  ],
+  "lines": 99
+ },
+ {
+  "path": "blocks/pickaxe-wooden.md",
+  "title": "บล็อกขุดด้วยอีเต้อ (ต้องขั้น wooden ขึ้นไป) — 281 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "pickaxe",
+   "wooden"
+  ],
+  "lines": 290
+ },
+ {
+  "path": "blocks/shovel.md",
+  "title": "บล็อกขุดด้วยพลั่ว — 36 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "shovel"
+  ],
+  "lines": 45
+ },
+ {
+  "path": "blocks/sword.md",
+  "title": "บล็อกขุดด้วยดาบ — 3 ชนิด",
+  "group": "blocks",
+  "source": "minecraft-data (gen_catalog.cjs)",
+  "keywords": [
+   "sword"
+  ],
+  "lines": 12
+ }
+]

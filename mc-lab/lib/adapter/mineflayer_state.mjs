@@ -1,0 +1,63 @@
+// mineflayer_state.mjs — แปลงบอต mineflayer → state ที่ lib/chain.mjs decide() ใช้
+// ใช้: const tracker = createTracker(); ทุก tick: const s = toState(bot, tracker, { role, team }); decide(s, goal)
+// ✅ ตรวจกับซอร์ส mineflayer 4.39.0 แล้ว (7 ต.ค. 2026): oxygenLevel (air/15 → 0–20), time.age, entity.elytraFlying, player.ping,
+//    effects[id], blockAt()=null เมื่อชังก์ไม่โหลด · ที่ยังติด [ตรวจ] = ต้องดูกับเซิร์ฟจริง (ค่าตามโปรโตคอล 26.1 ผ่าน ViaVersion)
+const HOSTILE = new Set(['zombie', 'husk', 'drowned', 'zombie_villager', 'skeleton', 'stray', 'bogged', 'parched', 'spider', 'cave_spider', 'creeper', 'witch', 'slime', 'magma_cube', 'phantom', 'silverfish', 'endermite', 'pillager', 'vindicator', 'evoker', 'vex', 'ravager', 'guardian', 'elder_guardian', 'warden', 'breeze', 'creaking', 'blaze', 'ghast', 'wither_skeleton', 'piglin_brute', 'hoglin', 'zoglin', 'shulker', 'ender_dragon', 'wither']);
+const ARMOR_SLOTS = [5, 6, 7, 8];                                   // หมวก/เสื้อ/กางเกง/รองเท้า (simple_inventory.js)
+const DIM = (d) => String(d ?? 'overworld').replace(/^minecraft:/, '');
+
+export function createTracker() {
+  return { airborneFromY: null, lastPos: null, idleSince: null, lastInv: '', provoked: new Set(), tpsMark: null };
+}
+
+// ระยะตก: mineflayer 4.39 ไม่มี fallDistance (ค้นซอร์สแล้ว) → จำ Y สูงสุดตั้งแต่ลอย แล้วคิด (สูงสุด − ปัจจุบัน) ตอนกำลังตก
+function fallDistance(e, tr) {
+  if (e.onGround || e.isInWater || e.isInLava) { tr.airborneFromY = null; return 0; }
+  tr.airborneFromY = Math.max(tr.airborneFromY ?? e.position.y, e.position.y);
+  return e.velocity.y < 0 ? tr.airborneFromY - e.position.y : 0;
+}
+
+// ม็อบเป็นกลางที่โกรธ: ส่งชื่อ id มาเองจาก event (เช่น entityHurt ของเรา หรือ ม็อบตีเรา) → tracker.provoked.add(entity.id)
+export function toState(bot, tr = createTracker(), extra = {}) {
+  const e = bot.entity;
+  const me = e.position;
+  const nearby = Object.values(bot.entities ?? {})
+    .filter((x) => x !== e && x.position && x.name && x.type !== 'player' && x.type !== 'object' && x.type !== 'orb')
+    .map((x) => ({ type: x.name, dist: Math.round(me.distanceTo(x.position) * 10) / 10, hostile: HOSTILE.has(x.name), provoked: tr.provoked.has(x.id) || undefined }))
+    .filter((x) => x.dist <= 64);
+  const items = bot.inventory?.items?.() ?? [];
+  const inv = {};
+  for (const it of items) inv[it.name] = (inv[it.name] ?? 0) + it.count;
+  const worn = ARMOR_SLOTS.map((i) => bot.inventory?.slots?.[i]?.name).filter(Boolean);
+  if (bot.inventory?.slots?.[45]) worn.push(bot.inventory.slots[45].name);           // มือรอง = 45 (simple_inventory.js)
+  // effects: mineflayer เก็บเป็น { [id]: effect } (entities.js) → แปลงชื่อด้วย bot.registry
+  // ชื่อใน minecraft-data เป็น CamelCase (เช่น 'Speed', 'InstantDamage') → snake_case
+  const effects = Object.keys(e.effects ?? {}).map((id) => bot.registry?.effects?.[id]?.name?.replace(/([a-z])([A-Z])/g, '$1_$2').toLowerCase()).filter(Boolean);
+  // idle: ตำแหน่ง+กระเป๋าไม่เปลี่ยน
+  // เวลา: ใช้ tick เกม (bot.time.age) ถ้ามี — เซิร์ฟแล็กแล้วนาฬิกาเครื่องจะเพี้ยน · 1 tick = 50 ms
+  const now = extra.now ?? (bot.time?.age != null ? Number(bot.time.age) * 50 : Date.now());
+  const invSig = JSON.stringify(inv);
+  const moved = !tr.lastPos || tr.lastPos.distanceTo(me) > 1 || invSig !== tr.lastInv;
+  if (moved) { tr.lastPos = me.clone ? me.clone() : me; tr.lastInv = invSig; tr.idleSince = now; }
+  const below = bot.blockAt?.(me.offset(0, -1, 0));
+  // TPS โดยประมาณ: tick เกมที่เดิน ÷ วินาทีจริง (เทียบทุก ≥5 วิ) [คิดเอง]
+  const wall = Date.now(), age = bot.time?.age != null ? Number(bot.time.age) : null;
+  if (age != null) { if (!tr.tpsMark || wall - tr.tpsMark.wall >= 5000) { if (tr.tpsMark) tr.tps = Math.min(20, ((age - tr.tpsMark.age) * 1000) / (wall - tr.tpsMark.wall)); tr.tpsMark = { wall, age }; } }
+  // ผู้เล่น/บอตศัตรู: ส่งรายชื่อมาเองใน extra.enemyNames (กติกาทีม) → ใส่ใน nearby เป็น type 'player'
+  const enemies = Object.values(bot.players ?? {}).filter((p) => p.entity && (extra.enemyNames ?? []).includes(p.username))
+    .map((p) => ({ type: 'player', name: p.username, dist: Math.round(me.distanceTo(p.entity.position) * 10) / 10, hostile: true }));
+  const head = bot.blockAt?.(me.offset(0, 1.62, 0));
+  return {
+    hp: bot.health, food: bot.food, dim: DIM(bot.game?.dimension), time: bot.time?.timeOfDay ?? 0,
+    inLava: !!e.isInLava, inWater: !!e.isInWater, onFire: !!(e.metadata?.[0] & 0x01),   // flag ติดไฟ [ตรวจ]
+    air: ((bot.oxygenLevel ?? 20) / 20) * 15,                                            // oxygenLevel 0–20 (breath.js) → วินาที 0–15
+    fallDistance: fallDistance(e, tr), suffocating: !!(head && head.boundingBox === 'block'),
+    standingOn: below?.name, nearby, inv, worn, effects,
+    idleSeconds: (now - (tr.idleSince ?? now)) / 1000,
+    ping: bot.player?.ping, tps: tr.tps,                                                  // player.ping (entities.js/tablist)
+    ...extra,
+    nearby: [...nearby, ...enemies, ...(extra.nearby ?? [])],
+    // flags: entity.elytraFlying · blockAt null = ชังก์ไม่โหลด (blocks.js) — ยืนยันจากซอร์ส
+    flags: { ...(e.elytraFlying ? { gliding: true } : {}), ...(bot.blockAt && below === null ? { chunkUnloaded: true } : {}), ...(extra.flags ?? {}) },
+  };
+}

@@ -1,0 +1,1686 @@
+[
+ {
+  "id": "bed-wrong-dimension",
+  "prio": 99,
+  "when": {
+   "action": "sleep",
+   "notDim": "overworld"
+  },
+  "do": "ห้ามใช้เตียง (ระเบิด power 5)",
+  "kb": [
+   "problems/p12-bed-nether-end.md",
+   "nether-end/e4-bed-anchor.md"
+  ],
+  "veto": true
+ },
+ {
+  "id": "in-lava",
+  "prio": 98,
+  "when": {
+   "inLava": true
+  },
+  "do": "กระโดดออกทางบล็อกปลอดภัยล่าสุด · มียาไฟให้ดื่ม · ห้ามขุดต่อ",
+  "kb": [
+   "hazards/caves-lava.md",
+   "hazards/damage-blocks.md",
+   "problems/p06-dig-down-lava.md"
+  ]
+ },
+ {
+  "id": "dont-provoke",
+  "prio": 96,
+  "veto": true,
+  "when": {
+   "attackingNeutral": true
+  },
+  "do": "ห้ามตีม็อบเป็นกลางที่ยังไม่โกรธ (golem/zombified piglin ทั้งฝูง/หมาป่า/ผึ้ง/หมี/enderman) เว้นแต่เป็นเป้าหมายล่าที่วางแผนไว้",
+  "kb": [
+   "mobs/_rules.md",
+   "nether-end/m3-zombified-piglin.md"
+  ]
+ },
+ {
+  "id": "falling",
+  "prio": 95,
+  "when": {
+   "fallingOver": 3,
+   "clutch": true,
+   "notFlag": "gliding"
+  },
+  "do": "chooseClutch → สลับช่อง → มองลง (pitch −90°) → วางทุก tick ที่เข้าระยะ",
+  "kb": [
+   "movement/clutch-mlg.md",
+   "problems/p05-fall-death.md"
+  ],
+  "lib": [
+   "fall_safety.chooseClutch",
+   "fall_safety.clutchWindow",
+   "fall_safety.mustClutch"
+  ]
+ },
+ {
+  "id": "piglin-container",
+  "prio": 95,
+  "veto": true,
+  "when": {
+   "actionIn": [
+    "open_container",
+    "break_container",
+    "mine_gold"
+   ],
+   "near": {
+    "type": [
+     "piglin"
+    ],
+    "within": 16
+   }
+  },
+  "do": "ห้ามเปิด/ทุบหีบ-ถังไม้-shulker หรือขุดทองเมื่อ piglin อยู่ในระยะ 16 (โกรธทั้งกลุ่ม ไม่ต้องเห็นตัว) · ล่อให้ห่างหรือเคลียร์ก่อน",
+  "kb": [
+   "piglin/anger.md"
+  ]
+ },
+ {
+  "id": "falling-no-clutch",
+  "prio": 94,
+  "when": {
+   "fallingOver": 3,
+   "clutch": false,
+   "notFlag": "gliding"
+  },
+  "do": "[คิดเอง] ไม่มีของกันตก: บังคับตัวกลางอากาศไปหาน้ำ/ผงหิมะ/ใบไม้/หญ้าแห้งใต้ตัว · ลงพื้นแล้วถอยจากขอบ กินฟื้นเลือด · ขอถังน้ำจากทีม",
+  "kb": [
+   "movement/fall-safe-blocks.md",
+   "movement/clutch-mlg.md"
+  ],
+  "lib": [
+   "fall_safety.fallDamage"
+  ]
+ },
+ {
+  "id": "suffocating",
+  "prio": 92,
+  "when": {
+   "suffocating": true
+  },
+  "do": "ขุดบล็อกที่ทับหัวทันที · ถ้าทรายร่วงต่อให้ถอยออก",
+  "kb": [
+   "problems/p08-stuck-suffocation.md",
+   "hazards/falling-blocks.md"
+  ]
+ },
+ {
+  "id": "drowning",
+  "prio": 90,
+  "when": {
+   "airBelow": 5
+  },
+  "do": "ว่ายขึ้นตรง · ห้ามขุดใต้น้ำ",
+  "kb": [
+   "hazards/drowning.md",
+   "problems/p07-drowning.md"
+  ]
+ },
+ {
+  "id": "creeper-bait",
+  "prio": 89,
+  "when": {
+   "near": {
+    "type": [
+     "creeper"
+    ],
+    "within": 5
+   },
+   "countNear": {
+    "hostile": true,
+    "within": 8,
+    "atLeast": 3
+   }
+  },
+  "do": "[คิดเอง + สูตรวิกิ] ล่อให้ครีปเปอร์อยู่กลางฝูงแล้วถอยออก ≥6 บล็อก (ดาเมจ 0) · ม็อบที่ห่างครีปเปอร์ ≤2 โดน ≥24 = ตาย · ถอยไม่ทัน: วางบล็อกบังระหว่างตัวกับครีปเปอร์ (ลดได้ ~ครึ่งถึงทั้งหมด [ไม่แน่ใจ]) · ห้ามอยู่ ≤3 (เกราะเหล็กยังโดน 11–21)",
+  "kb": [
+   "mobs/creeper.md",
+   "sim/survival-results.md"
+  ]
+ },
+ {
+  "id": "creeper-fusing",
+  "prio": 88,
+  "when": {
+   "near": {
+    "type": [
+     "creeper"
+    ],
+    "within": 3
+   }
+  },
+  "do": "ถอยออก ≥6 บล็อก (ดาเมจ 0 ตามสูตรวิกิ) หรือตีตอนวิ่งให้กระเด็นแล้วถอย · ถอยไม่ทัน: วางบล็อกบัง · ห้ามอยู่ ≤3 (เกราะเหล็กยังโดน 11–21)",
+  "kb": [
+   "mobs/creeper.md"
+  ]
+ },
+ {
+  "id": "levitation",
+  "prio": 87,
+  "when": {
+   "hasEffect": "levitation"
+  },
+  "do": "อยู่ใต้หลังคา/เกาะบล็อกเหนือหัว · หยุดลอยแล้วเตรียมกันตก (ถังน้ำ/Slow Falling) · ฆ่า shulker จากที่กำบัง",
+  "kb": [
+   "nether-end/d5-shulker-levitation.md",
+   "movement/clutch-mlg.md"
+  ]
+ },
+ {
+  "id": "freezing",
+  "prio": 86,
+  "when": {
+   "freezing": true
+  },
+  "do": "ออกจากผงหิมะทันที (กระโดด/ขุด) · ใส่รองเท้าหนังกันได้",
+  "kb": [
+   "hazards/powder-snow-freezing.md"
+  ]
+ },
+ {
+  "id": "on-fire",
+  "prio": 85,
+  "when": {
+   "onFire": true
+  },
+  "do": "ลงน้ำ/ใช้ถังน้ำ · ดื่มยาไฟ · ออกจากบล็อกไฟ",
+  "kb": [
+   "hazards/fire-lightning.md"
+  ]
+ },
+ {
+  "id": "low-hp-in-combat",
+  "prio": 84,
+  "when": {
+   "hpBelow": 7,
+   "near": {
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "ลดโล่ก่อนถอย (ยกโล่เดินช้าเหลือ 20%) → วิ่งออกนอกระยะ → กินแอปเปิลทอง/อาหาร · มีโทเท็มให้ถือมือรอง",
+  "kb": [
+   "health/healing.md",
+   "health/totem.md",
+   "problems/p02-low-hp-not-eating.md"
+  ]
+ },
+ {
+  "id": "warden-near",
+  "prio": 83,
+  "when": {
+   "near": {
+    "type": [
+     "warden"
+    ],
+    "within": 20
+   }
+  },
+  "do": "ย่อเดินออก ห้ามสู้ ห้ามวิ่ง/วางบล็อกใกล้ sculk",
+  "kb": [
+   "mobs/warden.md",
+   "hazards/deep-dark-warden.md"
+  ]
+ },
+ {
+  "id": "danger-block",
+  "prio": 82,
+  "when": {
+   "touchingTag": "danger"
+  },
+  "do": "ออกจากบล็อกอันตรายทันที (แมกมา/กระบองเพชร/พุ่มเบอร์รี่/แคมป์ไฟ/ไฟ/หินย้อย/กุหลาบเหี่ยว) · ห้ามยืนบน/ข้างนาน · TNT: ห้ามจุด/ห้ามใช้ไฟใกล้",
+  "kb": [
+   "hazards/damage-blocks.md",
+   "blocks/_special.md"
+  ]
+ },
+ {
+  "id": "wither-effect",
+  "prio": 81,
+  "when": {
+   "hasEffect": "wither"
+  },
+  "do": "ดื่มนม (ล้างเอฟเฟกต์) · ไม่มีนม: กินแอปเปิลทอง/ถอยออกจาก wither skeleton/Wither",
+  "kb": [
+   "hazards/status-effects.md",
+   "nether-end/wither.md"
+  ]
+ },
+ {
+  "id": "dig-straight-down",
+  "prio": 80,
+  "when": {
+   "digging": {
+    "belowFeet": true
+   },
+   "notFlag": "ownPillar"
+  },
+  "do": "ห้ามขุดใต้เท้าตรง ๆ (ยกเว้นเสาของตัวเอง) · ขุดเป็นขั้นบันได",
+  "kb": [
+   "problems/p06-dig-down-lava.md",
+   "hazards/caves-lava.md"
+  ],
+  "veto": true
+ },
+ {
+  "id": "provoked-flee",
+  "prio": 80,
+  "when": {
+   "near": {
+    "provoked": true,
+    "type": [
+     "iron_golem",
+     "zombified_piglin",
+     "bee",
+     "polar_bear",
+     "hoglin",
+     "piglin_brute"
+    ],
+    "within": 24
+   }
+  },
+  "do": "ม็อบแรงโกรธ → หนี: วิ่งออก (golem ช้ากว่าเราวิ่ง) · zombified piglin ทั้งฝูงไล่ → ออกจากพอร์ทัล/ช่องแคบ · ผึ้ง → ลงน้ำ · ห้ามสู้กลางที่โล่ง",
+  "kb": [
+   "mobs/iron_golem.md",
+   "nether-end/m3-zombified-piglin.md",
+   "mobs/bee.md"
+  ],
+  "kbByMob": "auto"
+ },
+ {
+  "id": "brute-near",
+  "prio": 79,
+  "when": {
+   "near": {
+    "type": [
+     "piglin_brute"
+    ],
+    "within": 16
+   }
+  },
+  "do": "brute ไม่สนทอง — ถอยออกจาก bastion หรือสู้ด้วยโล่+ดาบ ห้ามสู้ในที่แคบใกล้ลาวา",
+  "kb": [
+   "nether-end/m4-piglin-brute.md"
+  ]
+ },
+ {
+  "id": "underwater-guardian",
+  "prio": 79,
+  "when": {
+   "near": {
+    "type": [
+     "guardian",
+     "elder_guardian"
+    ],
+    "within": 16
+   }
+  },
+  "do": "เลเซอร์ 15 บล็อกหลบไม่ได้ → ตัดแนวสายตา (หลังเสา/บล็อก) หรือขึ้นผิวน้ำ · ยกโล่ · ห้ามตีตอนหนามออก (สะท้อน 2)",
+  "kb": [
+   "mobs/guardian.md",
+   "structures/ocean-monument.md"
+  ]
+ },
+ {
+  "id": "provoked-pack",
+  "prio": 79,
+  "when": {
+   "countNear": {
+    "within": 12,
+    "atLeast": 3,
+    "provoked": true
+   }
+  },
+  "do": "ฝูงโกรธ ≥3 ตัว (หมาป่า ฯลฯ) → ถอยไปช่องแคบให้เข้ามาทีละตัว หรือหนี",
+  "kb": [
+   "mobs/wolf.md",
+   "mobs/_rules.md"
+  ],
+  "kbByMob": "auto"
+ },
+ {
+  "id": "ghast-fireball",
+  "prio": 78,
+  "when": {
+   "near": {
+    "type": [
+     "ghast"
+    ],
+    "within": 64
+   }
+  },
+  "do": "ตีลูกไฟสะท้อนกลับ/ยิงธนู · ยืนหลังบล็อกกันระเบิดสูง (cobblestone) · อย่ายืนขอบลาวา",
+  "kb": [
+   "nether-end/m1-ghast.md"
+  ]
+ },
+ {
+  "id": "piglin-no-gold",
+  "prio": 78,
+  "when": {
+   "near": {
+    "type": [
+     "piglin"
+    ],
+    "within": 16
+   },
+   "notWearsAny": [
+    "golden_boots",
+    "golden_helmet",
+    "golden_chestplate",
+    "golden_leggings"
+   ]
+  },
+  "do": "ใส่รองเท้าทองทันที (ต้องสวม ไม่ใช่แค่มีในกระเป๋า) · ไม่มีทอง → ถอยห่าง piglin",
+  "kb": [
+   "piglin/calm.md",
+   "nether-end/e7-gold-armor.md"
+  ]
+ },
+ {
+  "id": "outnumbered",
+  "prio": 77,
+  "when": {
+   "countNear": {
+    "hostile": true,
+    "within": 6,
+    "atLeast": 4
+   },
+   "hpBelow": 14
+  },
+  "do": "[คิดเอง] ถอยไปช่องแคบ 1 บล็อก/หน้าประตูให้ม็อบเข้ามาทีละตัว · ไปหาทีม/ที่สว่าง · ห้ามยืนกลางวง (กฎ jing: ห้ามก่อกำแพงขังตัว — ใช้ช่องแคบที่มีอยู่)",
+  "kb": [
+   "mobs/_rules.md",
+   "problems/mobs-summary.md"
+  ]
+ },
+ {
+  "id": "sculk-near",
+  "prio": 76,
+  "when": {
+   "nearBlock": {
+    "type": [
+     "sculk_shrieker",
+     "sculk_sensor",
+     "calibrated_sculk_sensor"
+    ],
+    "within": 8
+   }
+  },
+  "do": "ย่อเดิน (ไม่สั่น) · วางขนแกะคั่นระหว่างตัวกับ sensor ก่อนวางบล็อก/เปิดหีบ (wool occlusion) · ห้ามขุด/วางบล็อกใกล้ shrieker · ได้ยินเสียงร้อง ≥3 ครั้ง ถอยออก (ครั้งที่ 4 = warden)",
+  "kb": [
+   "hazards/deep-dark-warden.md",
+   "advanced/wool-vibration.md"
+  ]
+ },
+ {
+  "id": "hostile-close",
+  "prio": 75,
+  "when": {
+   "near": {
+    "hostile": true,
+    "within": 4
+   }
+  },
+  "do": "สู้ตามไฟล์ม็อบ: รอชาร์จ ≥95% · กระโดดคริ (ปล่อยวิ่ง) · ยกโล่ระหว่างรอ",
+  "kb": [
+   "mobs/_rules.md",
+   "problems/mobs-summary.md"
+  ],
+  "lib": [
+   "pvp/damage.meleeRaw"
+  ],
+  "kbByMob": "mobs/{type}.md"
+ },
+ {
+  "id": "phantom-attack",
+  "prio": 74,
+  "when": {
+   "near": {
+    "type": [
+     "phantom"
+    ],
+    "within": 16
+   }
+  },
+  "do": "หลบใต้หลังคา/ตีตอนมันโฉบลง · คืนนี้ต้องนอนเพื่อรีเซ็ต",
+  "kb": [
+   "mobs/phantom.md",
+   "hazards/night-lost-phantom.md"
+  ]
+ },
+ {
+  "id": "provoked-fight",
+  "prio": 74,
+  "when": {
+   "near": {
+    "provoked": true,
+    "within": 16,
+    "notType": [
+     "iron_golem",
+     "zombified_piglin",
+     "bee",
+     "polar_bear",
+     "hoglin",
+     "piglin_brute"
+    ]
+   }
+  },
+  "do": "ม็อบอ่อนโกรธ (ลามะ/แพะ/แมงมุมกลางวัน/หมาป่าตัวเดียว/piglin/enderman) → ฆ่า: รอชาร์จ+คริ · enderman: ยืนใต้หลังคาสูง 2 บล็อก/ข้างน้ำ ตี-ถอย (กฎ jing) · ถ้าเลือด <12 → หนีแทน",
+  "kb": [
+   "mobs/_rules.md"
+  ],
+  "kbByMob": "auto"
+ },
+ {
+  "id": "witch-ranged",
+  "prio": 73,
+  "when": {
+   "near": {
+    "type": [
+     "witch"
+    ],
+    "within": 16
+   }
+  },
+  "do": "เข้าประชิดเร็ว (ยาสาดระยะไกล) · มีนมไว้ล้างพิษ · ฆ่าก่อนมันดื่มยารักษา",
+  "kb": [
+   "mobs/witch.md"
+  ]
+ },
+ {
+  "id": "blaze-ranged",
+  "prio": 73,
+  "when": {
+   "near": {
+    "type": [
+     "blaze"
+    ],
+    "within": 16
+   }
+  },
+  "do": "blaze ยิงลูกไฟระยะไกล: เข้าประชิดหลังที่กำบัง หรือใช้ธนู/ก้อนหิมะ · ดื่มยากันไฟ · ห้ามยืนรอ",
+  "kb": [
+   "nether-end/m2-blaze.md"
+  ]
+ },
+ {
+  "id": "breeze-ranged",
+  "prio": 73,
+  "when": {
+   "near": {
+    "type": [
+     "breeze"
+    ],
+    "within": 16
+   }
+  },
+  "do": "breeze ยิงลมผลัก: อยู่ห่างขอบ/หลุม · เข้าประชิดเร็ว · หลบหลังเสา",
+  "kb": [
+   "mobs/breeze.md",
+   "trial-chambers/breeze.md"
+  ]
+ },
+ {
+  "id": "skeleton-open",
+  "prio": 72,
+  "when": {
+   "near": {
+    "type": [
+     "skeleton",
+     "stray",
+     "bogged",
+     "parched",
+     "pillager"
+    ],
+    "within": 16
+   }
+  },
+  "do": "หลบหลังบล็อกหรือวิ่งซิกแซกเข้าหา · ยกโล่",
+  "kb": [
+   "mobs/skeleton.md"
+  ]
+ },
+ {
+  "id": "underwater-disengage",
+  "prio": 71,
+  "when": {
+   "inWater": true,
+   "airBelow": 10,
+   "near": {
+    "hostile": true,
+    "within": 8
+   }
+  },
+  "do": "[คิดเอง] อากาศเหลือน้อย + มีศัตรู → ว่ายขึ้นหายใจก่อนสู้ · สู้ใกล้ผิวน้ำ/บนฝั่ง",
+  "kb": [
+   "hazards/drowning.md",
+   "mobs/drowned.md"
+  ]
+ },
+ {
+  "id": "eat-to-regen",
+  "prio": 70,
+  "when": {
+   "hpBelow": 11,
+   "foodBelow": 18,
+   "hasFood": true,
+   "notNear": {
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "กินจนหิว ≥18 (ฟื้นเลือดเอง) · เลือกอาหาร saturation สูงก่อน",
+  "kb": [
+   "problems/p02-low-hp-not-eating.md",
+   "health/health.md",
+   "blocks/_foods.md"
+  ]
+ },
+ {
+  "id": "drowned-trident",
+  "prio": 70,
+  "when": {
+   "near": {
+    "type": [
+     "drowned"
+    ],
+    "within": 12
+   }
+  },
+  "do": "drowned ขว้างตรีศูลได้ (9) → ขึ้นฝั่ง/หลบหลังบล็อก · สู้ใกล้ตัวบนบกได้เปรียบ",
+  "kb": [
+   "mobs/drowned.md"
+  ]
+ },
+ {
+  "id": "gravity-above",
+  "prio": 69,
+  "when": {
+   "digging": {
+    "gravityAbove": true
+   }
+  },
+  "do": "บล็อกเหนือเป็นทราย/กรวด/ทั่ง → ถอยออกก่อนขุด หรือวางคบเพลิงใต้ช่องที่จะร่วง",
+  "kb": [
+   "hazards/falling-blocks.md",
+   "problems/p08-stuck-suffocation.md"
+  ]
+ },
+ {
+  "id": "eat-after-hunger-effect",
+  "prio": 66,
+  "when": {
+   "hasEffect": "hunger",
+   "foodBelow": 18,
+   "hasFood": true,
+   "notNear": {
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "Hunger ทำให้หิวเร็ว → กินอาหารรอง (ไม่ใช่ของดีสุด) หลังพ้นการต่อสู้",
+  "kb": [
+   "mobs/husk.md",
+   "hazards/status-effects.md"
+  ]
+ },
+ {
+  "id": "hungry",
+  "prio": 65,
+  "when": {
+   "foodBelow": 7,
+   "hasFood": true,
+   "notNear": {
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "กินทันที (หิว ≤6 วิ่งไม่ได้)",
+  "kb": [
+   "hazards/hunger-exhaustion.md"
+  ]
+ },
+ {
+  "id": "no-food",
+  "prio": 64,
+  "when": {
+   "foodBelow": 7,
+   "hasFood": false
+  },
+  "do": "ฆ่าสัตว์ใกล้สุด/ตกปลา/เก็บพืช · ลดวิ่ง+กระโดด (เปลือง exhaustion) · แจ้งทีมขออาหาร",
+  "kb": [
+   "problems/p03-team-food-zero.md",
+   "progression/p03-food.md",
+   "fishing/food.md"
+  ]
+ },
+ {
+  "id": "blinded",
+  "prio": 63,
+  "when": {
+   "hasAnyEffect": [
+    "blindness",
+    "darkness"
+   ]
+  },
+  "do": "มองไม่เห็น → หยุดวิ่ง/กระโดด · ย่อเดินใกล้ขอบ · ถอยไปที่สว่าง/ที่ปลอดภัย · Darkness = warden ใกล้ → ออกจาก deep dark",
+  "kb": [
+   "hazards/status-effects.md",
+   "hazards/deep-dark-warden.md"
+  ]
+ },
+ {
+  "id": "wrong-tool",
+  "prio": 62,
+  "when": {
+   "digging": {
+    "canHarvest": false
+   }
+  },
+  "do": "หยุดขุด · ทำ/สลับเครื่องมือขั้นที่ขุดได้ของ",
+  "kb": [
+   "problems/p01-mining-wrong-tool.md"
+  ],
+  "lib": [
+   "kb.blockInfo"
+  ]
+ },
+ {
+  "id": "poisoned",
+  "prio": 62,
+  "when": {
+   "hasEffect": "poison"
+  },
+  "do": "พิษทำให้เหลือ 1 HP ได้แต่ไม่ฆ่า → ดื่มนมถ้าเลือด <6 · ไม่งั้นหลบจนหมดฤทธิ์ ห้ามสู้ต่อ",
+  "kb": [
+   "hazards/status-effects.md"
+  ]
+ },
+ {
+  "id": "enderman-near",
+  "prio": 60,
+  "when": {
+   "near": {
+    "type": [
+     "enderman"
+    ],
+    "within": 64
+   }
+  },
+  "do": "ห้ามมองหน้า · ถ้าจะล่าไข่มุก: วางบล็อก ตี 1 ครั้ง ถอย ตีต่อ",
+  "kb": [
+   "mobs/enderman.md"
+  ]
+ },
+ {
+  "id": "mining-fatigue",
+  "prio": 60,
+  "when": {
+   "hasEffect": "mining_fatigue"
+  },
+  "do": "Mining Fatigue III จาก elder guardian (รัศมี 50) → อย่าขุด · ออกจาก monument หรือฆ่า elder ก่อน · นมล้างได้แต่จะโดนซ้ำทุก 60 วิ",
+  "kb": [
+   "mobs/elder_guardian.md",
+   "structures/ocean-monument.md"
+  ]
+ },
+ {
+  "id": "nether-no-gold",
+  "prio": 58,
+  "when": {
+   "dim": "the_nether",
+   "notWearsAny": [
+    "golden_boots",
+    "golden_helmet",
+    "golden_chestplate",
+    "golden_leggings"
+   ]
+  },
+  "do": "สวมรองเท้าทอง (กฎ jing: ทองทำรองเท้าเท่านั้น) — ต้องสวม ไม่ใช่แค่มีในกระเป๋า · ไม่มี → กลับ overworld",
+  "kb": [
+   "piglin/calm.md",
+   "nether-end/e7-gold-armor.md"
+  ]
+ },
+ {
+  "id": "pufferfish-near",
+  "prio": 58,
+  "when": {
+   "near": {
+    "type": [
+     "pufferfish"
+    ],
+    "within": 3
+   }
+  },
+  "do": "ถอยห่าง (พองตัวแล้วพิษ) · ห้ามตีใกล้",
+  "kb": [
+   "mobs/pufferfish.md"
+  ]
+ },
+ {
+  "id": "death-recovery",
+  "prio": 57,
+  "when": {
+   "flag": "justDied"
+  },
+  "do": "กลับไปจุดตายภายใน 5 นาที (ของหายที่ 6000 tick) · ใช้ recovery compass ถ้ามี · ไม่ไปคนเดียวถ้าตายเพราะม็อบฝูง",
+  "kb": [
+   "hazards/death-item-loss.md",
+   "navigation/recovery-compass.md"
+  ]
+ },
+ {
+  "id": "teammate-down",
+  "prio": 56,
+  "when": {
+   "teammateNeeds": {
+    "hpBelow": 6,
+    "within": 16
+   },
+   "selfHpAtLeast": 12
+  },
+  "do": "[คิดเอง] ไปยืนระหว่างเพื่อนกับม็อบ · โยนอาหารให้ · คุ้มกันจนเพื่อนหิว ≥18",
+  "kb": [
+   "health/healing.md",
+   "mobs/_rules.md"
+  ]
+ },
+ {
+  "id": "edge",
+  "prio": 55,
+  "when": {
+   "edgeDepthOver": 3
+  },
+  "do": "ย่อ (sneak) ค้างตอนเดินขอบ",
+  "kb": [
+   "movement/edges-bridging-stuck.md"
+  ]
+ },
+ {
+  "id": "bad-omen",
+  "prio": 54,
+  "when": {
+   "hasAnyEffect": [
+    "bad_omen",
+    "raid_omen",
+    "trial_omen"
+   ]
+  },
+  "do": "Bad/Raid Omen → อย่าเข้าหมู่บ้านถ้ายังไม่พร้อมรับ raid · Trial Omen → ไป trial chamber แบบ ominous เมื่อพร้อม · ดื่มนมล้างได้",
+  "kb": [
+   "hazards/raid.md",
+   "trial-chambers/ominous.md"
+  ]
+ },
+ {
+  "id": "hostile-approach",
+  "prio": 53,
+  "when": {
+   "near": {
+    "hostile": true,
+    "within": 10
+   },
+   "notNear": {
+    "hostile": true,
+    "within": 4
+   }
+  },
+  "do": "หยุดขุด/ทำงาน · หันหน้าหาม็อบ · ถืออาวุธ+โล่ · รอให้เข้ามาในระยะตี",
+  "kb": [
+   "mobs/_rules.md"
+  ],
+  "kbByMob": "mobs/{type}.md"
+ },
+ {
+  "id": "desert-no-wood",
+  "prio": 52,
+  "when": {
+   "woodNearby": false,
+   "lacksAll": [
+    "oak_log",
+    "spruce_log",
+    "birch_log",
+    "jungle_log",
+    "acacia_log",
+    "dark_oak_log",
+    "mangrove_log",
+    "cherry_log",
+    "pale_oak_log"
+   ]
+  },
+  "do": "ทุบพุ่มไม้แห้ง (ได้ไม้ ทำแผ่นไม้ไม่ได้) · หาหมู่บ้าน · เดินตรงทางเดียวจนเจอต้นไม้ จดจุดเกิด",
+  "kb": [
+   "problems/p04-desert-no-wood.md",
+   "biomes/desert-badlands.md"
+  ]
+ },
+ {
+  "id": "bad-effect",
+  "prio": 52,
+  "when": {
+   "hasAnyEffect": [
+    "slowness",
+    "mining_fatigue",
+    "instant_damage",
+    "nausea",
+    "blindness",
+    "hunger",
+    "weakness",
+    "poison",
+    "wither",
+    "glowing",
+    "levitation",
+    "bad_luck",
+    "bad_omen",
+    "darkness",
+    "trial_omen",
+    "raid_omen",
+    "wind_charged",
+    "weaving",
+    "oozing",
+    "infested"
+   ]
+  },
+  "do": "มีเอฟเฟกต์ร้าย (อ่อนแรง/ช้า/คลื่นไส้/infested/oozing/weaving/wind charged ฯลฯ) → เลี่ยงการต่อสู้/ที่สูงจนหมดฤทธิ์ · นมล้างได้ทุกชนิด",
+  "kb": [
+   "hazards/status-effects.md"
+  ]
+ },
+ {
+  "id": "recover",
+  "prio": 51,
+  "when": {
+   "hpBelow": 8,
+   "notNear": {
+    "hostile": true,
+    "within": 16
+   }
+  },
+  "do": "[คิดเอง] พักฟื้นที่ปลอดภัย (ไม่ขุด/ไม่สำรวจ) จนเลือด ≥14 · หิว <18 ให้กินก่อน",
+  "kb": [
+   "health/health.md",
+   "problems/p02-low-hp-not-eating.md"
+  ]
+ },
+ {
+  "id": "night-exposed",
+  "prio": 50,
+  "when": {
+   "dim": "overworld",
+   "timeBetween": [
+    12542,
+    23460
+   ],
+   "sheltered": false
+  },
+  "do": "กลับบ้าน/นอน · คืนแรกไม่มีบ้าน: เข้าเนินเขา/ที่กำบัง + คบเพลิง — [ต้องให้ jing ยืนยัน: กฎห้ามก่อกำแพงรอบตัว] ทางเลือกที่ไม่ขังตัว [คิดเอง]: ยืนในที่สว่าง (คบเพลิงรอบรัศมี) ใกล้ทีม หันหลังชนผนัง",
+  "kb": [
+   "problems/p11-first-night.md",
+   "time-weather/sleeping.md"
+  ]
+ },
+ {
+  "id": "idle",
+  "prio": 10,
+  "when": {
+   "idleSecondsOver": 30
+  },
+  "do": "เลือกขั้นถัดไปจาก chain (nextStep)",
+  "kb": [
+   "problems/p09-afk-idle.md"
+  ],
+  "lib": [
+   "chain.nextStep"
+  ]
+ },
+ {
+  "id": "raid-evoker",
+  "prio": 80,
+  "when": {
+   "near": {
+    "type": [
+     "evoker"
+    ],
+    "within": 16
+   }
+  },
+  "do": "ฆ่า evoker ก่อน (ตัดต้นตอ vex) · เขี้ยวขึ้นเป็นแนว → ขยับด้านข้าง/กระโดด",
+  "kb": [
+   "combat-events/evoker-vex.md",
+   "mobs/evoker.md"
+  ]
+ },
+ {
+  "id": "raid-vex",
+  "prio": 79,
+  "when": {
+   "near": {
+    "type": [
+     "vex"
+    ],
+    "within": 12
+   }
+  },
+  "do": "vex ทะลุกำแพง → หลังชนกำแพงไม่ช่วย · ฟันตอนเข้าใกล้ · ไปหา evoker",
+  "kb": [
+   "combat-events/evoker-vex.md",
+   "mobs/vex.md"
+  ]
+ },
+ {
+  "id": "raid-ravager",
+  "prio": 80,
+  "when": {
+   "near": {
+    "type": [
+     "ravager"
+    ],
+    "within": 10
+   }
+  },
+  "do": "หลบเข้าบ้าน/ช่อง 1 บล็อก (ravager กว้าง 2 เข้าไม่ได้) แล้วตีจากข้างใน · ห้ามยืนแลกบนพื้นโล่ง",
+  "kb": [
+   "combat-events/ravager-door.md",
+   "mobs/ravager.md"
+  ]
+ },
+ {
+  "id": "raid-active",
+  "prio": 59,
+  "when": {
+   "flagAny": [
+    "raidActive"
+   ]
+  },
+  "do": "ตีระฆัง (ชาวบ้านหลบ + raider เรืองแสง) → ยืนหน้าประตูบ้านชาวบ้าน ตั้งรับที่ช่องแคบ",
+  "kb": [
+   "combat-events/raid-bell.md",
+   "villagers/raid.md"
+  ]
+ },
+ {
+  "id": "ominous-near-village",
+  "prio": 97,
+  "veto": true,
+  "when": {
+   "action": "drink_ominous",
+   "flag": "nearVillage"
+  },
+  "do": "ห้ามดื่มขวด ominous ใกล้หมู่บ้าน (เริ่ม raid)",
+  "kb": [
+   "advanced/ominous-bottle.md"
+  ]
+ },
+ {
+  "id": "dragon-breath",
+  "prio": 86,
+  "when": {
+   "nearBlock": {
+    "type": [
+     "dragon_breath"
+    ],
+    "within": 3
+   }
+  },
+  "do": "ออกจากเมฆม่วงทันที ห่าง ≥3",
+  "kb": [
+   "combat-events/dragon-breath.md",
+   "nether-end/d3-ender-dragon.md"
+  ]
+ },
+ {
+  "id": "dragon-fight",
+  "prio": 81,
+  "when": {
+   "near": {
+    "type": [
+     "ender_dragon"
+    ],
+    "within": 96
+   }
+  },
+  "do": "ทำลายคริสตัลก่อน (ธนู) · มังกรเกาะแท่น → ตีหัว · ห้ามวางเตียงถ้าไม่ได้ฝึก",
+  "kb": [
+   "endgame-modes/dragon-phases.md",
+   "endgame-modes/dragon-crystals.md",
+   "nether-end/d3-ender-dragon.md"
+  ]
+ },
+ {
+  "id": "wither-boss",
+  "prio": 85,
+  "when": {
+   "near": {
+    "type": [
+     "wither"
+    ],
+    "within": 32
+   }
+  },
+  "do": "ห้ามหลบในที่หลบ (ระเบิดทะลุ) · สู้ใต้ดิน/ที่แคบ · ดาบ Smite · นมล้าง Wither · เลือดครึ่ง → ธนูไม่เข้า ใช้ดาบ",
+  "kb": [
+   "nether-end/wither.md",
+   "endgame-modes/wither-summon.md"
+  ]
+ },
+ {
+  "id": "wither-build-site",
+  "prio": 96,
+  "veto": true,
+  "when": {
+   "action": "build_wither",
+   "notFlag": "witherArenaReady"
+  },
+  "do": "ห้ามสร้าง Wither ถ้ายังไม่เตรียมสนาม (ใต้ดิน ไกลฐาน)",
+  "kb": [
+   "endgame-modes/wither-summon.md"
+  ]
+ },
+ {
+  "id": "ominous-item-spawner",
+  "prio": 76,
+  "when": {
+   "nearBlock": {
+    "type": [
+     "ominous_item_spawner"
+    ],
+    "within": 4
+   }
+  },
+  "do": "ถอยออก — ของ/ยาสาดตกจากด้านบน",
+  "kb": [
+   "trial-chambers/ominous.md"
+  ]
+ },
+ {
+  "id": "trial-wave",
+  "prio": 61,
+  "when": {
+   "nearBlock": {
+    "type": [
+     "trial_spawner"
+    ],
+    "within": 14
+   },
+   "countNear": {
+    "hostile": true,
+    "within": 14,
+    "atLeast": 2
+   }
+  },
+  "do": "สู้ที่ทางเข้า/มุม ให้ม็อบมาทีละตัว · ห้ามยืนกลางห้อง",
+  "kb": [
+   "trial-chambers/trial-spawner.md",
+   "trial-chambers/bot-plan.md"
+  ]
+ },
+ {
+  "id": "trap-tnt-plate",
+  "prio": 84,
+  "when": {
+   "nearBlockAll": [
+    {
+     "type": [
+      "stone_pressure_plate"
+     ],
+     "within": 2
+    },
+    {
+     "type": [
+      "tnt"
+     ],
+     "within": 8
+    }
+   ]
+  },
+  "do": "ห้ามเหยียบแผ่นกด · ขุดเอา TNT จากด้านข้าง",
+  "kb": [
+   "combat-events/traps.md",
+   "hazards/structure-traps.md"
+  ]
+ },
+ {
+  "id": "trap-tripwire",
+  "prio": 81,
+  "when": {
+   "nearBlock": {
+    "type": [
+     "tripwire",
+     "tripwire_hook"
+    ],
+    "within": 3
+   }
+  },
+  "do": "หยุดเดิน · ตัดด้วยกรรไกร หรือทำลายตะขอ · ห้ามเดินผ่าน",
+  "kb": [
+   "combat-events/traps.md",
+   "redstone-basics/tripwire.md"
+  ]
+ },
+ {
+  "id": "monster-spawner",
+  "prio": 61,
+  "when": {
+   "nearBlock": {
+    "type": [
+     "spawner"
+    ],
+    "within": 16
+   }
+  },
+  "do": "ทำลาย spawner หรือวางคบเพลิงรอบ · เก็บหีบทีหลัง",
+  "kb": [
+   "spawning/monster-spawner.md",
+   "structures/monster-room.md"
+  ]
+ },
+ {
+  "id": "sculk-vibration",
+  "prio": 77,
+  "veto": true,
+  "when": {
+   "actionIn": [
+    "place_block",
+    "open_container",
+    "break_block"
+   ],
+   "nearBlock": {
+    "type": [
+     "sculk_sensor",
+     "calibrated_sculk_sensor"
+    ],
+    "within": 8
+   },
+   "notFlag": "woolOccluded"
+  },
+  "do": "ห้ามทำสิ่งที่สั่นใกล้ sensor โดยไม่มีขนแกะคั่น",
+  "kb": [
+   "advanced/wool-vibration.md"
+  ]
+ },
+ {
+  "id": "elytra-wall",
+  "prio": 91,
+  "when": {
+   "flag": "gliding",
+   "under": {
+    "wallAhead": 8
+   }
+  },
+  "do": "เงยขึ้น/เลี้ยวทันที · ห้ามจุดพลุตรงเข้ากำแพง",
+  "kb": [
+   "elytra/risks.md"
+  ]
+ },
+ {
+  "id": "elytra-breaking",
+  "prio": 70,
+  "when": {
+   "flag": "gliding",
+   "under": {
+    "elytraDurability": 20
+   }
+  },
+  "do": "ลงจอดทันที (เอลิทราใกล้พัง = ร่วง)",
+  "kb": [
+   "elytra/durability.md",
+   "elytra/landing.md"
+  ]
+ },
+ {
+  "id": "teammate-hungry",
+  "prio": 55,
+  "when": {
+   "teamAny": {
+    "foodBelow": 6,
+    "within": 32
+   },
+   "hasFood": true,
+   "notNear": {
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "โยนอาหารให้ครึ่งหนึ่ง ตรงหน้าเพื่อน ≤3 บล็อก",
+  "kb": [
+   "team/food-share.md"
+  ]
+ },
+ {
+  "id": "teammate-died",
+  "prio": 57,
+  "when": {
+   "flagAny": [
+    "teammateDied"
+   ]
+  },
+  "do": "ตัวที่ใกล้สุดไปเก็บของ (หายใน 5 นาที) · รับบทแทน ประกาศในแชตทีมก่อน",
+  "kb": [
+   "team/role-swap.md",
+   "hazards/death-item-loss.md"
+  ]
+ },
+ {
+  "id": "ore-claimed",
+  "prio": 70,
+  "veto": true,
+  "when": {
+   "action": "mine_ore",
+   "flag": "oreClaimed"
+  },
+  "do": "สายแร่นี้เพื่อนจองแล้ว → ไปหาสายใหม่",
+  "kb": [
+   "team/ore-claim.md"
+  ]
+ },
+ {
+  "id": "pvp-enemy-close",
+  "prio": 76,
+  "when": {
+   "near": {
+    "type": [
+     "player"
+    ],
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "อาวุธจาก bestWeapon · ยกโล่ตอนศัตรูง้าง · crit ตอนตกเท่านั้น",
+  "kb": [
+   "sim/pvp-results.md",
+   "weapons/melee.md",
+   "combat-ai/shield.md"
+  ]
+ },
+ {
+  "id": "pvp-enemy-ranged",
+  "prio": 72,
+  "when": {
+   "near": {
+    "type": [
+     "player"
+    ],
+    "hostile": true,
+    "within": 30
+   },
+   "notNear": {
+    "type": [
+     "player"
+    ],
+    "hostile": true,
+    "within": 6
+   }
+  },
+  "do": "ยิงธนู/เดินซิกแซกเข้าหา",
+  "kb": [
+   "weapons/ranged-thrown.md",
+   "combat-ai/ranged-weapons.md"
+  ]
+ },
+ {
+  "id": "drop-weapon",
+  "prio": 99,
+  "veto": true,
+  "when": {
+   "action": "drop_weapon"
+  },
+  "do": "ห้ามทิ้งอาวุธ (กฎแล็บ)",
+  "kb": [
+   "team/pvp-bots.md"
+  ]
+ },
+ {
+  "id": "self-wall-pvp",
+  "prio": 98,
+  "veto": true,
+  "when": {
+   "action": "wall_in",
+   "near": {
+    "type": [
+     "player"
+    ],
+    "hostile": true,
+    "within": 24
+   }
+  },
+  "do": "ห้ามขังตัวเพื่อชนะ PvP (กฎแล็บ) · ที่หลบจากม็อบทำได้",
+  "kb": [
+   "team/pvp-bots.md",
+   "shelter/shelter-rule.md"
+  ]
+ },
+ {
+  "id": "tool-breaking",
+  "prio": 61,
+  "when": {
+   "digging": {},
+   "under": {
+    "toolDurability": 10
+   }
+  },
+  "do": "หยุดใช้ สลับตัวสำรอง/คราฟต์ใหม่ · ของเอนชานต์เก็บไว้ซ่อม",
+  "kb": [
+   "gear-inventory/tool-breaking.md"
+  ]
+ },
+ {
+  "id": "armor-breaking",
+  "prio": 59,
+  "when": {
+   "under": {
+    "armorDurabilityMin": 10
+   },
+   "notNear": {
+    "hostile": true,
+    "within": 10
+   }
+  },
+  "do": "เปลี่ยนชิ้น/คราฟต์ใหม่ (เสื้อก่อน)",
+  "kb": [
+   "gear-inventory/armor-breaking.md"
+  ]
+ },
+ {
+  "id": "inventory-full",
+  "prio": 56,
+  "when": {
+   "flagAny": [
+    "invFull"
+   ],
+   "notNear": {
+    "hostile": true,
+    "within": 8
+   }
+  },
+  "do": "ทิ้งขยะ (ดิน/หินกรวดเกิน 2 สแต็ก/เมล็ด) · ห้ามทิ้งอาวุธ/อาหาร/ของกันตก",
+  "kb": [
+   "gear-inventory/inventory-full.md"
+  ]
+ },
+ {
+  "id": "charged-creeper",
+  "prio": 90,
+  "when": {
+   "near": {
+    "type": [
+     "creeper"
+    ],
+    "charged": true,
+    "within": 12
+   }
+  },
+  "do": "ถอย ≥12 ทันที · ยิงจากไกลเท่านั้น",
+  "kb": [
+   "combat-events/charged-creeper.md",
+   "mobs/creeper.md"
+  ]
+ },
+ {
+  "id": "fire-in-base",
+  "prio": 67,
+  "when": {
+   "nearBlock": {
+    "type": [
+     "fire",
+     "soul_fire"
+    ],
+    "within": 6
+   },
+   "flag": "inBase"
+  },
+  "do": "ดับไฟ (ทุบไฟ/ถังน้ำ) · ย้ายของไวไฟ",
+  "kb": [
+   "hazards/fire-lightning.md"
+  ]
+ },
+ {
+  "id": "thunder-exposed",
+  "prio": 51,
+  "when": {
+   "flag": "thunder",
+   "dim": "overworld",
+   "sheltered": false
+  },
+  "do": "หลบใต้หลังคา · ระวังครีปเปอร์ชาร์จ",
+  "kb": [
+   "time-weather/lightning.md",
+   "combat-events/charged-creeper.md"
+  ]
+ },
+ {
+  "id": "chunk-unloaded",
+  "prio": 66,
+  "when": {
+   "flagAny": [
+    "chunkUnloaded"
+   ]
+  },
+  "do": "หยุดเดินตามแผน รอชังก์โหลด · ภัยด่วน (ลาวา/ตก/จมน้ำ/ครีปเปอร์) ยังหนีได้ในพื้นที่ที่โหลดแล้ว",
+  "kb": [
+   "server-tech/chunk-unloaded.md"
+  ]
+ },
+ {
+  "id": "kicked",
+  "prio": 57,
+  "when": {
+   "flagAny": [
+    "justKicked"
+   ]
+  },
+  "do": "รอ ≥10 วิ แล้วเข้าใหม่ · เดินช้าลง",
+  "kb": [
+   "server-tech/moved-too-quickly.md"
+  ]
+ },
+ {
+  "id": "tps-risky",
+  "prio": 74,
+  "veto": true,
+  "when": {
+   "actionIn": [
+    "elytra_launch",
+    "mlg_practice",
+    "pvp_engage",
+    "parkour"
+   ],
+   "under": {
+    "tps": 15
+   }
+  },
+  "do": "TPS ต่ำ → ห้ามงานที่อิงจังหวะ",
+  "kb": [
+   "server-tech/tps-low.md"
+  ]
+ },
+ {
+  "id": "ping-risky",
+  "prio": 73,
+  "veto": true,
+  "when": {
+   "actionIn": [
+    "pvp_engage",
+    "parkour",
+    "mlg_practice"
+   ],
+   "over": {
+    "ping": 300
+   }
+  },
+  "do": "ping สูง → ห้ามเริ่มงานที่อิงจังหวะ",
+  "kb": [
+   "server-tech/high-ping.md"
+  ]
+ },
+ {
+  "id": "shelter-breached",
+  "prio": 68,
+  "when": {
+   "flagAny": [
+    "shelterBreached"
+   ]
+  },
+  "do": "ซ่อมรูด้วยหินกรวดทันที · ถอยห่างรู",
+  "kb": [
+   "shelter/counter-each.md",
+   "shelter/block-breakers.md"
+  ]
+ },
+ {
+  "id": "shelter-dirt",
+  "prio": 60,
+  "veto": true,
+  "when": {
+   "action": "build_shelter",
+   "flag": "shelterDirt",
+   "has": {
+    "cobblestone": 20
+   }
+  },
+  "do": "มีหินกรวด → ห้ามทำที่หลบด้วยดิน",
+  "kb": [
+   "shelter/blast-resistance.md"
+  ]
+ },
+ {
+  "id": "armored-crowd",
+  "prio": 78,
+  "when": {
+   "countNear": {
+    "hostile": true,
+    "armored": true,
+    "within": 6,
+    "atLeast": 2
+   },
+   "hpBelow": 16
+  },
+  "do": "ถอยเข้าช่องแคบ 1 บล็อก ให้มาทีละตัว · ขวาน/crit",
+  "kb": [
+   "advanced/regional-difficulty.md",
+   "combat-ai/zombie-ai.md"
+  ]
+ },
+ {
+  "id": "smelt-roam-too-far",
+  "prio": 53,
+  "when": {
+   "flag": "smelting",
+   "over": {
+    "roamExcess": 0
+   }
+  },
+  "do": "เกินรัศมีตะเวน (คิดจากเวลาเผา, ≤50) → หันกลับทางเตาตามรอย (bot.brain.trailBack)",
+  "kb": [
+   "field-smelting/roam-radius.md"
+  ]
+ },
+ {
+  "id": "smelt-done-return",
+  "prio": 52,
+  "when": {
+   "flag": "furnaceDone",
+   "over": {
+    "furnaceDist": 6
+   }
+  },
+  "do": "เผาเสร็จ → เดินกลับตามรอยไปเก็บของจากเตา (เก็บเตาคืนถ้าอยู่นอกบ้าน)",
+  "kb": [
+   "field-smelting/return-trail.md"
+  ]
+ },
+ {
+  "id": "smelt-fuel-short",
+  "prio": 51,
+  "when": {
+   "flag": "fuelShort",
+   "notNear": {
+    "hostile": true,
+    "within": 16
+   }
+  },
+  "do": "เชื้อเพลิงไม่พอ → ผิวดิน: ตัดไม้ใกล้ ถ้าไม่มีหา ≤50 บล็อก · ในเหมือง: ใช้ถ่านที่ขุดได้",
+  "kb": [
+   "field-smelting/fuel-sourcing.md"
+  ]
+ },
+ {
+  "id": "smelt-no-need",
+  "prio": 65,
+  "veto": true,
+  "when": {
+   "action": "smelt",
+   "flag": "noSmeltItem"
+  },
+  "do": "ห้ามเผาเพชร/ถ่าน/เรดสโตน/ลาพิส/มรกต (ได้ของแล้ว เปลืองเชื้อเพลิง)",
+  "kb": [
+   "field-smelting/what-to-smelt.md"
+  ]
+ },
+ {
+  "id": "smelt-food-short",
+  "prio": 51,
+  "when": {
+   "flag": "foodShort",
+   "notNear": {
+    "hostile": true,
+    "within": 16
+   }
+  },
+  "do": "อาหารไม่พอ (<20 แต้ม) นอกบ้าน → ล่าสัตว์/เก็บพืชรอบเตา ≤50 บล็อก แล้วเผาในเตาเดียวกัน",
+  "kb": [
+   "field-smelting/food-sourcing.md"
+  ]
+ },
+ {
+  "id": "entrance-blocked",
+  "prio": 58,
+  "when": {
+   "flag": "entranceBlocked",
+   "notNear": {
+    "hostile": true,
+    "within": 8
+   }
+  },
+  "do": "ทางขึ้นบ้าน/ปากประตูถูกขวาง → ขุดบล็อกที่ขวางออก (ดู bot.brain.blockedPassage()) ก่อนทำงานอื่น",
+  "kb": [
+   "home-keeping/passages.md"
+  ]
+ },
+ {
+  "id": "no-block-in-passage",
+  "prio": 72,
+  "veto": true,
+  "when": {
+   "action": "place_block",
+   "flag": "targetInPassage"
+  },
+  "do": "ห้ามวางบล็อกบนทางเดินขึ้นบ้าน/ปากประตู (ทีมออกไม่ได้)",
+  "kb": [
+   "home-keeping/passages.md"
+  ]
+ },
+ {
+  "id": "respawn-grace",
+  "prio": 75,
+  "veto": true,
+  "when": {
+   "actionIn": [
+    "place_block",
+    "build_shelter",
+    "wall_in"
+   ],
+   "flag": "respawnGrace"
+  },
+  "do": "เพิ่งเกิดใหม่ (≤60 tick) → ห้ามวางบล็อก รอชังก์โหลด/ยืนพื้นก่อน (แก้บั๊กเกิดแล้ววางบล็อก)",
+  "kb": [
+   "server-tech/respawn-place.md"
+  ]
+ }
+]
