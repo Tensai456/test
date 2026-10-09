@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaeron Bot Hub</title>
+<style>
+:root { --bg:#f4f5f2; --card:#ffffff; --fg:#1d211c; --mute:#6b7166; --line:#dfe2da; --accent:#3f7d3a; --hp:#c8443a; --food:#b8862b; --sat:#d9b44a; --warn:#b5502a; --chip:#eef1ea; color-scheme:light }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#141712; --card:#1d211b; --fg:#e7eae2; --mute:#9aa093; --line:#2e332b; --accent:#7cc06f; --hp:#e2675d; --food:#d9a64a; --sat:#e8c86a; --warn:#e98a5c; --chip:#262b23; color-scheme:dark } }
+:root[data-theme="dark"] { --bg:#141712; --card:#1d211b; --fg:#e7eae2; --mute:#9aa093; --line:#2e332b; --accent:#7cc06f; --hp:#e2675d; --food:#d9a64a; --sat:#e8c86a; --warn:#e98a5c; --chip:#262b23; color-scheme:dark }
+* { box-sizing:border-box }
+body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.5 system-ui, "Noto Sans Thai", sans-serif; padding:16px }
+h1 { font-size:18px; margin:0 0 4px } .mute { color:var(--mute); font-size:12px }
+.bar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:12px 0 }
+input, select, button { font:inherit; padding:5px 8px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--fg) }
+button { cursor:pointer } button.go { background:var(--accent); color:var(--bg); border-color:var(--accent) }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:12px }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px; display:flex; flex-direction:column; gap:8px; min-width:0 }
+.head { display:flex; justify-content:space-between; gap:8px; align-items:baseline }
+.name { font-weight:600; font-size:15px } .dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--line); margin-right:6px } .dot.on { background:var(--accent) }
+.chip { background:var(--chip); border-radius:999px; padding:1px 8px; font-size:12px }
+.meter { display:grid; grid-template-columns:52px 1fr 40px; gap:6px; align-items:center; font-size:12px; font-variant-numeric:tabular-nums }
+.track { height:7px; background:var(--chip); border-radius:4px; overflow:hidden } .fill { height:100% }
+.thought { font-size:13px; background:var(--chip); border-radius:6px; padding:6px 8px; min-height:2.2em; overflow-wrap:anywhere }
+.warn { color:var(--warn); font-size:12px } .row { display:flex; flex-wrap:wrap; gap:6px; align-items:center }
+.row label { font-size:12px; color:var(--mute) }
+details summary { cursor:pointer; font-size:12px; color:var(--mute) } ul.feed { margin:4px 0 0; padding-left:16px; font-size:12px; max-height:160px; overflow:auto }
+#msg { min-height:1.4em; font-size:13px }
+</style>
+</head>
+<body>
+<h1>Kaeron Bot Hub</h1>
+<div class="mute" id="mode">กำลังโหลด…</div>
+
+<div class="bar">
+  <input id="nLogin" placeholder="login (A-Z0-9_)" size="12"><input id="nDisplay" placeholder="ชื่อเรียก" size="10">
+  <select id="nRole"></select><select id="nBrain"></select><button onclick="addBot()">+ เพิ่มบอต</button>
+  <span style="width:12px"></span>
+  <select id="swA"></select>⇄<select id="swB"></select><button onclick="swap()">สลับหน้าที่</button>
+</div>
+<div class="bar">
+  <input id="say" placeholder='ลองเรียก เช่น "จอวิส มานี่"' size="28"><input id="sayPlayer" placeholder="ชื่อเราในเกม" size="10"><button onclick="say()">ส่ง</button>
+  <span id="msg"></span>
+</div>
+<div class="grid" id="grid"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let META = { roles: [], brains: [] }, BOTS = [];
+const api = (p, o = {}) => fetch(p, { headers: { 'content-type': 'application/json' }, ...o, body: o.body && JSON.stringify(o.body) }).then(async (r) => { const j = await r.json(); if (!r.ok) throw new Error(j.error); return j; });
+const msg = (t, bad) => { $('msg').textContent = t; $('msg').style.color = bad ? 'var(--warn)' : 'var(--mute)'; };
+const ROLE_TH = { senior: 'รุ่นพี่', intern: 'รุ่นน้อง', spectator: 'ผู้ชม', worker: 'คนงาน' };
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const opts = (arr, cur, lab = (x) => x) => arr.map((x) => `<option value="${esc(x)}"${x === cur ? ' selected' : ''}>${esc(lab(x))}</option>`).join('');
+
+function meter(label, v, max, color) {
+  const pct = v == null ? 0 : Math.max(0, Math.min(100, (100 * v) / max));
+  return `<div class="meter"><span>${label}</span><div class="track"><div class="fill" style="width:${pct}%;background:var(${color})"></div></div><span>${v == null ? '–' : Math.round(v * 10) / 10}</span></div>`;
+}
+function card(b) {
+  const s = b.status ?? {}, L = s.ladder;
+  const brains = META.brains.includes(b.brain) ? META.brains : [b.brain, ...META.brains];
+  return `<div class="card" id="c-${b.id}">
+    <div class="head"><div><span class="dot ${s.online ? 'on' : ''}"></span><span class="name">${esc(b.display)}</span> <span class="mute">${esc(b.login)}</span></div>
+      <span class="chip">${ROLE_TH[b.role] ?? b.role}${b.watching ? ' → ' + esc(b.watching) : ''}</span></div>
+    ${meter('เลือด', s.hp, 20, '--hp')}${meter('หิว', s.food, 20, '--food')}${meter('อิ่ม', s.saturation, 20, '--sat')}
+    <div class="row mute">ตาย ${s.deaths ?? 0} · แย้ง ${s.objections ?? 0}${s.ping != null ? ' · ping ' + s.ping : ''}${s.dim ? ' · ' + s.dim : ''}</div>
+    ${L ? `${meter('บันได', L.pct, 100, '--accent')}<div class="mute">${esc(L.stage)} › ${esc(L.step?.title ?? 'จบ')} · สูงสุด ${L.bestPct}%</div>${L.stuck ? `<div class="warn">ค้างขั้นนี้ ${L.stuckMin} นาที</div>` : ''}` : ''}
+    <div class="thought" title="${esc(s.source ?? '')}">${esc(s.thought ?? '—')}</div>
+    ${s.brainMissing?.length ? `<div class="warn">สมองยังไม่เสียบ: ${esc(s.brainMissing.join(', '))}</div>` : ''}
+    <div class="row">
+      <label>หน้าที่</label><select onchange="patch('${b.id}',{role:this.value})">${opts(META.roles, b.role, (r) => ROLE_TH[r])}</select>
+      <label>สมอง</label><select onchange="patch('${b.id}',{brain:this.value})">${opts(brains, b.brain)}</select>
+    </div>
+    <div class="row">
+      <label>ดู</label><select onchange="patch('${b.id}',{watching:this.value||null})"><option value="">—</option>${opts(BOTS.filter((x) => x.id !== b.id).map((x) => x.id), b.watching)}</select>
+      <label>เป้า</label><input size="9" value="${esc(b.goal)}" onchange="patch('${b.id}',{goal:this.value})">
+    </div>
+    <div class="row">
+      <label>ชื่อเรียก</label><input size="8" value="${esc(b.display)}" onchange="patch('${b.id}',{display:this.value})">
+      <label>สกิน</label><input size="9" value="${esc(b.skin)}" placeholder="ชื่อ/URL" onchange="patch('${b.id}',{skin:this.value})">
+    </div>
+    <div class="row">
+      ${b.running ? `<button onclick="act('${b.id}','stop')">ปิด</button>` : `<button class="go" onclick="act('${b.id}','start')">เปิด</button>`}
+      <button onclick="cmd('${b.id}','work')" ${b.running ? '' : 'disabled'}>ทำงานต่อ</button><button onclick="cmd('${b.id}','stop')" ${b.running ? '' : 'disabled'}>หยุด</button>
+    </div>
+    <details><summary>เหตุการณ์ / ความคิด (${b.feed?.length ?? 0})</summary><ul class="feed">${(b.feed ?? []).map((f) => `<li>${new Date(f.at).toLocaleTimeString()} ${f.kind === 'error' ? '⚠ ' : ''}${esc(f.text)}</li>`).join('')}</ul></details>
+    ${s.logFile ? `<div class="mute">log: ${esc(s.logFile)}</div>` : ''}
+  </div>`;
+}
+function render() {
+  $('grid').innerHTML = BOTS.map(card).join('');
+  const ids = BOTS.map((b) => b.id);
+  $('swA').innerHTML = opts(ids, $('swA').value); $('swB').innerHTML = opts(ids, $('swB').value || ids[1]);
+}
+async function load() { BOTS = await api('/api/bots'); if ($('grid').contains(document.activeElement)) return; render(); }   // กำลังพิมพ์อยู่ → ไม่วาดทับ
+async function patch(id, p) { try { const r = await api(`/api/bots/${id}`, { method: 'PATCH', body: p }); msg(r.warn ?? (r.restartNeeded ? 'ต้องปิด-เปิดใหม่ให้มีผล' : 'บันทึกแล้ว'), !!r.warn); load(); } catch (e) { msg(e.message, 1); load(); } }
+async function act(id, a) { try { await api(`/api/bots/${id}/${a}`, { method: 'POST' }); setTimeout(load, 300); } catch (e) { msg(e.message, 1); } }
+async function cmd(id, c) { try { await api(`/api/bots/${id}/command`, { method: 'POST', body: { command: c } }); } catch (e) { msg(e.message, 1); } }
+async function addBot() { try { await api('/api/bots', { method: 'POST', body: { login: $('nLogin').value, display: $('nDisplay').value, role: $('nRole').value, brain: $('nBrain').value } }); msg('เพิ่มแล้ว'); load(); } catch (e) { msg(e.message, 1); } }
+async function swap() { try { await api('/api/swap', { method: 'POST', body: { a: $('swA').value, b: $('swB').value } }); msg('สลับแล้ว'); load(); } catch (e) { msg(e.message, 1); } }
+async function say() { try { const r = await api('/api/say', { method: 'POST', body: { text: $('say').value, player: $('sayPlayer').value || undefined } }); msg(r.matched ? `→ ${r.bot} · ${r.command} · ห่าง ${r.score}` : 'ไม่มีใครถูกเรียก', !r.matched); } catch (e) { msg(e.message, 1); } }
+
+(async () => {
+  META = await api('/api/meta');
+  $('mode').textContent = META.sim ? 'โหมดจำลอง (ไม่ต่อเซิร์ฟ) — ข้อมูลเป็นของปลอม ไว้ลองหน้าจอ' : 'ต่อเซิร์ฟจริง';
+  $('nRole').innerHTML = opts(META.roles, 'worker', (r) => ROLE_TH[r]); $('nBrain').innerHTML = opts(META.brains, 'rules');
+  await load();
+  const es = new EventSource('/api/events');
+  let pending = false;
+  const soon = () => { if (pending) return; pending = true; setTimeout(() => { pending = false; load(); }, 700); };   // รวมการอัปเดตถี่ ๆ
+  es.addEventListener('update', soon); es.addEventListener('feed', soon);
+})();
+</script>
+</body>
+</html>

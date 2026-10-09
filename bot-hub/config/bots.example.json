@@ -1,0 +1,14 @@
+{
+  "_doc": "คัดลอกเป็น bots.json (หน้าเว็บจะเขียนไฟล์นี้เอง) · login = ชื่อล็อกอินจริง (เปลี่ยน = ผู้เล่นใหม่ ของหาย) · display = ชื่อที่แสดง/ชื่อเรียก · role: senior|intern|spectator|worker · brain: old|rules|fly-small|fly-full|smart หรือผสมด้วย + เช่น fly-small+old · aliases = ชื่อเรียกเพิ่ม (คำที่ STT ชอบสะกดผิด)",
+  "bots": [
+    { "id": "jarvis", "login": "Jarvis", "display": "จาร์วิส", "aliases": ["jarvis", "จอวิส", "จาวิส"], "role": "senior", "brain": "old",   "goal": "iron_kit", "skin": "", "autoStart": false },
+    { "id": "fable",  "login": "Fable",  "display": "เฟเบิล",  "aliases": ["fable", "เฟเบิ้ล"],      "role": "senior", "brain": "old",   "goal": "iron_kit", "skin": "", "autoStart": false },
+    { "id": "nexus",  "login": "Nexus",  "display": "เน็กซัส", "aliases": ["nexus", "เนกซัส"],      "role": "senior", "brain": "old",   "goal": "iron_kit", "skin": "", "autoStart": false },
+    { "id": "vikta",  "login": "Vikta",  "display": "วิกต้า",  "aliases": ["vikta", "วิกตา"],       "role": "senior", "brain": "old",   "goal": "iron_kit", "skin": "", "autoStart": false },
+    { "id": "sonar27", "login": "Sonar27", "display": "โซน่า27", "aliases": ["sonar27"], "role": "intern", "watching": "jarvis", "brain": "rules",     "goal": "iron_kit", "skin": "", "autoStart": false },
+    { "id": "sonar28", "login": "Sonar28", "display": "โซน่า28", "aliases": ["sonar28"], "role": "intern", "watching": "fable",  "brain": "fly-small", "goal": "iron_kit", "skin": "", "autoStart": false },
+    { "id": "sonar29", "login": "Sonar29", "display": "โซน่า29", "aliases": ["sonar29"], "role": "intern", "watching": "nexus",  "brain": "smart",     "goal": "iron_kit", "skin": "", "autoStart": false },
+    { "id": "sonar30", "login": "Sonar30", "display": "โซน่า30", "aliases": ["sonar30"], "role": "intern", "watching": "vikta",  "brain": "fly-full+rules", "goal": "iron_kit", "skin": "", "autoStart": false }
+  ],
+  "discordMap": { "_doc": "Discord user id → ชื่อผู้เล่นในเกม (ไว้ให้คำสั่ง 'มานี่' รู้ว่าต้องไปหาใคร)" }
+}

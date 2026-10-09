@@ -97,7 +97,9 @@ export function brainPlugin(opts = {}) {
     bot.on('death', () => { died = true; try { bot.pathfinder?.setGoal(null); bot.pathfinder?.stop?.(); } catch {} bot.clearControlStates?.(); bot.emit('brain:died'); });
     bot.on('spawn', () => { if (!died) return; died = false; justDied = true; graceUntil = tick + (opts.respawnGraceTicks ?? 60); try { bot.pathfinder?.setGoal(null); } catch {} bot.clearControlStates?.(); bot.emit('brain:respawned'); });
 
-    const think = (more) => { const s = toState(bot, tr, extra(more)); return { s, d: decide(s, goalOf(s)) }; };
+    // opts.decide = สมองอื่นแทน decide (bot-hub ใช้สลับสมองสด ๆ) · ต้องคืนรูปเดียวกัน {mode, rule|step, vetoes}
+    const decideFn = opts.decide ?? decide;
+    const think = (more) => { const s = toState(bot, tr, extra(more)); return { s, d: decideFn(s, goalOf(s)) }; };
 
     bot.brain = {
       tracker: tr,
