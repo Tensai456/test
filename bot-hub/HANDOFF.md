@@ -2,7 +2,7 @@
 
 > เขียน 2026-10-09 · สถานะ: **โครงพร้อมเสียบ** — เทสได้แค่โหมดจำลอง (ไม่มีเซิร์ฟ/Discord/สมองแมลงวันในเครื่องคลาวด์)
 > repo: https://github.com/Tensai456/test · branch `claude/focused-heisenberg-3hmesx` · PR https://github.com/Tensai456/test/pull/1
-> อ่านคู่กับ `../mc-lab/HANDOFF_FINAL.md` (สมองกฎ, replay, fuzz)
+> อ่านคู่กับ `THINKBOOK.md` (session log · เหตุผลที่ตัดสินใจ · วิธีแก้อาการ) และ `../mc-lab/HANDOFF_FINAL.md` (สมองกฎ, replay, fuzz)
 
 ---
 
@@ -108,7 +108,7 @@ bot-hub/
 ## 7. prompt ให้ session ถัดไป (ก๊อปวางได้เลย)
 
 ```
-อ่าน bot-hub/HANDOFF.md กับ bot-hub/brains/README.md ก่อน (ไม่ต้องอ่านทั้ง repo)
+อ่าน bot-hub/HANDOFF.md, bot-hub/THINKBOOK.md และ bot-hub/brains/README.md ก่อน (ไม่ต้องอ่านทั้ง repo)
 งานต่อ: [ใส่ข้อจาก §4 เช่น ข้อ 1 executor ราย step]
 กติกา jing: feedback ก่อนลงมือ + บอกเวลา AI · ห้ามมโน ใช้ [ไม่แน่ใจ] · แก้เฉพาะจุดที่สั่ง · secret อยู่ .env เท่านั้น
 รันเทส: cd bot-hub && npm test · cd mc-lab && node --test test/*.test.mjs
